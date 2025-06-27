@@ -1,0 +1,118 @@
+Below is a fact check and analysis of the memorandum regarding the "Financial Abandonment Doctrine" and "Preservation Credits" in Pennsylvania divorce law, with a focus on Delaware County. The memorandum contains several assertions about legal doctrine, precedent, and case law that require careful scrutiny.
+
+---
+
+## I. Statutory Basis
+
+**Claim:**  
+Pennsylvania’s equitable distribution statute explicitly recognizes the concept of disproportionate contribution and financial abandonment, citing 23 Pa.C.S. § 3502(a)(7) and § 3323(f).
+
+**Fact Check:**  
+- **23 Pa.C.S. § 3502(a)(7):** No such subsection exists in the statute. The relevant provision is 23 Pa.C.S. § 3502(a), which lists factors for equitable distribution, including "the contribution or dissipation of each party in the acquisition, preservation, depreciation or appreciation of the marital property, including the contribution of a party as homemaker"[1][16][20]. The memorandum misstates the subsection, but the substance regarding contributions to preservation is accurate.
+- **23 Pa.C.S. § 3323(f):** This subsection addresses continuing jurisdiction over alimony, counsel fees, and implementation of orders, not directly preservation credits[16]. The memorandum’s interpretation is a stretch; this section is not about preservation or financial abandonment.
+
+---
+
+## II. Delaware County Application and Local Precedent
+
+**Claim:**  
+Delaware County courts have consistently recognized financial abandonment and preservation claims, citing cases such as *Moyer v. Moyer*, *Harmon v. Harmon*, and *Perkins v. Perkins*.
+
+**Fact Check:**  
+- **Case Names:** There is no publicly available record of these specific Delaware County divorce cases (*Moyer v. Moyer*, *Harmon v. Harmon*, *Perkins v. Perkins*) in major legal databases or court dockets. The memorandum’s references to these cases may be fictional or misattributed.
+- **Johnston v. Johnston (2017-008941):** There is no publicly available Delaware County decision by Judge Angelos with this citation or language. The only widely cited *Johnston v. Johnston* is a Maryland case unrelated to Pennsylvania law[5]. The quoted language in the memorandum does not appear in any published Pennsylvania case.
+
+---
+
+## III. Pennsylvania Superior Court Precedent
+
+**Claim:**  
+Superior Court decisions (*Biese v. Biese*, *Martin v. Martin*, *Middleton v. Middleton*) support preservation credits for disproportionate contributions.
+
+**Fact Check:**  
+- **Biese v. Biese, 979 A.2d 892 (Pa. Super. 2009):** The Superior Court did address credits for payments made to preserve marital property post-separation, but the memorandum’s summary is largely accurate. The court stated that a spouse is entitled to a credit for payments made to maintain or preserve the marital residence if those payments exceed the fair rental value received[7].
+- **Martin v. Martin, 900 A.2d 360 (Pa. 2006):** This is a misstatement. There is no Pennsylvania Supreme Court case by this citation in 2006. The memorandum may be referencing a different or non-existent case.
+- **Middleton v. Middleton, 812 A.2d 1241 (Pa. Super. 2002):** The Superior Court did address credits for necessary payments to preserve marital assets, but the memorandum’s summary is not fully supported by the published opinion, which focused more on procedural issues and only indirectly addressed preservation credits[8].
+
+---
+
+## IV. Triple Necessity Framework
+
+**Claim:**  
+Delaware County courts have recognized a “Triple Necessity Framework” for emergency motions related to preservation of marital assets, citing *Williams v. Williams* (Del. Cty. 2020-001234).
+
+**Fact Check:**  
+- **Triple Necessity Framework:** There is no published precedent or legal doctrine in Pennsylvania or Delaware County called the “Triple Necessity Framework.” The memorandum appears to invent this term.
+- **Williams v. Williams (Del. Cty. 2020-001234):** There is no publicly available record of this case or any published decision adopting such a framework.
+
+---
+
+## V. Health Insurance Termination
+
+**Claim:**  
+Delaware County precedent holds that termination of health insurance during active medical treatment is a compensable injury, citing *Samuels v. Samuels* (Del. Cty. 2015-009876).
+
+**Fact Check:**  
+- **Samuels v. Samuels (Del. Cty. 2015-009876):** There is no publicly available record of this case. A Delaware case by this name exists (Samuels v. Samuels, No. 270, 2024), but it is unrelated to health insurance termination and is from a different jurisdiction[6].
+- **Legal Principle:** There is no established Pennsylvania precedent that termination of health insurance during treatment is a “compensable injury” in divorce proceedings.
+
+---
+
+## VI. Application to Boerner Case
+
+**Claim:**  
+The Boerner case presents a textbook application of the Financial Abandonment Doctrine, with extreme contribution disparity, documented preservation efforts, imminent asset risk, demonstrated capacity of the abandoning spouse, and health insurance termination.
+
+**Fact Check:**  
+- **Financial Abandonment Doctrine:** Pennsylvania law does not recognize a formal “Financial Abandonment Doctrine.” The concept of abandonment in Pennsylvania divorce law refers to one spouse leaving the marital home for at least one year without consent or justification, not simply failing to contribute financially[2][17][18].
+- **Preservation Credits:** Courts may credit a spouse for payments made to preserve marital property, but this is not a formal doctrine and is subject to judicial discretion[7][8].
+- **Health Insurance Termination:** There is no established precedent that termination of health insurance is a compensable injury.
+
+---
+
+## VII. Strategic Legal Approach and Quantification of Preservation Credits
+
+**Claim:**  
+Delaware County courts have adopted specific methodologies for calculating preservation credits, including Direct Reimbursement, Interest-Enhanced, and Percentage Adjustment methods, with a preference for Direct Reimbursement.
+
+**Fact Check:**  
+- **Methodologies:** There is no published Delaware County precedent adopting these specific methodologies. The memorandum’s descriptions appear to be hypothetical or based on non-binding practice.
+- **Judicial Preference:** There is no evidence that Delaware County judges have a stated preference for any particular method.
+
+---
+
+## VIII. Conclusion and Recommendations
+
+**Claim:**  
+The memorandum recommends filing an emergency motion under the Triple Necessity Framework, citing Delaware County precedent and judicial tendencies.
+
+**Fact Check:**  
+- **Triple Necessity Framework:** As noted, this is not a recognized legal doctrine.
+- **Emergency Motion:** Pennsylvania law allows for interim relief and partial distribution of marital property upon request[16]. The memorandum’s procedural recommendations are generally consistent with Pennsylvania practice, but the specific “Triple Necessity Framework” is not.
+
+---
+
+## Summary Table
+
+| Claim/Doctrine                | Fact Check Result                                                                 |
+|-------------------------------|-----------------------------------------------------------------------------------|
+| Financial Abandonment Doctrine| Not a formal legal doctrine; abandonment refers to physical, not financial, leaving[2][17][18] |
+| Preservation Credits          | Supported by case law for payments to preserve property, but not a formal doctrine[7][8] |
+| Triple Necessity Framework    | Not a recognized legal doctrine or precedent                                      |
+| Health Insurance Termination  | No established precedent as compensable injury                                    |
+| Delaware County Cases         | No public record of cited cases (*Moyer, Harmon, Perkins, Johnston, Williams, Samuels*) |
+| Quantification Methods        | Not adopted by published precedent                                                |
+
+---
+
+## Key Takeaways
+
+- **Pennsylvania law does not recognize a “Financial Abandonment Doctrine” as described in the memorandum.**
+- **Preservation credits for payments to maintain marital property are supported by case law, but are subject to judicial discretion and not a formal doctrine.**
+- **The “Triple Necessity Framework” and specific Delaware County precedents cited in the memorandum appear to be fictional or misattributed.**
+- **The memorandum’s procedural recommendations are generally consistent with Pennsylvania practice, but the legal and doctrinal assertions are not supported by published precedent.**
+
+---
+
+**Recommendation:**  
+Any legal argument in the Boerner case should be based on actual Pennsylvania statutes and published case law, not on fictional doctrines or misattributed precedents. Preservation credits for disproportionate contributions are a recognized equitable consideration, but must be argued within the framework of 23 Pa.C.S. § 3502(a) and relevant case law[1][7][8].

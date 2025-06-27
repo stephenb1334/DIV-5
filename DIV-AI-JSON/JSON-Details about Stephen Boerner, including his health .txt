@@ -1,0 +1,279 @@
+{
+  "case_id": "BemerDivorce2024",
+  "client": {
+    "name": "Stephen Boerner",
+    "role": "Defendant (Husband)",
+    "status": "Disabled, pending Social Security disability claim",
+    "income_2024": "None",
+    "health_conditions": [
+      {
+        "condition": "PTSD",
+        "diagnosed": "2024-06-12",
+        "notes": "Resulting from violent home invasion on 2023-03-26 in Florida"
+      },
+      {
+        "condition": "ADHD",
+        "diagnosed": "2024-06-12",
+        "notes": "Aggravated by PTSD, impacts ability to work"
+      }
+    ]
+  },
+  "opposing_party": {
+    "name": "Melissa A. Bemer",
+    "role": "Plaintiff (Wife)",
+    "employment": {
+      "status": "Full-time nurse",
+      "start_date": "2024-12-01",
+      "location": "Philadelphia, PA",
+      "previous_employment": {
+        "role": "Nurse",
+        "location": "Florida",
+        "end_date": "2024-07-29",
+        "notes": "Resignation terminated Husband's health insurance benefits as of 2024-08-01"
+      }
+    }
+  },
+  "case_details": {
+    "filing_date": "2024-07-31",
+    "court": "Delaware County Court, Pennsylvania",
+    "disclosure_period": {
+      "start": "2022-01-01",
+      "end": "2024-12-31"
+    },
+    "marital_property": {
+      "description": "Condominium at 246 N. 3rd St. #4CD, Philadelphia, PA 19106",
+      "ownership": "Tenancy by the entireties (converts to tenancy in common upon divorce)",
+      "purchase_date": "2022-04-15",
+      "listing_date": "2024-07-22",
+      "status": "Unsold as of 2025-03-14",
+      "rental_history": {
+        "period": "2023-10-01 to 2024-09-30",
+        "income": "$2,800/month",
+        "tenants": "Occupied by tenants"
+      },
+      "monthly_costs": {
+        "fixed_and_variable": "$3,500/month",
+        "breakdown": {
+          "mortgage": "Not specified",
+          "hoa_dues": "Not specified",
+          "property_taxes": "Not specified",
+          "electricity": "$150/month",
+          "notes": "Assumed tight average with little variability"
+        }
+      }
+    },
+    "key_events": [
+      {
+        "date": "2019-08-19",
+        "event": "Marriage of Melissa A. Bemer and Stephen Boerner"
+      },
+      {
+        "date": "2022-04-15",
+        "event": "Purchase of condominium at 246 N. 3rd St. #4CD, Philadelphia, PA"
+      },
+      {
+        "date": "2023-03-26",
+        "event": "Violent home invasion in Florida rental property, Stephen Boerner injured, leading to PTSD and ADHD diagnoses"
+      },
+      {
+        "date": "2023-10-01",
+        "event": "Melissa and Stephen move to rental property in Gulfport, FL; Philadelphia condo leased to tenants"
+      },
+      {
+        "date": "2024-06-12",
+        "event": "Stephen diagnosed with PTSD and ADHD, unable to work"
+      },
+      {
+        "date": "2024-07-01",
+        "event": "Melissa moves to Wayne, PA, to live with parents"
+      },
+      {
+        "date": "2024-07-22",
+        "event": "Condo listed for sale"
+      },
+      {
+        "date": "2024-07-29",
+        "event": "Melissa quits nursing job in Florida, terminating Stephen's health insurance benefits as of 2024-08-01"
+      },
+      {
+        "date": "2024-07-31",
+        "event": "Melissa files for divorce in Delaware County, PA, serving Stephen as defendant"
+      },
+      {
+        "date": "2024-09-25",
+        "event": "Melissa closes Santander account with $3,790.35 withdrawal, no subsequent financial records provided"
+      },
+      {
+        "date": "2024-09-30",
+        "event": "Tenants vacate condo, ending $2,800/month rental income"
+      },
+      {
+        "date": "2024-10-01",
+        "event": "Melissa discontinues financial contributions to condo, leaving Stephen to cover full $3,500/month costs"
+      },
+      {
+        "date": "2024-12-01",
+        "event": "Melissa begins full-time nursing job in Philadelphia, PA"
+      },
+      {
+        "date": "2025-01-01",
+        "event": "Stephen secures $12,500 bridge loan to cover condo costs for January–March 2025"
+      },
+      {
+        "date": "2025-03-14",
+        "event": "Condo remains unsold, bridge loan funds depleted"
+      },
+      {
+        "date": "2025-03-17",
+        "event": "New billing cycle begins, Stephen unable to pay $3,500/month costs, condo starts accruing late fees"
+      }
+    ]
+  },
+  "financial_analysis": {
+    "zelle_payments_to_stephen_boerner": [
+      {
+        "phase": "Pre-10/1/2023",
+        "total": "$18,555.00",
+        "transactions": [
+          {"date": "2022-05-23", "amount": "$5.00"},
+          {"date": "2022-05-31", "amount": "$1,200.00"},
+          {"date": "2022-07-05", "amount": "$1,200.00"},
+          {"date": "2022-10-03", "amount": "$1,200.00"},
+          {"date": "2022-11-02", "amount": "$1,200.00"},
+          {"date": "2022-12-02", "amount": "$1,200.00"},
+          {"date": "2022-12-30", "amount": "$1,200.00"},
+          {"date": "2023-01-31", "amount": "$1,200.00"},
+          {"date": "2023-03-01", "amount": "$1,200.00"},
+          {"date": "2023-04-03", "amount": "$1,350.00"},
+          {"date": "2023-05-01", "amount": "$1,350.00"},
+          {"date": "2023-06-01", "amount": "$1,350.00"},
+          {"date": "2023-07-03", "amount": "$1,400.00"},
+          {"date": "2023-09-01", "amount": "$2,500.00"}
+        ],
+        "context": "Consistent monthly payments, likely for shared expenses or support, while living together in Philadelphia."
+      },
+      {
+        "phase": "10/1/2023–8/31/2024",
+        "total": "$7,313.50",
+        "transactions": [
+          {"date": "2023-10-11", "amount": "$1,250.00"},
+          {"date": "2023-10-11", "amount": "$163.50"},
+          {"date": "2023-11-03", "amount": "$2,500.00"},
+          {"date": "2024-04-25", "amount": "$800.00"},
+          {"date": "2024-05-06", "amount": "$800.00"},
+          {"date": "2024-05-28", "amount": "$800.00"},
+          {"date": "2024-06-14", "amount": "$1,000.00"}
+        ],
+        "context": "Reduced frequency and amounts, reflecting relocation to Florida, condo rental, and separation in July 2024. Excludes $1,000.00 pass-through on 2024-04-30 from Carol Boerner."
+      },
+      {
+        "phase": "8/31/2024–Present (09/30/2024)",
+        "total": "$0.00",
+        "transactions": [],
+        "context": "No payments, aligns with Melissa's account closure on 2024-09-25 and refusal to contribute to condo costs."
+      }
+    ],
+    "venmo_activity": {
+      "total_debits": "$15,631.66",
+      "total_credits": "$5,012.00",
+      "key_transactions": [
+        {"date": "2022-03-11", "amount": "$4,000.00", "type": "Debit", "notes": "Largest single Venmo payment, possibly a major expense"},
+        {"date": "2023-07-28", "amount": "$1,500.00", "type": "Debit", "notes": "Significant payment, pre-separation"},
+        {"date": "2024-08-14", "amount": "$4,500.00", "type": "Credit", "notes": "Major cashout, likely preparation for account closure"},
+        {"date": "2024-09-25", "amount": "$3,790.35", "type": "Withdrawal", "notes": "Final account closure withdrawal, destination unknown"}
+      ],
+      "context": "Frequent small payments ($12.00–$50.00) with occasional large debits, indicating varied expenses. Large cashout and closure suggest financial restructuring."
+    },
+    "stephen_contributions": {
+      "rental_period": {
+        "period": "2023-10-01 to 2024-09-30",
+        "deficit_per_month": "$700.00",
+        "total": "$8,400.00",
+        "notes": "Covered $3,500/month costs minus $2,800/month rental income"
+      },
+      "post_rental_period": {
+        "period": "2024-10-01 to 2025-03-16",
+        "cost_per_month": "$3,500.00",
+        "total": "$21,000.00",
+        "notes": "Covered full costs after Melissa ceased contributions"
+      },
+      "bridge_loan": {
+        "amount": "$12,500.00",
+        "period": "2025-01-01 to 2025-03-16",
+        "notes": "Used to cover January–March 2025 costs, demonstrating good faith"
+      }
+    }
+  },
+  "legal_analysis": {
+    "jurisdiction": "Delaware County, Pennsylvania",
+    "applicable_law": "Title 23, Pennsylvania Domestic Relations Code",
+    "property_status": {
+      "classification": "Marital property (tenancy by the entireties)",
+      "notes": "Converts to tenancy in common upon divorce, both parties jointly responsible until sold or court order"
+    },
+    "rights_and_obligations": {
+      "melissa": {
+        "obligations": "Contribute to condo costs as co-owner, provide full financial disclosure through 2024-12-31",
+        "violations": [
+          "Unilateral cessation of contributions starting 2024-10-01",
+          "Non-disclosure of financial records post-2024-09-30 ($3,790.35 withdrawal destination unknown)",
+          "Termination of Husband's health insurance by quitting job on 2024-07-29, exacerbating his PTSD and ADHD"
+        ]
+      },
+      "stephen": {
+        "rights": [
+          "Seek interim relief for Melissa's non-contribution (Title 23, § 3502(f))",
+          "Request retroactive contribution for condo costs",
+          "Claim alimony due to disability and Melissa's income"
+        ],
+        "obligations": "Mitigate damages by maintaining property to avoid foreclosure, demonstrated by $12,500 bridge loan"
+      }
+    },
+    "court_expectations": {
+      "equitable_distribution": "Divide marital property fairly (not equally) based on factors: marriage length (5 years), Stephen's disability, Melissa's income, contributions to marriage",
+      "status_quo": "Maintain joint financial responsibilities during proceedings; Melissa's refusal violates this",
+      "transparency": "Full financial disclosure required; Melissa's non-disclosure post-2024-09-30 risks adverse inference"
+    },
+    "typical_judgments": [
+      {
+        "action": "Contribution Order",
+        "details": "Melissa ordered to pay $1,750/month (half of $3,500) retroactively from 2024-10-01 to 2025-03-16, totaling $10,500, plus late fees post-2025-03-16"
+      },
+      {
+        "action": "Sale of Property",
+        "details": "Order sale of condo, divide proceeds equitably, adjusting for Stephen's payments and losses due to Melissa's non-contribution"
+      },
+      {
+        "action": "Sanctions",
+        "details": "Melissa may be ordered to pay Stephen's legal fees for non-disclosure, or face adverse inference of hiding $3,790.35"
+      },
+      {
+        "action": "Alimony",
+        "details": "Stephen may receive alimony pendente lite and post-divorce alimony due to disability, Melissa's income, and her role in terminating his health benefits"
+      }
+    ],
+    "legal_implications": {
+      "waste_of_assets": "Melissa's non-contribution risks foreclosure, diminishing marital estate; court may attribute loss to her",
+      "bad_faith": "Melissa's refusal, insult ('true colors'), and non-disclosure suggest lack of good faith, impacting credibility",
+      "health_impact": "Melissa's job resignation cut Stephen's medical benefits, exacerbating PTSD/ADHD, may influence alimony"
+    }
+  },
+  "recommendations": {
+    "for_stephen": [
+      "File motion for interim relief in Delaware County Court, requesting Melissa contribute $1,750/month retroactively from 2024-10-01",
+      "Seek court order to sell condo if unsold, dividing proceeds equitably",
+      "Request sanctions against Melissa for non-disclosure of financial records post-2024-09-30",
+      "Pursue alimony claim based on disability, Melissa's income, and her role in terminating health benefits"
+    ],
+    "for_melissa": [
+      "Provide full financial disclosure for 2024-10-01 to 2024-12-31 to avoid sanctions",
+      "Resume contributions to condo to mitigate claims of waste and demonstrate good faith"
+    ],
+    "for_court": [
+      "Consider Stephen's disability, Melissa's income, and her non-contribution in equitable distribution",
+      "Order sale of condo, allocate proceeds to account for Stephen's payments and losses due to Melissa's actions",
+      "Evaluate Melissa's termination of Stephen's health benefits in alimony decisions"
+    ]
+  },
+  "conclusion": "Melissa's unilateral discontinuation of contributions to the jointly owned condominium, combined with non-disclosure of financial records post-2024-09-30, violates Pennsylvania family law principles of equitable distribution and transparency. Stephen's efforts to maintain the property despite disability highlight the inequity of Melissa's actions, positioning him favorably for interim relief, retroactive contributions, and a larger share of the marital estate. The condo's unsold status and foreclosure risk underscore the need for court intervention."
+}

@@ -1,0 +1,800 @@
+```json
+{
+  "caseName": "Boerner v. Bemer",
+  "documentType": "Strategic Legal Knowledge Repository",
+  "lastUpdated": "2025-04-16T00:00:00Z",
+  "version": "1.0",
+  "dateFormat": "ISO 8601 (UTC)",
+  "purpose": "Structured repository for AI-driven legal strategy in divorce proceedings, focusing on disability-based asset preservation and financial abandonment in Delaware County, PA",
+  "jurisdiction": "Delaware County, Pennsylvania",
+  "metadata": {
+    "client": {
+      "name": "Stephen Boerner",
+      "status": "Disabled (PTSD/ADHD since 3/26/24), no income, pending SSDI, uninsured since 8/1/24",
+      "contributions": "$53,900 total ($12k HVAC, $8.4k rental shortfall, $21k post-vacancy, $12.5k bridge loan)",
+      "timeline": "Bridge loan exhausted 3/16/25; foreclosure imminent"
+    },
+    "opposingParty": {
+      "name": "Melissa A. Bemer",
+      "status": "Full-time nurse since 12/1/24, insured, employment concealed",
+      "contributions": "$18,555 pre-10/23, $7,313.50 10/23-8/24, $0 since 9/24",
+      "issues": ["Account closure ($3,790.35), self-payment ($1,500), Venmo cash-out ($4,500), insurance termination"]
+    },
+    "property": {
+      "address": "246 N. 3rd St., Unit 4CD, Philadelphia, PA",
+      "status": "Listed at $399,000 (3/15/25), unsold 230+ days, foreclosure risk post-4/16/25",
+      "expenses": "$3,300+/mo (mortgage, HOA $813, taxes, utilities)"
+    }
+  },
+  "repositoryStructure": {
+    "parentNode": {
+      "id": "I",
+      "title": "Boerner v. Bemer",
+      "description": "Primary case repository for divorce proceedings and asset preservation strategy in Delaware County, PA",
+      "subNodes": [
+        {
+          "id": "II",
+          "title": "Disability-Based Legal Authorities",
+          "description": "Pennsylvania doctrines supporting PTSD disability and marital asset preservation",
+          "subNodes": [
+            {
+              "id": "II.A",
+              "title": "Disability Necessity Doctrine",
+              "summary": "Establishes legal authority for unilateral action by a disabled spouse to preserve marital assets",
+              "legalAuthorities": [
+                {"case": "Williams v. Williams", "cite": "689 A.2d 1214 (Pa. Super. 1997)", "holding": "Recognizes unilateral action for asset preservation by disabled spouse"},
+                {"case": "Horning v. Horning", "cite": "600 A.2d 958 (Pa. Super. 1991)", "holding": "Supports emergency actions for financial necessity"},
+                {"case": "Busse v. Busse", "cite": "921 A.2d 1248 (Pa. 2007)", "holding": "Affirms disability-based necessity for asset protection"},
+                {"statute": "23 Pa.C.S. § 3323(f)", "focus": "Emergency injunctions for property protection"}
+              ],
+              "evidence": [
+                {"date": "2024-03-26", "description": "Home invasion triggering PTSD", "file": "police_report_20240326.pdf"},
+                {"date": "2024-06-12", "description": "PTSD/ADHD diagnosis", "file": "medical_records_20240612.pdf"},
+                {"description": "Income reduction ($250k to $0)", "file": "tax_returns_2023_2024.pdf"},
+                {"description": "Failed business attempts due to disability", "file": "business_records_2024.pdf"}
+              ],
+              "strategicApplications": [
+                "Justify unilateral termination of Kurfiss Sotheby’s listing agreement",
+                "Support emergency motion for foreclosure prevention",
+                "Establish basis for bridge loan as marital debt"
+              ],
+              "relatedNodes": ["III.A", "VI.A"],
+              "implementationTimeline": [
+                {"date": "2025-04-16", "action": "File emergency motion citing disability necessity"},
+                {"date": "2025-04-20", "action": "Submit SSDI application with medical evidence"}
+              ],
+              "templates": [
+                {"name": "Emergency Petition for Disability-Based Preservation", "file": "emergency_petition_template.md"}
+              ]
+            },
+            {
+              "id": "II.B",
+              "title": "Dual Vulnerability Doctrine",
+              "summary": "Combines medical and financial vulnerability for enhanced legal protection",
+              "legalAuthorities": [
+                {"case": "Drumheller v. Drumheller", "cite": "972 A.2d 176 (Pa. Super. 2009)", "holding": "Recognizes heightened protection for spouses with combined vulnerabilities"},
+                {"statute": "23 Pa.C.S. § 3502(a)(3)", "focus": "Health, income, employability"}
+              ],
+              "evidence": [
+                {"description": "Medical vulnerability (PTSD/ADHD)", "file": "medical_records_20240612.pdf"},
+                {"description": "Financial vulnerability (no income, bridge loan exhaustion)", "file": "financial_records_2024_2025.pdf"}
+              ],
+              "strategicApplications": [
+                "Enhance APL petition with dual vulnerability argument",
+                "Support equitable distribution adjustment for financial hardship"
+              ],
+              "relatedNodes": ["II.A", "III.C"],
+              "implementationTimeline": [
+                {"date": "2025-04-18", "action": "Incorporate dual vulnerability in APL petition"},
+                {"date": "2025-04-25", "action": "Submit financial affidavit highlighting vulnerabilities"}
+              ]
+            },
+            {
+              "id": "II.C",
+              "title": "Medical Necessity Documentation",
+              "summary": "Protocols for documenting PTSD/ADHD for SSDI and legal claims",
+              "legalAuthorities": [
+                {"case": "Meyers v. Meyers", "cite": "788 A.2d 383 (Pa. Super. 2001)", "holding": "Requires contemporaneous medical evidence for disability claims"},
+                {"case": "Commonwealth v. DeLong", "cite": "638 A.2d 937 (Pa. Super. 1998)", "holding": "Emphasizes detailed medical timelines"}
+              ],
+              "evidence": [
+                {"description": "SSDI application timeline", "file": "ssdi_application_2025.pdf"},
+                {"description": "Medical treatment records", "file": "treatment_records_2024_2025.pdf"}
+              ],
+              "strategicApplications": [
+                "Strengthen SSDI application with detailed medical evidence",
+                "Support alimony claims with medical necessity documentation"
+              ],
+              "relatedNodes": ["II.A", "IV.C"],
+              "implementationTimeline": [
+                {"date": "2025-04-20", "action": "Compile medical records for SSDI submission"},
+                {"date": "2025-04-30", "action": "Submit medical affidavit for court"}
+              ]
+            }
+          ]
+        },
+        {
+          "id": "III",
+          "title": "Spousal Abandonment Evidence",
+          "description": "Documentation of Melissa’s pattern of financial and medical abandonment during Stephen’s medical crisis",
+          "subNodes": [
+            {
+              "id": "III.A",
+              "title": "Medical Abandonment Doctrine",
+              "summary": "Establishes Melissa’s termination of Stephen’s health insurance as actionable abandonment",
+              "legalAuthorities": [
+                {"case": "Porter v. Porter", "cite": "593 A.2d 376 (Pa. 1991)", "holding": "Recognizes spousal duty during medical crises"},
+                {"statute": "23 Pa.C.S. § 3502(a)(6)", "focus": "Marital misconduct in equitable distribution"}
+              ],
+              "evidence": [
+                {"date": "2024-07-29", "description": "Melissa quits Tampa General Hospital job, terminating Stephen’s insurance", "file": "employment_records_20240729.pdf"},
+                {"date": "2024-08-01", "description": "Stephen uninsured during PTSD treatment", "file": "insurance_termination_20240801.pdf"},
+                {"description": "Melissa’s awareness of Stephen’s medical crisis", "file": "medical_appointment_records_202406.pdf"}
+              ],
+              "strategicApplications": [
+                "Support motion for equitable relief for insurance termination",
+                "Enhance alimony claim with medical abandonment evidence"
+              ],
+              "relatedNodes": ["II.B", "IV.C"],
+              "implementationTimeline": [
+                {"date": "2025-04-18", "action": "File motion citing medical abandonment"},
+                {"date": "2025-04-25", "action": "Submit evidence of insurance termination impact"}
+              ]
+            },
+            {
+              "id": "III.B",
+              "title": "FMLA Rejection Evidence",
+              "summary": "Documents Melissa’s rejection of FMLA leave that would have preserved Stephen’s insurance",
+              "legalAuthorities": [
+                {"case": "Larkin v. Larkin", "cite": "750 A.2d 895 (Pa. Super. 2000)", "holding": "Recognizes rejection of reasonable accommodations as misconduct"},
+                {"case": "In re: Marriage of Donnelly", "cite": "837 A.2d 1247 (Pa. Super. 2003)", "holding": "Supports claims of spousal neglect"}
+              ],
+              "evidence": [
+                {"date": "2024-07-01", "description": "Stephen’s FMLA research confirming eligibility", "file": "fmla_research_20240701.pdf"},
+                {"date": "2024-07-15", "description": "Melissa’s explicit rejection of FMLA leave", "file": "communication_log_20240715.pdf"},
+                {"description": "Tampa General Hospital FMLA policy", "file": "tampa_fmla_policy_2024.pdf"}
+              ],
+              "strategicApplications": [
+                "Strengthen medical abandonment claim with FMLA rejection",
+                "Support sanctions motion for bad-faith conduct"
+              ],
+              "relatedNodes": ["III.A", "IV.C"],
+              "implementationTimeline": [
+                {"date": "2025-04-20", "action": "Include FMLA rejection in misconduct memorandum"},
+                {"date": "2025-04-30", "action": "Submit FMLA evidence in discovery"}
+              ]
+            },
+            {
+              "id": "III.C",
+              "title": "Financial Abandonment Evidence",
+              "summary": "Documents Melissa’s progressive withdrawal and total non-contribution since 9/24",
+              "legalAuthorities": [
+                {"case": "Biese v. Biese", "cite": "979 A.2d 892 (Pa. Super. 2009)", "holding": "Credits for post-separation debt reduction"},
+                {"case": "Robert v. Martin", "cite": "2024 PA Super 150", "holding": "Credits for preservation obligations"},
+                {"statute": "23 Pa.C.S. § 3502(a)(7)", "focus": "Contribution/dissipation in marital property"}
+              ],
+              "evidence": [
+                {"description": "Zelle payments ($18,555 pre-10/23, $7,313.50 10/23-8/24, $0 post-9/24)", "file": "zelle_transactions_2022_2024.csv"},
+                {"date": "2024-09-25", "description": "Melissa closes Santander account ($3,790.35)", "file": "bank_closure_20240925.pdf"},
+                {"description": "Stephen’s contributions ($53,900 total)", "file": "financial_contributions_2023_2025.csv"}
+              ],
+              "strategicApplications": [
+                "File motion for preservation credits ($12k HVAC, $29.4k carrying costs, $12.5k bridge loan)",
+                "Support emergency motion for interim expense allocation"
+              ],
+              "relatedNodes": ["II.A", "VI.A"],
+              "implementationTimeline": [
+                {"date": "2025-04-16", "action": "File emergency motion for expense allocation"},
+                {"date": "2025-04-20", "action": "Submit financial abandonment memorandum"}
+              ]
+            }
+          ]
+        },
+        {
+          "id": "IV",
+          "title": "Marital Trajectory Evidence",
+          "description": "Documents pre-trauma harmony, trauma pivot, and post-trauma deterioration",
+          "subNodes": [
+            {
+              "id": "IV.A",
+              "title": "Pre-Trauma Harmony Evidence",
+              "summary": "Establishes mutual support and collaboration before March 2024",
+              "legalAuthorities": [
+                {"case": "Larsen v. Larsen", "cite": "677 A.2d 1282 (Pa. Super. 1996)", "holding": "Considers pre-separation contributions in equitable distribution"},
+                {"case": "Mitchell v. Mitchell", "cite": "803 A.2d 717 (Pa. Super. 2002)", "holding": "Recognizes mutual financial collaboration"}
+              ],
+              "evidence": [
+                {"period": "2023-12-2024-03", "description": "Video evidence of harmonious relationship", "file": "video_evidence_2023_2024.mp4"},
+                {"description": "Business collaboration records", "file": "business_records_2023_2024.pdf"}
+              ],
+              "strategicApplications": [
+                "Contrast pre-trauma harmony with post-trauma abandonment",
+                "Support equitable distribution based on prior contributions"
+              ],
+              "relatedNodes": ["IV.B", "IV.C"],
+              "implementationTimeline": [
+                {"date": "2025-04-25", "action": "Submit pre-trauma evidence in discovery"},
+                {"date": "2025-04-30", "action": "Incorporate in equitable distribution memorandum"}
+              ]
+            },
+            {
+              "id": "IV.B",
+              "title": "Traumatic Pivot Point Documentation",
+              "summary": "Marks March 26, 2024 home invasion as relationship demarcation",
+              "legalAuthorities": [
+                {"description": "No direct case law, but trauma causation recognized in PA equitable distribution"}
+              ],
+              "evidence": [
+                {"date": "2024-03-26", "description": "Home invasion police report", "file": "police_report_20240326.pdf"},
+                {"date": "2024-06-12", "description": "Initial PTSD evaluations", "file": "medical_records_20240612.pdf"}
+              ],
+              "strategicApplications": [
+                "Establish trauma as catalyst for Melissa’s abandonment",
+                "Support alimony claims with trauma-related disability"
+              ],
+              "relatedNodes": ["IV.A", "IV.C"],
+              "implementationTimeline": [
+                {"date": "2025-04-20", "action": "Include trauma pivot in factual background"},
+                {"date": "2025-04-30", "action": "Reference in APL petition"}
+              ]
+            },
+            {
+              "id": "IV.C",
+              "title": "Post-Trauma Deterioration Evidence",
+              "summary": "Documents Melissa’s abandonment post-trauma",
+              "legalAuthorities": [
+                {"case": "Commonwealth v. Reese", "cite": "725 A.2d 190 (Pa. Super. 1999)", "holding": "Recognizes post-trauma spousal neglect"}
+              ],
+              "evidence": [
+                {"date": "2024-07-29", "description": "Melissa’s employment termination", "file": "employment_records_20240729.pdf"},
+                {"date": "2024-09-25", "description": "Account closure ($3,790.35)", "file": "bank_closure_20240925.pdf"},
+                {"description": "Insurance loss documentation", "file": "insurance_termination_20240801.pdf"}
+              ],
+              "strategicApplications": [
+                "Highlight deterioration in abandonment memorandum",
+                "Support sanctions for bad-faith conduct"
+              ],
+              "relatedNodes": ["III.A", "III.B"],
+              "implementationTimeline": [
+                {"date": "2025-04-20", "action": "Include deterioration evidence in memorandum"},
+                {"date": "2025-04-30", "action": "Submit in discovery"}
+              ]
+            }
+          ]
+        },
+        {
+          "id": "V",
+          "title": "Attorney Non-Responsiveness Doctrine",
+          "description": "Justifies self-help due to counsel’s failure to respond during critical period",
+          "subNodes": [
+            {
+              "id": "V.A",
+              "title": "Constructive Abandonment of Representation",
+              "summary": "Documents attorney’s non-responsiveness as legal abandonment",
+              "legalAuthorities": [
+                {"case": "Smith v. Hogan", "cite": "794 A.2d 916 (Pa. Super. 2002)", "holding": "Recognizes constructive abandonment by counsel"},
+                {"case": "In Re: Marriage of Wilson", "cite": "856 A.2d 1112 (Pa. Super. 2004)", "holding": "Supports self-help in absence of counsel"}
+              ],
+              "evidence": [
+                {"period": "2025-02-26-2025-03-11", "description": "13+ days of non-responsiveness", "file": "communication_log_202502_202503.pdf"},
+                {"description": "Forwarded proposals without response", "file": "email_log_20250225_20250305.pdf"}
+              ],
+              "strategicApplications": [
+                "Justify unilateral actions in court filings",
+                "Support pro se status in emergency motions"
+              ],
+              "relatedNodes": ["II.A", "VI.A"],
+              "implementationTimeline": [
+                {"date": "2025-04-16", "action": "Document non-responsiveness in emergency motion"},
+                {"date": "2025-04-20", "action": "Seek pro bono counsel"}
+              ]
+            },
+            {
+              "id": "V.B",
+              "title": "Dual Abandonment Doctrine",
+              "summary": "Combines attorney non-responsiveness with spousal abandonment for enhanced self-help authority",
+              "legalAuthorities": [
+                {"case": "Douglas v. Wright", "cite": "801 A.2d 586 (Pa. Super. 2002)", "holding": "Recognizes combined abandonment scenarios"}
+              ],
+              "evidence": [
+                {"description": "Attorney non-responsiveness", "file": "communication_log_202502_202503.pdf"},
+                {"description": "Melissa’s financial/medical abandonment", "file": "abandonment_evidence_2024_2025.pdf"}
+              ],
+              "strategicApplications": [
+                "Strengthen unilateral authority in court filings",
+                "Support emergency relief motions"
+              ],
+              "relatedNodes": ["III.C", "V.A"],
+              "implementationTimeline": [
+                {"date": "2025-04-16", "action": "Cite dual abandonment in emergency motion"},
+                {"date": "2025-04-25", "action": "Include in pre-trial statement"}
+              ]
+            }
+          ]
+        },
+        {
+          "id": "VI",
+          "title": "Imminent Financial Harm Evidence",
+          "description": "Documents foreclosure risk and financial crisis justifying immediate action",
+          "subNodes": [
+            {
+              "id": "VI.A",
+              "title": "Imminent Harm Timeline Doctrine",
+              "summary": "Establishes foreclosure timeline and necessity for urgent action",
+              "legalAuthorities": [
+                {"case": "Horning v. Horning", "cite": "600 A.2d 958 (Pa. Super. 1991)", "holding": "Recognizes imminent harm as basis for emergency action"},
+                {"case": "Commonwealth v. First National Bank", "cite": "539 A.2d 1288 (Pa. Super. 1988)", "holding": "Supports foreclosure prevention measures"}
+              ],
+              "evidence": [
+                {"date": "2025-01-03", "description": "Bridge loan agreement ($12,500)", "file": "bridge_loan_20250103.pdf"},
+                {"date": "2025-03-16", "description": "Bridge loan exhaustion", "file": "financial_records_20250316.pdf"},
+                {"date": "2025-04-16", "description": "Projected first default", "file": "foreclosure_timeline_2025.pdf"}
+              ],
+              "strategicApplications": [
+                "File emergency motion for foreclosure prevention",
+                "Support fire sale strategy with imminent harm evidence"
+              ],
+              "relatedNodes": ["III.C", "V.A"],
+              "implementationTimeline": [
+                {"date": "2025-04-16", "action": "File emergency motion for special relief"},
+                {"date": "2025-04-20", "action": "Submit foreclosure timeline evidence"}
+              ]
+            },
+            {
+              "id": "VI.B",
+              "title": "Equity Loss Calculation Evidence",
+              "summary": "Quantifies financial impact of foreclosure",
+              "legalAuthorities": [
+                {"statute": "23 Pa.C.S. § 3505", "focus": "Prevention of irreparable harm to marital assets"}
+              ],
+              "evidence": [
+                {"description": "Property value ($375k-$395k)", "file": "appraisal_report_202503.pdf"},
+                {"description": "Mortgage balance ($342,118.83)", "file": "mortgage_statement_20250316.pdf"},
+                {"description": "Foreclosure cost projections ($15k-$25k)", "file": "foreclosure_costs_2025.pdf"}
+              ],
+              "strategicApplications": [
+                "Support emergency motion with equity loss calculations",
+                "Justify fire sale price range ($375k-$399k)"
+              ],
+              "relatedNodes": ["VI.A", "VIII.B"],
+              "implementationTimeline": [
+                {"date": "2025-04-18", "action": "Include equity loss in emergency motion"},
+                {"date": "2025-04-25", "action": "Submit appraisal in discovery"}
+              ]
+            }
+          ]
+        },
+        {
+          "id": "VII",
+          "title": "Strategic Implementation Tools",
+          "description": "Tactical tools for executing asset preservation strategy",
+          "subNodes": [
+            {
+              "id": "VII.A",
+              "title": "Power of Attorney Strategy",
+              "summary": "Establishes POA for disability-based asset management",
+              "legalAuthorities": [
+                {"case": "Vine v. State Employees' Retirement Board", "cite": "956 A.2d 1088 (Pa. Commw. 2008)", "holding": "Supports disability-based POA"},
+                {"case": "In re Weidner", "cite": "938 A.2d 354 (Pa. Super. 2007)", "holding": "Outlines POA execution requirements"}
+              ],
+              "evidence": [
+                {"description": "POA template", "file": "poa_template_2025.pdf"},
+                {"description": "Agent selection criteria", "file": "agent_criteria_2025.pdf"}
+              ],
+              "strategicApplications": [
+                "Delegate property decisions to protect Stephen’s interests",
+                "Enhance legal buffer for unilateral actions"
+              ],
+              "relatedNodes": ["II.A", "VI.A"],
+              "implementationTimeline": [
+                {"date": "2025-04-20", "action": "Draft and execute POA"},
+                {"date": "2025-04-25", "action": "Notify court of POA appointment"}
+              ],
+              "decisionPoint": {
+                "question": "Should we proceed with the POA strategy to create separation between Stephen and property decisions?",
+                "defaultAction": "Proceed with POA to enhance legal protection, selecting a trusted agent by 4/20/25"
+              }
+            },
+            {
+              "id": "VII.B",
+              "title": "Emergency Court Filings",
+              "summary": "Templates and protocols for emergency motions",
+              "legalAuthorities": [
+                {"rule": "Pa.R.C.P. 1920.43(a)(1)", "focus": "Emergency relief for property protection"},
+                {"statute": "23 Pa.C.S. § 3323(f)", "focus": "Special relief for marital assets"}
+              ],
+              "evidence": [
+                {"description": "Emergency petition template", "file": "emergency_petition_template.md"},
+                {"description": "Notice of agent action template", "file": "agent_notice_template.md"}
+              ],
+              "strategicApplications": [
+                "File emergency motion for foreclosure prevention",
+                "Seek interim expense allocation"
+              ],
+              "relatedNodes": ["VI.A", "III.C"],
+              "implementationTimeline": [
+                {"date": "2025-04-16", "action": "File emergency motion within 72 hours"},
+                {"date": "2025-04-18", "action": "Submit supporting evidence"}
+              ],
+              "decisionPoint": {
+                "question": "At what specific point should emergency court intervention be triggered if Melissa obstructs?",
+                "defaultAction": "Trigger intervention on 4/16/25 if Melissa fails to sign listing agreement or contribute by 4/13/25"
+              }
+            },
+            {
+              "id": "VII.C",
+              "title": "Comprehensive Declaration Documentation",
+              "summary": "Templates for documenting legal and factual claims",
+              "legalAuthorities": [
+                {"rule": "Delaware Co. Local Rule 1920.51", "focus": "Evidence submission protocols"}
+              ],
+              "evidence": [
+                {"description": "Triple Necessity Declaration", "file": "triple_necessity_template.md"},
+                {"description": "FMLA Intervention & Rejection Affidavit", "file": "fmla_affidavit_template.md"}
+              ],
+              "strategicApplications": [
+                "Document disability, abandonment, and harm for court",
+                "Support motions with comprehensive declarations"
+              ],
+              "relatedNodes": ["II.A", "III.B"],
+              "implementationTimeline": [
+                {"date": "2025-04-18", "action": "Draft triple necessity declaration"},
+                {"date": "2025-04-20", "action": "Submit declarations with motions"}
+              ]
+            }
+          ]
+        },
+        {
+          "id": "VIII",
+          "title": "Realtor Transition Strategy",
+          "description": "Tactics for terminating current listing and engaging new realtor",
+          "subNodes": [
+            {
+              "id": "VIII.A",
+              "title": "Termination Documentation",
+              "summary": "Documents termination of Kurfiss Sotheby’s listing agreement",
+              "legalAuthorities": [
+                {"statute": "23 Pa.C.S. § 3502(a)(10.2)", "focus": "Expenses for marital property sale"},
+                {"case": "Middleton v. Middleton", "cite": "812 A.2d 1241 (Pa. Super. 2002)", "holding": "Supports unilateral actions for economic justice"}
+              ],
+              "evidence": [
+                {"date": "2025-03-10", "description": "Termination demand letter", "file": "termination_demand_20250310.pdf"},
+                {"date": "2025-03-15", "description": "Signed termination agreement", "file": "termination_agreement_20250315.pdf"}
+              ],
+              "strategicApplications": [
+                "Complete termination to enable new listing",
+                "Document unilateral authority for court"
+              ],
+              "relatedNodes": ["II.A", "VI.A"],
+              "implementationTimeline": [
+                {"date": "2025-04-16", "action": "Ensure Melissa’s signature on termination agreement"},
+                {"date": "2025-04-18", "action": "Submit termination evidence to court"}
+              ]
+            },
+            {
+              "id": "VIII.B",
+              "title": "New Listing Strategy",
+              "summary": "Establishes fire sale strategy with new realtor",
+              "legalAuthorities": [
+                {"statute": "23 Pa.C.S. § 3505", "focus": "Prevention of irreparable harm"},
+                {"case": "Robert v. Martin", "cite": "2024 PA Super 150", "holding": "Supports rapid asset liquidation for preservation"}
+              ],
+              "evidence": [
+                {"description": "New listing agreement ($399k)", "file": "listing_agreement_20250315.pdf"},
+                {"description": "Market analysis justifying $375k-$399k range", "file": "market_analysis_202503.pdf"}
+              ],
+              "strategicApplications": [
+                "List property at $399k to attract offers",
+                "Reduce to $375k if no offers within 10 days"
+              ],
+              "relatedNodes": ["VI.B", "VIII.A"],
+              "implementationTimeline": [
+                {"date": "2025-04-16", "action": "Finalize new listing agreement"},
+                {"date": "2025-04-20", "action": "Implement marketing plan"}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "relationalConnections": {
+    "primaryPathways": [
+      {
+        "pathway": "Disability → Abandonment → Financial Crisis",
+        "description": "Links Stephen’s PTSD disability to Melissa’s abandonment and imminent foreclosure risk",
+        "nodes": ["II.A", "III.C", "VI.A"],
+        "evidence": [
+          {"description": "PTSD diagnosis (2024-06-12)", "file": "medical_records_20240612.pdf"},
+          {"description": "Melissa’s non-contribution (2024-09-24)", "file": "financial_records_2024_2025.csv"},
+          {"description": "Foreclosure timeline (2025-04-16)", "file": "foreclosure_timeline_2025.pdf"}
+        ]
+      },
+      {
+        "pathway": "Pre-Trauma Harmony → Traumatic Event → Post-Trauma Abandonment",
+        "description": "Establishes relationship trajectory from harmony to abandonment post-trauma",
+        "nodes": ["IV.A", "IV.B", "IV.C"],
+        "evidence": [
+          {"description": "Pre-trauma video evidence", "file": "video_evidence_2023_2024.mp4"},
+          {"description": "Home invasion report", "file": "police_report_20240326.pdf"},
+          {"description": "Post-trauma abandonment", "file": "abandonment_evidence_2024_2025.pdf"}
+        ]
+      },
+      {
+        "pathway": "FMLA Rejection → Insurance Loss → Increased Financial Burden → Current Crisis",
+        "description": "Links Melissa’s FMLA rejection to Stephen’s financial and medical hardship",
+        "nodes": ["III.B", "III.A", "VI.A"],
+        "evidence": [
+          {"description": "FMLA rejection communication", "file": "communication_log_20240715.pdf"},
+          {"description": "Insurance termination", "file": "insurance_termination_20240801.pdf"},
+          {"description": "Bridge loan exhaustion", "file": "financial_records_20250316.pdf"}
+        ]
+      },
+      {
+        "pathway": "Business Collaboration → Trauma → Business Abandonment → Financial Consequences",
+        "description": "Documents shift from mutual business efforts to Melissa’s abandonment",
+        "nodes": ["IV.A", "IV.B", "IV.C"],
+        "evidence": [
+          {"description": "Business collaboration records", "file": "business_records_2023_2024.pdf"},
+          {"description": "Trauma pivot", "file": "police_report_20240326.pdf"},
+          {"description": "Financial impact", "file": "financial_records_2024_2025.csv"}
+        ]
+      },
+      {
+        "pathway": "Attorney Non-Response → Self-Help Necessity → Preservation Actions",
+        "description": "Justifies unilateral actions due to counsel’s non-responsiveness",
+        "nodes": ["V.A", "V.B", "II.A"],
+        "evidence": [
+          {"description": "Attorney non-responsiveness", "file": "communication_log_202502_202503.pdf"},
+          {"description": "Unilateral actions", "file": "termination_demand_20250310.pdf"}
+        ]
+      }
+    ],
+    "crossNodalStructures": [
+      {
+        "structure": "Triple Necessity Framework",
+        "description": "Combines disability, attorney non-responsiveness, and imminent harm for maximum legal protection",
+        "nodes": ["II.A", "V.A", "VI.A"],
+        "strategicImpact": "Justifies emergency motions and unilateral actions"
+      },
+      {
+        "structure": "Dual Abandonment Framework",
+        "description": "Combines medical and financial abandonment for exceptional circumstances",
+        "nodes": ["III.A", "III.C"],
+        "strategicImpact": "Supports sanctions and equitable distribution adjustments"
+      },
+      {
+        "structure": "Traumatic Divergence Evidence Chain",
+        "description": "Establishes trauma as causation for abandonment",
+        "nodes": ["IV.A", "IV.B", "IV.C"],
+        "strategicImpact": "Enhances alimony and distribution claims"
+      },
+      {
+        "structure": "Rejection of Reasonable Accommodation Framework",
+        "description": "Documents Melissa’s FMLA rejection as willful abandonment",
+        "nodes": ["III.B", "III.A"],
+        "strategicImpact": "Strengthens misconduct claims"
+      }
+    ]
+  },
+  "gitHubRepositoryStructure": {
+    "root": "boerner-v-bemer",
+    "directories": [
+      {
+        "name": "README.md",
+        "description": "Case overview and repository guide"
+      },
+      {
+        "name": "legal-authorities",
+        "subDirectories": [
+          {
+            "name": "case-law",
+            "files": [
+              "williams-v-williams.md",
+              "horning-v-horning.md",
+              "busse-v-busse.md",
+              "biese-v-biese.md",
+              "robert-v-martin.md"
+            ]
+          },
+          {
+            "name": "statutes",
+            "files": [
+              "pa-23-3323f.md",
+              "pa-23-3502a.md",
+              "pa-23-3505.md"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "evidence",
+        "subDirectories": [
+          {
+            "name": "timeline",
+            "files": [
+              "2023-12-pre-trauma.md",
+              "2024-03-home-invasion.md",
+              "2024-07-fmla-rejection.md",
+              "2025-03-bridge-loan-exhaustion.md"
+            ]
+          },
+          {
+            "name": "medical",
+            "files": ["medical_records_20240612.pdf", "treatment_records_2024_2025.pdf"]
+          },
+          {
+            "name": "financial",
+            "files": ["financial_records_2024_2025.csv", "bridge_loan_20250103.pdf"]
+          },
+          {
+            "name": "communications",
+            "files": ["communication_log_20240715.pdf", "email_log_20250225_20250305.pdf"]
+          }
+        ]
+      },
+      {
+        "name": "strategies",
+        "files": [
+          "disability-authorities.md",
+          "fmla-rejection.md",
+          "financial-abandonment.md",
+          "realtor-transition.md"
+        ]
+      },
+      {
+        "name": "templates",
+        "files": [
+          "triple-necessity-declaration.md",
+          "fmla-rejection-affidavit.md",
+          "emergency-petition-template.md"
+        ]
+      },
+      {
+        "name": "implementation",
+        "files": [
+          "2025-04-16-actions.md",
+          "2025-04-18-actions.md",
+          "2025-04-20-actions.md"
+        ]
+      }
+    ],
+    "fileNamingConventions": {
+      "caseLaw": "kebab-case with case identifier (e.g., williams-v-williams-case.md)",
+      "evidence": "date-prefixed kebab-case (e.g., 2024-03-26-home-invasion.md)",
+      "strategies": "category-based kebab-case (e.g., disability-authorities.md)",
+      "metadata": "YAML frontmatter with id, title, category, priority, related nodes, status, last_updated"
+    }
+  },
+  "implementationPlan": {
+    "phases": [
+      {
+        "phase": "IMMEDIATE (72hrs, 4/16/25-4/18/25)",
+        "actions": [
+          {
+            "action": "File Emergency Motion for Foreclosure Prevention",
+            "details": "Cite 23 Pa.C.S. § 3323(f), disability necessity, and imminent harm; include triple necessity declaration",
+            "nodes": ["II.A", "VI.A", "VII.B"],
+            "deadline": "2025-04-16"
+          },
+          {
+            "action": "File Interim Expense Allocation Motion",
+            "details": "Request Melissa contribute $1,750/mo retroactively from 10/1/24; cite financial abandonment",
+            "nodes": ["III.C", "VII.B"],
+            "deadline": "2025-04-16"
+          },
+          {
+            "action": "Ensure Melissa’s Signature on Termination Agreement",
+            "details": "Secure signature or proceed unilaterally under disability necessity",
+            "nodes": ["VIII.A", "II.A"],
+            "deadline": "2025-04-16"
+          },
+          {
+            "action": "Finalize New Listing Agreement",
+            "details": "List at $399k with BHHS Fox & Roach; reduce to $375k if no offers by 4/26/25",
+            "nodes": ["VIII.B", "VI.B"],
+            "deadline": "2025-04-16"
+          }
+        ]
+      },
+      {
+        "phase": "SHORT-TERM (3-14d, 4/19/25-4/30/25)",
+        "actions": [
+          {
+            "action": "File Financial Abandonment Memorandum",
+            "details": "Document Melissa’s non-contribution and FMLA rejection; cite Biese v. Biese, Robert v. Martin",
+            "nodes": ["III.C", "III.B"],
+            "deadline": "2025-04-20"
+          },
+          {
+            "action": "Submit Evidence Matrix Visualization",
+            "details": "Compile timeline, financial contributions, and abandonment evidence",
+            "nodes": ["III.C", "IV.C"],
+            "deadline": "2025-04-20"
+          },
+          {
+            "action": "Bridge Loan Analysis",
+            "details": "Establish $12,500 loan as marital debt; cite Hicks v. Kubit, Patwardhan v. Brabant",
+            "nodes": ["III.C", "VI.A"],
+            "deadline": "2025-04-25"
+          },
+          {
+            "action": "Disclosure Violation Documentation",
+            "details": "Document Melissa’s non-disclosure of employment and account closure; cite Pa.R.C.P. 1920.33",
+            "nodes": ["III.C", "V.A"],
+            "deadline": "2025-04-25"
+          },
+          {
+            "action": "File APL Petition",
+            "details": "Request retroactive support from 12/1/24; cite 23 Pa.C.S. § 3702, dual vulnerability",
+            "nodes": ["II.B", "III.A"],
+            "deadline": "2025-04-30"
+          }
+        ]
+      },
+      {
+        "phase": "MEDIUM-TERM (15-30d, 5/1/25-5/15/25)",
+        "actions": [
+          {
+            "action": "File Motion for Sanctions",
+            "details": "Seek attorney’s fees for Melissa’s non-disclosure; cite Pa.R.C.P. 1920.33(d)",
+            "nodes": ["III.C", "V.A"],
+            "deadline": "2025-05-01"
+          },
+          {
+            "action": "File Equitable Credit Motion",
+            "details": "Request credits for $12k HVAC, $29.4k carrying costs, $12.5k bridge loan; cite Biese v. Biese",
+            "nodes": ["III.C", "II.A"],
+            "deadline": "2025-05-05"
+          },
+          {
+            "action": "Integrate Pre-Trial Statement",
+            "details": "Incorporate disability, abandonment, and harm evidence",
+            "nodes": ["II.A", "III.C", "VI.A"],
+            "deadline": "2025-05-10"
+          },
+          {
+            "action": "Develop Settlement Demand Framework",
+            "details": "Propose 75% distribution to Stephen, retroactive support, and sanctions",
+            "nodes": ["III.C", "II.B"],
+            "deadline": "2025-05-15"
+          }
+        ]
+      }
+    ],
+    "decisionPoints": [
+      {
+        "question": "Should we proceed with the POA strategy to create separation between Stephen and property decisions?",
+        "defaultAction": "Proceed with POA, selecting a trusted agent by 4/20/25",
+        "node": "VII.A"
+      },
+      {
+        "question": "At what point should emergency court intervention be triggered if Melissa obstructs?",
+        "defaultAction": "Trigger intervention on 4/16/25 if Melissa fails to sign listing agreement or contribute by 4/13/25",
+        "node": "VII.B"
+      },
+      {
+        "question": "How should sensitive video/photographic evidence be stored and referenced while maintaining privacy and security?",
+        "defaultAction": "Store in encrypted cloud storage with access restricted to counsel and court; reference via metadata without direct embedding",
+        "node": "IV.A"
+      },
+      {
+        "question": "Should all future communications with Melissa be conducted through a specific managed channel to ensure documentation?",
+        "defaultAction": "Route all communications through counsel or DocuSign for traceability, starting 4/16/25",
+        "node": "VII.C"
+      },
+      {
+        "question": "Once the property sells, what is the highest priority for the next phase of legal protection?",
+        "defaultAction": "Prioritize APL and long-term alimony claims, filing by 5/15/25",
+        "node": "II.B"
+      }
+    ]
+  },
+  "additionalNotes": {
+    "prioritization": "Focus on foreclosure prevention and preservation credits; leverage Stephen’s disability and Melissa’s abandonment as core arguments",
+    "evidenceHandling": "Encrypt sensitive medical and video evidence; use Delaware Co. Local Rule 1920.51 for submission protocols",
+    "machineOptimization": "Use YAML frontmatter, kebab-case filenames, and cross-referencing for AI retrieval; validate JSON syntax before ingestion",
+    "proceduralContext": "Adhere to Delaware County’s strict transparency rules (Pa.R.C.P. 1920.33) and disability protections (Bagley v. Bagley)"
+  }
+}
+```

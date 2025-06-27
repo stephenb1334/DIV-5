@@ -1,0 +1,112 @@
+{
+  "project_data": [
+    {
+      "source_file": "9-32-32-Condo_Pricing_Strategy_Discussion.json",
+      "tasks": [
+        {
+          "task_id": "pdf_quality_comparison",
+          "description": "Compare the quality of two PDF documents.",
+          "documents": [
+            {
+              "document_name": "18.pdf",
+              "quality": "high",
+              "text_type": "digitally generated",
+              "searchable": true,
+              "errors": ["minor extraction errors"],
+              "notes": "Original, high-quality, searchable text PDF."
+            },
+            {
+              "document_name": "CONVO-REALESTATE-JULIANA2 copy.pdf",
+              "quality": "lower",
+              "processing": ["OCR", "file reduction"],
+              "searchable": true,
+              "errors": ["potential OCR errors", "formatting issues"],
+              "notes": "OCR processed, potentially lower quality due to file reduction."
+            }
+          ],
+          "content_similarity": "high",
+          "summary": "18.pdf is the higher-quality original.  The other is an OCR version."
+        },
+        {
+          "task_id": "text_extraction",
+          "description": "Extract verbatim text from a user-provided PDF conversation.",
+          "source_document": "18.pdf",
+          "user_request": "Extract speakers and exact lines for copy-pasting.",
+          "constraints": [
+            "Preserve formatting (speakers, newlines).",
+            "Present in a code block for clarity."
+          ],
+          "status": "completed",
+          "notes": "Extraction is allowed because the content is user-provided."
+        },
+          {
+          "task_id": "financial_data_extraction",
+          "description": "Extract and structure fixed monthly financial data.",
+          "source_document": "Unknown",
+          "status": "completed",
+           "data": {
+                "fixed_monthly_financials": {
+                    "breakdown": {
+                        "mortgage_principal_and_interest": { "amount": 1770.98, "confirmed": true },
+                        "escrow_taxes_and_insurance": { "amount": 723.15, "confirmed": true },
+                        "hoa_fees": {
+                            "unit_4c": { "amount": 351.08, "confirmed": true },
+                            "unit_4d": { "amount": 461.75, "confirmed": true },
+                            "total": { "amount": 812.83, "confirmed": true }
+                        },
+                        "peco_utilities": { "amount": 150.00, "confirmed": false, "note": "Estimated" },
+                        "total_monthly_fixed_costs": { "amount": 3456.96, "confirmed": true }
+                    }
+                }
+            }
+        }
+      ]
+    },
+    {
+      "source_file": "13-51-33-Real_Estate_Market_Analysis.json",
+      "tasks": [
+        {
+          "task_id": "file_description",
+          "description": "Provide metadata about the file.",
+          "file_type": "Real Estate Market Analysis",
+          "status": "complete",
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "research",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "83723b89-44f6-4f19-8c54-b4bd29fb0a44",
+          "request_id": "9140358a1af2d6d5-IAD",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "recipient": "all",
+          "channel": null
+        }
+      ]
+    },
+    {
+      "source_file": "13-42-58-Condo_Market_Analysis_2025.json",
+      "tasks": [
+        {
+          "task_id": "condo_market_analysis",
+          "description": "Perform a deep research prompt for condo analysis to determine fair market value.",
+          "objective": "Determine fair market value of 246 N 3rd St #4CD, Philadelphia, PA 19106 in Feb 2025 ($433,000 listing price) by comparing to comparable properties and 2022 market conditions.",
+          "comparable_properties_analysis": {
+            "instructions": "Analyze recently sold and active 2-bed, 2-bath condos in Old City and comparable neighborhoods, prioritizing similar size, age, amenities, and parking. Address HOA fee variations."
+          },
+          "market_conditions_2022_analysis": {
+            "instructions": "Assess Old City market conditions in April 2022 (purchase date at $400,000). Compare to Feb 2025, including economic events and their impact."
+          },
+          "keywords": {
+            "broad_searches": [
+              "Old City Philadelphia real estate market",
+              "Philadelphia condo market trends",
+              "19106 real estate",
+              "Philadelphia real estate market analysis"
+            ],
+            "targeted_searches": [
+              "2 bedroom 2 bath condos Old City Philadelphia + (\"sold\" OR \"active\")",
+              "Condo sales data Old City Philadelphia + (2022 OR 2025) + (\"parking\" OR \"parking space\")",
+              "Commons of New St condos Philadelphia + (\"sales history\" OR \"HOA fees\" OR \"amenities\")",
+              "Market report Philadelphia + (2022 OR 2025) + (\"condos\" OR \"housing\") + (\"interest rates\" OR \"inventory\")",
+              "Parking space rental rates Old City Philadelphia + (2024 OR 2025

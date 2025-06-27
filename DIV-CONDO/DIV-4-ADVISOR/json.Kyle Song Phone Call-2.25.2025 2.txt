@@ -1,0 +1,1916 @@
+[
+  {
+    "text" : "How can I help you with this scenario?"
+  },
+  {
+    "text" : "I guess the ask that I'm looking for or the advice that I'm seeking is based on what you see, given that, you know, assume that there's no cash, you know, you've got one more month left."
+  },
+  {
+    "text" : "I can overrule her and reduce it to $3.99 and offload it."
+  },
+  {
+    "text" : "And I guess your advice on that."
+  },
+  {
+    "text" : "Secondly, is your advice around creative, outside the box, stuff that only someone deep in real estate would be able to conceive and think of different financial instruments, different this, different that."
+  },
+  {
+    "text" : "I've looked into trying to sell, you know, the lot, the spaces I can't do that."
+  },
+  {
+    "text" : "There's an outside the box solution somewhere."
+  },
+  {
+    "text" : "I like to imagine that it exists in the collective intelligence of the universe."
+  },
+  {
+    "text" : "And I would be remiss to not give it pause and think of,"
+  },
+  {
+    "text" : "is there something here that can get out?"
+  },
+  {
+    "text" : "Is there a win-win still on the table for this?"
+  },
+  {
+    "text" : "And lastly, if there is something that catches your eye"
+  },
+  {
+    "text" : "or you think somebody in your network would be interested in some type of something with this,"
+  },
+  {
+    "text" : "your network is vast in this space, buyers, sellers, whatever it might be."
+  },
+  {
+    "text" : "And so first is, do you recommend I just drop my pants to $3.99 and get out and you don't see anything?"
+  },
+  {
+    "text" : "Or B would be, here's some creative ideas."
+  },
+  {
+    "text" : "Let's think about it."
+  },
+  {
+    "text" : "Let's talk about it."
+  },
+  {
+    "text" : "Things I don't know about."
+  },
+  {
+    "text" : "So the $39 number that you got was from your research that you did, whether through AI or, you know, hard research that you did."
+  },
+  {
+    "text" : "That's the price point that you're coming out with to get a quick fire sale."
+  },
+  {
+    "text" : "number is what you're saying right um it was like three three ninety four would be the fire fire sale like"
+  },
+  {
+    "text" : "you know we're probably going to get an offer you know if you drop um lower that was the lowest end"
+  },
+  {
+    "text" : "the highest end of this was four 16 now so so let me give you um so let me let me give you the"
+  },
+  {
+    "text" : "example of what i did with uh the property of the over and not four"
+  },
+  {
+    "text" : "that I did, okay?"
+  },
+  {
+    "text" : "And maybe we can draw some, you know, creative inspirationals out of that."
+  },
+  {
+    "text" : "But I think it's going to be a little bit different scenario."
+  },
+  {
+    "text" : "But I wanted to ask you what this meant."
+  },
+  {
+    "text" : "You said that this is the last piece between you and your wife to be finished,"
+  },
+  {
+    "text" : "meaning this is the last piece to finalize the divorce."
+  },
+  {
+    "text" : "You know what you're saying?"
+  },
+  {
+    "text" : "Yeah, it's the biggest piece on the table for certain, yeah."
+  },
+  {
+    "text" : "Okay."
+  },
+  {
+    "text" : "So that kind of changes the dynamic a little bit over here."
+  },
+  {
+    "text" : "Okay. So, you know, I don't know what the, what kind of, you know, thoughts that, you know, is running in your weakest mind. But I think, you know, from her standpoint, I'm going to assume that she took money down and contributed when you guys were pushed the property and said that. So I'm sure she did not. No, it's all, okay."
+  },
+  {
+    "text" : "99.5% paid from mortgage to the $12,000 air conditioner unit I replaced. We have two of them."
+  },
+  {
+    "text" : "you know,"
+  },
+  {
+    "text" : "99.5%"
+  },
+  {
+    "text" : "of everything."
+  },
+  {
+    "text" : "So I'm just going to assume"
+  },
+  {
+    "text" : "that, you know, she feels"
+  },
+  {
+    "text" : "that, you know, because she was married"
+  },
+  {
+    "text" : "with you for a certain amount of time,"
+  },
+  {
+    "text" : "that she's still entitled to"
+  },
+  {
+    "text" : "receive some kind of proceeds from"
+  },
+  {
+    "text" : "the sale of this property here."
+  },
+  {
+    "text" : "Yes."
+  },
+  {
+    "text" : "Okay? Whatever that may be. Okay."
+  },
+  {
+    "text" : "Yes. So obviously, with that in mind,"
+  },
+  {
+    "text" : "she's going to want to see this being sold"
+  },
+  {
+    "text" : "at the, you know, at the highest point on here."
+  },
+  {
+    "text" : "But I think the,"
+  },
+  {
+    "text" : "the real estate."
+  },
+  {
+    "text" : "agent, you know, I think, um, I think she kind of missed out on a couple, uh, key critical things"
+  },
+  {
+    "text" : "in terms of a situation that you and your wife are in, okay, seeing that this is a divorce case"
+  },
+  {
+    "text" : "and need to sell fast. And for her to think that, you know, dropping $1,000 to realign the"
+  },
+  {
+    "text" : "logarithms for the showings to come up, um, you know, I think that's very foolish, okay,"
+  },
+  {
+    "text" : "because what it happens is is that, you know, when you have,"
+  },
+  {
+    "text" : "When you put a property out in the market, okay?"
+  },
+  {
+    "text" : "Your first 30 days says it all, okay?"
+  },
+  {
+    "text" : "A good property will get an offer within 30 days, okay?"
+  },
+  {
+    "text" : "Even if the price is high, someone's going to put an offer in, okay, and they're going to lowball you."
+  },
+  {
+    "text" : "So, you know, people see that offer, a lowball offer as an insult, but it's, you know, it's not a insult."
+  },
+  {
+    "text" : "It's a gaze to say, hey, it's a desirable property that somebody wants to move in there, okay?"
+  },
+  {
+    "text" : "So with the first 30 days, if you get no offers, okay, there's two things, okay?"
+  },
+  {
+    "text" : "One of the three things it could be is price, okay, the condition of the property and school district, okay,"
+  },
+  {
+    "text" : "depending on, you know, who it is that's writing me up to offer."
+  },
+  {
+    "text" : "But generally in old city, okay, there are usually young couples or they're, you know,"
+  },
+  {
+    "text" : "they don't have really children or they're either very young or very old, okay, nothing in between"
+  },
+  {
+    "text" : "because they want to move to the suburbs if they have a family."
+  },
+  {
+    "text" : "Okay."
+  },
+  {
+    "text" : "So the school elements taken out of this equation on here."
+  },
+  {
+    "text" : "So it comes under two things."
+  },
+  {
+    "text" : "Price and the condition of the property, okay?"
+  },
+  {
+    "text" : "And the condition of the property will also include HOA because here's what happens with"
+  },
+  {
+    "text" : "HOAs."
+  },
+  {
+    "text" : "The older the building, the more maintenance there is, the high of the HOA fee."
+  },
+  {
+    "text" : "Okay."
+  },
+  {
+    "text" : "And the newer it is, then less maintenance, the lower the HOA fee."
+  },
+  {
+    "text" : "I mean, that's just how HOA feeds go."
+  },
+  {
+    "text" : "Okay."
+  },
+  {
+    "text" : "So given the situation,"
+  },
+  {
+    "text" : "on here, okay? If you buy this house at, let's say, you know, four, this is even the, even at the"
+  },
+  {
+    "text" : "numbers on, let's say that you buy this a 400, okay, and 7% mortgage on here, okay? We're looking"
+  },
+  {
+    "text" : "at about $5,000 monthly bill plus $1,000 of HLA and other, you know, utilities and all that"
+  },
+  {
+    "text" : "kind of stuff out on here. That puts us this $6,000."
+  },
+  {
+    "text" : "Whoa, whoa, how do you get, how do you get the $5,000 on a $400,000 property?"
+  },
+  {
+    "text" : "It's 7%, okay, 7%?"
+  },
+  {
+    "text" : "mortgage rates. Okay, so somewhere around there. Okay. So, you know, people are going to be looking at about"
+  },
+  {
+    "text" : "$5,000 monthly bill to live in that property, to live in that property. That's, we're just a rough"
+  },
+  {
+    "text" : "estimating on here. Yeah. Okay. Okay. Now, so either A, they're going to think, okay, if we want to"
+  },
+  {
+    "text" : "live in this area, because we like the area, can we rent a property, uh, and get something for"
+  },
+  {
+    "text" : "5,000 bucks, okay? Or does it make more sense to buy the property and have, you know,"
+  },
+  {
+    "text" : "building your, you know, equity in there, okay? But on this situation on here, when I just"
+  },
+  {
+    "text" : "look through the pictures on there, okay, it looks like it's well painted, okay, and it's clean,"
+  },
+  {
+    "text" : "but it's missing the amenities of a quote-unquote old city condo. Okay, missing the bells and"
+  },
+  {
+    "text" : "whistles on there. Okay. So to put all the bells and whistles to capture and captivate the,"
+  },
+  {
+    "text" : "you know, what brings it to the old city on here, you know, an average homeowner, a person"
+  },
+  {
+    "text" : "who's going to buy that is going to hire a contractor to beautify that house and put the things"
+  },
+  {
+    "text" : "that you guys want to do, you and your wife wanted to do, okay? And see that everything is all"
+  },
+  {
+    "text" : "damn expensive right now, okay? You're looking at the bill of anywhere from like 70 to 100,000"
+  },
+  {
+    "text" : "bucks to do that job there."
+  },
+  {
+    "text" : "Okay."
+  },
+  {
+    "text" : "So then that's an extra cost of money."
+  },
+  {
+    "text" : "So these are all the stuff that people are thinking as a result of,"
+  },
+  {
+    "text" : "part to buy the property."
+  },
+  {
+    "text" : "And at the day,"
+  },
+  {
+    "text" : "they're going to say,"
+  },
+  {
+    "text" : "okay,"
+  },
+  {
+    "text" : "this is going to go,"
+  },
+  {
+    "text" : "this is going to be the money that we need to be living in this unit here."
+  },
+  {
+    "text" : "Okay."
+  },
+  {
+    "text" : "Versus,"
+  },
+  {
+    "text" : "you know,"
+  },
+  {
+    "text" : "moving into a house or a condo that's already been,"
+  },
+  {
+    "text" : "you know,"
+  },
+  {
+    "text" : "all fixed up and they can just move in and have one mortgage payment."
+  },
+  {
+    "text" : "And you don't have to worry about it."
+  },
+  {
+    "text" : "the mouse there. Okay. So when a homeowner moves into a house, okay, they're going to want to say that,"
+  },
+  {
+    "text" : "hey, you know, if I have to fix up this house and there's something I have to do, I have to get it, you know,"
+  },
+  {
+    "text" : "there's going to be some building equity for me to buy them to incentivize to buy this house on here."
+  },
+  {
+    "text" : "Okay. So I think those are things that your realtor is really a misaliding on here."
+  },
+  {
+    "text" : "Just thinking that, that the market in, you know, old city is hot. Okay."
+  },
+  {
+    "text" : "Certain properties in the market in Old City are hot, okay?"
+  },
+  {
+    "text" : "Those are move-in condition, ready to just, you know, live and not worry about anything else, okay?"
+  },
+  {
+    "text" : "And on top of that, the timing of what needs to be done on here, you know, I mean, you're in a divorce situation and, you know, and, you know, you've got to do this thing on here."
+  },
+  {
+    "text" : "So the reason I'm saying all these things on here is not to, you know, to paint the picture that you already know, what I'm saying here is that given that situation on here to get the,"
+  },
+  {
+    "text" : "thing done is just simple creative you know way of selling this on here is going to take a long"
+  },
+  {
+    "text" : "process the best thing to get this thing done on here is to reduce the price on the property and get"
+  },
+  {
+    "text" : "it just fire sold okay and seeing that you're them you know the uh you know you're the master of the"
+  },
+  {
+    "text" : "puppet on here because it's your finances that you know bought the property on here and you have to"
+  },
+  {
+    "text" : "say it's better than just reduce the price and to get this thing over and done with and take a you know a reduced"
+  },
+  {
+    "text" : "of properties. I mean, you know, a price reduction between, you know, like 433 and 415, it's $15,000,"
+  },
+  {
+    "text" : "and I know that's a lot of money, but given in terms of the price of real estate, you know, a $15,000 offer"
+  },
+  {
+    "text" : "or, you know, running down a $15,000, you know, price point is not that whole heck of a lot when it"
+  },
+  {
+    "text" : "comes to a home at this price point here. Okay, it's common to reduce properties by $10,000."
+  },
+  {
+    "text" : "incentivized for someone to come in and put an offer in."
+  },
+  {
+    "text" : "Okay."
+  },
+  {
+    "text" : "If you really thought that 415 is going to be the price point that's going to sell,"
+  },
+  {
+    "text" : "somebody would have already written an offer for four,"
+  },
+  {
+    "text" : "like someone between like 400 to 415 if it's listed at 433."
+  },
+  {
+    "text" : "Okay."
+  },
+  {
+    "text" : "It's not uncommon for homes that are, you know, in the four ranges with, you know,"
+  },
+  {
+    "text" : "with the, you know, like 433, the $33,000 being in the low range to get an offer"
+  },
+  {
+    "text" : "where they're going to put it anywhere between like 400,000."
+  },
+  {
+    "text" : "to $4.50 to see where the seller's going to be at and then open up for negotiations on here. Okay. See, I'll be honest with you. I hate to be the burden. I hate to be the answer with the bad news on here, but I think even if you listed this at $3.99, you're going to get an offer for like $3.75. Okay. Because, you know, the situation is that this is on the fourth floor, you said. Yes. Okay. So think about in terms of the contractor wise, okay, um,"
+  },
+  {
+    "text" : "They're going to have to, you know, redo."
+  },
+  {
+    "text" : "I don't know what the floor's alike, okay, but, you know, I think you said it's hardwood floor."
+  },
+  {
+    "text" : "But let's just assume that they're going to do all the walls, the plumbing, and they're going to, you know, redo the whole kitchen on there."
+  },
+  {
+    "text" : "Okay, you can't piece mail in a home like this."
+  },
+  {
+    "text" : "You can sell the countertops fine, you know, but we're just going to replace the top cabinets and not the –"
+  },
+  {
+    "text" : "you either rehab the whole thing, the whole kitchen, or, you know, you're just going to leave it as is."
+  },
+  {
+    "text" : "Okay."
+  },
+  {
+    "text" : "The appliances, the stove and all that kind of, that's small stuff."
+  },
+  {
+    "text" : "I mean, that's, you know, best buy will come and, you know, deliver that up to the floor and all that kind of stuff."
+  },
+  {
+    "text" : "Okay."
+  },
+  {
+    "text" : "But what I'm saying here from in terms of a contractor, it's going to be a big burden, but it's going to delay the job."
+  },
+  {
+    "text" : "And it's going to be that ease of convenience of fixing the house from a contractor standpoint."
+  },
+  {
+    "text" : "It's going to be a lot difficult to go to the fourth floor using the service elevator."
+  },
+  {
+    "text" : "And as long as there's an elevator or something like that."
+  },
+  {
+    "text" : "It's just a big hassle for the contractor, and the numbers are coming high because of that."
+  },
+  {
+    "text" : "The contractors, definitely, you know, put that into a lot."
+  },
+  {
+    "text" : "There's not even a service elevator."
+  },
+  {
+    "text" : "It's just a single elevator."
+  },
+  {
+    "text" : "It's very small and stairwell."
+  },
+  {
+    "text" : "That's it."
+  },
+  {
+    "text" : "So it's, they're going to really, you know, see that as a, guys, it's going to be a really hard, you know, pay the ass to take, you know, travel team and, you know, those, you know, cement board for the, you know, for the bathroom and, you know, all the material, the paint, the cabinet."
+  },
+  {
+    "text" : "and turning corners and all that shit that needs to go along with, you know, moving things up to the fourth floor there."
+  },
+  {
+    "text" : "Okay."
+  },
+  {
+    "text" : "So, you know, that's the difficulty of it."
+  },
+  {
+    "text" : "Okay."
+  },
+  {
+    "text" : "Now, the other side of it is, you know, you're in a situation that you don't want to put any more money into this and you don't have to."
+  },
+  {
+    "text" : "Okay."
+  },
+  {
+    "text" : "So you're at the last month on here."
+  },
+  {
+    "text" : "Okay."
+  },
+  {
+    "text" : "And what it comes down to is that, you know, prices are what's going to incentivize for buyers to come in and do this."
+  },
+  {
+    "text" : "And, you know, from a standpoint of a homeowner wanting to build a sweat."
+  },
+  {
+    "text" : "equity, there are far few between, especially in old city, okay. People in old city, you know,"
+  },
+  {
+    "text" : "they have money, they want to spend that money, could be moving into a house that's already"
+  },
+  {
+    "text" : "all done and it's just want to enjoy, you know, the house that they live in, okay? This is going"
+  },
+  {
+    "text" : "to be for an investor that's going to be one of the come in and fix the property up, okay?"
+  },
+  {
+    "text" : "I don't know what the, uh, the market press of the property is. Okay, I'm assuming it's,"
+  },
+  {
+    "text" : "you know, 433 since it's listed at that point there, okay? But the competition is this, okay?"
+  },
+  {
+    "text" : "in old city and all around that area there okay people are just buying up old shit and they're buying that"
+  },
+  {
+    "text" : "shit up at really good price and they're just we have the heck out of it to turn into new houses"
+  },
+  {
+    "text" : "and those are the Chinese people that are doing that stuff okay um you know I know like this"
+  },
+  {
+    "text" : "one guy um you know um and he's an older guy uh and you know for him and his partners you know they"
+  },
+  {
+    "text" : "buy like old warehouses they knock it down they put all condo units up there and that makes sense because"
+  },
+  {
+    "text" : "you know condos each unit you know you know if you do per unit cost and stuff like that you know"
+  },
+  {
+    "text" : "they they make like you know a nice chuck a change for each unit and it's do that so this is a"
+  },
+  {
+    "text" : "stickler on here okay creative stuff this is what i did with my property here okay so i had a condo"
+  },
+  {
+    "text" : "was two bedroom two bath um it was like like hair over 11 under square feet"
+  },
+  {
+    "text" : "on that, okay?"
+  },
+  {
+    "text" : "You know,"
+  },
+  {
+    "text" : "here's what,"
+  },
+  {
+    "text" : "here's what was going"
+  },
+  {
+    "text" : "for that house there."
+  },
+  {
+    "text" : "The condo had a"
+  },
+  {
+    "text" : "kick-his view"
+  },
+  {
+    "text" : "of the Hudson River."
+  },
+  {
+    "text" : "And if you look,"
+  },
+  {
+    "text" : "and then if you look"
+  },
+  {
+    "text" : "across the Hudson River,"
+  },
+  {
+    "text" : "you can see at"
+  },
+  {
+    "text" : "Columbia University."
+  },
+  {
+    "text" : "So it was awesome view."
+  },
+  {
+    "text" : "If you go downstairs,"
+  },
+  {
+    "text" : "there's just like"
+  },
+  {
+    "text" : "boardwalk kind of thing"
+  },
+  {
+    "text" : "where you can walk around"
+  },
+  {
+    "text" : "the Hudson River"
+  },
+  {
+    "text" : "and, you know,"
+  },
+  {
+    "text" : "and you can walk from coffee shops"
+  },
+  {
+    "text" : "and it was all nice"
+  },
+  {
+    "text" : "and blah, blah."
+  },
+  {
+    "text" : "But the property"
+  },
+  {
+    "text" : "was old, okay?"
+  },
+  {
+    "text" : "The window,"
+  },
+  {
+    "text" : "when it was thunderstorm,"
+  },
+  {
+    "text" : "you could hear like the hisses coming,"
+  },
+  {
+    "text" : "you know,"
+  },
+  {
+    "text" : "coming through the window"
+  },
+  {
+    "text" : "because like the caulk,"
+  },
+  {
+    "text" : "the rubber caulking,"
+  },
+  {
+    "text" : "it's a special kind of window."
+  },
+  {
+    "text" : "What's that?"
+  },
+  {
+    "text" : "That's our condo."
+  },
+  {
+    "text" : "There's a draft on these huge,"
+  },
+  {
+    "text" : "huge windows and same thing."
+  },
+  {
+    "text" : "Yeah,"
+  },
+  {
+    "text" : "there's special kind of windows"
+  },
+  {
+    "text" : "made for condos that resist,"
+  },
+  {
+    "text" : "like, when,"
+  },
+  {
+    "text" : "I'm just on a high rise."
+  },
+  {
+    "text" : "My shit was on like the 17th"
+  },
+  {
+    "text" : "floor, you know? So those like windows per pop were like five grand, right? I'm just like,"
+  },
+  {
+    "text" : "what the hell, you know? So what I ended up doing? And on top of that, Steve, okay, there's"
+  },
+  {
+    "text" : "HOA fee and there's camp fees. And those things were no joke, okay? So I bought that thinking,"
+  },
+  {
+    "text" : "oh, you know, what's going to cost to, you know, we have four walls, right? That's, I mean,"
+  },
+  {
+    "text" : "I was so naive by then. And I had, I bought this thing. And I'm like,"
+  },
+  {
+    "text" : "Holy cow, you know, it's like it was so much more work than I thought it was."
+  },
+  {
+    "text" : "So I did the basic amenities, right?"
+  },
+  {
+    "text" : "And, you know, I bought this thing at cheap and price, okay?"
+  },
+  {
+    "text" : "I mean, but the bad thing was is that it was the foreclosure debacle of 2008."
+  },
+  {
+    "text" : "That's really a sacrifice."
+  },
+  {
+    "text" : "Nobody was qualified for a mortgage at that time, right?"
+  },
+  {
+    "text" : "I mean, like people who qualified for a mortgage, they were moving into, like, you know,"
+  },
+  {
+    "text" : "like, you know, nice houses, but they're not going to be moving into nice, like, luxury houses, okay?"
+  },
+  {
+    "text" : "So, you know, even if I bought this, you know, like 340 or somewhere around that age,"
+  },
+  {
+    "text" : "range on there, okay?"
+  },
+  {
+    "text" : "I couldn't feasibly see myself selling this at like five, you know, I thought I was going"
+  },
+  {
+    "text" : "to be able to sell a six and there was going to be a lottery ticket, but, you know,"
+  },
+  {
+    "text" : "So what I ended up doing was that I put this out of the market for rental, okay?"
+  },
+  {
+    "text" : "And one thing that was good about that rental market is that I know that there's a lot"
+  },
+  {
+    "text" : "of people that live in New York that want to live in, you know, in Fort Lee, because the ferry is"
+  },
+  {
+    "text" : "right there, right? And they don't, you know, they just take the ferry community, they come there."
+  },
+  {
+    "text" : "But, you know, there was another detail that I didn't know, which was, you know, those are people"
+  },
+  {
+    "text" : "who live in residential houses that they do that. This was a condo. They don't race family in the"
+  },
+  {
+    "text" : "condos. So these are like young married couple and young married couple. They want to live in"
+  },
+  {
+    "text" : "a bling bling house, not the one that I had, okay? So there's a lot of similarities between."
+  },
+  {
+    "text" : "between you and our. And ultimately what I ended up doing was, is that I had, so I, so you know,"
+  },
+  {
+    "text" : "I found a tenant for that. And the tenant was, they lived for a year, okay, and they moved out,"
+  },
+  {
+    "text" : "okay? They got tired of, you know, like, for like, like $500 more. They can get a newer looking,"
+  },
+  {
+    "text" : "you know, property or newer looking, you know, conduct. So that's what they did. So I lost that"
+  },
+  {
+    "text" : "And that thing sat vacant for like a year and a half, okay?"
+  },
+  {
+    "text" : "Year and a half passes by and they're going to redo the carpet in all the floors, okay?"
+  },
+  {
+    "text" : "And every unit was, you know, was stuck with the bill for $30,000."
+  },
+  {
+    "text" : "Okay, see, I was not feeling good, brother, okay?"
+  },
+  {
+    "text" : "So what I ended up doing was that, um, my brother, uh, worked at Samsung, the headquarters"
+  },
+  {
+    "text" : "in Korea, okay?"
+  },
+  {
+    "text" : "He was the vice president of the actuarial department back out there."
+  },
+  {
+    "text" : "And they were sending a lot of actuaries to the Samsung office in New York."
+  },
+  {
+    "text" : "And they were looking for like short-term or long-term leases like that."
+  },
+  {
+    "text" : "And I ultimately found this guy through my brother who was coming here,"
+  },
+  {
+    "text" : "not through Samsung actuarial side, not the insurer side, but Samsung Electronics."
+  },
+  {
+    "text" : "It was coming here for a year, okay?"
+  },
+  {
+    "text" : "And if he passes the year, he's going to get a long-term position in the United States."
+  },
+  {
+    "text" : "And what I did was that I sold that to him."
+  },
+  {
+    "text" : "I did a rent-to-own, okay, where we agreed on the price ahead of time."
+  },
+  {
+    "text" : "And, you know, I gave him my lease option where if he exercises that, you know, option,"
+  },
+  {
+    "text" : "that he's going to buy it at a fixed price."
+  },
+  {
+    "text" : "That's going to be a little bit lower than the market price there."
+  },
+  {
+    "text" : "So a year comes by and he didn't get the full-time offer,"
+  },
+  {
+    "text" : "but he still wants to stay there for another."
+  },
+  {
+    "text" : "So I renewed that with another option fee."
+  },
+  {
+    "text" : "And all this stuff, Steve, was all this stuff was basically paying the bill there."
+  },
+  {
+    "text" : "Real estate taxes there are like $40,000 a year."
+  },
+  {
+    "text" : "So, you know, what was happening with this guy here was just, you know,"
+  },
+  {
+    "text" : "keeping me afloat, you know, breaking even on there."
+  },
+  {
+    "text" : "And then, you know, I ultimately exercised the option."
+  },
+  {
+    "text" : "And I ended up making small change."
+  },
+  {
+    "text" : "But, you know, given the time that how much money went into."
+  },
+  {
+    "text" : "into the house and how long I held it for and the aggravation that I got it for okay um it just did not"
+  },
+  {
+    "text" : "it didn't equal the amount of money that I made on that now funny thing was three years later"
+  },
+  {
+    "text" : "after I sold that that doubled in value okay so talk about a kick in the ass right uh it doubled on"
+  },
+  {
+    "text" : "there I would have gotten like $800,000 for that house okay the reason why is the reason why"
+  },
+  {
+    "text" : "on the uptake, my thing was"
+  },
+  {
+    "text" : "the sound is because right in that"
+  },
+  {
+    "text" : "area, they were building brand new"
+  },
+  {
+    "text" : "condos, okay? They were building"
+  },
+  {
+    "text" : "brand new freaking condos, and"
+  },
+  {
+    "text" : "they were filling up. People wanted"
+  },
+  {
+    "text" : "to buy that, not my stuff,"
+  },
+  {
+    "text" : "okay? And after those"
+  },
+  {
+    "text" : "brand new condos filled up, that"
+  },
+  {
+    "text" : "raised the value of the condo price,"
+  },
+  {
+    "text" : "and then they had no other condos to"
+  },
+  {
+    "text" : "buy, and they were buying properties like me."
+  },
+  {
+    "text" : "So if I stuck it up for three more years,"
+  },
+  {
+    "text" : "you know, I would have gotten a number that I was looking for,"
+  },
+  {
+    "text" : "but in hindsight,"
+  },
+  {
+    "text" : "I look at this, and this is the point that I make it to you, Steve, right?"
+  },
+  {
+    "text" : "You know, there's one issue is that, you know, you're going through, you know,"
+  },
+  {
+    "text" : "life situation where you and your wife are, you know, parting ways."
+  },
+  {
+    "text" : "And, you know, obviously it seems something that, you know,"
+  },
+  {
+    "text" : "that you want to take care of ASAP, you know, to do."
+  },
+  {
+    "text" : "And secondly is that this is going to be thorn, you know, you know,"
+  },
+  {
+    "text" : "it would be like that's going to keep, like, rubbing on you and tell, like, you know,"
+  },
+  {
+    "text" : "it is finally it exhausts you okay and what I'm saying here is that where it's going to exhaust you"
+  },
+  {
+    "text" : "where it's going to take it to is the numbers that I'm mentioning right now okay and before you go through"
+  },
+  {
+    "text" : "another you know a couple months of you know you know the you know the pain and a as part of the"
+  },
+  {
+    "text" : "difficulty of you know going through this on here what I really think it makes sense in my opinion"
+  },
+  {
+    "text" : "and I'm no real estate agent or anything like that this is just from a standpoint of from a real estate"
+  },
+  {
+    "text" : "you know, investor and the problem that I went through when I bought that, you know, condo"
+  },
+  {
+    "text" : "Fort Lee is that it's a situation where, you know, that it's just better to get that number"
+  },
+  {
+    "text" : "low to sell this and as is condition, okay, and, you know, and someone's going to come in and"
+  },
+  {
+    "text" : "it's going to incentivize for a homeowner to buy this property, you know, that they feel the value"
+  },
+  {
+    "text" : "of, you know, putting sweat equity in here to build this house up to a nice,"
+  },
+  {
+    "text" : "property on here. I think that's the best situation on here. What I would think that, you know,"
+  },
+  {
+    "text" : "what I would recommend is this, okay, I would change your agent, okay? The only reason I say that"
+  },
+  {
+    "text" : "is because you don't want an agent that's tied to your wife as well and then keep going back"
+  },
+  {
+    "text" : "and forth and causes a friction on that. Okay. I think, you know, I mean, if you need an agent,"
+  },
+  {
+    "text" : "I have a kick-ass agent out there. I mean, he's a fucking hustler. And I think he'll tell you the same"
+  },
+  {
+    "text" : "kind of thing that I would basically tell you."
+  },
+  {
+    "text" : "But my point is, is that, you know, hey, what is that number that, you know, that, yeah,"
+  },
+  {
+    "text" : "it sucks."
+  },
+  {
+    "text" : "It's not the number that you want, but what is that number that you can deal with to say,"
+  },
+  {
+    "text" : "hey, it's a low number."
+  },
+  {
+    "text" : "I don't like it, but it gets me off the burden of having this on my bag that's going"
+  },
+  {
+    "text" : "to constantly cause friction between, you know, my wife and I and parting away and"
+  },
+  {
+    "text" : "starting a new champion in our life."
+  },
+  {
+    "text" : "I think that's the best situation to do, Steve."
+  },
+  {
+    "text" : "I agree with you."
+  },
+  {
+    "text" : "I agree with you across the board from the realtor to and, you know, she's done okay,"
+  },
+  {
+    "text" : "but it's all the things that you said, the alignment, you know, it's just getting a clean,"
+  },
+  {
+    "text" : "fresh, you know, person to grab their hands around it, put it out of a number as is is critical."
+  },
+  {
+    "text" : "What would you market it?"
+  },
+  {
+    "text" : "What would be, you know, A, let me get that number."
+  },
+  {
+    "text" : "please and introduce, I would love to, I made a couple calls today, but if you could please"
+  },
+  {
+    "text" : "make that introduction. But what do you think that number is? And really, for me, the pain is"
+  },
+  {
+    "text" : "so great. And for Melissa, the pain is so great to be hanging on to this. And it's greater for"
+  },
+  {
+    "text" : "me because I'm paying the bill. But, you know, in six months from now, if I accept 375, I'm going to, you"
+  },
+  {
+    "text" : "know, right now, I've already been listening it for 210 days. We should have listed it at 400, six"
+  },
+  {
+    "text" : "months ago, you know, because, you know, and so, um, I can't. You know, and so, um, I can't, you know,"
+  },
+  {
+    "text" : "can't sustain another six months or of paying this mortgage. And so you can't make this mistake again"
+  },
+  {
+    "text" : "if you look at it as six months batches here. So reduce it. And as long as I'm not, you know,"
+  },
+  {
+    "text" : "making money on this is not my prerogative. Of course it'd be nice. But as long as I'm not"
+  },
+  {
+    "text" : "cutting a check to get out. Right. That's that's the worst. That's the worst case scenario. And so"
+  },
+  {
+    "text" : "so Steve, let me let me run some analysis on this. Okay. And you know, I might even"
+  },
+  {
+    "text" : "even say, hey, you know, let me make a wholesale offer on here, okay?"
+  },
+  {
+    "text" : "Because I have a lot of like, you know, and Steve, okay, this is not me being political"
+  },
+  {
+    "text" : "and credit. I'm just being very matter of fact here. I'm Korean, okay? But listen, I don't really"
+  },
+  {
+    "text" : "do well with Asian community, okay? Like, they don't see me as an Asian, okay? Like, they just,"
+  },
+  {
+    "text" : "I don't know. They just don't accept me as an Asian. It is what it is, okay? But I do have a lot"
+  },
+  {
+    "text" : "of Asian buyers that want to buy, like, they got, they just got freaking money, man, okay?"
+  },
+  {
+    "text" : "And they just sit on money."
+  },
+  {
+    "text" : "And they want to live in a house, okay?"
+  },
+  {
+    "text" : "And I can try to, like, work something out with them so that, you know, we can, you know,"
+  },
+  {
+    "text" : "do a sell, you know, for sale by owner without an agent."
+  },
+  {
+    "text" : "They don't have to pay the agent fee."
+  },
+  {
+    "text" : "But, you know, I can try to, like, make a thousand bucks for marketing or whatever"
+  },
+  {
+    "text" : "and stuff like that."
+  },
+  {
+    "text" : "I don't know what my fee would be."
+  },
+  {
+    "text" : "But, please."
+  },
+  {
+    "text" : "But, yeah, at least from this point on here, you know, you know,"
+  },
+  {
+    "text" : "know, let me, you know, and Steve,"
+  },
+  {
+    "text" : "you know, like I wouldn't, like, you, I wouldn't treat you as like a seller where,"
+  },
+  {
+    "text" : "you know, I'm trying to get this thing as low as possible to my wholesale fees,"
+  },
+  {
+    "text" : "but I wouldn't do that."
+  },
+  {
+    "text" : "I would just be very, you know, up front of you."
+  },
+  {
+    "text" : "It's just like, Steve, I think this is the number that it's going to sell that."
+  },
+  {
+    "text" : "Okay."
+  },
+  {
+    "text" : "If you're going to let me wholesale it."
+  },
+  {
+    "text" : "Okay, I probably would market a business."
+  },
+  {
+    "text" : "This is what I would try to make off of that."
+  },
+  {
+    "text" : "I would just totally disclose that to you, okay?"
+  },
+  {
+    "text" : "I mean, I think it's just a fair situation to do that, you know?"
+  },
+  {
+    "text" : "And let me run that analysis on there."
+  },
+  {
+    "text" : "But I think, you know, given the circumstances on here, I think it's like one of the such a situation."
+  },
+  {
+    "text" : "And, you know, as a wholesaler, you know, when you're dealing with like an abundance of like, you know, I see this stuff situation a lot, even on a smaller scale, even on a small rinky dick like $150,000 house where like, you know, you know, two people got, you know, together and they got married and, you know, whether it's the wife or the husband puts up the, you know, the, you know, to purchase the price."
+  },
+  {
+    "text" : "And it's so ironic."
+  },
+  {
+    "text" : "And I'm not saying that, you know, wife is like this."
+  },
+  {
+    "text" : "That's not when I'm insinuating."
+  },
+  {
+    "text" : "But it seems to me that the person who has the, like, the least amount of money is the one that wants to get the most amount out of the money."
+  },
+  {
+    "text" : "Right."
+  },
+  {
+    "text" : "And they're the one who's going to, you know, they're going to be the one that's going to be yelling the most saying, you know, the agents of this, agents of that."
+  },
+  {
+    "text" : "You know, my dad knows this, you know, neighbor who the neighbors, you know, veterans."
+  },
+  {
+    "text" : "veterinarians, wife's cousins, you know, family member, cousins, nephews."
+  },
+  {
+    "text" : "It's a real estate agent."
+  },
+  {
+    "text" : "He's a top broker."
+  },
+  {
+    "text" : "And they said you can get this."
+  },
+  {
+    "text" : "What would you sell?"
+  },
+  {
+    "text" : "They're the one who makes the most noise on here."
+  },
+  {
+    "text" : "Okay."
+  },
+  {
+    "text" : "So the key critical thing that I'm trying to say to is that all the way through your ex-wife, okay, is going to be saying,"
+  },
+  {
+    "text" : "why the hell are you selling it for this?"
+  },
+  {
+    "text" : "She wouldn't even say that if you got an offer for 433."
+  },
+  {
+    "text" : "She would be saying, like, well, then you should count."
+  },
+  {
+    "text" : "counter at, you know, 440, okay?"
+  },
+  {
+    "text" : "If you got an offer for 440, she would say, like, well, we should try to get 450."
+  },
+  {
+    "text" : "It's just one of those situations, right?"
+  },
+  {
+    "text" : "So either way, in any way that you did this, you would never, never, you know, in my,"
+  },
+  {
+    "text" : "no, without even knowing your wife at all, okay, just through the experience of things that I've seen,"
+  },
+  {
+    "text" : "that you would never appease to your wife and what she wants to get,"
+  },
+  {
+    "text" : "because ultimately, she wants to get as much as that she can possibly get,"
+  },
+  {
+    "text" : "And her decision process is not on actual factual things."
+  },
+  {
+    "text" : "It's upon, you know, greed is basically what it is to get the most money to put it in the pocket"
+  },
+  {
+    "text" : "so that, you know, when you guys part ways, you know, her wallet is padded as much as possible on there."
+  },
+  {
+    "text" : "Okay."
+  },
+  {
+    "text" : "And, you know, I'm not saying that, you know, she's being green."
+  },
+  {
+    "text" : "Or I'm not saying your wife is like this or anything like that."
+  },
+  {
+    "text" : "It's just, you know, just how humans are when they, you know, end the chapter and the life"
+  },
+  {
+    "text" : "and they want to move on."
+  },
+  {
+    "text" : "And it just seems to be the, you know, the profile of how things go."
+  },
+  {
+    "text" : "But given the situation on here, I think, you know, what the main point that I'm making here is that this is a pain point that you just don't want to be in anymore because the longer that you're in it, hoping that you're going to get closer to a desired number of a property, there's other issues that's going to keep naving at you."
+  },
+  {
+    "text" : "And it's just going to be, you know, it's just going to drive you crazy even more."
+  },
+  {
+    "text" : "And you have to say, hey, what is that point that I'm not willing to put up with on here?"
+  },
+  {
+    "text" : "Okay."
+  },
+  {
+    "text" : "What is that point that I need to move on and just, you know, I have a first start with my life on here, you know?"
+  },
+  {
+    "text" : "And I think that's what it is."
+  },
+  {
+    "text" : "And it doesn't mean to say that, you know, someone's naive or, you know,"
+  },
+  {
+    "text" : "someone's, you know, less aggressive or somebody's just, you know, letting, you know, their respect."
+  },
+  {
+    "text" : "They're not, it's not like that at all."
+  },
+  {
+    "text" : "It's just about moving on to a new chapter, man, you know."
+  },
+  {
+    "text" : "you know, like, I can tell you about, you know, I can tell you about a rehab property that,"
+  },
+  {
+    "text" : "uh, that I did, you know, and I'm very conservative, you know, when I do rehab,"
+  },
+  {
+    "text" : "it's a fair conservative, meaning that, you know, um, you know, I, you know, I make my profit"
+  },
+  {
+    "text" : "mortgage small. I blowed up my repair cost so that, you know, the number that I'm looking"
+  },
+  {
+    "text" : "at is a small profit number. But if I'm wrong, I'm making a bigger profit. And that's"
+  },
+  {
+    "text" : "how I kind of go into, uh, you know, rehab. And there's one property that I, you know, that, you"
+  },
+  {
+    "text" : "that I rehabbed on here."
+  },
+  {
+    "text" : "Steve, the pain point was"
+  },
+  {
+    "text" : "that fucking thing, man,"
+  },
+  {
+    "text" : "that was just driving me"
+  },
+  {
+    "text" : "insane on here, okay?"
+  },
+  {
+    "text" : "And at end of the day,"
+  },
+  {
+    "text" : "I made a profit of 700 bucks."
+  },
+  {
+    "text" : "Okay, 700 bucks after a rehab on that, okay?"
+  },
+  {
+    "text" : "But for me,"
+  },
+  {
+    "text" : "it was like, you know what something?"
+  },
+  {
+    "text" : "Clearly, there were things on that rehab"
+  },
+  {
+    "text" : "that I would never, ever do that again."
+  },
+  {
+    "text" : "I would never do a remote rehab again."
+  },
+  {
+    "text" : "If I were to do it, you know, there's a lot more, you know,"
+  },
+  {
+    "text" : "check the balances and controls that I need to put in there."
+  },
+  {
+    "text" : "But it was worth it for me."
+  },
+  {
+    "text" : "As long as I'm not, just like you said,"
+  },
+  {
+    "text" : "as long as I'm not running a check to sell that house,"
+  },
+  {
+    "text" : "I was okay, letting Matt go, okay?"
+  },
+  {
+    "text" : "So my greatest two, you know, pain point in my real estate investing career"
+  },
+  {
+    "text" : "is that Fort Lee property in a Winston drive, okay?"
+  },
+  {
+    "text" : "And that remote, you know, rehab that I did."
+  },
+  {
+    "text" : "And, you know, it's like these are one of those things when you look back five years from now, you're like, you know, I don't mind letting that property go for what I let go on here."
+  },
+  {
+    "text" : "I don't mind that I have a, you know, a clean sense of mind that I don't have to worry about."
+  },
+  {
+    "text" : "But, you know, you start to collect and say, and, you know, Steve, you know, one thing that I knew about you, you're very articulate, okay?"
+  },
+  {
+    "text" : "You speak, like, very well."
+  },
+  {
+    "text" : "And your intelligence level, man, is very, very high."
+  },
+  {
+    "text" : "Even when, no, like when I was teaching you thing, you just collected information."
+  },
+  {
+    "text" : "And I love how you collect the information that I gave you."
+  },
+  {
+    "text" : "And you could express that back, you know, telling me that you understood exactly what I was talking about."
+  },
+  {
+    "text" : "And you have that level intelligence."
+  },
+  {
+    "text" : "And I think it's going to be one of those things to say, hey, you don't want something?"
+  },
+  {
+    "text" : "This is what I got out of that."
+  },
+  {
+    "text" : "This is what I need to get out of it five years from now."
+  },
+  {
+    "text" : "And I think you're going to walk away with this shit and realizing that, hey, it's a very, you know, good experience."
+  },
+  {
+    "text" : "Would I learn out of that?"
+  },
+  {
+    "text" : "Do I wish that I go through?"
+  },
+  {
+    "text" : "But again, absolutely not, okay?"
+  },
+  {
+    "text" : "But I think that's where you're going to be at with the chapter of life."
+  },
+  {
+    "text" : "And I think you said it best, again, you just don't want to be in a situation where you have to write a check to, you know, sell the house on here."
+  },
+  {
+    "text" : "So I'll run some analysis, you know, on this property on here."
+  },
+  {
+    "text" : "But, you know, the question that you really have to ask is, is that way you're at that you don't want to write a check?"
+  },
+  {
+    "text" : "to sell the house or is there a price point that you're you want to see it i mean you know i mean"
+  },
+  {
+    "text" : "you know realistically is what i'm trying to say i mean we want to get you know highest amount of money"
+  },
+  {
+    "text" : "possible for this property on here but you know um you know let me see what we know what"
+  },
+  {
+    "text" : "other things that we can even if i try to wholesale and stuff like that you know let me see you know"
+  },
+  {
+    "text" : "what we can make out of this on here and i'm glad to you know i'll be more than happy to help you"
+  },
+  {
+    "text" : "as much as possible yeah i'll hold back on you know throwing out numbers for now obviously"
+  },
+  {
+    "text" : "money is better for this situation than not."
+  },
+  {
+    "text" : "And it's interesting to get this advice from you,"
+  },
+  {
+    "text" : "which is phenomenal advice."
+  },
+  {
+    "text" : "But then if you run an analysis also to work together."
+  },
+  {
+    "text" : "But I think because of our past together,"
+  },
+  {
+    "text" : "and I think because of how things kind of fell apart."
+  },
+  {
+    "text" : "But with the investment that was made in this,"
+  },
+  {
+    "text" : "even the time spent with you learned so much."
+  },
+  {
+    "text" : "I'd like to work together."
+  },
+  {
+    "text" : "I have full trust in you, Kyle."
+  },
+  {
+    "text" : "Just like you said,"
+  },
+  {
+    "text" : "you're going to bring me the numbers of different situations, but my kimona's open, right?"
+  },
+  {
+    "text" : "And so work with me and make some money and just be, as I would expect, transparent with the numbers."
+  },
+  {
+    "text" : "And then I won't have any concern."
+  },
+  {
+    "text" : "It's a blessing just to hear this advice."
+  },
+  {
+    "text" : "You articulated that so well, and I connected with so much of it, and you reinforced what my gut is on this."
+  },
+  {
+    "text" : "So I'm going to, my cards right now are on the table."
+  },
+  {
+    "text" : "And I'm going to pause."
+  },
+  {
+    "text" : "Well, I'll talk to that realtor."
+  },
+  {
+    "text" : "You know, I'll keep things moving until I hear from you."
+  },
+  {
+    "text" : "But what are the next steps?"
+  },
+  {
+    "text" : "Because I'm in action mode here."
+  },
+  {
+    "text" : "So what do you suggest?"
+  },
+  {
+    "text" : "So first off, I think, you know, and this is me telling you as a friend,"
+  },
+  {
+    "text" : "not as an investor, okay?"
+  },
+  {
+    "text" : "So this isn't a professional opinion because it's technical,"
+  },
+  {
+    "text" : "unethical because I'm not a licensed agent, okay?"
+  },
+  {
+    "text" : "But as a friend, I fire that realtor."
+  },
+  {
+    "text" : "Okay."
+  },
+  {
+    "text" : "She can't get an offer this long."
+  },
+  {
+    "text" : "And she's going back and forth with $1,000 because she wants to reset the logarithm."
+  },
+  {
+    "text" : "But come on."
+  },
+  {
+    "text" : "That's just, that's just, you know, I mean, after 60 days, she should have said, Steve, and going to your wife and say, let's have a hard-to-hard talk on here."
+  },
+  {
+    "text" : "Do you want to sell this house or not?"
+  },
+  {
+    "text" : "Okay."
+  },
+  {
+    "text" : "Clearly, these are the reasons that we've gotten back that, you know, people aren't interested on here."
+  },
+  {
+    "text" : "Okay."
+  },
+  {
+    "text" : "This is what the market's doing on here."
+  },
+  {
+    "text" : "These houses are selling in 30 days."
+  },
+  {
+    "text" : "And this is what these houses look like within 30 days."
+  },
+  {
+    "text" : "These are the houses that's not selling."
+  },
+  {
+    "text" : "This is how long it's taking."
+  },
+  {
+    "text" : "Here's where your property's at."
+  },
+  {
+    "text" : "You know what motivates people?"
+  },
+  {
+    "text" : "It's the price."
+  },
+  {
+    "text" : "We need to down that price."
+  },
+  {
+    "text" : "She should have been very real with you, you know."
+  },
+  {
+    "text" : "But there was a lot of shit that was going on with the real estate agent,"
+  },
+  {
+    "text" : "with their commission stuff like that."
+  },
+  {
+    "text" : "And something kind of got weird about it and, you know,"
+  },
+  {
+    "text" : "and all that kind of stuff, you know."
+  },
+  {
+    "text" : "But, you know, the point that, you know, that I'm making here is that I think you need another agent"
+  },
+  {
+    "text" : "if that's the angle that we go."
+  },
+  {
+    "text" : "So we can always find an agent with that, right?"
+  },
+  {
+    "text" : "I mean, that's the easiest part, right?"
+  },
+  {
+    "text" : "So letting this agent go when you know that she's not qualified to work with you,"
+  },
+  {
+    "text" : "I think that's the first second, okay?"
+  },
+  {
+    "text" : "In between that time, let me see what I could do as a wholesaler, okay, as an investor, okay,"
+  },
+  {
+    "text" : "and see if we can drive something up there, okay?"
+  },
+  {
+    "text" : "And if we can't, then I'm going to introduce you to a kick-ass real estate agent who's going to be fair."
+  },
+  {
+    "text" : "And when I say kick-ass, this is what I mean."
+  },
+  {
+    "text" : "You know, kick-ass real estate agents are real estate agents that find miracle and pull things out of their ass."
+  },
+  {
+    "text" : "KKS real estate agents are the ones that are very realistic and say the things that you don't,"
+  },
+  {
+    "text" : "the client doesn't want to hear,"
+  },
+  {
+    "text" : "but it's going to get that house sold, right?"
+  },
+  {
+    "text" : "So like,"
+  },
+  {
+    "text" : "like my doctor was so funny because right around the time that I met you, right?"
+  },
+  {
+    "text" : "Like I remember going to,"
+  },
+  {
+    "text" : "going to my doctor and I had this like awesome doctor, right?"
+  },
+  {
+    "text" : "And I,"
+  },
+  {
+    "text" : "and he's like,"
+  },
+  {
+    "text" : "you know,"
+  },
+  {
+    "text" : "with this blood exams and just doing my age check thing,"
+  },
+  {
+    "text" : "whatever."
+  },
+  {
+    "text" : "And my cholesterol kind of came in high, right?"
+  },
+  {
+    "text" : "It's like,"
+  },
+  {
+    "text" : "right in a meeting we're supposed to be,"
+  },
+  {
+    "text" : "but it's the highest side."
+  },
+  {
+    "text" : "So I go,"
+  },
+  {
+    "text" : "so,"
+  },
+  {
+    "text" : "Are you going to give me some cholesterol medicine or what?"
+  },
+  {
+    "text" : "And he goes like, no, man."
+  },
+  {
+    "text" : "Go exercise and lose some weight, right?"
+  },
+  {
+    "text" : "And I'm like, oh, I'm like, oh, my bad, right?"
+  },
+  {
+    "text" : "But then I realized that that's the right answer"
+  },
+  {
+    "text" : "instead of him just running a script."
+  },
+  {
+    "text" : "In the same sense on here, you know, this, you know,"
+  },
+  {
+    "text" : "this, you know, Chuck is going to be like, hey, you know, Steve,"
+  },
+  {
+    "text" : "this is where we're at on here."
+  },
+  {
+    "text" : "Do you want to sell this thing or not, you know,"
+  },
+  {
+    "text" : "and, you know, Kyle tried to do his piece and it's not working,"
+  },
+  {
+    "text" : "but this is where we need to be at and this is how it's going to go."
+  },
+  {
+    "text" : "And let me see what, you know,"
+  },
+  {
+    "text" : "what we can make that happen on here, you know?"
+  },
+  {
+    "text" : "And if he's not able to do it, he'll find you a very good agent that, you know, is able to deliver something that he may not be able to do."
+  },
+  {
+    "text" : "So that's what a good agent is supposed."
+  },
+  {
+    "text" : "And that's what I mean by a kick-as agent."
+  },
+  {
+    "text" : "Does that make sense?"
+  },
+  {
+    "text" : "Yes, that's 100%."
+  },
+  {
+    "text" : "So I will, I can feel good about, you know, making this move within the next couple days."
+  },
+  {
+    "text" : "And I'll hear from you in the next couple days."
+  },
+  {
+    "text" : "Yes, yes."
+  },
+  {
+    "text" : "Okay."
+  },
+  {
+    "text" : "Steve, let's just catch up, bro."
+  },
+  {
+    "text" : "Come on, man."
+  },
+  {
+    "text" : "What the fuck?"
+  },
+  {
+    "text" : "Let's just catch up."
+  },
+  {
+    "text" : "That's good to see you, man."
+  },
+  {
+    "text" : "I don't know."
+  },
+  {
+    "text" : "This is really nice."
+  },
+  {
+    "text" : "I got to tell you, man."
+  },
+  {
+    "text" : "I'm on an island right now, just in the middle of Maryland and just been trying to, you know, it's, I feel lighter just hearing you go through this."
+  },
+  {
+    "text" : "Thank you so much, you know, I'll let you go."
+  },
+  {
+    "text" : "Absolutely."
+  },
+  {
+    "text" : "But, but thank you, man."
+  },
+  {
+    "text" : "To call me back so fast, man, like, I feel like I have hope in this."
+  },
+  {
+    "text" : "And so, you know, and no pressure on that, too."
+  },
+  {
+    "text" : "be, you know, but at least, you know, I'll see it through a different lens and I'll have"
+  },
+  {
+    "text" : "direction where right now I feel like I'm losing and there's, this could keep going on forever."
+  },
+  {
+    "text" : "It's a very unsettling feeling up until now."
+  },
+  {
+    "text" : "Like I really feel it just popped to my mind to call you and I was like, that's it."
+  },
+  {
+    "text" : "Like, you know, Kyle."
+  },
+  {
+    "text" : "Like, so thank you very much."
+  },
+  {
+    "text" : "And I'll make moves, but kind of tread water."
+  },
+  {
+    "text" : "And, but, you know, let's think if I don't hear from."
+  },
+  {
+    "text" : "from you tomorrow we know sing up the next day i'll reach out to you yeah so tomorrow's"
+  },
+  {
+    "text" : "wednesday at the ladies still hear from me by friday okay um but you know like listen you know"
+  },
+  {
+    "text" : "when you signed up with me i told you to lifelong relationship you know as long as i'm on"
+  },
+  {
+    "text" : "it's a lifelong relationship yeah i mentioned that in the voicemail yeah remember and and you know"
+  },
+  {
+    "text" : "especially you being in the ai industry on here okay marketing for wholesale deals has so changed"
+  },
+  {
+    "text" : "vastly okay we need to revisit that with you"
+  },
+  {
+    "text" : "You know, like, you know, we'll talk about that secondary, but, you know, we need to revisit that conversation there."
+  },
+  {
+    "text" : "Because, I mean, for someone like you, man, you have so many talents, right?"
+  },
+  {
+    "text" : "And one of the things that, and I don't know if I said this to you when you first signed up is I love mentoring people that are smarter than I because they do better than me, right?"
+  },
+  {
+    "text" : "That's where my mentor becomes fun, right?"
+  },
+  {
+    "text" : "And you just come with such a high intelligence, you know, and for me, I learned from people like that as well."
+  },
+  {
+    "text" : "And, you know, it doesn't actually have to be about real estate, but in just some different angles, you know."
+  },
+  {
+    "text" : "So, you know, that's a conversation that we definitely have to, you know, I'll pick up again and talk about on here."
+  },
+  {
+    "text" : "But, you know, with regarding this on here, I'll call you no later number by Friday, and then we'll take the next step after that."
+  },
+  {
+    "text" : "All right."
+  },
+  {
+    "text" : "Kyle, thank you."
+  },
+  {
+    "text" : "You bet."
+  },
+  {
+    "text" : "You bet. Enjoy your evening."
+  },
+  {
+    "text" : "I'll talk to you soon."
+  },
+  {
+    "text" : "Thanks, Carl."
+  },
+  {
+    "text" : "See ya."
+  },
+  {
+    "text" : "Okay."
+  },
+  {
+    "text" : "All right."
+  },
+  {
+    "text" : "Bye-bye."
+  }
+]

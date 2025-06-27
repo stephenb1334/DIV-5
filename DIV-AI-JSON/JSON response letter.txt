@@ -1,0 +1,197 @@
+{
+  "caseName": "Boerner v. Bemer",
+  "documentType": "Response Letter",
+  "lastUpdated": "2025-04-16T00:00:00Z",
+  "version": "1.0",
+  "dateFormat": "ISO 8601 (UTC)",
+  "requiredFields": ["sectionNumber", "sectionTitle", "summary", "details", "actionItems", "status", "urgency", "relevantAgents"],
+  "executiveSummary": "This letter responds to correspondence dated March 21 and April 15, 2025, addressing issues related to the marital property at 246 N. 3rd Street, Unit 4CD, Philadelphia, PA. It outlines Mr. Boerner’s position on listing price, HOA fees, mortgage payments, cryptocurrency accounting, and realtor choice, supported by factual evidence and Pennsylvania law. The letter proposes court intervention to allocate expenses equitably and recognize Mr. Boerner’s significant contributions.",
+  "recipient": {
+    "name": "Carolyn R. Mirabile, Esquire",
+    "firm": "[Law Firm Name]",
+    "address": "[Address]"
+  },
+  "sender": {
+    "name": "Maria Testa, Esquire",
+    "firm": "Testa & Pagnanelli, LLC"
+  },
+  "sections": [
+    {
+      "sectionNumber": 1,
+      "sectionTitle": "Response to March 21, 2025 Email - Listing Price",
+      "summary": "Ms. Bemer’s claim that the $399,000 listing price is below market value is unsupported and contradicts the mutual agreement.",
+      "details": [
+        "Property initially listed at $425,000 on July 22, 2024, with Kurfiss Sotheby’s.",
+        "No offers after 240+ days, leading to a price reduction to $399,000 on March 15, 2025, with BHHS Fox & Roach.",
+        "Both parties signed the listing agreement for $399,000.",
+        "Price aligns with Old City market trends: 15% condo price decline since Q3 2024 (Redfin MLS data).",
+        "Comparable sales: $352,500 (315 Arch St, Jan 24, 2025), $620,000 (113 N Bread St, Jan 21, 2025)."
+      ],
+      "actionItems": ["Request Ms. Bemer provide appraisal or comparable sales data to support undervaluation claim"],
+      "status": "Pending Ms. Bemer’s Substantiation",
+      "urgency": "High",
+      "legalBasis": "23 Pa.C.S. § 3502(a)(10.2) - Expenses for Marital Property Sale; Robert v. Martin (2024)",
+      "evidenceSupport": ["Philadelphia MLS Data (Redfin)", "Signed Listing Agreement (March 15, 2025)", "Comparable Sales Records"],
+      "relevantAgents": ["Legal", "Real Estate"]
+    },
+    {
+      "sectionNumber": 2,
+      "sectionTitle": "Response to March 21, 2025 Email - HOA Fees",
+      "summary": "Ms. Bemer’s proposal to split $3,500 HOA fees equally ignores Mr. Boerner’s $40,200 contribution and financial incapacity.",
+      "details": [
+        "Mr. Boerner contributed $40,200 (Oct 2023–Mar 2025): $8,400 rental deficit, $19,800 carrying costs, $12,000 HVAC replacement.",
+        "Ms. Bemer contributed $7,000 (15% of total expenses).",
+        "Mr. Boerner disabled since June 12, 2024, with no income; Ms. Bemer employed as a nurse since Dec 2024."
+      ],
+      "actionItems": ["Propose court allocate HOA fees based on contributions and financial capacity"],
+      "status": "Pending Court Motion",
+      "urgency": "High",
+      "legalBasis": "23 Pa.C.S. § 3502(a)(7) - Preservation Contributions; 23 Pa.C.S. § 3502(a)(3) - Economic Circumstances; Biese v. Biese (2009)",
+      "evidenceSupport": ["Financial Contribution Table (Oct 2023–Mar 2025)", "Disability Documentation", "Ms. Bemer’s Employment Records"],
+      "relevantAgents": ["Legal", "Financial"]
+    },
+    {
+      "sectionNumber": 3,
+      "sectionTitle": "Response to March 21, 2025 Email - Mortgage Payments",
+      "summary": "Equally dividing mortgage payments is inequitable given Mr. Boerner’s $19,800 contribution and current disability.",
+      "details": [
+        "Mr. Boerner paid $19,800 in carrying costs, including mortgage, from Oct 2024–Mar 2025.",
+        "Secured $12,500 bridge loan (Jan 3, 2025), depleted by Mar 16, 2025.",
+        "Ms. Bemer contributed $0 since Oct 2024.",
+        "Mr. Boerner disabled; Ms. Bemer employed."
+      ],
+      "actionItems": ["Request court-ordered allocation of mortgage payments"],
+      "status": "Pending Court Motion",
+      "urgency": "Critical",
+      "legalBasis": "23 Pa.C.S. § 3502(a)(7) - Preservation Credits; 23 Pa.C.S. § 3502(a)(3) - Economic Circumstances; Duff v. Duff (1986)",
+      "evidenceSupport": ["Financial Records (Oct 2024–Mar 2025)", "Bridge Loan Agreement"],
+      "relevantAgents": ["Legal", "Financial"]
+    },
+    {
+      "sectionNumber": 4,
+      "sectionTitle": "Response to March 21, 2025 Email - Cryptocurrency Account",
+      "summary": "Mr. Boerner will provide a full accounting of the cryptocurrency account as part of discovery.",
+      "details": [
+        "Accounting to be furnished promptly via discovery channels.",
+        "Issue separate from property expenses and sale."
+      ],
+      "actionItems": ["Compile and submit cryptocurrency account details"],
+      "status": "In Progress",
+      "urgency": "Medium",
+      "legalBasis": "N/A",
+      "evidenceSupport": ["Cryptocurrency Account Records"],
+      "relevantAgents": ["Legal"]
+    },
+    {
+      "sectionNumber": 5,
+      "sectionTitle": "Response to March 21, 2025 Email - Confirmation of Future Payments",
+      "summary": "Mr. Boerner cannot confirm equal payment of future expenses due to financial incapacity.",
+      "details": [
+        "Funds exhausted after $12,500 bridge loan (depleted Mar 16, 2025).",
+        "Mr. Boerner disabled, no income; Ms. Bemer employed.",
+        "Equal division inequitable given contribution disparity."
+      ],
+      "actionItems": ["Propose court allocate future expenses equitably"],
+      "status": "Pending Court Motion",
+      "urgency": "High",
+      "legalBasis": "23 Pa.C.S. § 3502(a)(3) - Economic Circumstances",
+      "evidenceSupport": ["Financial Records", "Disability Documentation"],
+      "relevantAgents": ["Legal", "Financial"]
+    },
+    {
+      "sectionNumber": 6,
+      "sectionTitle": "Response to April 15, 2025 Email - Mortgage Payment",
+      "summary": "Mr. Boerner cannot match Ms. Bemer’s mortgage payment due to financial constraints, despite prior $19,800 contribution.",
+      "details": [
+        "Ms. Bemer deposited half the mortgage payment into shared account.",
+        "Mr. Boerner unable to contribute due to disability and depleted funds.",
+        "Prior contributions: $19,800 (Oct 2024–Mar 2025), $12,500 bridge loan."
+      ],
+      "actionItems": ["Request court intervention for equitable expense allocation"],
+      "status": "Pending Court Motion",
+      "urgency": "Critical",
+      "legalBasis": "23 Pa.C.S. § 3323(f) - Special Relief; 23 Pa.C.S. § 3502(a)(7) - Preservation Credits",
+      "evidenceSupport": ["Bank Records", "Bridge Loan Agreement", "Disability Documentation"],
+      "relevantAgents": ["Legal", "Financial"]
+    },
+    {
+      "sectionNumber": 7,
+      "sectionTitle": "Response to April 15, 2025 Email - Realtor Choice",
+      "summary": "Realtor selection was a mutual decision, not solely Mr. Boerner’s, aimed at expediting the sale.",
+      "details": [
+        "BHHS Fox & Roach selected via mutual agreement (signed Mar 15, 2025).",
+        "Transition from Kurfiss Sotheby’s to improve marketing after 240+ days without offers."
+      ],
+      "actionItems": ["N/A"],
+      "status": "Resolved",
+      "urgency": "Low",
+      "legalBasis": "23 Pa.C.S. § 3502 - Equitable Distribution; Middleton v. Middleton (2002)",
+      "evidenceSupport": ["Signed Listing Agreement (Mar 15, 2025)"],
+      "relevantAgents": ["Legal", "Real Estate"]
+    },
+    {
+      "sectionNumber": 8,
+      "sectionTitle": "Proposed Resolution",
+      "summary": "Court intervention is proposed to allocate expenses equitably and recognize Mr. Boerner’s contributions.",
+      "details": [
+        "Motion for special relief under 23 Pa.C.S. § 3323(f) to address foreclosure risk.",
+        "Seek equitable credit for Mr. Boerner’s $40,200 contribution, including $12,000 HVAC replacement.",
+        "Request interim expense allocation based on financial capacities."
+      ],
+      "actionItems": [
+        "File motion for special relief",
+        "Prepare evidence for equitable distribution credits",
+        "Negotiate interim expense allocation"
+      ],
+      "status": "Planned",
+      "urgency": "Critical",
+      "legalBasis": [
+        "23 Pa.C.S. § 3323(f) - Special Relief",
+        "23 Pa.C.S. § 3502(a)(3) - Economic Circumstances",
+        "23 Pa.C.S. § 3502(a)(7) - Preservation Contributions",
+        "Biese v. Biese (2009)",
+        "Duff v. Duff (1986)"
+      ],
+      "evidenceSupport": [
+        "Financial Contribution Table",
+        "HVAC Replacement Receipt",
+        "Disability Documentation",
+        "Ms. Bemer’s Employment Records"
+      ],
+      "relevantAgents": ["Legal", "Financial"]
+    },
+    {
+      "sectionNumber": 9,
+      "sectionTitle": "Documentation and Attachments",
+      "summary": "All claims are supported by documentation, to be submitted as exhibits.",
+      "details": [
+        "Evidence includes MLS data, financial records, signed agreements, and disability documentation.",
+        "Exhibits prepared for court submission."
+      ],
+      "actionItems": ["Compile and submit exhibits to court"],
+      "status": "Prepared",
+      "urgency": "Medium",
+      "evidenceSupport": [
+        "Philadelphia MLS Data (Redfin)",
+        "Financial Contribution Table",
+        "Signed Listing Agreement (Mar 15, 2025)",
+        "Bridge Loan Agreement",
+        "HVAC Replacement Receipt",
+        "Disability Documentation",
+        "Ms. Bemer’s Employment Records",
+        "Cryptocurrency Account Records"
+      ],
+      "attachments": [
+        {"name": "MLS Data", "file": "old_city_mls_data_2025.pdf"},
+        {"name": "Financial Records", "file": "boerner_contributions_2023_2025.csv"},
+        {"name": "Listing Agreement", "file": "bhhs_listing_agreement_2025.pdf"},
+        {"name": "Bridge Loan Agreement", "file": "bridge_loan_jan_2025.pdf"},
+        {"name": "HVAC Receipt", "file": "hvac_replacement_2023.pdf"},
+        {"name": "Disability Documentation", "file": "boerner_disability_2024.pdf"},
+        {"name": "Employment Records", "file": "bemer_employment_2024.pdf"},
+        {"name": "Cryptocurrency Records", "file": "crypto_account_2025.csv"}
+      ],
+      "relevantAgents": ["Legal"]
+    }
+  ]
+}

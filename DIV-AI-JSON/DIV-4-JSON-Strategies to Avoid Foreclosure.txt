@@ -1,0 +1,53 @@
+Strategies to Delay or Counter Foreclosure
+
+These strategies aim to either slow down the process or find a way to resolve the delinquency, potentially saving the home. Acting early is crucial.
+
+Engage Fully in Loss Mitigation (Required by Mr. Cooper):
+Respond Promptly: Answer calls and open mail from Mr. Cooper. Ignoring them speeds up the process.
+Submit a Complete Loss Mitigation Application: Request and submit a complete application for options like:
+Loan Modification: A permanent change to your loan terms (e.g., lower interest rate, extended term) to make payments affordable. This is often the best option to keep the home. Mr. Cooper cannot proceed with certain foreclosure milestones (like scheduling the sale) while a complete application submitted within specific timeframes is under review (dual-tracking rules).
+Forbearance: A temporary pause or reduction in payments. Buys time but doesn't solve the underlying issue unless your financial situation improves quickly.
+Repayment Plan: An agreement to pay your regular mortgage payment plus an extra amount over several months to catch up on the delinquency.
+Follow Up: Keep records of all communications and submissions. Follow up regularly on the status of your application.
+Utilize Pennsylvania Specific Rights and Programs:
+Act 6 / Act 91 Notice: Take this notice seriously when you receive it. Meet with a certified housing counselor within the 30-33 day window. They can help you understand your options and negotiate with Mr. Cooper.
+PHFA / HEMAP: Explore eligibility for assistance through the Pennsylvania Housing Finance Agency, including the Homeowners Emergency Mortgage Assistance Program (if funded and available). Applying can sometimes pause the foreclosure process.
+File a Formal Answer to the Foreclosure Complaint:
+Don't Ignore the Lawsuit: When served with the foreclosure complaint, do not ignore it. Failure to respond allows Mr. Cooper to get a default judgment much faster.
+Hire an Attorney: A foreclosure defense attorney can review the complaint for errors and file an Answer on your behalf.
+Raise Defenses: Potential defenses (if applicable) could include: improper service of the lawsuit, inaccurate accounting of payments/fees by Mr. Cooper, violations of federal laws (TILA, RESPA, FDCPA), failure to follow PA notice requirements (Act 6/91), predatory lending practices, etc. Filing an Answer forces the case into litigation, which significantly delays the process.
+File for Bankruptcy:
+Automatic Stay: Filing for Chapter 13 or Chapter 7 bankruptcy triggers an "automatic stay," which immediately halts the foreclosure process, including a scheduled Sheriff's Sale.
+Chapter 13: Allows you to propose a plan (typically 3-5 years) to catch up on the missed mortgage payments while resuming your regular monthly payments. This is often used to save a home.
+Chapter 7: While it stops the foreclosure temporarily, if you can't resume payments, Mr. Cooper will likely ask the court for permission ("relief from stay") to continue the foreclosure. However, Chapter 7 can discharge your personal liability for mortgage debt, which can prevent a deficiency judgment (see below).
+Strategies to Ensure Smallest Amount Out-of-Pocket
+
+The main out-of-pocket risk after losing the home is a deficiency judgment.
+
+What it is: If your home sells at the Sheriff's Sale for less than the total amount you owe (including loan balance, accrued interest, attorney fees, court costs, etc.), the difference is the "deficiency."
+Pennsylvania Law: Mr. Cooper can file a separate lawsuit after the foreclosure sale to get a deficiency judgment against you for this amount.
+Minimizing/Avoiding Deficiency:
+Negotiate a Waiver (Short Sale / Deed-in-Lieu): If keeping the home isn't feasible, try negotiating a Short Sale (selling for less than owed) or Deed-in-Lieu (giving the property back voluntarily). Crucially, negotiate for Mr. Cooper to waive their right to pursue a deficiency as part of the written agreement.
+Contest Fair Market Value (PA Specific): After the Sheriff's Sale, you have six months to petition the court to determine the property's fair market value at the time of the sale. If the court finds the value was higher than the sale price, the deficiency judgment can be reduced or eliminated.
+Bankruptcy (Chapter 7): Can discharge your personal liability for the debt, preventing a deficiency judgment.
+Loan Modification: Successfully modifying the loan avoids foreclosure and any potential deficiency.
+Consequences of Letting Foreclosure Occur Despite Ability to Pay ("Strategic Default")
+
+If you have the income to make payments (or regain that ability) but choose to let the foreclosure happen:
+
+Wage Garnishment / Mandated Payments:
+Deficiency Judgment is Key: Mr. Cooper cannot garnish wages or bank accounts just because you defaulted. They must first complete the foreclosure and then sue you separately for a deficiency judgment and win that case.
+Collection in PA: If Mr. Cooper obtains a deficiency judgment in Pennsylvania, they can use legal methods to collect:
+Bank Account Garnishment (Attachment): This is common. They can freeze and take funds from your bank accounts up to the judgment amount.
+Wage Garnishment: Pennsylvania law generally protects wages from garnishment for consumer debts like mortgage deficiencies. There are exceptions (e.g., for taxes, student loans, support orders, or if the judgment originated in a state allowing wage garnishment and was transferred to PA), but it's much less common for this type of debt than bank levies.
+Liens: They could place liens on other real estate you own in PA.
+No "Mandated Payments" outside of Judgment: They can't force you into a payment plan unless it's through a court order related to a deficiency judgment or a bankruptcy plan.
+Threats:
+Mr. Cooper and their authorized debt collectors must abide by the Fair Debt Collection Practices Act (FDCPA). They cannot harass you, make false statements, or threaten actions they cannot legally take (like wage garnishment if not permitted by PA law for that specific debt, or jail time).
+Jail Time:
+Absolutely NOT. Defaulting on a mortgage is a civil matter, not a criminal offense. You cannot be arrested or sent to jail for not paying your mortgage or for owing a deficiency judgment in the United States. Any threat of jail time is illegal.
+Other Major Consequences:
+Severe Credit Damage: A foreclosure is one of the most damaging events for your credit score, lasting for up to 7 years.
+Difficulty Renting: Landlords routinely check credit and may see the foreclosure, making it harder to find rental housing.
+Difficulty Getting Future Credit: Obtaining new mortgages, car loans, or even credit cards will be extremely difficult and expensive for many years.
+Potential Tax Liability: If Mr. Cooper eventually forgives part of the debt (e.g., writes off a deficiency they don't collect), the forgiven amount could potentially be treated as taxable income by the IRS, unless you qualify for an exclusion (like insolvency). Consult a tax advisor.

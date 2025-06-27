@@ -1,0 +1,159 @@
+{
+  "project_data": [
+    {
+      "source_file": "Condo_Decision_and_Financial_Summary.json",
+      "tasks": [
+        {
+          "task_id": "property_decision",
+          "description": "Final decision regarding the property at 246 N. 3rd St., Unit 4CD, Philadelphia, PA.",
+          "recipients": ["Melissa", "[Attorney's Name]"],
+          "author": "Stephen Boerner",
+          "decisions": [
+            {
+              "decision_type": "rental_listing_removal",
+              "effective_date": "immediately",
+              "reasoning": "No viable tenants, unsustainable costs, and financial strain."
+            },
+            {
+              "decision_type": "sale_price_adjustment",
+              "original_price": 433000,
+              "new_price": 399000,
+              "effective_date": "immediately",
+              "reasoning": "Ineffective price reduction strategy (17 showings in 212 days, no offers), need to attract buyers and expedite sale."
+            }
+          ]
+        },
+        {
+          "task_id": "realtor_notification",
+          "description": "Notification to Juliana Martel (real estate agent) about the property decision.",
+          "agent_name": "Juliana Martel",
+          "deadline": "3 weeks",
+          "deadline_condition": "Secure a formal offer in writing.",
+          "consequence": "Seek a replacement agent if no offer is received.",
+          "critique": [
+            "Minimal price reductions.",
+            "Reliance on MLS algorithms.",
+            "No substantial plan of action beyond incremental price reductions.",
+            "Lazy and ineffective approach."
+          ]
+        },
+        {
+          "task_id": "financial_summary",
+          "description": "Summary of fixed monthly costs and financial contributions.",
+          "fixed_monthly_costs": {
+            "breakdown": {
+              "mortgage_principal_and_interest": { "amount": 1770.98, "confirmed": true },
+              "escrow_taxes_and_insurance": { "amount": 723.15, "confirmed": true },
+              "hoa_fees": {
+                "unit_4c": { "amount": 351.08, "confirmed": true },
+                "unit_4d": { "amount": 461.75, "confirmed": true },
+                "total": { "amount": 812.83, "confirmed": true }
+              },
+              "peco_utilities": { "amount": 150.00, "confirmed": false, "note": "Estimated" },
+              "total_monthly_fixed_costs": { "amount": 3456.96, "confirmed": true }
+            }
+          },
+          "contributions": [
+            {
+              "contributor": "Melissa",
+              "location": "St. Petersburg, Florida",
+              "period": "July and August",
+              "expected_contribution": 4500,
+              "actual_contribution": 0,
+              "notes": "No contributions to rent."
+            },
+            {
+              "contributor": "Melissa",
+              "location": "Philadelphia, PA (246 N. 3rd St. Old City condo)",
+              "period": "October 2024 - March 2025",
+              "notes": "No contributions to mortgage payments."
+            },
+            {
+              "contributor": "Melissa",
+              "location": "St. Petersburg, Florida (10-month lease)",
+                "total_lease_cost": 45000,
+              "melissa_contribution": 7000,
+              "stephen_contribution": 38000,
+              "notes": "Melissa opted for a more expensive property ($4,500/month) than the alternative ($2,300/month)."
+            }
+          ],
+            "non_contributed_amount": {
+                "months": 6,
+                "monthly_cost": 3456.96,
+                "total" : 20741.76
+            }
+        },
+          {
+              "task_id": "realtor_ineffectiveness",
+              "description": "Details on realtor's ineffectiveness and misleading information.",
+              "realtor_name": "Juliana Martel",
+              "issues": [
+                  {
+                      "issue": "Misleading Terminology",
+                      "details": "Used 'condition' to explain lack of offers, suggesting property issues instead of price."
+                  },
+                  {
+                      "issue": "Misconception",
+                      "details": "Led Melissa to believe the property is not overpriced."
+                  },
+                  {
+                      "issue": "Consistent Feedback",
+                      "details": "Potential buyers consistently indicated the property is overpriced for its condition and has high HOA fees."
+                  },
+                  {
+                      "issue": "Lack of Proactive Effort",
+                      "details": "Ignorance and lack of proactive effort have hindered the sale."
+                  }
+              ],
+              "days_on_market": 215,
+              "feedback_summary": "Property is priced too high for its condition and has high HOA fees ($813/month) with no amenities other than two parking spots."
+          },
+        {
+          "task_id": "financial_impact",
+          "description": "Impact on credit and financial stability.",
+          "potential_consequences": [
+            "Inability to make financial contributions.",
+            "Collection actions.",
+            "Potential foreclosure.",
+            "Negative impact on credit scores."
+          ],
+          "personal_debt": {
+            "amount": 12500,
+            "purpose": "Cover mortgage payments for January, February, and March."
+          }
+        },
+        {
+          "task_id": "personal_health",
+          "description": "Personal and health considerations.",
+          "conditions": [
+            "PTSD",
+            "Anxiety",
+            "Depression",
+            "ADHD"
+          ],
+          "triggering_event": "Home invasion incident on March 26, 2024.",
+          "impact": "Severely impacted ability to generate income.",
+          "actions": "Applying for Social Security disability benefits."
+        },
+        {
+          "task_id": "additional_context",
+          "description": "Additional context and communication issues.",
+          "issues": [
+            {
+              "issue": "Blocked Communication",
+              "details": "Melissa blocked Stephen from shared joint Gmail account."
+            },
+            {
+              "issue": "Communication Through Attorney",
+              "details": "Melissa instructed Stephen to contact her attorney, adding to financial burden."
+            },
+            {
+              "issue": "Lack of Financial Involvement",
+              "details": "Melissa showed a lack of involvement in financial matters and understanding of property finances."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

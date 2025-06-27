@@ -1,0 +1,680 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DivorceDocument_PA_Delco_MaleRepresentation",
+  "type": "object",
+  "required": ["id", "case", "document", "workflow"],
+  "properties": {
+    "id": { "type": "string", "format": "uuid" },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "schema_version": { "type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+$" },
+        "processing_timestamp": { "type": "string", "format": "date-time" },
+        "source_hash": { "type": "string", "pattern": "^[A-Fa-f0-9]{64}$" },
+        "processing_metrics": {
+          "type": "object",
+          "properties": {
+            "confidence_score": { "type": "number", "minimum": 0, "maximum": 1 },
+            "processing_time_ms": { "type": "integer", "minimum": 0 },
+            "extraction_method": { "type": "string", "enum": ["ocr", "direct_text", "pdf_extraction", "docx_extraction", "image_analysis", "manual_entry"] }
+          }
+        },
+        "data_handling": {
+          "type": "object",
+          "properties": {
+            "pii_detected": { "type": "boolean" },
+            "sensitive_financial_data": { "type": "boolean" },
+            "minor_information": { "type": "boolean" },
+            "health_information": { "type": "boolean" },
+            "retention_policy": { "type": "string" }
+          }
+        }
+      }
+    },
+    "case": {
+      "type": "object",
+      "required": ["label", "court_docket"],
+      "properties": {
+        "label": { "type": "string" },
+        "court_docket": { "type": "string", "pattern": "^[0-9]{4}-DR-[0-9]{6}$" },
+        "jurisdiction": { "const": "PA-Delaware" },
+        "stage": { 
+          "type": "string", 
+          "enum": ["pre‑complaint","complaint","preliminary_objections","discovery","motion_practice","conciliation","master_hearing","exceptions","trial","post‑decree","emergency_relief","support_conference","contempt_proceedings","appeal"]
+        },
+        "judge": { "type": "string" },
+        "master": { "type": "string" },
+        "tags": { "type": "array", "items": { "type": "string" } },
+        "filing_date": { "type": "string", "format": "date" },
+        "next_court_date": { "type": "string", "format": "date" },
+        "client_representation": { "type": "string", "enum": ["plaintiff", "defendant"] },
+        "client_gender": { "type": "string", "enum": ["male", "female", "other"] },
+        "opposing_counsel": { "type": "string" },
+        "magistrate_district": { "type": "string" },
+        "estimated_asset_range": { 
+          "type": "string", 
+          "enum": ["under_100k", "100k_250k", "250k_500k", "500k_1m", "1m_5m", "over_5m"]
+        },
+        "court_reporters": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "parties": {
+      "type": "object",
+      "required": ["plaintiff", "defendant"],
+      "properties": {
+        "plaintiff": { "$ref": "#/$defs/party" },
+        "defendant": { "$ref": "#/$defs/party" },
+        "counsel_plaintiff": { "$ref": "#/$defs/attorney" },
+        "counsel_defendant": { "$ref": "#/$defs/attorney" },
+        "marital_status": {
+          "type": "object",
+          "properties": {
+            "marriage_date": { "type": "string", "format": "date" },
+            "separation_date": { "type": "string", "format": "date" },
+            "marriage_duration": { "type": "string" },
+            "prior_marriages_plaintiff": { "type": "boolean" },
+            "prior_marriages_defendant": { "type": "boolean" },
+            "separation_event": { "type": "string" },
+            "date_of_irretrievable_breakdown": { "type": "string", "format": "date" }
+          }
+        },
+        "children": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "age": { "type": "integer" },
+              "gender": { "type": "string", "enum": ["male", "female", "other"] },
+              "primary_residence": { "type": "string", "enum": ["plaintiff", "defendant", "shared", "other"] },
+              "custody_schedule": { "type": "string" },
+              "special_needs": { "type": "boolean" },
+              "guardian_ad_litem": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "document": {
+      "type": "object",
+      "required": ["file_name","original_sha256","text"],
+      "properties": {
+        "file_name": { "type": "string" },
+        "media_type": { "type": "string" },
+        "original_sha256": { "type": "string", "pattern": "^[A-Fa-f0-9]{64}$" },
+        "text": { "type": "string" },
+        "structured_text": { "type": "string" },
+        "language": { "type": "string", "default": "en" },
+        "created_at": { "type": "string", "format": "date-time" },
+        "doc_type": { 
+          "type": "string", 
+          "enum": ["pleading","motion","order","financial_affidavit","discovery_request","discovery_response","correspondence","exhibit","note","petition","income_verification","pa_form_1920_31","pa_form_1920_33","support_guidelines","prenuptial_agreement","expert_report","deed","mortgage","hud1","appraisal","tax_assessment","mediation_memorandum","settlement_proposal","inventory_appraisement","income_expense_statement"]
+        },
+        "doc_subtype": { "type": "string" },
+        "verification_status": {
+          "type": "string",
+          "enum": ["unverified", "verified", "contested", "partially_verified"]
+        },
+        "verification_details": { "type": "string" },
+        "evidence_classification": {
+          "type": "string",
+          "enum": ["admissible", "potentially_admissible", "inadmissible", "privileged", "work_product", "hearsay"]
+        },
+        "ocr_confidence": { "type": "number", "minimum": 0, "maximum": 1 }
+      }
+    },
+    "extracted_entities": {
+      "type": "object",
+      "properties": {
+        "statutes": { 
+          "type": "array", 
+          "items": { 
+            "type": "object",
+            "properties": {
+              "citation": { "type": "string" },
+              "title": { "type": "string" },
+              "section": { "type": "string" },
+              "subsection": { "type": "string" },
+              "context": { "type": "string" },
+              "favorable_to_client": { "type": "boolean" },
+              "statutory_text": { "type": "string" },
+              "application_notes": { "type": "string" }
+            }
+          }
+        },
+        "case_law": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "citation": { "type": "string" },
+              "case_name": { "type": "string" },
+              "holding": { "type": "string" },
+              "relevance": { "type": "string" },
+              "jurisdiction": { "type": "string", "default": "Pennsylvania" },
+              "court": { "type": "string" },
+              "year": { "type": "integer" },
+              "favorable_to_client": { "type": "boolean" },
+              "negative_precedent": { "type": "boolean" },
+              "distinguishing_facts": { "type": "string" }
+            }
+          }
+        },
+        "dates": { 
+          "type": "array", 
+          "items": { 
+            "type": "object",
+            "properties": {
+              "date": { "type": "string", "format": "date" },
+              "context": { "type": "string" },
+              "significance": { "type": "string" },
+              "deadline_related": { "type": "boolean" },
+              "statutory_period": { "type": "string" }
+            }
+          }
+        },
+        "real_property": {
+          "type": "object",
+          "properties": {
+            "address": { "type": "string" },
+            "parcel_id": { "type": "string" },
+            "jurisdiction": { "type": "string", "default": "Delaware County" },
+            "property_type": { "type": "string", "enum": ["condominium", "single_family", "multi_family", "commercial", "mixed_use", "vacant_land", "timeshare"] },
+            "acquisition": {
+              "type": "object",
+              "properties": {
+                "purchase_date": { "type": "string", "format": "date" },
+                "purchase_price": { "type": "string" },
+                "deed_type": { "type": "string", "enum": ["joint_tenants", "tenants_by_entirety", "tenants_in_common", "sole_ownership"] },
+                "deed_recording_date": { "type": "string", "format": "date" },
+                "deed_book": { "type": "string" },
+                "deed_page": { "type": "string" },
+                "down_payment_amount": { "type": "string" },
+                "down_payment_source": { "type": "string", "enum": ["marital_funds", "separate_property_husband", "separate_property_wife", "gift", "inheritance", "mixed_sources"] },
+                "pre_marital_acquisition": { "type": "boolean" },
+                "acquisition_documentation": { "type": "string", "enum": ["strong", "moderate", "weak", "none"] }
+              }
+            },
+            "financing": {
+              "type": "object",
+              "properties": {
+                "mortgage_holder": { "type": "string" },
+                "original_principal": { "type": "string" },
+                "current_balance": { "type": "string" },
+                "monthly_payment": { "type": "string" },
+                "payment_source": { "type": "string", "enum": ["marital_funds", "husband_income", "wife_income", "mixed_sources"] },
+                "mortgage_recording_date": { "type": "string", "format": "date" },
+                "mortgage_book": { "type": "string" },
+                "mortgage_page": { "type": "string" },
+                "refinance_history": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "date": { "type": "string", "format": "date" },
+                      "amount": { "type": "string" },
+                      "purpose": { "type": "string" },
+                      "cash_out": { "type": "boolean" },
+                      "cash_out_disposition": { "type": "string" }
+                    }
+                  }
+                }
+              }
+            },
+            "valuation": {
+              "type": "object",
+              "properties": {
+                "current_fair_market_value": { "type": "string" },
+                "valuation_date": { "type": "string", "format": "date" },
+                "valuation_source": { "type": "string", "enum": ["appraisal", "comparative_market_analysis", "tax_assessment", "zillow", "redfin", "party_stipulation", "broker_price_opinion"] },
+                "valuation_expert": { "type": "string" },
+                "improvement_value": { "type": "string" },
+                "improvement_source": { "type": "string", "enum": ["marital_funds", "separate_property_husband", "separate_property_wife", "mixed_sources"] },
+                "capital_improvements": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "description": { "type": "string" },
+                      "date": { "type": "string", "format": "date" },
+                      "cost": { "type": "string" },
+                      "funding_source": { "type": "string" },
+                      "documentation": { "type": "string", "enum": ["receipts", "contract", "testimony", "none"] }
+                    }
+                  }
+                }
+              }
+            },
+            "marital_character": {
+              "type": "object",
+              "properties": {
+                "classification": { "type": "string", "enum": ["marital", "non-marital", "hybrid", "disputed"] },
+                "husband_contribution_percentage": { "type": "string" },
+                "wife_contribution_percentage": { "type": "string" },
+                "transmutation_factors": { "type": "array", "items": { "type": "string" } },
+                "transmutation_risk_level": { "type": "string", "enum": ["none", "low", "medium", "high", "certainty"] },
+                "dissipation_claims": { "type": "array", "items": { "type": "string" } },
+                "tracing_documentation": { "type": "string", "enum": ["strong", "moderate", "weak", "none"] }
+              }
+            },
+            "occupation": {
+              "type": "object",
+              "properties": {
+                "current_occupant": { "type": "string", "enum": ["husband", "wife", "both", "vacant", "tenant"] },
+                "exclusive_possession_order": { "type": "boolean" },
+                "rental_income": { "type": "string" },
+                "rental_agreement": { "type": "string" },
+                "tenant_information": { "type": "string" },
+                "mortgage_payment_responsibility": { "type": "string", "enum": ["husband", "wife", "shared", "none"] }
+              }
+            },
+            "disposition_options": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "option": { "type": "string", "enum": ["sale", "buyout_by_husband", "buyout_by_wife", "deferred_sale", "continued_co_ownership", "refinance", "rental_investment"] },
+                  "estimated_proceeds": { "type": "string" },
+                  "tax_consequences": { "type": "string" },
+                  "statutory_factors": { "type": "array", "items": { "type": "string" } },
+                  "client_preference": { "type": "integer", "minimum": 1, "maximum": 10 },
+                  "feasibility_assessment": { "type": "string", "enum": ["highly_feasible", "moderately_feasible", "challenging", "unlikely"] },
+                  "financing_contingencies": { "type": "array", "items": { "type": "string" } }
+                }
+              }
+            }
+          }
+        },
+        "business_assets": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": { "type": "string" },
+              "entity_type": { "type": "string", "enum": ["sole_proprietorship", "partnership", "llc", "s_corporation", "c_corporation"] },
+              "ownership_percentage": { "type": "string" },
+              "titled_to": { "type": "string", "enum": ["husband", "wife", "joint"] },
+              "pre_marital_asset": { "type": "boolean" },
+              "date_of_acquisition": { "type": "string", "format": "date" },
+              "valuation_method": { "type": "string", "enum": ["asset", "income", "market", "hybrid", "agreed_value"] },
+              "current_value": { "type": "string" },
+              "active_passive_assessment": { "type": "string", "enum": ["active_asset", "passive_asset", "hybrid", "disputed"] },
+              "valuation_issues": { "type": "array", "items": { "type": "string" } }
+            }
+          }
+        },
+        "retirement_assets": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": { "type": "string", "enum": ["401k", "403b", "ira", "roth_ira", "pension", "deferred_compensation", "esop", "stock_options"] },
+              "account_holder": { "type": "string", "enum": ["husband", "wife"] },
+              "institution": { "type": "string" },
+              "account_number_last_four": { "type": "string" },
+              "current_value": { "type": "string" },
+              "loan_balance": { "type": "string" },
+              "date_of_valuation": { "type": "string", "format": "date" },
+              "marital_component": { "type": "string" },
+              "non_marital_component": { "type": "string" },
+              "coverture_fraction": { "type": "string" },
+              "requires_qdro": { "type": "boolean" },
+              "unvested_portion": { "type": "string" },
+              "early_withdrawal_penalty_applies": { "type": "boolean" }
+            }
+          }
+        },
+        "financials": {
+          "type": "object",
+          "properties": {
+            "income": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "amount": { "type": "string" },
+                  "frequency": { "type": "string" },
+                  "source": { "type": "string" },
+                  "party": { "type": "string" },
+                  "verification": { "type": "string" },
+                  "is_regular": { "type": "boolean" },
+                  "historical_trend": { "type": "string", "enum": ["increasing", "stable", "decreasing", "variable"] },
+                  "tax_treatment": { "type": "string", "enum": ["taxable", "non_taxable", "partially_taxable", "deferred"] }
+                }
+              }
+            },
+            "assets": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "description": { "type": "string" },
+                  "value": { "type": "string" },
+                  "title_holding": { "type": "string" },
+                  "acquisition_date": { "type": "string", "format": "date" },
+                  "marital_status": { "type": "string", "enum": ["marital", "non-marital", "hybrid", "disputed"] },
+                  "possession": { "type": "string", "enum": ["husband", "wife", "joint", "other"] },
+                  "documentation": { "type": "string", "enum": ["title", "receipt", "appraisal", "statement", "photograph", "affidavit", "none"] },
+                  "sentimental_value": { "type": "boolean" },
+                  "liquidity": { "type": "string", "enum": ["high", "medium", "low", "illiquid"] }
+                }
+              }
+            },
+            "debts": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "description": { "type": "string" },
+                  "value": { "type": "string" },
+                  "obligor": { "type": "string" },
+                  "marital_status": { "type": "string", "enum": ["marital", "non-marital", "hybrid", "disputed"] },
+                  "secured_by": { "type": "string" },
+                  "interest_rate": { "type": "string" },
+                  "minimum_payment": { "type": "string" },
+                  "payment_history": { "type": "string", "enum": ["current", "past_due", "collections", "judgment"] },
+                  "incurred_date": { "type": "string", "format": "date" },
+                  "purpose": { "type": "string" }
+                }
+              }
+            },
+            "expenses": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "description": { "type": "string" },
+                  "amount": { "type": "string" },
+                  "frequency": { "type": "string" },
+                  "party": { "type": "string" },
+                  "necessity_level": { "type": "string", "enum": ["essential", "important", "discretionary", "luxury"] },
+                  "child_related": { "type": "boolean" },
+                  "tax_deductible": { "type": "boolean" }
+                }
+              }
+            }
+          }
+        },
+        "issues": { 
+          "type": "array", 
+          "items": { 
+            "type": "object",
+            "properties": {
+              "category": { 
+                "type": "string",
+                "enum": ["equitable_distribution","spousal_support","alimony_pendente_lite","attorneys_fees","contempt","court_costs","discovery_compliance","custody","child_support"]
+              },
+              "specific_claim": { "type": "string" },
+              "requested_relief": { "type": "string" },
+              "opposing_party_position": { "type": "string" },
+              "negotiation_status": { "type": "string", "enum": ["non_negotiable", "firm_position", "open_to_compromise", "tentative_agreement", "resolved"] },
+              "priority_level": { "type": "integer", "minimum": 1, "maximum": 10 },
+              "statutory_basis": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "analysis": {
+      "type": "object",
+      "properties": {
+        "statutory_factor_analysis": {
+          "type": "object",
+          "properties": {
+            "length_of_marriage": { "type": "string" },
+            "prior_marriage": { "type": "string" },
+            "age_health_parties": { "type": "string" },
+            "income_sources": { "type": "string" },
+            "vocational_skills": { "type": "string" },
+            "employability": { "type": "string" },
+            "contribution_to_education": { "type": "string" },
+            "contribution_to_earning_power": { "type": "string" },
+            "standard_of_living": { "type": "string" },
+            "contribution_to_acquisition": { "type": "string" },
+            "contribution_as_homemaker": { "type": "string" },
+            "assets_liabilities": { "type": "string" },
+            "marital_property_value": { "type": "string" },
+            "tax_ramifications": { "type": "string" },
+            "economic_self_sufficiency": { "type": "string" },
+            "impairment_of_earning_power": { "type": "string" },
+            "dissipation_of_assets": { "type": "string" },
+            "child_custody_impact": { "type": "string" }
+          }
+        },
+        "historical_factor_weights": {
+          "type": "object",
+          "description": "Analysis of how Delaware County courts have historically weighted factors",
+          "properties": {
+            "marriage_length_weighting": { 
+              "type": "object",
+              "properties": {
+                "short_term": { "type": "string", "description": "1-7 years" },
+                "medium_term": { "type": "string", "description": "8-17 years" },
+                "long_term": { "type": "string", "description": "18+ years" }
+              }
+            },
+            "income_disparity_weighting": { "type": "string" },
+            "homemaker_contribution_weighting": { "type": "string" },
+            "breadwinner_contribution_weighting": { "type": "string" },
+            "property_acquisition_weighting": { "type": "string" },
+            "education_contribution_weighting": { "type": "string" }
+          }
+        },
+        "precedential_application": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "case_citation": { "type": "string" },
+              "relevant_holding": { "type": "string" },
+              "application_to_facts": { "type": "string" },
+              "judge_tendencies": { "type": "string" },
+              "client_favorability": { "type": "string", "enum": ["highly_favorable", "favorable", "neutral", "unfavorable", "highly_unfavorable"] }
+            }
+          }
+        },
+        "strategic_assessment": { "type": "string" },
+        "procedural_next_steps": { "type": "array", "items": { "type": "string" } },
+        "litigation_risk_factors": { "type": "array", "items": { "type": "string" } },
+        "negotiation_strategy": {
+          "type": "object",
+          "properties": {
+            "opening_position": { "type": "string" },
+            "walkaway_position": { "type": "string" },
+            "leverage_points": { "type": "array", "items": { "type": "string" } },
+            "settlement_range": { "type": "string" },
+            "timing_considerations": { "type": "string" }
+          }
+        },
+        "delaware_county_practice_notes": { "type": "string" },
+        "male_representation_factors": {
+          "type": "object",
+          "properties": {
+            "custodial_role_assessment": { "type": "string" },
+            "breadwinner_bias_mitigation": { "type": "string" },
+            "earning_capacity_recognition": { "type": "string" },
+            "separate_property_preservation": { "type": "string" },
+            "business_valuation_strategy": { "type": "string" },
+            "inheritance_protection": { "type": "string" },
+            "retirement_apportionment": { "type": "string" }
+          }
+        },
+        "opposing_counsel_profile": {
+          "type": "object",
+          "properties": {
+            "negotiation_style": { "type": "string" },
+            "litigation_tendencies": { "type": "string" },
+            "settlement_history": { "type": "string" },
+            "judicial_relationships": { "type": "string" }
+          }
+        },
+        "settlement_projections": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "scenario": { "type": "string" },
+              "probability": { "type": "string" },
+              "outcome_details": { "type": "string" },
+              "financial_impact": { "type": "string" },
+              "non_financial_impact": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "workflow": {
+      "type": "object",
+      "required": ["status","version"],
+      "properties": {
+        "status": { 
+          "type": "string",
+          "enum": ["new","parsed","reviewed","locked","contested","pending_verification","master_reviewed","client_reviewed","settlement_drafted","exceptions_filed","appealed"]
+        },
+        "version": { "type": "integer", "minimum": 1 },
+        "version_history": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "version": { "type": "integer" },
+              "timestamp": { "type": "string", "format": "date-time" },
+              "modified_by": { "type": "string" },
+              "modification_summary": { "type": "string" },
+              "change_rationale": { "type": "string" }
+            }
+          }
+        },
+        "parent_version": { "type": "integer" },
+        "updated_at": { "type": "string", "format": "date-time" },
+        "updated_by": { "type": "string" },
+        "ai_feedback": { "type": "array", "items": { "type": "string" } },
+        "attorney_notes": { "type": "string", "contentMediaType": "text/markdown" },
+        "priority": { "type": "string", "enum": ["low", "medium", "high", "urgent"] },
+        "deadline": { "type": "string", "format": "date-time" },
+        "related_documents": { "type": "array", "items": { "type": "string", "format": "uuid" } },
+        "client_communication": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "date": { "type": "string", "format": "date-time" },
+              "method": { "type": "string", "enum": ["email", "phone", "in_person", "video", "portal", "letter"] },
+              "summary": { "type": "string" },
+              "follow_up_required": { "type": "boolean" },
+              "follow_up_date": { "type": "string", "format": "date" }
+            }
+          }
+        },
+        "court_submission_status": {
+          "type": "object",
+          "properties": {
+            "filed": { "type": "boolean" },
+            "filing_date": { "type": "string", "format": "date" },
+            "efiling_confirmation": { "type": "string" },
+            "objections_deadline": { "type": "string", "format": "date" },
+            "response_deadline": { "type": "string", "format": "date" }
+          }
+        },
+        "discovery_tracking": {
+          "type": "object",
+          "properties": {
+            "requests_served": { "type": "boolean" },
+            "requests_deadline": { "type": "string", "format": "date" },
+            "responses_received": { "type": "boolean" },
+            "deficiency_letter_sent": { "type": "boolean" },
+            "motion_to_compel_filed": { "type": "boolean" }
+          }
+        },
+        "quality_control": {
+          "type": "object",
+          "properties": {
+            "supervising_attorney_review": { "type": "boolean" },
+            "factual_verification_complete": { "type": "boolean" },
+            "statutory_citations_verified": { "type": "boolean" },
+            "case_law_verified": { "type": "boolean" },
+            "numerical_calculations_verified": { "type": "boolean" }
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "party": {
+      "type": "object",
+      "required": ["name"],
+      "properties": {
+        "name": { "type": "string" },
+        "gender": { "type": "string", "enum": ["male", "female", "other"] },
+        "date_of_birth": { "type": "string", "format": "date" },
+        "address": { "type": "string" },
+        "email": { "type": "string", "format": "email" },
+        "phone": { "type": "string" },
+        "employer": { "type": "string" },
+        "occupation": { "type": "string" },
+        "employment_history": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "employer": { "type": "string" },
+              "position": { "type": "string" },
+              "start_date": { "type": "string", "format": "date" },
+              "end_date": { "type": "string", "format": "date" },
+              "salary": { "type": "string" },
+              "reason_for_leaving": { "type": "string" }
+            }
+          }
+        },
+        "education": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "institution": { "type": "string" },
+              "degree": { "type": "string" },
+              "field": { "type": "string" },
+              "year_completed": { "type": "integer" },
+              "during_marriage": { "type": "boolean" }
+            }
+          }
+        },
+        "health_issues": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "condition": { "type": "string" },
+              "impact_on_earning": { "type": "string" },
+              "ongoing_treatment": { "type": "boolean" },
+              "medical_documentation": { "type": "boolean" }
+            }
+          }
+        },
+        "military_service": {
+          "type": "object",
+          "properties": {
+            "branch": { "type": "string" },
+            "status": { "type": "string", "enum": ["active", "reserve", "veteran", "retired"] },
+            "years_of_service": { "type": "integer" },
+            "military_pension": { "type": "boolean" }
+          }
+        }
+      }
+    },
+    "attorney": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "firm": { "type": "string" },
+        "address": { "type": "string" },
+        "email": { "type": "string", "format": "email" },
+        "phone": { "type": "string" },
+        "attorney_id": { "type": "string" },
+        "practice_focus": { "type": "array", "items": { "type": "string" } },
+        "delaware_county_experience_years": { "type": "integer" },
+        "negotiation_style": { "type": "string", "enum": ["aggressive", "collaborative", "technical", "relationship-based", "settlement-oriented"] },
+        "trial_experience_level": { "type": "string", "enum": ["extensive", "moderate", "limited", "none"] }
+      }
+    }
+  }
+}

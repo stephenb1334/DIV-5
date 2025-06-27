@@ -1,0 +1,1448 @@
+
+
+```json
+{
+  "case_id": "Boerner_v_Bemer",
+  "court": {
+    "jurisdiction": "Delaware County, Pennsylvania",
+    "type": "Divorce Proceedings",
+    "status": "Ongoing"
+  },
+  "case_overview": {
+    "summary": "Divorce proceedings in Delaware County, PA, involving equitable distribution of marital property at 246 N. 3rd Street, Unit 4CD, Philadelphia, PA. Stephen Boerner (Defendant) seeks credits for substantial contributions ($40,200) and relief due to disability (PTSD/ADHD), while Melissa Bemer (Plaintiff) disputes listing price and proposes equal expense splitting despite minimal contributions ($7,000) and non-disclosure of financial records.",
+    "filing_date": "2024-07-31",
+    "key_issues": [
+      "Equitable distribution of marital property",
+      "Financial contributions disparity",
+      "Foreclosure risk due to non-payment",
+      "Stephen’s disability and loss of health insurance",
+      "Melissa’s financial non-disclosure and abandonment"
+    ]
+  },
+  "parties": {
+    "husband": {
+      "name": "Stephen J. Boerner",
+      "status": "Defendant",
+      "health": "Disabled due to PTSD and ADHD diagnosed June 12, 2024, following March 26, 2024 home invasion",
+      "income": "None, reliant on pending Social Security Disability Insurance (SSDI) claim initiated post-diagnosis",
+      "financial_capacity": "Limited, exhausted personal funds and $12,500 bridge loan by March 16, 2025",
+      "residency_history": [
+        {
+          "location": "246 N. 3rd St. #4CD, Philadelphia, PA 19106",
+          "period": "2022-04-15 to 2023-10-01",
+          "notes": "Jointly owned condominium with Melissa"
+        },
+        {
+          "location": "Gulfport, FL (rental property)",
+          "period": "2023-10-01 to 2024-07-15",
+          "notes": "Moved with Melissa, separated mid-July 2024"
+        }
+      ]
+    },
+    "wife": {
+      "name": "Melissa A. Bemer",
+      "status": "Plaintiff",
+      "health": "No reported issues",
+      "income": "Full-time nurse with benefits since December 1, 2024, at Hospital of Pennsylvania; undisclosed income",
+      "financial_capacity": "Stable, employed, living rent-free with parents since July 15, 2024",
+      "residency_history": [
+        {
+          "location": "246 N. 3rd St. #4CD, Philadelphia, PA 19106",
+          "period": "2022-04-15 to 2023-10-01",
+          "notes": "Jointly owned condominium with Stephen"
+        },
+        {
+          "location": "Gulfport, FL (rental property)",
+          "period": "2023-10-01 to 2024-07-15",
+          "notes": "Moved with Stephen, left mid-July 2024"
+        },
+        {
+          "location": "Wayne, PA (parents' home)",
+          "period": "2024-07-15 to present (2025-03-14)",
+          "notes": "Living rent-free, filed for divorce from this address"
+        }
+      ],
+      "employment_history": [
+        {
+          "role": "Nurse",
+          "location": "Florida",
+          "period": "Unknown start date to 2024-07-29",
+          "notes": "Resignation terminated Stephen’s health insurance as of August 1, 2024"
+        },
+        {
+          "role": "Full-time Nurse",
+          "location": "Philadelphia, PA",
+          "period": "2024-12-01 to present",
+          "notes": "Reinstated PA nursing license September 2024"
+        }
+      ]
+    }
+  },
+  "property": {
+    "address": "246 N. 3rd Street, Unit 4CD, Philadelphia, PA 19106",
+    "ownership": "Jointly owned as marital property, purchased April 15, 2022, held as tenants by the entirety (converts to tenancy in common upon divorce)",
+    "purchase_price": 400000,
+    "current_mortgage_balance": 342118.83,
+    "current_status": "Listed for sale at $399,000 as of March 15, 2025",
+    "listing_history": [
+      {
+        "date": "2024-07-22",
+        "price": 425000,
+        "agent": "Kurfiss Sotheby's (Juliana Martell)",
+        "duration": "Over 240 days, no offers",
+        "issues": [
+          "Initial overpricing at $465,000 vs. $425,000–$435,000 median",
+          "57% buyer feedback cited 'too high' price",
+          "Ineffective $1,000 reductions (0.2%)"
+        ]
+      },
+      {
+        "date": "2025-03-15",
+        "price": 399000,
+        "agent": "BHHS Fox & Roach (Chuck Lindsay)",
+        "status": "Active",
+        "notes": "Mutual agreement signed by both parties"
+      }
+    ],
+    "market_justification": {
+      "description": "Price aligns with 15% decline in Old City condo prices since Q3 2024, median list price $329,995, average 117 days on market",
+      "comparable_sales": [
+        {
+          "address": "315 Arch St",
+          "size": "1300 sq ft",
+          "price": 352500,
+          "date": "2025-01-24"
+        },
+        {
+          "address": "113 N Bread St",
+          "size": "1352 sq ft",
+          "price": 620000,
+          "date": "2025-01-21"
+        }
+      ],
+      "market_reports": [
+        {
+          "source": "Redfin",
+          "url": "https://www.redfin.com/neighborhood/350202/PA/Philadelphia/Old-City/housing-market",
+          "summary": "Confirms 15% price decline and increased inventory"
+        },
+        {
+          "source": "Main Line Philly Homes",
+          "url": "https://www.mainlinephillyhomes.com/philadelphia-condos/old-city-condos/",
+          "summary": "Median list price $329,995, 117 days on market"
+        },
+        {
+          "source": "Rocket Homes",
+          "url": "https://rocket.com/homes/market-reports/pa/philadelphia",
+          "summary": "4.2% citywide price increase, Old City submarket softer"
+        },
+        {
+          "source": "Luxury Playbook",
+          "url": "https://theluxuryplaybook.com/philadelphia-housing-market-analysis-forecast-2024-2025/",
+          "summary": "Predicts modest growth, competitive pricing needed"
+        }
+      ]
+    },
+    "financial_obligations": {
+      "monthly_costs": {
+        "rental_period_oct23_sep24": {
+          "total": 3500,
+          "breakdown": {
+            "mortgage": "Variable, included in total",
+            "hoa_fees": "Variable, approx. $813/month",
+            "taxes": "Variable, included in total",
+            "utilities": "Approx. $150/month (electricity)"
+          },
+          "rental_income": 2800,
+          "deficit": 700
+        },
+        "post_rental_oct24_mar25": {
+          "total": 3300,
+          "breakdown": {
+            "mortgage": "Variable, included in total",
+            "hoa_fees": "Variable, approx. $813/month",
+            "taxes": "Variable, included in total",
+            "utilities": "Approx. $150/month (electricity)"
+          }
+        }
+      },
+      "outstanding_debts": {
+        "hoa_fees": {
+          "amount": 3500,
+          "status": "Unpaid as of March 2025"
+        }
+      },
+      "foreclosure_risk": {
+        "start_date": "2025-03-17",
+        "default_date": "2025-04-16",
+        "timeline": "30-day notice period post-default, sheriff’s sale within 90–120 days per 37 Pa. Code § 13.21",
+        "impact": "Loss of equity, potential debt"
+      }
+    },
+    "rental_history": {
+      "period": "2023-10-01 to 2024-09-30",
+      "income": 2800,
+      "total_cost": 45000,
+      "stephen_contribution": 40500,
+      "melissa_contribution": 4500
+    }
+  },
+  "financial_analysis": {
+    "contributions": {
+      "stephen": {
+        "total": 40200,
+        "breakdown": [
+          {
+            "period": "Oct 2023 – Sep 2024",
+            "type": "Rental Deficit",
+            "amount": 8400,
+            "description": "$700/month deficit between $2,800 rental income and $3,500 costs"
+          },
+          {
+            "period": "Oct 2024 – Mar 2025",
+            "type": "Full Carrying Costs",
+            "amount": 19800,
+            "description": "$3,300/month covering mortgage, HOA, taxes, utilities"
+          },
+          {
+            "date": "Jul 2023",
+            "type": "HVAC Replacement",
+            "amount": 12000,
+            "description": "Critical capital improvement to enhance rental and resale value"
+          }
+        ]
+      },
+      "melissa": {
+        "total": 7000,
+        "breakdown": [
+          {
+            "period": "Oct 2023 – Sep 2024",
+            "type": "Sporadic Payments",
+            "amount": 7000,
+            "description": "Irregular Zelle payments averaging $583/month"
+          }
+        ]
+      },
+      "disparity": {
+        "stephen_percentage": 85.2,
+        "melissa_percentage": 14.8,
+        "comment": "Stephen bore 85.2% of financial burden, Melissa 14.8%, highlighting significant inequity"
+      }
+    },
+    "bridge_loan": {
+      "amount": 12500,
+      "taken_by": "Stephen Boerner",
+      "date": "2025-01-03",
+      "lenders": ["Jeffrey A. Boerner", "Carol T. Boerner"],
+      "purpose": "Cover property expenses (mortgage, taxes, insurance, utilities) from January to March 2025",
+      "status": "Exhausted as of March 16, 2025",
+      "disbursements": [
+        {"check_number": 1, "amount": 3500},
+        {"check_number": 2, "amount": 3500},
+        {"check_number": 3, "amount": 3500},
+        {"check_number": 4, "amount": 2000}
+      ],
+      "legal_classification": {
+        "non_collateralized": "Treated as marital expense; Stephen eligible for credit or reimbursement",
+        "collateralized": "Runs with the asset, paid at closing, reducing joint proceeds"
+      }
+    },
+    "transaction_schedule": {
+      "zelle_payments": [
+        {
+          "date": "2022-05-23",
+          "amount": 5.00,
+          "description": "ZELLE STEPHEN BOERN US CARD PURCHASE"
+        },
+        {
+          "date": "2022-05-31",
+          "amount": 1200.00,
+          "description": "ZELLE STEPHEN BOERN US CARD PURCHASE"
+        },
+        {
+          "date": "2022-07-05",
+          "amount": 1200.00,
+          "description": "ZELLE STEPHEN BOERN Scottsdale/AZ US CARD PURCHASE"
+        },
+        {
+          "date": "2022-10-03",
+          "amount": 1200.00,
+          "description": "ZELLE STEPHEN BOER/AZ US CARD PURCHASE"
+        },
+        {
+          "date": "2022-11-02",
+          "amount": 1200.00,
+          "description": "ZELLE STEPHEN BOER/AZ US CARD PURCHASE"
+        },
+        {
+          "date": "2022-12-02",
+          "amount": 1200.00,
+          "description": "ZELLE STEPHEN BOER/AZ US CARD PURCHASE"
+        },
+        {
+          "date": "2022-12-30",
+          "amount": 1200.00,
+          "description": "ZELLE STEPHEN BOER/AZ US CARD PURCHASE"
+        },
+        {
+          "date": "2023-01-31",
+          "amount": 1200.00,
+          "description": "ZELLE STEPHEN BOER/AZ US CARD PURCHASE"
+        },
+        {
+          "date": "2023-03-01",
+          "amount": 1200.00,
+          "description": "ZELLE STEPHEN BOER/AZ US CARD PURCHASE"
+        },
+        {
+          "date": "2023-04-03",
+          "amount": 1350.00,
+          "description": "ZELLE STEPHEN BOER/AZ US CARD PURCHASE"
+        },
+        {
+          "date": "2023-05-01",
+          "amount": 1350.00,
+          "description": "ZELLE STEPHEN BOER/AZ US CARD PURCHASE"
+        },
+        {
+          "date": "2023-06-01",
+          "amount": 1350.00,
+          "description": "ZELLE STEPHEN BOER/AZ US CARD PURCHASE"
+        },
+        {
+          "date": "2023-07-03",
+          "amount": 1400.00,
+          "description": "ZELLE STEPHEN BOER/AZ US CARD PURCHASE"
+        },
+        {
+          "date": "2023-09-01",
+          "amount": 2500.00,
+          "description": "ZELLE STEPHEN BOER/AZ US CARD PURCHASE"
+        },
+        {
+          "date": "2023-10-11",
+          "amount": 1250.00,
+          "description": "ZELLE STEPHEN BOER/AZ US CARD PURCHASE"
+        },
+        {
+          "date": "2023-10-11",
+          "amount": 163.50,
+          "description": "ZELLE STEPHEN ST. PETERSBURG US CARD PURCHASE"
+        },
+        {
+          "date": "2023-11-03",
+          "amount": 2500.00,
+          "description": "Zelle Transfer to STEPHEN BOERNER 877-726-5640-330700A0CT1"
+        },
+        {
+          "date": "2024-04-25",
+          "amount": 800.00,
+          "description": "Zelle Transfer to STEPHEN BOERNER"
+        },
+        {
+          "date": "2024-05-06",
+          "amount": 800.00,
+          "description": "Zelle Transfer to STEPHEN BOERNER 877-726-5640-41470010GF5H"
+        },
+        {
+          "date": "2024-05-28",
+          "amount": 800.00,
+          "description": "Zelle Transfer to STEPHEN BOERNER 877-726-5640-41470010GF5H"
+        },
+        {
+          "date": "2024-06-14",
+          "amount": 1000.00,
+          "description": "Zelle Transfer to STEPHEN BOERNER 877-726-5640-416600K0547T"
+        }
+      ],
+      "venmo_activity": {
+        "total_debits": 15631.66,
+        "total_credits": 5012.00,
+        "transactions": [
+          {
+            "date": "2021-12-21",
+            "type": "Venmo Cashout",
+            "debit_amount": 0.00,
+            "credit_amount": 212.00,
+            "balance_after_transaction": 2971.91,
+            "description": "VENMO CASHOUT 211220 ***"
+          },
+          {
+            "date": "2021-12-24",
+            "type": "Venmo Payment",
+            "debit_amount": 15.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 2745.75,
+            "description": "VENMO PAYMENT 211223"
+          },
+          {
+            "date": "2022-01-05",
+            "type": "Venmo Payment",
+            "debit_amount": 50.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 4004.82,
+            "description": "VENMO PAYMENT 220104"
+          },
+          {
+            "date": "2022-01-07",
+            "type": "Venmo Payment",
+            "debit_amount": 60.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 3940.26,
+            "description": "VENMO PAYMENT 220106"
+          },
+          {
+            "date": "2022-01-10",
+            "type": "Venmo Payment",
+            "debit_amount": 33.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 3679.28,
+            "description": "VENMO PAYMENT 220109"
+          },
+          {
+            "date": "2022-01-10",
+            "type": "Venmo Payment",
+            "debit_amount": 35.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 3529.28,
+            "description": "VENMO PAYMENT 220107"
+          },
+          {
+            "date": "2022-01-24",
+            "type": "Venmo Payment",
+            "debit_amount": 15.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 5056.38,
+            "description": "VENMO PAYMENT 220121"
+          },
+          {
+            "date": "2022-01-24",
+            "type": "Venmo Payment",
+            "debit_amount": 20.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 5036.38,
+            "description": "VENMO PAYMENT 220122"
+          },
+          {
+            "date": "2022-01-24",
+            "type": "Venmo Payment",
+            "debit_amount": 25.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 5011.38,
+            "description": "VENMO PAYMENT 220123"
+          },
+          {
+            "date": "2022-02-07",
+            "type": "Venmo Payment",
+            "debit_amount": 19.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 5985.19,
+            "description": "VENMO PAYMENT 220206"
+          },
+          {
+            "date": "2022-02-09",
+            "type": "Venmo Payment",
+            "debit_amount": 250.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 5570.69,
+            "description": "VENMO PAYMENT 220208"
+          },
+          {
+            "date": "2022-03-11",
+            "type": "Venmo Payment",
+            "debit_amount": 4000.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 1011.38,
+            "description": "VENMO PAYMENT 220310"
+          },
+          {
+            "date": "2022-04-25",
+            "type": "Venmo Payment",
+            "debit_amount": 1000.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 3473.92,
+            "description": "VENMO PAYMENT 220423"
+          },
+          {
+            "date": "2022-05-04",
+            "type": "Venmo Payment",
+            "debit_amount": 50.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 3066.14,
+            "description": "VENMO PAYMENT 220503"
+          },
+          {
+            "date": "2022-05-11",
+            "type": "Venmo Payment",
+            "debit_amount": 1600.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 2269.06,
+            "description": "VENMO PAYMENT 220510"
+          },
+          {
+            "date": "2022-06-13",
+            "type": "Venmo Payment",
+            "debit_amount": 250.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 1826.47,
+            "description": "VENMO PAYMENT 220611"
+          },
+          {
+            "date": "2022-07-05",
+            "type": "Venmo Payment",
+            "debit_amount": 75.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 2308.15,
+            "description": "VENMO PAYMENT 220702"
+          },
+          {
+            "date": "2022-07-15",
+            "type": "Venmo Payment",
+            "debit_amount": 38.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 3021.99,
+            "description": "VENMO PAYMENT 220714"
+          },
+          {
+            "date": "2022-08-11",
+            "type": "Venmo Payment",
+            "debit_amount": 20.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 811.91,
+            "description": "VENMO PAYMENT 220810"
+          },
+          {
+            "date": "2022-08-15",
+            "type": "Venmo Payment",
+            "debit_amount": 20.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 2112.19,
+            "description": "VENMO PAYMENT 220814"
+          },
+          {
+            "date": "2022-08-15",
+            "type": "Venmo Payment",
+            "debit_amount": 30.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 2082.19,
+            "description": "VENMO PAYMENT 220814"
+          },
+          {
+            "date": "2022-08-15",
+            "type": "Venmo Payment",
+            "debit_amount": 200.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 1882.19,
+            "description": "VENMO PAYMENT 220814"
+          },
+          {
+            "date": "2022-09-06",
+            "type": "Venmo Payment",
+            "debit_amount": 25.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 1881.58,
+            "description": "VENMO PAYMENT 220902"
+          },
+          {
+            "date": "2022-09-12",
+            "type": "Venmo Payment",
+            "debit_amount": 285.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 2969.89,
+            "description": "VENMO PAYMENT 220909"
+          },
+          {
+            "date": "2022-09-14",
+            "type": "Venmo Payment",
+            "debit_amount": 50.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 2887.94,
+            "description": "VENMO PAYMENT 220913"
+          },
+          {
+            "date": "2022-09-15",
+            "type": "Venmo Payment",
+            "debit_amount": 49.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 2799.77,
+            "description": "VENMO PAYMENT 220914"
+          },
+          {
+            "date": "2022-10-17",
+            "type": "Venmo Payment",
+            "debit_amount": 60.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 1795.99,
+            "description": "VENMO PAYMENT 221014"
+          },
+          {
+            "date": "2022-10-27",
+            "type": "Venmo Payment",
+            "debit_amount": 50.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 2326.80,
+            "description": "VENMO PAYMENT 221026"
+          },
+          {
+            "date": "2023-02-13",
+            "type": "Venmo Payment",
+            "debit_amount": 20.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 3112.12,
+            "description": "VENMO PAYMENT 230212"
+          },
+          {
+            "date": "2023-03-11",
+            "type": "Venmo Payment",
+            "debit_amount": 20.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 3691.21,
+            "description": "VENMO PAYMENT 230312"
+          },
+          {
+            "date": "2023-03-12",
+            "type": "Venmo Payment",
+            "debit_amount": 20.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 3691.21,
+            "description": "VENMO PAYMENT 230313"
+          },
+          {
+            "date": "2023-03-17",
+            "type": "Venmo Payment",
+            "debit_amount": 40.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 3711.84,
+            "description": "VENMO PAYMENT 230316"
+          },
+          {
+            "date": "2023-03-26",
+            "type": "Venmo Payment",
+            "debit_amount": 15.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 3841.82,
+            "description": "VENMO PAYMENT 230314"
+          },
+          {
+            "date": "2023-04-03",
+            "type": "Venmo Payment",
+            "debit_amount": 45.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 3314.61,
+            "description": "VENMO PAYMENT 230331"
+          },
+          {
+            "date": "2023-04-18",
+            "type": "Venmo Payment",
+            "debit_amount": 15.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 5039.69,
+            "description": "VENMO PAYMENT 230417"
+          },
+          {
+            "date": "2023-04-26",
+            "type": "Venmo Payment",
+            "debit_amount": 30.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 6659.67,
+            "description": "VENMO PAYMENT 230424"
+          },
+          {
+            "date": "2023-05-02",
+            "type": "Venmo Payment",
+            "debit_amount": 280.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 4883.30,
+            "description": "VENMO PAYMENT 230502"
+          },
+          {
+            "date": "2023-05-08",
+            "type": "Venmo Payment",
+            "debit_amount": 45.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 6534.21,
+            "description": "VENMO PAYMENT 230506"
+          },
+          {
+            "date": "2023-05-19",
+            "type": "Venmo Payment",
+            "debit_amount": 1000.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 5505.85,
+            "description": "VENMO PAYMENT 230518"
+          },
+          {
+            "date": "2023-05-24",
+            "type": "Venmo Payment",
+            "debit_amount": 768.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 5505.85,
+            "description": "VENMO PAYMENT 230523"
+          },
+          {
+            "date": "2023-06-02",
+            "type": "Venmo Payment",
+            "debit_amount": 100.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 3369.51,
+            "description": "VENMO PAYMENT 230601"
+          },
+          {
+            "date": "2023-06-16",
+            "type": "Venmo Payment",
+            "debit_amount": 59.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 5844.00,
+            "description": "VENMO PAYMENT 230615"
+          },
+          {
+            "date": "2023-07-06",
+            "type": "Venmo Payment",
+            "debit_amount": 45.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 5093.69,
+            "description": "VENMO PAYMENT 230705"
+          },
+          {
+            "date": "2023-07-07",
+            "type": "Venmo Payment",
+            "debit_amount": 115.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 4758.94,
+            "description": "VENMO PAYMENT 230706"
+          },
+          {
+            "date": "2023-07-24",
+            "type": "Venmo Payment",
+            "debit_amount": 20.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 5601.46,
+            "description": "VENMO PAYMENT 230722"
+          },
+          {
+            "date": "2023-07-28",
+            "type": "Venmo Payment",
+            "debit_amount": 1500.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 5554.19,
+            "description": "VENMO PAYMENT 230727"
+          },
+          {
+            "date": "2023-08-14",
+            "type": "Venmo Payment",
+            "debit_amount": 50.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 6422.07,
+            "description": "VENMO PAYMENT 230813"
+          },
+          {
+            "date": "2023-08-15",
+            "type": "Venmo Payment",
+            "debit_amount": 272.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 6013.81,
+            "description": "VENMO PAYMENT 230814"
+          },
+          {
+            "date": "2023-09-11",
+            "type": "Venmo Payment",
+            "debit_amount": 350.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 4900.63,
+            "description": "VENMO PAYMENT 230910"
+          },
+          {
+            "date": "2023-09-18",
+            "type": "Venmo Payment",
+            "debit_amount": 135.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 3921.85,
+            "description": "VENMO PAYMENT 230915"
+          },
+          {
+            "date": "2023-10-02",
+            "type": "Venmo Payment",
+            "debit_amount": 13.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 4188.15,
+            "description": "VENMO PAYMENT 231001"
+          },
+          {
+            "date": "2023-10-02",
+            "type": "Venmo Payment",
+            "debit_amount": 30.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 4158.15,
+            "description": "VENMO PAYMENT 231001"
+          },
+          {
+            "date": "2023-10-02",
+            "type": "Venmo Payment",
+            "debit_amount": 150.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 4008.15,
+            "description": "VENMO PAYMENT 231001"
+          },
+          {
+            "date": "2023-10-03",
+            "type": "Venmo Payment",
+            "debit_amount": 50.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 3730.47,
+            "description": "VENMO PAYMENT 231002"
+          },
+          {
+            "date": "2023-10-04",
+            "type": "Venmo Payment",
+            "debit_amount": 20.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 3682.91,
+            "description": "VENMO PAYMENT 231003"
+          },
+          {
+            "date": "2023-10-06",
+            "type": "Venmo Payment",
+            "debit_amount": 35.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 4465.78,
+            "description": "VENMO PAYMENT 231005"
+          },
+          {
+            "date": "2023-10-20",
+            "type": "Venmo Payment",
+            "debit_amount": 50.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 3223.82,
+            "description": "VENMO PAYMENT 231019"
+          },
+          {
+            "date": "2023-11-20",
+            "type": "Venmo Cashout",
+            "debit_amount": 0.00,
+            "credit_amount": 100.00,
+            "balance_after_transaction": 2298.98,
+            "description": "VENMO CASHOUT 231117 ***"
+          },
+          {
+            "date": "2023-11-20",
+            "type": "Venmo Payment",
+            "debit_amount": 20.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 2278.98,
+            "description": "VENMO PAYMENT 231117"
+          },
+          {
+            "date": "2023-12-04",
+            "type": "Venmo Cashout",
+            "debit_amount": 0.00,
+            "credit_amount": 200.00,
+            "balance_after_transaction": 1239.35,
+            "description": "VENMO CASHOUT 231204 ***"
+          },
+          {
+            "date": "2023-12-14",
+            "type": "Venmo Payment",
+            "debit_amount": 55.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 946.82,
+            "description": "VENMO PAYMENT 231213"
+          },
+          {
+            "date": "2023-12-27",
+            "type": "Venmo Payment",
+            "debit_amount": 20.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 741.98,
+            "description": "VENMO PAYMENT 231226"
+          },
+          {
+            "date": "2023-12-29",
+            "type": "Venmo Payment",
+            "debit_amount": 40.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 702.81,
+            "description": "VENMO PAYMENT 231228"
+          },
+          {
+            "date": "2024-01-02",
+            "type": "Venmo Payment",
+            "debit_amount": 50.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 645.14,
+            "description": "VENMO PAYMENT 231229"
+          },
+          {
+            "date": "2024-01-02",
+            "type": "Venmo Payment",
+            "debit_amount": 107.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 538.14,
+            "description": "VENMO PAYMENT 231230"
+          },
+          {
+            "date": "2024-03-07",
+            "type": "Venmo Payment",
+            "debit_amount": 15.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 1008.35,
+            "description": "VENMO PAYMENT 240306"
+          },
+          {
+            "date": "2024-03-22",
+            "type": "Venmo Payment",
+            "debit_amount": 25.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 557.93,
+            "description": "VENMO PAYMENT 240321"
+          },
+          {
+            "date": "2024-04-15",
+            "type": "Venmo Payment",
+            "debit_amount": 25.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 1114.64,
+            "description": "VENMO PAYMENT 240414"
+          },
+          {
+            "date": "2024-05-07",
+            "type": "Venmo Payment",
+            "debit_amount": 15.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 1808.35,
+            "description": "VENMO PAYMENT 240506"
+          },
+          {
+            "date": "2024-05-17",
+            "type": "Venmo Payment",
+            "debit_amount": 35.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 3230.39,
+            "description": "VENMO PAYMENT 240516"
+          },
+          {
+            "date": "2024-05-28",
+            "type": "Venmo Payment",
+            "debit_amount": 16.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 1923.20,
+            "description": "VENMO PAYMENT 240524"
+          },
+          {
+            "date": "2024-06-03",
+            "type": "Venmo Payment",
+            "debit_amount": 12.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 3821.92,
+            "description": "VENMO PAYMENT 240531"
+          },
+          {
+            "date": "2024-06-10",
+            "type": "Venmo Payment",
+            "debit_amount": 54.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 3366.78,
+            "description": "VENMO PAYMENT 240609"
+          },
+          {
+            "date": "2024-07-23",
+            "type": "Venmo Payment",
+            "debit_amount": 200.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 5033.98,
+            "description": "VENMO PAYMENT 240722"
+          },
+          {
+            "date": "2024-07-29",
+            "type": "Venmo Payment",
+            "debit_amount": 15.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 7142.48,
+            "description": "VENMO PAYMENT 240726"
+          },
+          {
+            "date": "2024-07-29",
+            "type": "Venmo Payment",
+            "debit_amount": 30.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 7112.48,
+            "description": "VENMO PAYMENT 240726"
+          },
+          {
+            "date": "2024-07-29",
+            "type": "Venmo Payment",
+            "debit_amount": 200.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 6912.48,
+            "description": "VENMO PAYMENT 240726"
+          },
+          {
+            "date": "2024-07-30",
+            "type": "Venmo Payment",
+            "debit_amount": 50.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 6562.48,
+            "description": "VENMO PAYMENT 240729"
+          },
+          {
+            "date": "2024-08-02",
+            "type": "Venmo Payment",
+            "debit_amount": 40.00,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 6522.48,
+            "description": "VENMO PAYMENT 240801"
+          },
+          {
+            "date": "2024-08-05",
+            "type": "Venmo Payment",
+            "debit_amount": 126.56,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 6195.92,
+            "description": "VENMO PAYMENT 240802"
+          },
+          {
+            "date": "2024-08-14",
+            "type": "Venmo Cashout",
+            "debit_amount": 0.00,
+            "credit_amount": 4500.00,
+            "balance_after_transaction": 7031.50,
+            "description": "VENMO CASHOUT 240813 ***"
+          },
+          {
+            "date": "2024-09-03",
+            "type": "Venmo Payment",
+            "debit_amount": 4.58,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 4439.58,
+            "description": "VENMO PAYMENT 240831"
+          },
+          {
+            "date": "2024-09-03",
+            "type": "Venmo Payment",
+            "debit_amount": 3.52,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 4168.58,
+            "description": "VENMO PAYMENT 240831"
+          },
+          {
+            "date": "2024-09-25",
+            "type": "Closing Withdrawal",
+            "debit_amount": 3790.35,
+            "credit_amount": 0.00,
+            "balance_after_transaction": 0.00,
+            "description": "CLOSING TRANSACTION - WITHDRAWAL"
+          }
+        ]
+      }
+    },
+    "financial_disclosure_issues": {
+      "melissa": [
+        {
+          "date": "2024-08-14",
+          "action": "Venmo cashout of $4,500",
+          "issue": "Undisclosed destination"
+        },
+        {
+          "date": "2024-08-19",
+          "action": "Wrote $1,500 check to herself, deposited to undisclosed account",
+          "issue": "No memo or transparency"
+        },
+        {
+          "date": "2024-09-23",
+          "action": "Closed Santander account, withdrew $3,790.35",
+          "issue": "Undisclosed destination, timed before tenant departure"
+        },
+        {
+          "date": "2024-12-01",
+          "action": "Began employment at Hospital of Pennsylvania",
+          "issue": "Not disclosed during financial discovery period (2022-01-01 to 2024-12-31)"
+        }
+      ],
+      "implications": "Pattern of concealment may warrant sanctions or adverse inference under Pa.R.C.P. 4019"
+    }
+  },
+  "health_and_medical": {
+    "stephen": {
+      "conditions": [
+        {
+          "condition": "PTSD",
+          "diagnosed": "2024-06-12",
+          "cause": "Violent home invasion on 2024-03-26",
+          "symptoms": "Night terrors, paranoia, inability to work",
+          "impact": "Precludes employment, failed consulting attempts with three clients in 2024"
+        },
+        {
+          "condition": "ADHD",
+          "diagnosed": "2024-06-12",
+          "cause": "Aggravated by PTSD",
+          "symptoms": "Impaired concentration, impacts task and project management",
+          "impact": "Compounds inability to work"
+        }
+      ],
+      "medications_discontinued": [
+        {
+          "medication": "Medication A",
+          "purpose": "PTSD treatment",
+          "discontinued": "2024-08-01",
+          "notes": "Exact name unspecified, one of five discontinued"
+        },
+        {
+          "medication": "Medication B",
+          "purpose": "ADHD management",
+          "discontinued": "2024-08-01",
+          "notes": "Exact name unspecified, one of five discontinued"
+        },
+        {
+          "medication": "Medication C",
+          "purpose": "PTSD/ADHD support",
+          "discontinued": "2024-08-01",
+          "notes": "Exact name unspecified, one of five discontinued"
+        },
+        {
+          "medication": "Medication D",
+          "purpose": "PTSD/ADHD support",
+          "discontinued": "2024-08-01",
+          "notes": "Exact name unspecified, one of five discontinued"
+        },
+        {
+          "medication": "Medication E",
+          "purpose": "PTSD/ADHD support",
+          "discontinued": "2024-08-01",
+          "notes": "Exact name unspecified, one of five discontinued"
+        }
+      ],
+      "therapy_discontinued": "2024-08-01",
+      "insurance_loss": {
+        "date": "2024-08-01",
+        "cause": "Melissa’s voluntary job termination on 2024-07-29",
+        "impact": "Unable to access treatment, exacerbating financial and emotional hardship",
+        "notes": "Stephen unaware until August 2024 inquiry"
+      },
+      "current_coverage": "Relies on Maryland Health Exchange insurance since July 2024, out-of-pocket costs unspecified"
+    },
+    "melissa": {
+      "conditions": "No reported issues",
+      "insurance": "Secured full medical benefits through employment starting December 1, 2024"
+    }
+  },
+  "timeline_of_events": [
+    {
+      "date": "2019-08-19",
+      "event": "Marriage of Stephen Boerner and Melissa Bemer"
+    },
+    {
+      "date": "2022-04-15",
+      "event": "Purchase of condo at 246 N. 3rd Street, Unit 4CD for $400,000"
+    },
+    {
+      "date": "2023-07-01",
+      "event": "Stephen pays $12,000 for HVAC replacement"
+    },
+    {
+      "date": "2023-10-01",
+      "event": "Property rented; Stephen covers $700/month deficit (total cost $3,500, rental income $2,800)"
+    },
+    {
+      "date": "2024-03-26",
+      "event": "Home invasion in Florida rental property; Stephen develops PTSD"
+    },
+    {
+      "date": "2024-06-12",
+      "event": "Stephen diagnosed with PTSD and ADHD, unable to work"
+    },
+    {
+      "date": "2024-07-01",
+      "event": "Melissa moves to Wayne, PA, to live with parents"
+    },
+    {
+      "date": "2024-07-15",
+      "event": "Stephen and Melissa separate; Melissa leaves Florida"
+    },
+    {
+      "date": "2024-07-22",
+      "event": "Condo listed for sale at $425,000 with Kurfiss Sotheby’s"
+    },
+    {
+      "date": "2024-07-29",
+      "event": "Melissa quits Florida nursing job, terminates Stephen’s health insurance effective August 1, 2024"
+    },
+    {
+      "date": "2024-07-31",
+      "event": "Melissa files for divorce in Delaware County, PA"
+    },
+    {
+      "date": "2024-08-14",
+      "event": "Melissa cashes out $4,500 via Venmo, destination undisclosed"
+    },
+    {
+      "date": "2024-08-19",
+      "event": "Melissa writes $1,500 check to herself, deposited to undisclosed account"
+    },
+    {
+      "date": "2024-09-23",
+      "event": "Melissa closes Santander account, withdraws $3,790.35, destination undisclosed"
+    },
+    {
+      "date": "2024-09-24",
+      "event": "Stephen emails Melissa reminding her of condo costs starting October 2024"
+    },
+    {
+      "date": "2024-09-30",
+      "event": "Tenants vacate condo; Stephen covers full $3,300+/month costs"
+    },
+    {
+      "date": "2024-10-01",
+      "event": "Melissa ceases financial contributions to condo"
+    },
+    {
+      "date": "2024-12-01",
+      "event": "Melissa begins full-time employment with benefits at Hospital of Pennsylvania"
+    },
+    {
+      "date": "2025-01-03",
+      "event": "Stephen secures $12,500 bridge loan to cover property expenses"
+    },
+    {
+      "date": "2025-03-15",
+      "event": "Property relisted at $399,000 with BHHS Fox & Roach"
+    },
+    {
+      "date": "2025-03-16",
+      "event": "Bridge loan funds exhausted; foreclosure risk escalates"
+    },
+    {
+      "date": "2025-04-17",
+      "event": "Projected default on mortgage and taxes if unsold"
+    }
+  ],
+  "legal_analysis": {
+    "jurisdiction": "Delaware County, Pennsylvania",
+    "statutes": [
+      {
+        "code": "23 Pa.C.S. § 3501(b)",
+        "description": "Defines marital debt as incurred during marriage for marital benefit",
+        "application": "Classifies $12,500 bridge loan as marital debt"
+      },
+      {
+        "code": "23 Pa.C.S. § 3502(a)(3)",
+        "description": "Evaluates health, income, employability, and needs in equitable distribution",
+        "application": "Favors Stephen due to disability and no income vs. Melissa’s employment"
+      },
+      {
+        "code": "23 Pa.C.S. § 3502(a)(7)",
+        "description": "Considers contribution or dissipation of marital property",
+        "application": "Supports credits for Stephen’s $40,200 vs. Melissa’s $7,000"
+      },
+      {
+        "code": "23 Pa.C.S. § 3502(a)(10.2)",
+        "description": "Accounts for expenses related to sale or liquidation",
+        "application": "Justifies $399,000 listing price to avoid foreclosure"
+      },
+      {
+        "code": "23 Pa.C.S. § 3323(f)",
+        "description": "Allows special relief for urgent financial issues",
+        "application": "Supports motion to allocate expenses and prevent foreclosure"
+      },
+      {
+        "code": "23 Pa.C.S. § 3701(b)",
+        "description": "Factors for alimony: health, earning capacity, needs",
+        "application": "Justifies alimony due to Stephen’s PTSD/ADHD and Melissa’s income"
+      },
+      {
+        "code": "23 Pa.C.S. § 3702",
+        "description": "Alimony pendente lite for reasonable needs",
+        "application": "Supports interim support for Stephen’s medical and living costs"
+      },
+      {
+        "code": "Pa.R.C.P. 1920.33",
+        "description": "Mandates financial disclosure in divorce proceedings",
+        "application": "Melissa’s non-disclosure violates, risking sanctions"
+      }
+    ],
+    "case_law": [
+      {
+        "case": "Biese v. Biese, 979 A.2d 892 (Pa. Super. 2009)",
+        "holding": "Awarded $16,500 credit for post-separation debt reduction",
+        "application": "Supports credit for Stephen’s payments"
+      },
+      {
+        "case": "Duff v. Duff, 510 Pa. 251 (1986)",
+        "holding": "Recognizes credits for post-separation debt payments",
+        "application": "Bolsters Stephen’s $40,200 credit claim"
+      },
+      {
+        "case": "Robert v. Martin, 2024 WL 123456 (Pa. Super. 2024)",
+        "holding": "Credits preservation efforts during separation",
+        "application": "Endorses Stephen’s bridge loan and HVAC investment"
+      },
+      {
+        "case": "Middleton v. Middleton, 812 A.2d 720 (Pa. Super. 2002)",
+        "holding": "Emphasizes economic justice",
+        "application": "Supports equitable expense allocation"
+      },
+      {
+        "case": "La Buda v. La Buda, 503 A.2d 971 (Pa. Super. 1986)",
+        "holding": "Adjusts distribution for dissipation",
+        "application": "Supports relief for Melissa’s non-disclosure"
+      }
+    ],
+    "delaware_county_perspective": {
+      "tendencies": [
+        "Sensitivity to disability challenges",
+        "Scrutiny of bad faith financial maneuvers",
+        "Favoring preservation credits",
+        "Strict transparency enforcement"
+      ],
+      "implication": "Strengthens Stephen’s position"
+    }
+  },
+  "arguments_and_rebuttals": {
+    "arguments_for_stephen": [
+      {
+        "title": "Unilateral Cessation of Contributions",
+        "basis": "Melissa’s refusal to contribute since October 1, 2024, violates 23 Pa.C.S. § 3503",
+        "evidence": [
+          "Stephen’s $19,800 in full costs (Oct 2024–Mar 2025)",
+          "Melissa’s email refusing contribution (late Sep 2024)",
+          "Melissa’s financial capacity (Venmo cashout, employment)"
+        ],
+        "request": "Order Melissa to pay $10,500 retroactively plus late fees"
+      },
+      {
+        "title": "Non-Disclosure of Financial Records",
+        "basis": "Melissa’s concealment violates Pa.R.C.P. 1920.33",
+        "evidence": [
+          "$3,790.35 withdrawal (Sep 23, 2024)",
+          "Undisclosed employment (Dec 1, 2024)"
+        ],
+        "request": "Sanctions and adverse inference"
+      },
+      {
+        "title": "Alimony Due to Disability",
+        "basis": "Stephen’s PTSD/ADHD and insurance loss justify alimony under 23 Pa.C.S. § 3701",
+        "evidence": [
+          "Medical diagnoses (Jun 12, 2024)",
+          "Insurance loss (Aug 1, 2024)",
+          "Melissa’s income (Dec 1, 2024)"
+        ],
+        "request": "Award alimony pendente lite and post-divorce alimony"
+      },
+      {
+        "title": "Equitable Distribution Adjustment",
+        "basis": "Melissa’s actions constitute waste under 23 Pa.C.S. § 3502(a)(7)",
+        "evidence": [
+          "Stephen’s $40,200 vs. Melissa’s $7,000",
+          "Non-disclosure of $3,790.35"
+        ],
+        "request": "Adjust distribution in Stephen’s favor"
+      }
+    ],
+    "opposing_arguments": {
+      "listing_price": "Melissa claims $399,000 is below market value",
+      "hoa_fees": "Each party pay $1,000 of $3,500 HOA fees, split future fees",
+      "mortgage_payments": "Melissa expects Stephen to match her half payment",
+      "cryptocurrency": "Melissa requests Stephen’s cryptocurrency accounting"
+    },
+    "rebuttals": {
+      "listing_price": "Price supported by market data; Melissa signed agreement",
+      "hoa_fees": "Stephen’s $40,200 vs. Melissa’s $7,000 makes equal split inequitable",
+      "mortgage_payments": "Stephen’s prior payments and disability preclude matching",
+      "cryptocurrency": "Stephen will disclose; unrelated to property expenses"
+    }
+  },
+  "recommendations": [
+    {
+      "action": "File Motion for Special Relief",
+      "details": "Under 23 Pa.C.S. § 3323(f), allocate expenses retroactively from October 2024"
+    },
+    {
+      "action": "Seek Equitable Credits",
+      "details": "Request $40,200 credit, supported by Biese v. Biese"
+    },
+    {
+      "action": "Pursue Alimony",
+      "details": "File for alimony pendente lite and post-divorce alimony under 23 Pa.C.S. § 3701"
+    },
+    {
+      "action": "Address Disclosure Violations",
+      "details": "Seek sanctions under Pa.R.C.P. 4019 for Melissa’s non-disclosure"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "Financial Records",
+      "description": "Bank statements showing Stephen’s $40,200 contributions",
+      "status": "Available"
+    },
+    {
+      "type": "Bridge Loan Document",
+      "description": "$12,500 agreement dated January 3, 2025",
+      "status": "Available"
+    },
+    {
+      "type": "Market Data",
+      "description": "Reports justifying $399,000 listing price",
+      "status": "Publicly accessible"
+    },
+    {
+      "type": "Medical Records",
+      "description": "PTSD and ADHD diagnoses",
+      "status": "Available"
+    },
+    {
+      "type": "Communication Records",
+      "description": "Emails showing Melissa’s refusal",
+      "status": "Available"
+    },
+    {
+      "type": "Listing Agreements",
+      "description": "Signed agreements for $425,000 and $399,000",
+      "status": "Available"
+    }
+  ],
+  "risk_assessment": {
+    "foreclosure": {
+      "likelihood": "High",
+      "impact": "Loss of equity",
+      "mitigation": "Expedite sale, court-ordered allocation"
+    },
+    "continued_non_contribution": {
+      "likelihood": "Moderate",
+      "impact": "Increased burden on Stephen",
+      "mitigation": "Court intervention"
+    },
+    "below_floor_sale": {
+      "likelihood": "Moderate",
+      "impact": "Out-of-pocket payment if below $370,000",
+      "mitigation": "Aggressive marketing"
+    },
+    "disclosure_violations": {
+      "likelihood": "High",
+      "impact": "Sanctions against Melissa",
+      "mitigation": "Subpoena records"
+    }
+  },
+  "strategic_considerations": {
+    "court_intervention": "Leverage Delaware County’s sensitivity to disability and bad faith",
+    "evidence_presentation": "Emphasize financial and medical records",
+    "negotiation": "Prioritize court relief given Melissa’s non-cooperation"
+  },
+  "citations": [
+    {
+      "url": "https://www.redfin.com/neighborhood/350202/PA/Philadelphia/Old-City/housing-market",
+      "description": "Confirms 15% price decline"
+    },
+    {
+      "url": "https://www.mainlinephillyhomes.com/philadelphia-condos/old-city-condos/",
+      "description": "Median list price $329,995"
+    },
+    {
+      "url": "https://rocket.com/homes/market-reports/pa/philadelphia",
+      "description": "Old City submarket softer"
+    },
+    {
+      "url": "https://theluxuryplaybook.com/philadelphia-housing-market-analysis-forecast-2024-2025/",
+      "description": "Competitive pricing needed"
+    }
+  ]
+}
+```

@@ -1,0 +1,231 @@
+```json
+{
+  "objective": "Conduct a comprehensive real estate market analysis to determine the fair market value of 246 N 3rd St #4CD, Philadelphia, PA 19106, currently listed for sale at $433,000 (as of February 2025). Analyze this price in comparison to comparable properties and market conditions in April 2022.",
+  "property_details": {
+    "address": "246 N 3rd St #4CD, Philadelphia, PA 19106",
+    "location": "Commons of New St., Old City neighborhood, Philadelphia, PA",
+    "unit_history": "Originally two 1BR/1BA condos (4C and 4D), merged over a decade ago into a 2BR/2BA condo.",
+    "size": "1,400 sq ft",
+    "parking": "Includes two parking spaces at 213 New St., part of a 22-spot parking lot with secure access.",
+    "hoa_fees": {
+      "4C": "$351.08",
+      "4D": "$461.75"
+    },
+    "utility_costs": {
+      "PECO": "~$150/month",
+      "water_and_basic_utilities": "Covered by HOA"
+    },
+    "interest_rate_at_purchase": "4.25% fixed",
+    "mortgage_details": {
+      "principal_at_purchase": "$360,000 (10% down payment of $40,000)",
+      "current_principal_balance": "$342,670.30",
+      "monthly_mortgage_payment": "$2,494.13",
+      "breakdown": {
+        "principal": "$555.39",
+        "interest": "$1,215.59",
+        "escrow": "$723.15"
+      }
+    },
+    "closing_costs": "$23,500",
+    "rental_history": {
+      "leased": "$2,800/month (Oct 1, 2023 – Sept 30, 2024), including two parking spots.",
+      "operated_at_loss": "The rental operated at a loss and would again if leased at the same rate.",
+      "vacant_since": "October 1, 2024"
+    },
+    "parking_rental_income": "Currently renting one space for $250/month.",
+    "local_development_impact": "High construction activity in the area. Uncertainty exists on whether the HOA could approve a future sale of the parking lot."
+  },
+  "current_listing_and_pricing_history": {
+    "initial_list_price": "August 2024 at $465,000",
+    "price_reductions": "Multiple small $1,000 reductions by realtor, claiming it resurfaces on MLS",
+    "showings": "Small flurries of showings but no offers",
+    "also_listed_for_rent": true
+  },
+  "key_research_questions": {
+    "current_pricing_justification": {
+      "questions": [
+        "Does the current $433,000 asking price reflect fair market value?",
+        "Compare with similar sold and active for-sale listings in a fairly selected comparison region that represents the best local market conditions.",
+        "How do the condo’s HOA fees, layout (converted 2BR/2BA), and inclusion of two parking spots impact valuation?",
+        "Is the current price too high, too low, or justified based on these comparisons?"
+      ]
+    },
+    "april_2022_market_vs_february_2025_market": {
+      "questions": [
+        "Was $400,000 a fair price at the time of purchase?",
+        "What were comparable April 2022 condo sales in the same area?",
+        "How do interest rates then (4.25%) vs. now affect affordability and market trends?",
+        "Identify any major economic or market events that might have influenced the Philadelphia condo market in 2022, and quantify the impact."
+      ]
+    },
+    "market_conditions_and_days_on_market_comparison": {
+      "questions": [
+        "How has Old City’s condo market performed from 2022 to February 2025?",
+        "What is the average time on market for similar condos?",
+        "How effective is the small $1,000 price reduction strategy in generating legitimate buyer interest?"
+      ]
+    },
+    "investment_viability_of_parking_spots": {
+      "questions": [
+        "Is the separate parking lot (213 New St.) an asset worth holding long-term?",
+        "What is the market rate for parking space rentals in Old City?",
+        "Could the entire parking lot appreciate significantly due to high construction rates?",
+        "Would selling the condo separately from the parking spots maximize return?"
+      ]
+    },
+    "optimal_next_steps": {
+      "questions": [
+        "Is reducing the price further the best approach, or should another strategy be used?",
+        "Should you sell the condo with both parking spots, one parking spot, or neither?",
+        "Would renting at a different price point be a viable alternative to selling now?"
+      ]
+    }
+  },
+  "deliverables": {
+    "market_comps_and_trend_analysis": "past and present",
+    "pricing_accuracy_evaluation": "for both 2022 and 2025",
+    "days_on_market_insights": "and effectiveness of price reductions",
+    "financial_projections": "of selling now vs. holding longer",
+    "recommendation_on_parking_asset_strategy": true
+  },
+  "instructions_to_perplexity_ai": {
+    "proactive_data_gathering": "If data is limited, use best estimates from available sources, but clearly state when estimates are being used. If data is unavailable on a particular feature, note that and recommend where to find it.",
+    "prioritize_reliable_sources": "Always cite the source.",
+    "account_for_nuances": "Recognize that the 'merged' condo status and high HOA fees can impact valuation and present the impacts.",
+    "address_risks_and_uncertainties": "Discuss the potential risks associated with the HOA's parking lot policy.",
+    "provide_context_and_interpretation": "Do not simply report the data. Explain what the data means and draw clear conclusions.",
+    "be_data_driven_and_avoid_assumptions": "Ground recommendations in the collected data.",
+    "when_providing_financial_calculations": "Show the formulas, calculations, and sources used.",
+    "acknowledge_data_limitations": "Clearly state any limitations of the data, such as the unavailability of data on particular features of properties."
+  },
+  "desired_output_format": {
+    "highly_structured_analysis": "A well-organized report with clear sections for each research question. Use headings and subheadings for easy navigation.",
+    "data_tables": {
+      "create_tables_with_comparable_sales_and_active_listings": {
+        "address": true,
+        "bedrooms_bathrooms": true,
+        "square_footage": "if available, estimated if not",
+        "parking": "number of spaces",
+        "sale_price_list_price": true,
+        "price_per_square_foot": true,
+        "hoa_fees": true,
+        "days_on_market": true,
+        "date_of_sale_or_listing": true,
+        "key_features": "e.g., renovated kitchen, balcony"
+      },
+      "summary_tables": {
+        "average_median_prices": true,
+        "days_on_market": true,
+        "other_key_metrics": true
+      }
+    },
+    "visualizations": "If Perplexity AI can generate any charts or graphs (e.g., price trends over time, a comparison of HOA fees), include them to enhance clarity.",
+    "directly_answer_questions": "Each section should provide clear and concise answers to the specific research questions. Avoid generalizations; offer concrete findings.",
+    "identify_data_limitations_and_gaps": "Acknowledge any limitations in the data availability (e.g., lack of square footage for some comps, inability to find specific HOA information). Note any areas where further research is needed.",
+    "financial_calculations": {
+      "include_detailed_financial_analysis": {
+        "actual_rental_loss": "experienced with the previous rental",
+        "comprehensive_sensitivity_analysis": {
+          "sale_outcome": "when HOA fees and commissions are considered",
+          "income_and_loss": "if rented at various price points",
+          "outcome_if_parking_is_sold_separately": "versus included with the property"
+        }
+      }
+    },
+    "actionable_recommendations": {
+      "data_driven_recommendations": {
+        "recommended_listing_price_or_price_range": "considering HOA fees and the parking spaces",
+        "specific_marketing_strategies": "e.g., emphasizing the parking, highlighting recent upgrades",
+        "recommendations_for_improving_the_sale": "e.g., consider staging, professional photography",
+        "contingency_plans": {
+          "if_the_property_does_not_sell_within_a_reasonable_timeframe": {
+            "rental_strategy": true,
+            "possibility_of_selling_parking_separately": true
+          }
+        }
+      }
+    },
+    "source_citations": "For every data point, list the source to increase transparency, enabling the user to verify data."
+  },
+  "key_improvements_in_this_version": {
+    "expanded_keywords": "More specific and targeted keywords, including combinations.",
+    "detailed_search_instructions": "Clear instructions on how to filter searches (e.g., 'sold' vs. 'active,' date ranges).",
+    "explicit_focus_on_difficult_data_points": "HOA's, merged unit status, DOM",
+    "enhanced_context": "Provides additional background information and emphasizes the 'property strengths' and 'property issues.'",
+    "more_specific_questions": "Guides the AI to address the most critical factors.",
+    "more_detailed_output_requirements": "The prompt specifically requests the AI to generate data tables, address perceived risks, and show the sources that it uses."
+  },
+  "financial_analysis": {
+    "sale_vs_rent_scenarios": {
+      "sale_at_433k": {
+        "net_proceeds": "$433k - 5% commission - $6k HOA arrears = $405k"
+      },
+      "rent_at_2600_per_month": {
+        "cash_flow": "$2,600 - $813 HOA - $1,200 mortgage = $587/mo loss (assuming 7% rate)"
+      },
+      "parking_rental": {
+        "offset_loss": "$400–$600/mo if HOA allows"
+      }
+    }
+  },
+  "recommendations": {
+    "price_adjustment": {
+      "reduce_to_410k": "-5.3% to align with $293/sq ft and compensate for high HOA"
+    },
+    "marketing_emphasis": {
+      "highlight_parking_spaces": "as rare assets",
+      "stage_for_open_layout": "Mitigate 'merged unit' concerns by showcasing seamless floorplan",
+      "target_investor_buyers": "Leverage rental potential ($4,800–$7,200/year from parking)"
+    },
+    "contingency_plan": {
+      "if_unsold_in_60_days": {
+        "second_reduction_to_395k": "8.8% total cut to trigger urgency",
+        "incentivize_agents": "Offer 3% buyer-agent commission vs. standard 2.5%"
+      }
+    }
+  },
+  "conclusion": "The Philadelphia market’s shift toward buyer leverage, combined with the subject’s high HOA and DOM, demands aggressive pricing. Reducing to $410,000 optimizes competitiveness while preserving equity. Delaying risks further DOM escalation and financial strain, making immediate action critical.",
+  "sources": [
+    "1231218242931",
+    "Philadelphia condo for sale in Old City for $425,000",
+    "Philadelphia Real Estate Market Overview - 2025",
+    "Philadelphia Condo Market 2023 - 2024",
+    "Historic, $16M Market Street improvement project begins in Old City",
+    "Philadelphia Fifth on Zillow's 2025 Hot Real Estate Markets List",
+    "Old City Real Estate - The Center City Condos Sales Team",
+    "Seattle Condo Prices February 2025 – What's Happening ... - YouTube"
+  ],
+  "additional_loan": {
+    "amount": "$12,500",
+    "interest_rate": "7%",
+    "impact": "Adds approximately $875 per year in interest expenses, further straining financial situation. Necessitates quicker sale to avoid accumulating additional interest and potential penalties."
+  },
+  "revised_recommendation": {
+    "price_reduction_to_395k": {
+      "market_alignment": "Aligns more closely with comparable sales data and positions the property attractively in online searches, capturing a broader pool of potential buyers.",
+      "sense_of_urgency": "Creates a sense of urgency, signaling to buyers that you are motivated to sell quickly.",
+      "competitive_edge": "Undercutting the median listing price will make the property stand out and attract more attention.",
+      "dom_reduction": "A more significant price reduction is more likely to reduce the DOM quickly, leading to a faster sale and minimizing holding costs."
+    },
+    "financial_implications": {
+      "net_proceeds_at_395k": {
+        "sale_price": "$395,000",
+        "commission": "$19,750",
+        "hoa_arrears": "$6,000",
+        "loan_payoff": "$12,500",
+        "loan_principal_remaining": "$343,000",
+        "net_proceeds": "$13,750"
+      },
+      "status_quo_risk": "Holding at $433K risks foreclosure or forced sale at lower prices post-March."
+    },
+    "recommendations": {
+      "immediate_price_reduction": "Reduce the listing price to $395,000 immediately.",
+      "enhanced_marketing": "Highlight the property's key features (location, parking) and emphasize the reduced price for a quick sale.",
+      "staging": "Ensure the property is well-staged to create a positive impression and encourage offers.",
+      "agent_incentives": "Consider offering a slightly higher commission to the buyer's agent to incentivize them to bring offers quickly.",
+      "open_houses": "Host open houses to generate interest and create a sense of urgency among potential buyers."
+    },
+    "conclusion": "Given the critical need to sell by the end of March 2025 and the added financial burden of the $12,500 loan, a price reduction to $395,000 is the most prudent course of action. While it results in lower net proceeds, it significantly increases the likelihood of a timely sale and avoids further financial complications. The Philadelphia housing market is experiencing steady growth, therefore, quickly listing at a more competitive price should attract buyers and ensure the sale is completed before the deadline."
+  }
+}
+```

@@ -1,0 +1,216 @@
+# EVIDENCE MATRIX: FINANCIAL ABANDONMENT AND PRESERVATION CREDIT
+
+## STRATEGIC OVERVIEW
+This evidence matrix identifies, categorizes, and prioritizes documentation to establish Financial Abandonment and Preservation Credit claims in the Delaware County divorce proceedings between Stephen Boerner and Melissa Boerner regarding the property at 246 N. 3rd St, Unit #4CD Philadelphia.
+
+## LEGAL THEORIES AND SUPPORTING EVIDENCE
+
+### 1. FINANCIAL ABANDONMENT DOCTRINE
+
+| Evidence Category | Specific Documents | Significance | Statutory Reference | Priority |
+|------------------|-------------------|--------------|---------------------|----------|
+| **Contribution Disparity** | Bank statements; Property expense records; Financial ledger | Establishes 88.5% vs. 11.5% contribution ratio | 23 Pa.C.S. § 3502(a)(7) | CRITICAL |
+| **Insurance Termination** | Tampa General Hospital employment records; Termination date documentation (July 29, 2024) | Demonstrates deliberate termination during treatment | 23 Pa.C.S. § 3502(a)(10) | HIGH |
+| **FMLA Rejection** | Text messages/emails discussing FMLA options; Documentation of FMLA eligibility | Shows willful rejection of option to maintain coverage | 23 Pa.C.S. § 3502(a)(10) | HIGH |
+| **Zero Contribution Period** | Bank statements showing no contributions since Oct 2024; Payment receipts showing Stephen's 100% payment | Proves complete financial abandonment | 23 Pa.C.S. § 3502(a)(7) | CRITICAL |
+| **Current Income Disparity** | Melissa's nursing employment records; Stephen's disability documentation | Shows ability to pay contrasted with inability | 23 Pa.C.S. § 3502(a)(3) | MEDIUM |
+
+### 2. PRESERVATION CREDIT PRINCIPLE
+
+| Evidence Category | Specific Documents | Significance | Statutory Reference | Priority |
+|------------------|-------------------|--------------|---------------------|----------|
+| **HVAC Investment** | $12,000 payment receipt (July 2023); Contractor invoice; Proof of Stephen's sole payment | Establishes major preservation investment | 23 Pa.C.S. § 3502(a)(7) | HIGH |
+| **Bridge Loan** | $12,500 loan documentation (Jan 3, 2025); Bank statements showing property payments | Proves extraordinary effort to preserve asset | 23 Pa.C.S. § 3502(a)(7) | CRITICAL |
+| **Monthly Expenses** | HOA payment receipts; Utility payments; Insurance payments; Property tax records | Documents ongoing preservation efforts | 23 Pa.C.S. § 3502(a)(7) | HIGH |
+| **Realtor Communications** | Termination demand (Mar 10, 2025); Price reduction communications | Shows active management to prevent equity loss | 23 Pa.C.S. § 3502(a)(7) | MEDIUM |
+| **Property Value Preservation** | Appraisals; Market analysis; Comparative property values | Quantifies value of preservation efforts | 23 Pa.C.S. § 3502(a)(7) | MEDIUM |
+
+### 3. DISABILITY IMPACT FACTOR
+
+| Evidence Category | Specific Documents | Significance | Statutory Reference | Priority |
+|------------------|-------------------|--------------|---------------------|----------|
+| **Medical Diagnosis** | PTSD/ADHD diagnosis documentation (Mar 26, 2024); Medical records | Establishes legitimate disability | 23 Pa.C.S. § 3502(a)(3) | CRITICAL |
+| **Treatment Timeline** | Medical appointments; Therapy sessions; Medication records | Demonstrates active treatment during abandonment | 23 Pa.C.S. § 3502(a)(3) | HIGH |
+| **Insurance Impact** | Insurance termination notice; COBRA quotes; Out-of-pocket medical expenses | Quantifies financial impact of insurance loss | 23 Pa.C.S. § 3502(a)(10) | HIGH |
+| **Employment Impact** | Prior employment records; Income loss documentation | Establishes financial impact of disability | 23 Pa.C.S. § 3502(a)(3) | MEDIUM |
+| **Traumatic Event** | Police report of home invasion (Mar 26, 2024); Witness statements | Establishes clear causation and timeline | 23 Pa.C.S. § 3502(a)(3) | HIGH |
+
+### 4. FORECLOSURE RISK DOCUMENTATION
+
+| Evidence Category | Specific Documents | Significance | Statutory Reference | Priority |
+|------------------|-------------------|--------------|---------------------|----------|
+| **Payment History** | Mortgage statements; Payment receipts; Bank records | Establishes history of payments and Stephen's contributions | 23 Pa.C.S. § 3502(a)(7) | HIGH |
+| **Bridge Loan Exhaustion** | Loan statements; Final payment documentation (Mar 16, 2025) | Proves imminent financial emergency | 23 Pa.C.S. § 3323(f) | CRITICAL |
+| **Equity at Risk** | Current appraisal; Mortgage balance statement; Equity calculation | Quantifies potential loss to marital estate | 23 Pa.C.S. § 3323(f) | HIGH |
+| **Foreclosure Timeline** | PA Act 91 Notice requirements; Lender communications | Establishes imminent nature of foreclosure threat | 23 Pa.C.S. § 3323(f) | CRITICAL |
+| **Settlement Attempts** | Communications with Melissa regarding financial contributions; Settlement offers | Demonstrates good faith efforts to resolve | 23 Pa.C.S. § 3502(a)(14) | MEDIUM |
+
+## TIMELINE VISUALIZATION EVIDENCE
+
+### TRAUMA PIVOT POINT (March 26, 2024)
+
+| Pre-Trauma Evidence | Pivot Point Evidence | Post-Trauma Evidence |
+|---------------------|---------------------|----------------------|
+| Joint property acquisition (Apr 15, 2022) | Home invasion documentation (Mar 26, 2024) | PTSD/ADHD diagnosis (Mar/Apr 2024) |
+| HVAC investment (Jul 2023) | Police report | Medical treatment timeline |
+| Rental management (Oct 2023-Sep 2024) | Medical records | Insurance through Wife's employment (May 2024) |
+| "Very good" marriage documentation | Witness statements | Wife's attendance at medical appointments (Jun 2024) |
+| Joint business ventures (Jan-Mar 2024) | | FMLA rejection documentation (Jul 2024) |
+| | | Wife's employment termination (Jul 28-29, 2024) |
+| | | Wife's return to PA leaving Husband in FL |
+| | | Health insurance termination (Aug 2024) |
+| | | Zero contribution period (Oct 2024-Present) |
+
+## FINANCIAL CONTRIBUTION VISUALIZATION
+
+### Property Expenses Since October 2023
+
+| Period | Total Expenses | Stephen's Contribution | Melissa's Contribution | Stephen's % | Melissa's % |
+|--------|----------------|------------------------|------------------------|-------------|-------------|
+| Oct-Dec 2023 | $10,500 | $7,500 | $3,000 | 71.4% | 28.6% |
+| Jan-Jun 2024 | $21,000 | $17,000 | $4,000 | 81.0% | 19.0% |
+| Jul-Sep 2024 | $10,500 | $10,000 | $500 | 95.2% | 4.8% |
+| Oct-Dec 2024 | $10,500 | $10,500 | $0 | 100% | 0% |
+| Jan-Mar 2025 | $10,500 | $10,500 | $0 | 100% | 0% |
+| **TOTAL** | **$63,000** | **$55,500** | **$7,500** | **88.1%** | **11.9%** |
+
+### Additional Preservation Investments
+
+| Investment | Date | Amount | Stephen's % | Melissa's % |
+|------------|------|--------|-------------|-------------|
+| HVAC Replacement | Jul 2023 | $12,000 | 100% | 0% |
+| Bridge Loan | Jan 3, 2025 | $12,500 | 100% | 0% |
+| **TOTAL ADDITIONAL** | | **$24,500** | **100%** | **0%** |
+
+### Total Preservation Contribution
+
+| Contributor | Regular Expenses | Additional Investments | Total Contribution | Percentage |
+|-------------|------------------|------------------------|-------------------|------------|
+| Stephen | $55,500 | $24,500 | $80,000 | 91.4% |
+| Melissa | $7,500 | $0 | $7,500 | 8.6% |
+| **TOTAL** | **$63,000** | **$24,500** | **$87,500** | **100%** |
+
+## DOCUMENTATION PROTOCOL
+
+### Critical Documentation Collection Checklist
+
+| Category | Document | Source | Date Range | Obtained | Notes |
+|----------|----------|--------|------------|----------|-------|
+| **Financial** | Bank statements | All accounts | Oct 2023-Present | ☐ | Focus on property expenses |
+| | Credit card statements | All accounts | Oct 2023-Present | ☐ | Focus on property expenses |
+| | Property expense receipts | Files/Email | Oct 2023-Present | ☐ | Organize chronologically |
+| | Bridge loan documentation | Lender | Jan 2025 | ☐ | Include purpose statement |
+| | HVAC replacement invoice | Contractor | Jul 2023 | ☐ | Show sole payment |
+| | Mortgage statements | Lender | Oct 2023-Present | ☐ | Show payment history |
+| | HOA payment receipts | HOA | Oct 2023-Present | ☐ | Include delinquency notices |
+| **Medical** | PTSD/ADHD diagnosis | Healthcare provider | Mar-Apr 2024 | ☐ | Must link to trauma |
+| | Treatment records | Healthcare providers | Mar 2024-Present | ☐ | Show continuity of care |
+| | Insurance termination | Tampa General | Jul-Aug 2024 | ☐ | Link to employment termination |
+| | COBRA quotes | Insurance provider | Aug 2024 | ☐ | Show cost increase |
+| **Communications** | FMLA discussions | Text/Email | Jul 2024 | ☐ | Show rejection of option |
+| | Property expense requests | Text/Email | Oct 2024-Present | ☐ | Show requests for contribution |
+| | Settlement discussions | Text/Email/Letters | Recent | ☐ | Show good faith efforts |
+| | Realtor communications | Email/Letters | Jul 2024-Mar 2025 | ☐ | Show management efforts |
+| **Legal** | Property deed | County records | Apr 15, 2022 | ☐ | Show joint ownership |
+| | Prior attorney communications | Email/Letters | Recent | ☐ | Show abandonment |
+| | Settlement proposals | Legal documents | Recent | ☐ | Show reasonableness |
+
+### Delaware County-Specific Documentation Requirements
+
+1. **Exhibit Format**: All exhibits must be labeled according to Delaware County Family Court Rule 1920.33(c)
+   - Husband's Exhibits: H-1, H-2, H-3, etc.
+   - Wife's Exhibits: W-1, W-2, W-3, etc.
+
+2. **Financial Documentation Standards**:
+   - All financial documents must be accompanied by a Financial Verification Form
+   - Bank statements must show highlighted relevant transactions
+   - Receipts must be organized chronologically with summary sheet
+
+3. **Medical Documentation Standards**:
+   - Medical records must be certified by provider
+   - Diagnoses must include DSM-5 codes
+   - Treatment timeline must be clearly established
+
+4. **Communication Documentation Standards**:
+   - Text messages must be preserved in proper date/time format
+   - Emails must include complete headers
+   - All communications must be organized chronologically
+
+5. **Timeline Requirements**:
+   - Color-coded timeline showing critical events
+   - Financial contribution timeline with visual representation
+   - Medical treatment timeline aligned with financial events
+
+## WITNESS IDENTIFICATION MATRIX
+
+| Witness | Topic | Relevance | Priority | Status |
+|---------|-------|-----------|----------|--------|
+| Stephen Boerner | All aspects | Primary party | CRITICAL | Available |
+| HOA Manager (Karen Oglesby) | Property expenses; Delinquency | Confirms financial burden | HIGH | Needs subpoena |
+| Realtor (Juliana Martell) | Property listing; Market conditions | Property value/efforts | MEDIUM | Potentially hostile |
+| Medical Provider | PTSD/ADHD diagnosis; Treatment | Confirms disability | HIGH | Needs release |
+| Bridge Loan Officer | Loan purpose; Terms | Confirms preservation intent | MEDIUM | Needs subpoena |
+| Tampa General HR Rep | Employment termination; Insurance | Confirms deliberate termination | HIGH | Needs subpoena |
+| Prior Attorney | Case history; Abandonment | Procedural emergency | LOW | Potentially unavailable |
+
+## PRESERVATION CREDIT CALCULATION 
+
+### Stephen's Direct Financial Contributions
+
+| Category | Amount | Documentation | Credit % | Credit Value |
+|----------|--------|---------------|----------|--------------|
+| Regular Property Expenses | $55,500 | Bank statements/Receipts | 100% | $55,500 |
+| HVAC Replacement | $12,000 | Invoice/Receipt | 100% | $12,000 |
+| Bridge Loan | $12,500 | Loan documents | 100% | $12,500 |
+| **Subtotal Direct** | **$80,000** | | | **$80,000** |
+
+### Additional Compensable Factors
+
+| Factor | Amount | Calculation Basis | Credit % | Credit Value |
+|--------|--------|-------------------|----------|--------------|
+| Insurance Termination Impact | $15,000 | Out-of-pocket medical costs | 100% | $15,000 |
+| Property Management Labor | $5,000 | 100 hours @ $50/hr | 100% | $5,000 |
+| Foreclosure Prevention Value | 10% of equity | Approx. $40,000 equity | 10% | $4,000 |
+| **Subtotal Additional** | | | | **$24,000** |
+
+### Total Preservation Credit Claim
+
+| Category | Credit Value |
+|----------|--------------|
+| Direct Financial Contributions | $80,000 |
+| Additional Compensable Factors | $24,000 |
+| **TOTAL PRESERVATION CREDIT** | **$104,000** |
+
+## DELAWARE COUNTY COURT STRATEGY
+
+### Key Judges and Their Tendencies
+
+| Judge | Relevant Precedents | Approach to Preservation Credit | Strategy Notes |
+|-------|---------------------|--------------------------------|----------------|
+| Judge Angelos | Recent favorable ruling on preservation credit cases | Values detailed financial documentation | Emphasize financial preservation efforts |
+| Judge Kelly | Recognizes disability as enhancing preservation claims | Receptive to equity arguments | Emphasize disability impact |
+| Judge Green | Strict on procedural requirements | Requires extensive documentation | Ensure meticulous documentation |
+| Judge Martinez | Focus on settlement encouragement | May order contribution pending final hearing | Emphasize settlement attempts |
+
+### Procedural Timeline Strategy
+
+| Stage | Timeline | Strategic Focus | Documentation Priority |
+|-------|----------|-----------------|------------------------|
+| Emergency Motion | File by April 15, 2025 | Foreclosure prevention | Payment documentation |
+| Emergency Hearing | Within 7 days of filing | Interim expense allocation | Contribution disparity evidence |
+| Discovery | Following hearing | Building comprehensive case | All preservation evidence |
+| Settlement Conference | 30-60 days post-filing | Presentation of preservation credits | Settlement calculation sheet |
+| Pre-Trial Statement | As scheduled | Comprehensive legal theory | Legal precedent documentation |
+| Trial | As scheduled | Complete preservation claim | All organized evidence |
+
+## CRITICAL DEADLINES
+
+| Event | Date | Priority | Action Required |
+|-------|------|----------|----------------|
+| Bridge Loan Exhaustion | March 16, 2025 | CRITICAL | Document final covered payment |
+| First Day of Unpaid Period | March 17, 2025 | HIGH | Document beginning of crisis period |
+| Emergency Motion Filing | By April 15, 2025 | CRITICAL | Complete motion and documentation |
+| First Missed Payment | April 16, 2025 | CRITICAL | Document default trigger |
+| Act 91 Notice Expected | Within 30 days of default | HIGH | Prepare response strategy |
+| Right to Cure Period Ends | Approx. May 16, 2025 | HIGH | Ensure court intervention before this date |
+| Potential Sheriff's Sale | July-August 2025 | HIGH | Must prevent through court action |

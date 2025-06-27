@@ -1,0 +1,126 @@
+Here’s a comprehensive JSON repository of all the pro se divorce–related material we’ve accumulated, favoring the most recent (“bottom”) updates in each thread and structuring for machine readability:
+
+{
+  "divorceContext": {
+    "jurisdiction": "Delaware County, Pennsylvania",
+    "representation": "pro se",
+    "dependents": false,
+    "timelineScope": "2019–2025"
+  },
+  "timeline": [
+    {
+      "date": "2019-??-??",
+      "event": "Marriage of Stephen J. Boerner and Melissa Berner"
+    },
+    {
+      "date": "2024-08-22",
+      "event": "User formally begins divorce process; explores Stoic framework (Ryan Holiday)"
+    },
+    {
+      "date": "2024-08-31",
+      "event": "Lease on prior rental property ends"
+    },
+    {
+      "date": "2024-09-02",
+      "event": "Move-out; landlord mails certified claims on security deposit"
+    },
+    {
+      "date": "2024-10-02",
+      "event": "User mails claim for security deposit"
+    },
+    {
+      "date": "2024-10-??",
+      "event": "Condo at 246 N. 3rd St #4CD becomes vacant after rental period"
+    },
+    {
+      "date": "2024-11-23",
+      "event": "User records emotional and logistical impacts: depression, anxiety, move back with parents"
+    },
+    {
+      "date": "2025-02-26",
+      "event": "Condo relisted at $433,000 after initial $465,000 in Aug 2024"
+    },
+    {
+      "date": "2025-03-06",
+      "event": "Research launched on legal malpractice in PA divorce (attorney responsiveness, financial disclosure, negligence)"
+    },
+    {
+      "date": "2025-04-22",
+      "event": "Initiation of comprehensive divorce‐timeline project (2019–2025)"
+    }
+  ],
+  "property": {
+    "address": "246 N. 3rd St, Unit 4CD, Philadelphia, PA 19106",
+    "type": "2BR/2BA merged unit",
+    "features": ["2 deeded parking spaces"],
+    "listingHistory": [
+      {
+        "date": "2024-08-01",
+        "price": 465000
+      },
+      {
+        "date": "2025-02-26",
+        "price": 433000
+      }
+    ],
+    "financials": {
+      "monthlyMortgage": 2494.13,
+      "outstandingPrincipal": 342670.30,
+      "monthlyHOA": 813
+    },
+    "vacancy": {
+      "rentalEnd": "October 2024",
+      "vacantSince": "October 2024"
+    }
+  },
+  "financialAccount": {
+    "type": "PNC joint debit",
+    "ownership": "funded solely by SB",
+    "mortgageAndRent": {
+      "payer": "SB displays financial responsibility",
+      "rentAmount": 4500,
+      "frequency": "monthly",
+      "beneficiaries": ["Florida rent", "Mr. Cooper mortgage"]
+    },
+    "PNCAccess": {
+      "issue": "Melissa lost credentials",
+      "solution": "Voided check provided for branch-level reset"
+    },
+    "terminologyUpdate": {
+      "from": "financial control",
+      "to": "SB displays financial responsibility"
+    }
+  },
+  "legalResearch": [
+    {
+      "topic": "PA divorce legal malpractice",
+      "focusAreas": ["attorney responsiveness", "financial disclosure analysis", "professional negligence"],
+      "stage": "exploratory"
+    },
+    {
+      "topic": "Stoic approach to divorce",
+      "reference": "Ryan Holiday",
+      "stage": "conceptual"
+    }
+  ],
+  "household": {
+    "serviceDog": {
+      "name": "Lucy",
+      "owner": "Stephen J. Boerner",
+      "status": "sole ownership; non-contested custody"
+    }
+  },
+  "proSeDevelopment": [
+    {
+      "threadId": "0515T21",
+      "projectName": "TALON Pro Se",
+      "objective": "Develop ROO Code–powered tool for self-representation in divorce & landlord-tenant matters",
+      "keyRequirements": [
+        "Cursor integration",
+        "VS Code compatibility",
+        "Advanced JSON schema",
+        "Holistic legal-tech focus"
+      ]
+    }
+  ]
+}

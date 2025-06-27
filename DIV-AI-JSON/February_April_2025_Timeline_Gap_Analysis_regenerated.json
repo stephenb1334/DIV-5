@@ -1,0 +1,217 @@
+{
+  "timeline_name": "February_April_2025_Timeline_Gap_Analysis",
+  "generated_timestamp": "2025-04-22T16:39:23.244164Z",
+  "event_count": 30,
+  "events": [
+    {
+      "id": "ec57ce53-c872-47cf-9fc1-3c4d6cbb3563",
+      "date": "2025-02-11",
+      "category": "Legal",
+      "event": "Realtor admits contradictory pricing strategy",
+      "days_until_next": "2 days"
+    },
+    {
+      "id": "082a8f0b-b845-4497-acc9-d14a2135fa53",
+      "date": "2025-02-13",
+      "category": "Financial",
+      "event": "HOA delinquency recorded at $2,872.64",
+      "days_until_next": "12 days"
+    },
+    {
+      "id": "7a7d8203-caf8-4d0f-9b1a-9e6390ab7b85",
+      "date": "2025-02-25",
+      "category": "Legal",
+      "event": "Melissa sends unsolicited 50/50 proposal",
+      "days_until_next": "4 days"
+    },
+    {
+      "id": "a8606db9-950f-436a-8006-3b16c134adf4",
+      "date": "2025-03-01",
+      "category": "Legal",
+      "event": "Melissa uses false reason in signing realtor termination",
+      "days_until_next": "2 days"
+    },
+    {
+      "id": "56321718-bd79-4e87-93a0-3dbc645ddfdf",
+      "date": "2025-03-03",
+      "category": "Legal",
+      "event": "Melissa sends counterproposal",
+      "days_until_next": "2 days"
+    },
+    {
+      "id": "5d4dd56d-174b-416a-bb49-66d9f0829d2c",
+      "date": "2025-03-05",
+      "category": "Legal",
+      "event": "Ultimatum sent by Melissa",
+      "days_until_next": "1 days"
+    },
+    {
+      "id": "78c7d95d-d9f2-40cc-89c1-9914b4891f84",
+      "date": "2025-03-06",
+      "category": "Financial",
+      "event": "HOA delinquency rises to $3,187.72",
+      "days_until_next": "4 days"
+    },
+    {
+      "id": "49e4ad81-1b8e-4613-a404-d1a80908dac9",
+      "date": "2025-03-10",
+      "category": "Legal",
+      "event": "Realtor termination letter sent",
+      "days_until_next": "1 days"
+    },
+    {
+      "id": "6f05f5cf-2f36-4c52-939b-dbd0d3c87e41",
+      "date": "2025-03-11",
+      "category": "Financial",
+      "event": "Final mortgage payment made",
+      "days_until_next": "2 days"
+    },
+    {
+      "id": "fd45a837-96ed-486b-bf37-bfe2b75995ae",
+      "date": "2025-03-13",
+      "category": "Legal",
+      "event": "Deadline for Melissa\u2019s cooperation with termination",
+      "days_until_next": "2 days"
+    },
+    {
+      "id": "bf7584d2-1d1e-416e-a8ae-334b2695ebb5",
+      "date": "2025-03-15",
+      "category": "Property Listing",
+      "event": "Price reduced to $399,000",
+      "days_until_next": "1 days"
+    },
+    {
+      "id": "9ff6c9d8-fc65-4bd3-9f55-805bc73a21b6",
+      "date": "2025-03-16",
+      "category": "Financial",
+      "event": "Bridge loan funds exhausted",
+      "days_until_next": "3 days"
+    },
+    {
+      "id": "eede04c3-fa7b-4cc5-ae19-de375412729f",
+      "date": "2025-03-19",
+      "category": "Employment",
+      "event": "LinkedIn shows no employment update for Melissa despite full-time work",
+      "days_until_next": "11 days"
+    },
+    {
+      "id": "95ba0e3d-b585-4772-8ae6-4686b3456e9d",
+      "date": "2025-03-30",
+      "category": "Technical",
+      "event": "Melissa obstructs Stephen's access to shared Gmail account",
+      "days_until_next": "2 days"
+    },
+    {
+      "id": "5ebbf021-bd8c-4a01-a62b-a2aca6434f81",
+      "date": "2025-04-01",
+      "category": "Insurance",
+      "event": "Stephen cancels life insurance policy; requests Melissa do same",
+      "days_until_next": "1 days"
+    },
+    {
+      "id": "6058cda6-5d66-41b6-a1e0-f367d96a42e3",
+      "date": "2025-04-02",
+      "category": "Financial",
+      "event": "ACH debit of $40.00 to WAYFAIR AUTO from PNC Joint Family Checking",
+      "days_until_next": "7 days"
+    },
+    {
+      "id": "b61a31a2-c94e-49d1-a5a4-03c6cbbb95fe",
+      "date": "2025-04-09",
+      "category": "Financial",
+      "event": "Two online transfers out of PNC Joint Family Checking: $200.00 and $150.00",
+      "days_until_next": "1 days"
+    },
+    {
+      "id": "96cdff60-d4bb-4f3a-9ee9-ce2a73b7d838",
+      "date": "2025-04-10",
+      "category": "Property Listing",
+      "event": "Listed at $389,900",
+      "days_until_next": "4 days"
+    },
+    {
+      "id": "4dabbf6d-b104-4012-83e4-94c376481257",
+      "date": "2025-04-14",
+      "category": "Financial",
+      "event": "PNC deposit and same-day withdrawal of $1,247.10",
+      "days_until_next": "0 days"
+    },
+    {
+      "id": "0f35a072-1deb-4a9c-b30d-d3f837dc4249",
+      "date": "2025-04-14",
+      "category": "Financial",
+      "event": "Melissa deposits $1,247.10 into PNC Joint Family Checking (from XXXXX4209)",
+      "days_until_next": "0 days"
+    },
+    {
+      "id": "933dc456-b328-4a73-8d4e-1912678b8a3a",
+      "date": "2025-04-14",
+      "category": "Financial",
+      "event": "Melissa deposits $1,247.10 into PNC Joint Family Checking",
+      "days_until_next": "1 days"
+    },
+    {
+      "id": "416157b7-f837-438d-94ce-ef3f2823829e",
+      "date": "2025-04-15",
+      "category": "Legal",
+      "event": "2:58 PM email from opposing counsel falsely claiming Melissa paid 'half' the mortgage",
+      "days_until_next": "0 days"
+    },
+    {
+      "id": "f0160175-5571-4716-a70a-a915ca3b6009",
+      "date": "2025-04-15",
+      "category": "Financial",
+      "event": "Melissa withdraws $1,247.10 from PNC Joint Family Checking (same amount as deposit)",
+      "days_until_next": "0 days"
+    },
+    {
+      "id": "0e25ae5f-c9fd-4f38-8fd4-d75bfc2aef18",
+      "date": "2025-04-15",
+      "category": "Legal",
+      "event": "Opposing counsel sends email 2:58pm same day as suspicious withdrawal",
+      "days_until_next": "0 days"
+    },
+    {
+      "id": "509d568b-0c3d-4bb0-a1d1-e18a498e2ff5",
+      "date": "2025-04-15",
+      "category": "Financial",
+      "event": "Melissa withdraws $1,247.10 from PNC Joint Family Checking (to XXXXX4209) - same account",
+      "days_until_next": "0 days"
+    },
+    {
+      "id": "9e11cdda-9d18-49f3-8697-5aa5029c255c",
+      "date": "2025-04-15",
+      "category": "Legal",
+      "event": "Carolyn R. Mirabile sends 2:58 PM email falsely stating Melissa paid half the mortgage",
+      "days_until_next": "1 days"
+    },
+    {
+      "id": "1f752afa-2746-44d9-b26e-33e8fc5ff750",
+      "date": "2025-04-16",
+      "category": "Foreclosure",
+      "event": "Mortgage becomes delinquent",
+      "days_until_next": "2 days"
+    },
+    {
+      "id": "8ac61734-dee0-4c16-8aaa-38573d5af0c8",
+      "date": "2025-04-18",
+      "category": "Property Listing",
+      "event": "Price reduced again to $389,900",
+      "days_until_next": "4 days"
+    },
+    {
+      "id": "1be83afc-ae95-4a67-bcef-b4cb10d84ce2",
+      "date": "2025-04-22",
+      "category": "Legal",
+      "event": "Defendant files for SSDI",
+      "days_until_next": "0 days"
+    },
+    {
+      "id": "b8913bfa-91db-4790-8e17-1b64cc812af1",
+      "date": "2025-04-22",
+      "category": "Legal",
+      "event": "Defendant files for SSDI based on PTSD and ADHD diagnoses",
+      "days_until_next": NaN
+    }
+  ]
+}

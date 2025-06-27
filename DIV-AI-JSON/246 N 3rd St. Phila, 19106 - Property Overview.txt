@@ -1,0 +1,142 @@
+{
+  "propertyOverview": {
+    "address": "246 N 3rd St #4CD",
+    "city": "Philadelphia",
+    "state": "PA",
+    "zipCode": "19106",
+    "neighborhood": "Old City",
+    "buildingName": "The Commons of New Street",
+    "unitFloor": 4,
+    "cornerUnit": true,
+    "yearBuilt": 1900,
+    "recentCommonAreaRenovations": true
+  },
+  "priceAndFinancialDetails": {
+    "currentListingPrice": 433000,
+    "currentPricePerSqFt": 309,
+    "priceHistory": [
+      { "date": "2024-07-22", "price": 465000, "pricePerSqFt": 332 },
+      { "date": "2024-08-19", "price": 460000, "priceChangePercent": -1.1 },
+      { "date": "2024-09-12", "price": 450000, "priceChangePercent": -2.2 },
+      { "date": "2024-10-17", "price": 435000, "priceChangePercent": -3.3 },
+      { "date": "2024-12-05", "price": 434000, "priceChangePercent": -0.2 },
+      { "date": "2025-01-16", "price": 433000, "priceChangePercent": -0.2 }
+    ],
+    "totalPriceReductionPercent": 6.9,
+    "estimatedMonthlyPayment": 3435,
+    "monthlyHOAFee": 813,
+    "hoaServicesIncluded": [
+      "ground maintenance",
+      "structure maintenance",
+      "management",
+      "parking",
+      "pest control",
+      "reserve funds",
+      "sewer",
+      "snow removal",
+      "trash",
+      "water"
+    ],
+    "annualTax": 6969,
+    "taxAssessedValue": 497900,
+    "zestimate": 426900,
+    "zestimateRange": { "min": 406000, "max": 448000 },
+    "zestimateOneYearChangePercent": -8
+  },
+  "physicalCharacteristics": {
+    "livingAreaSqFt": 1400,
+    "bedrooms": 2,
+    "bathroomsFull": 2,
+    "stories": 1,
+    "ceilingHeightsFt": 12,
+    "floorPlan": "open",
+    "diningArea": true,
+    "breakfastArea": true,
+    "walkInClosets": true,
+    "windows": "expansive",
+    "construction": "drywall",
+    "ceilingsNinePlusFt": true
+  },
+  "amenitiesAndFeatures": {
+    "interior": {
+      "laundryInUnit": true,
+      "dryerType": "electric",
+      "cooling": "central air",
+      "ceilingFans": true,
+      "heating": "forced air (electric)",
+      "appliances": [
+        "dishwasher",
+        "disposal",
+        "electric oven/range",
+        "refrigerator",
+        "electric water heater"
+      ],
+      "flooring": [
+        "carpet",
+        "hardwood",
+        "tile/brick",
+        "wood"
+      ],
+      "windowTreatments": true
+    },
+    "buildingAmenities": {
+      "lobbyRenovated": true,
+      "elevator": true,
+      "bikeStorage": true,
+      "parking": {
+        "spaces": 2,
+        "description": "enclosed, lighted, private, secured, unassigned"
+      },
+      "storageSpace": true
+    }
+  },
+  "buildingInformation": {
+    "structureType": "condominium",
+    "subdivision": "Old City",
+    "hoaManager": "Chancellor Properties",
+    "zoning": "CMX3",
+    "securityFeatures": [
+      "main entrance lock",
+      "smoke detectors"
+    ],
+    "utilities": [
+      "public sewer",
+      "public water"
+    ]
+  },
+  "conditionAndUpdates": {
+    "freshlyPainted": true,
+    "meticulouslyMaintained": true,
+    "lobbyRenovated": true,
+    "overallCondition": "good"
+  },
+  "locationAdvantages": {
+    "walkability": "high",
+    "nearbyAmenities": "restaurants, shops, cultural venues",
+    "highwayAccess": ["I‑76", "I‑95"],
+    "bridgeAccess": "Ben Franklin Bridge",
+    "historicNeighborhood": true
+  },
+  "marketPositioning": {
+    "daysOnZillow": 226,
+    "zillowListingUpdate": "2025-02-26",
+    "zillowViews": 1060,
+    "zillowSaves": 40,
+    "targetBuyers": [
+      "owner‑occupiers seeking personalization",
+      "investors adding to rental portfolio"
+    ],
+    "uniqueSellingPoints": [
+      "two dedicated parking spaces",
+      "spacious single‑level layout"
+    ]
+  },
+  "investmentConsiderations": [
+    "HOA fee of $813/month increases carrying costs",
+    "8% Zestimate decline over past year signals possible market softening",
+    "Extended time on market and multiple reductions suggest negotiation leverage",
+    "High rental demand potential in historic Old City location",
+    "Tax assessment ($497,900) exceeds both asking price and Zestimate"
+  ],
+  "conclusion": "Spacious, well‑maintained Old City condo with rare two‑car parking. Current $433,000 asking price aligns with market estimates, but buyers should weigh high HOA fees and recent value decline before committing."
+}

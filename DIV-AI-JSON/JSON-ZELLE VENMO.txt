@@ -1,0 +1,1435 @@
+{
+  "case_id": "BemerDivorce2024",
+  "client": {
+    "name": "Stephen Boerner",
+    "role": "Defendant (Husband)",
+    "status": "Disabled, pending Social Security disability claim",
+    "income_2024": "None",
+    "health_conditions": [
+      {
+        "condition": "PTSD",
+        "diagnosed": "2024-06-12",
+        "notes": "Resulting from violent home invasion on 2023-03-26 in Florida; symptoms include night terrors, paranoia, inability to work"
+      },
+      {
+        "condition": "ADHD",
+        "diagnosed": "2024-06-12",
+        "notes": "Aggravated by PTSD, impacts task and project management, led to failed consulting attempts with three clients in 2024"
+      }
+    ],
+    "health_insurance_impact": {
+      "event": "Melissa quit nursing job in Florida on 2024-07-29",
+      "consequence": "Terminated Stephen's health insurance benefits as of 2024-08-01, discontinuing five medications and therapy for PTSD/ADHD",
+      "notes": "Melissa did not inform Stephen of her resignation until he inquired in August 2024"
+    },
+    "residency_history": [
+      {
+        "location": "246 N. 3rd St. #4CD, Philadelphia, PA 19106",
+        "period": "2022-04-15 to 2023-10-01",
+        "notes": "Jointly owned condominium with Melissa"
+      },
+      {
+        "location": "Gulfport, FL (rental property)",
+        "period": "2023-10-01 to 2024-07-15",
+        "notes": "Moved with Melissa, separated mid-July 2024"
+      }
+    ]
+  },
+  "opposing_party": {
+    "name": "Melissa A. Bemer",
+    "role": "Plaintiff (Wife)",
+    "employment_history": [
+      {
+        "role": "Nurse",
+        "location": "Florida",
+        "period": "Unknown start date to 2024-07-29",
+        "notes": "Resignation on 2024-07-29 terminated Stephen's health insurance benefits as of 2024-08-01"
+      },
+      {
+        "role": "Full-time Nurse",
+        "location": "Philadelphia, PA",
+        "period": "2024-12-01 to present (2025-03-14)",
+        "notes": "Earning income, historically not the breadwinner"
+      }
+    ],
+    "residency_history": [
+      {
+        "location": "246 N. 3rd St. #4CD, Philadelphia, PA 19106",
+        "period": "2022-04-15 to 2023-10-01",
+        "notes": "Jointly owned condominium with Stephen"
+      },
+      {
+        "location": "Gulfport, FL (rental property)",
+        "period": "2023-10-01 to 2024-07-15",
+        "notes": "Moved with Stephen, left mid-July 2024"
+      },
+      {
+        "location": "Wayne, PA (parents' home)",
+        "period": "2024-07-15 to present (2025-03-14)",
+        "notes": "Living rent-free, filed for divorce from this address"
+      }
+    ]
+  },
+  "case_details": {
+    "filing_date": "2024-07-31",
+    "court": "Delaware County Court, Pennsylvania",
+    "disclosure_period": {
+      "start": "2022-01-01",
+      "end": "2024-12-31",
+      "notes": "Melissa failed to provide records post-2024-09-30, violating disclosure requirements"
+    },
+    "marital_property": {
+      "description": "Condominium at 246 N. 3rd St. #4CD, Philadelphia, PA 19106",
+      "ownership": "Tenancy by the entireties (converts to tenancy in common upon divorce)",
+      "purchase_date": "2022-04-15",
+      "listing_date": "2024-07-22",
+      "status": "Unsold as of 2025-03-14, at risk of foreclosure starting 2025-04-16",
+      "rental_history": {
+        "period": "2023-10-01 to 2024-09-30",
+        "income": "$2,800/month",
+        "tenants": "Occupied by tenants",
+        "notes": "Rental income covered part of $3,500/month costs, Stephen covered $700/month deficit"
+      },
+      "monthly_costs": {
+        "fixed_and_variable": "$3,500/month",
+        "breakdown": {
+          "mortgage": "Not specified",
+          "hoa_dues": "Not specified",
+          "property_taxes": "Not specified",
+          "electricity": "$150/month",
+          "notes": "Assumed tight average with little variability, includes payments to lenders, HOA, electric company, and City of Philadelphia"
+        }
+      },
+      "foreclosure_risk": {
+        "start_date": "2025-03-17",
+        "details": "New billing cycle unmet, late fees accrue; warnings expected by 2025-04-16, foreclosure proceedings possible by 2025-05-16 if unpaid"
+      }
+    },
+    "key_events": [
+      {
+        "date": "2019-08-19",
+        "event": "Marriage of Melissa A. Bemer and Stephen Boerner"
+      },
+      {
+        "date": "2022-04-15",
+        "event": "Purchase of condominium at 246 N. 3rd St. #4CD, Philadelphia, PA"
+      },
+      {
+        "date": "2023-03-26",
+        "event": "Violent home invasion in Florida rental property, Stephen Boerner injured, leading to PTSD and ADHD diagnoses"
+      },
+      {
+        "date": "2023-10-01",
+        "event": "Melissa and Stephen move to rental property in Gulfport, FL; Philadelphia condo leased to tenants"
+      },
+      {
+        "date": "2024-06-12",
+        "event": "Stephen diagnosed with PTSD and ADHD, unable to work"
+      },
+      {
+        "date": "2024-07-01",
+        "event": "Melissa moves to Wayne, PA, to live with parents"
+      },
+      {
+        "date": "2024-07-15",
+        "event": "Melissa and Stephen separate, Melissa leaves Florida for Pennsylvania"
+      },
+      {
+        "date": "2024-07-22",
+        "event": "Condo listed for sale"
+      },
+      {
+        "date": "2024-07-29",
+        "event": "Melissa quits nursing job in Florida, terminating Stephen's health insurance benefits as of 2024-08-01"
+      },
+      {
+        "date": "2024-07-31",
+        "event": "Melissa files for divorce in Delaware County, PA, serving Stephen as defendant at Florida rental address"
+      },
+      {
+        "date": "2024-09-24",
+        "event": "Stephen emails Melissa, reminding her of condo costs starting October 2024"
+      },
+      {
+        "date": "2024-09-25",
+        "event": "Melissa closes Santander account with $3,790.35 withdrawal, no subsequent financial records provided"
+      },
+      {
+        "date": "2024-09-30",
+        "event": "Tenants vacate condo, ending $2,800/month rental income"
+      },
+      {
+        "date": "2024-10-01",
+        "event": "Melissa discontinues financial contributions to condo, leaving Stephen to cover full $3,500/month costs"
+      },
+      {
+        "date": "2024-12-01",
+        "event": "Melissa begins full-time nursing job in Philadelphia, PA"
+      },
+      {
+        "date": "2025-01-01",
+        "event": "Stephen secures $12,500 bridge loan to cover condo costs for January–March 2025"
+      },
+      {
+        "date": "2025-03-14",
+        "event": "Condo remains unsold, bridge loan funds depleted"
+      },
+      {
+        "date": "2025-03-17",
+        "event": "New billing cycle begins, Stephen unable to pay $3,500/month costs, condo starts accruing late fees"
+      }
+    ]
+  },
+  "financial_analysis": {
+    "transactions": [
+      {
+        "date": "2021-12-21",
+        "transaction_type": "Venmo Cashout",
+        "recipient": null,
+        "debit_amount": "$0.00",
+        "credit_amount": "$212.00",
+        "balance_after_transaction": "$2,971.91",
+        "description": "VENMO CASHOUT 211220 ***"
+      },
+      {
+        "date": "2021-12-24",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$15.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$2,745.75",
+        "description": "VENMO PAYMENT 211223"
+      },
+      {
+        "date": "2022-01-05",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$50.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$4,004.82",
+        "description": "VENMO PAYMENT 220104"
+      },
+      {
+        "date": "2022-01-07",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$60.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$3,940.26",
+        "description": "VENMO PAYMENT 220106"
+      },
+      {
+        "date": "2022-01-10",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$33.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$3,679.28",
+        "description": "VENMO PAYMENT 220109"
+      },
+      {
+        "date": "2022-01-10",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$35.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$3,529.28",
+        "description": "VENMO PAYMENT 220107"
+      },
+      {
+        "date": "2022-01-24",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$15.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$5,056.38",
+        "description": "VENMO PAYMENT 220121"
+      },
+      {
+        "date": "2022-01-24",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$20.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$5,036.38",
+        "description": "VENMO PAYMENT 220122"
+      },
+      {
+        "date": "2022-01-24",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$25.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$5,011.38",
+        "description": "VENMO PAYMENT 220123"
+      },
+      {
+        "date": "2022-02-07",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$19.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$5,985.19",
+        "description": "VENMO PAYMENT 220206"
+      },
+      {
+        "date": "2022-02-09",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$250.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$5,570.69",
+        "description": "VENMO PAYMENT 220208"
+      },
+      {
+        "date": "2022-03-11",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$4,000.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$1,011.38",
+        "description": "VENMO PAYMENT 220310"
+      },
+      {
+        "date": "2022-04-25",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$1,000.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$3,473.92",
+        "description": "VENMO PAYMENT 220423"
+      },
+      {
+        "date": "2022-05-04",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$50.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$3,066.14",
+        "description": "VENMO PAYMENT 220503"
+      },
+      {
+        "date": "2022-05-11",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$1,600.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$2,269.06",
+        "description": "VENMO PAYMENT 220510"
+      },
+      {
+        "date": "2022-05-23",
+        "transaction_type": "Zelle Payment",
+        "recipient": "Stephen Boern",
+        "debit_amount": "$5.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$3,224.88",
+        "description": "ZELLE STEPHEN BOERN US CARD PURCHASE"
+      },
+      {
+        "date": "2022-05-31",
+        "transaction_type": "Zelle Payment",
+        "recipient": "Stephen Boern",
+        "debit_amount": "$1,200.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$1,386.18",
+        "description": "ZELLE STEPHEN BOERN US CARD PURCHASE"
+      },
+      {
+        "date": "2022-06-13",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$250.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$1,826.47",
+        "description": "VENMO PAYMENT 220611"
+      },
+      {
+        "date": "2022-07-05",
+        "transaction_type": "Zelle Payment",
+        "recipient": "Stephen Boern",
+        "debit_amount": "$1,200.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$2,394.14",
+        "description": "ZELLE STEPHEN BOERN Scottsdale/AZ US CARD PURCHASE"
+      },
+      {
+        "date": "2022-07-05",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$75.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$2,308.15",
+        "description": "VENMO PAYMENT 220702"
+      },
+      {
+        "date": "2022-07-15",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$38.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$3,021.99",
+        "description": "VENMO PAYMENT 220714"
+      },
+      {
+        "date": "2022-08-11",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$20.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$811.91",
+        "description": "VENMO PAYMENT 220810"
+      },
+      {
+        "date": "2022-08-15",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$20.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$2,112.19",
+        "description": "VENMO PAYMENT 220814"
+      },
+      {
+        "date": "2022-08-15",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$30.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$2,082.19",
+        "description": "VENMO PAYMENT 220814"
+      },
+      {
+        "date": "2022-08-15",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$200.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$1,882.19",
+        "description": "VENMO PAYMENT 220814"
+      },
+      {
+        "date": "2022-09-06",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$25.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$1,881.58",
+        "description": "VENMO PAYMENT 220902"
+      },
+      {
+        "date": "2022-09-12",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$285.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$2,969.89",
+        "description": "VENMO PAYMENT 220909"
+      },
+      {
+        "date": "2022-09-14",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$50.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$2,887.94",
+        "description": "VENMO PAYMENT 220913"
+      },
+      {
+        "date": "2022-09-15",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$49.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$2,799.77",
+        "description": "VENMO PAYMENT 220914"
+      },
+      {
+        "date": "2022-10-03",
+        "transaction_type": "Zelle Payment",
+        "recipient": "Stephen Boer",
+        "debit_amount": "$1,200.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$1,035.14",
+        "description": "ZELLE STEPHEN BOER/AZ US CARD PURCHASE"
+      },
+      {
+        "date": "2022-10-17",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$60.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$1,795.99",
+        "description": "VENMO PAYMENT 221014"
+      },
+      {
+        "date": "2022-10-27",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$50.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$2,326.80",
+        "description": "VENMO PAYMENT 221026"
+      },
+      {
+        "date": "2022-11-02",
+        "transaction_type": "Zelle Payment",
+        "recipient": "Stephen Boer",
+        "debit_amount": "$1,200.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$937.57",
+        "description": "ZELLE STEPHEN BOER/AZ US CARD PURCHASE"
+      },
+      {
+        "date": "2022-12-02",
+        "transaction_type": "Zelle Payment",
+        "recipient": "Stephen Boer",
+        "debit_amount": "$1,200.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$2,700.77",
+        "description": "ZELLE STEPHEN BOER/AZ US CARD PURCHASE"
+      },
+      {
+        "date": "2022-12-30",
+        "transaction_type": "Zelle Payment",
+        "recipient": "Stephen Boer",
+        "debit_amount": "$1,200.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$2,545.72",
+        "description": "ZELLE STEPHEN BOER/AZ US CARD PURCHASE"
+      },
+      {
+        "date": "2023-01-31",
+        "transaction_type": "Zelle Payment",
+        "recipient": "Stephen Boer",
+        "debit_amount": "$1,200.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$2,667.15",
+        "description": "ZELLE STEPHEN BOER/AZ US CARD PURCHASE"
+      },
+      {
+        "date": "2023-02-13",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$20.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$3,112.12",
+        "description": "VENMO PAYMENT 230212"
+      },
+      {
+        "date": "2023-03-01",
+        "transaction_type": "Zelle Payment",
+        "recipient": "Stephen Boer",
+        "debit_amount": "$1,200.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$2,742.99",
+        "description": "ZELLE STEPHEN BOER/AZ US CARD PURCHASE"
+      },
+      {
+        "date": "2023-03-11",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$20.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$3,691.21",
+        "description": "VENMO PAYMENT 230312"
+      },
+      {
+        "date": "2023-03-12",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$20.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$3,691.21",
+        "description": "VENMO PAYMENT 230313"
+      },
+      {
+        "date": "2023-03-17",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$40.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$3,711.84",
+        "description": "VENMO PAYMENT 230316"
+      },
+      {
+        "date": "2023-03-26",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$15.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$3,841.82",
+        "description": "VENMO PAYMENT 230314"
+      },
+      {
+        "date": "2023-04-03",
+        "transaction_type": "Zelle Payment",
+        "recipient": "Stephen Boer",
+        "debit_amount": "$1,350.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$3,959.61",
+        "description": "ZELLE STEPHEN BOER/AZ US CARD PURCHASE"
+      },
+      {
+        "date": "2023-04-03",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$45.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$3,314.61",
+        "description": "VENMO PAYMENT 230331"
+      },
+      {
+        "date": "2023-04-18",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$15.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$5,039.69",
+        "description": "VENMO PAYMENT 230417"
+      },
+      {
+        "date": "2023-04-26",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$30.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$6,659.67",
+        "description": "VENMO PAYMENT 230424"
+      },
+      {
+        "date": "2023-05-01",
+        "transaction_type": "Zelle Payment",
+        "recipient": "Stephen Boer",
+        "debit_amount": "$1,350.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$5,193.99",
+        "description": "ZELLE STEPHEN BOER/AZ US CARD PURCHASE"
+      },
+      {
+        "date": "2023-05-02",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$280.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$4,883.30",
+        "description": "VENMO PAYMENT 230502"
+      },
+      {
+        "date": "2023-05-08",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$45.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$6,534.21",
+        "description": "VENMO PAYMENT 230506"
+      },
+      {
+        "date": "2023-05-19",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$1,000.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$5,505.85",
+        "description": "VENMO PAYMENT 230518"
+      },
+      {
+        "date": "2023-05-24",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$768.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$5,505.85",
+        "description": "VENMO PAYMENT 230523"
+      },
+      {
+        "date": "2023-06-01",
+        "transaction_type": "Zelle Payment",
+        "recipient": "Stephen Boer",
+        "debit_amount": "$1,350.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$3,469.51",
+        "description": "ZELLE STEPHEN BOER/AZ US CARD PURCHASE"
+      },
+      {
+        "date": "2023-06-02",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$100.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$3,369.51",
+        "description": "VENMO PAYMENT 230601"
+      },
+      {
+        "date": "2023-06-16",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$59.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$5,844.00",
+        "description": "VENMO PAYMENT 230615"
+      },
+      {
+        "date": "2023-07-03",
+        "transaction_type": "Zelle Payment",
+        "recipient": "Stephen Boer",
+        "debit_amount": "$1,400.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$5,563.26",
+        "description": "ZELLE STEPHEN BOER/AZ US CARD PURCHASE"
+      },
+      {
+        "date": "2023-07-06",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$45.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$5,093.69",
+        "description": "VENMO PAYMENT 230705"
+      },
+      {
+        "date": "2023-07-07",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$115.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$4,758.94",
+        "description": "VENMO PAYMENT 230706"
+      },
+      {
+        "date": "2023-07-24",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$20.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$5,601.46",
+        "description": "VENMO PAYMENT 230722"
+      },
+      {
+        "date": "2023-07-28",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$1,500.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$5,554.19",
+        "description": "VENMO PAYMENT 230727"
+      },
+      {
+        "date": "2023-08-14",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$50.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$6,422.07",
+        "description": "VENMO PAYMENT 230813"
+      },
+      {
+        "date": "2023-08-15",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$272.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$6,013.81",
+        "description": "VENMO PAYMENT 230814"
+      },
+      {
+        "date": "2023-09-01",
+        "transaction_type": "Zelle Payment",
+        "recipient": "Stephen Boer",
+        "debit_amount": "$2,500.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$4,521.86",
+        "description": "ZELLE STEPHEN BOER/AZ US CARD PURCHASE"
+      },
+      {
+        "date": "2023-09-11",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$350.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$4,900.63",
+        "description": "VENMO PAYMENT 230910"
+      },
+      {
+        "date": "2023-09-18",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$135.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$3,921.85",
+        "description": "VENMO PAYMENT 230915"
+      },
+      {
+        "date": "2023-10-02",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$13.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$4,188.15",
+        "description": "VENMO PAYMENT 231001"
+      },
+      {
+        "date": "2023-10-02",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$30.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$4,158.15",
+        "description": "VENMO PAYMENT 231001"
+      },
+      {
+        "date": "2023-10-02",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$150.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$4,008.15",
+        "description": "VENMO PAYMENT 231001"
+      },
+      {
+        "date": "2023-10-03",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$50.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$3,730.47",
+        "description": "VENMO PAYMENT 231002"
+      },
+      {
+        "date": "2023-10-04",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$20.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$3,682.91",
+        "description": "VENMO PAYMENT 231003"
+      },
+      {
+        "date": "2023-10-06",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$35.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$4,465.78",
+        "description": "VENMO PAYMENT 231005"
+      },
+      {
+        "date": "2023-10-11",
+        "transaction_type": "Zelle Payment",
+        "recipient": "Stephen Boer",
+        "debit_amount": "$1,250.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$2,709.23",
+        "description": "ZELLE STEPHEN BOER/AZ US CARD PURCHASE"
+      },
+      {
+        "date": "2023-10-11",
+        "transaction_type": "Zelle Payment",
+        "recipient": "Stephen Boer",
+        "debit_amount": "$163.50",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$2,545.73",
+        "description": "ZELLE STEPHEN ST. PETERSBURG US CARD PURCHASE"
+      },
+      {
+        "date": "2023-10-20",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$50.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$3,223.82",
+        "description": "VENMO PAYMENT 231019"
+      },
+      {
+        "date": "2023-11-03",
+        "transaction_type": "Zelle Payment",
+        "recipient": "Stephen Boerner",
+        "debit_amount": "$2,500.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$4,163.07",
+        "description": "Zelle Transfer to STEPHEN BOERNER 877-726-5640-330700A0CT1"
+      },
+      {
+        "date": "2023-11-20",
+        "transaction_type": "Venmo Cashout",
+        "recipient": null,
+        "debit_amount": "$0.00",
+        "credit_amount": "$100.00",
+        "balance_after_transaction": "$2,298.98",
+        "description": "VENMO CASHOUT 231117 ***"
+      },
+      {
+        "date": "2023-11-20",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$20.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$2,278.98",
+        "description": "VENMO PAYMENT 231117"
+      },
+      {
+        "date": "2023-12-04",
+        "transaction_type": "Venmo Cashout",
+        "recipient": null,
+        "debit_amount": "$0.00",
+        "credit_amount": "$200.00",
+        "balance_after_transaction": "$1,239.35",
+        "description": "VENMO CASHOUT 231204 ***"
+      },
+      {
+        "date": "2023-12-14",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$55.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$946.82",
+        "description": "VENMO PAYMENT 231213"
+      },
+      {
+        "date": "2023-12-27",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$20.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$741.98",
+        "description": "VENMO PAYMENT 231226"
+      },
+      {
+        "date": "2023-12-29",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$40.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$702.81",
+        "description": "VENMO PAYMENT 231228"
+      },
+      {
+        "date": "2024-01-02",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$50.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$645.14",
+        "description": "VENMO PAYMENT 231229"
+      },
+      {
+        "date": "2024-01-02",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$107.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$538.14",
+        "description": "VENMO PAYMENT 231230"
+      },
+      {
+        "date": "2024-03-07",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$15.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$1,008.35",
+        "description": "VENMO PAYMENT 240306"
+      },
+      {
+        "date": "2024-03-22",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$25.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$557.93",
+        "description": "VENMO PAYMENT 240321"
+      },
+      {
+        "date": "2024-04-15",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$25.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$1,114.64",
+        "description": "VENMO PAYMENT 240414"
+      },
+      {
+        "date": "2024-04-25",
+        "transaction_type": "Zelle Payment",
+        "recipient": "Stephen Boerner",
+        "debit_amount": "$800.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$314.64",
+        "description": "Zelle Transfer to STEPHEN BOERNER"
+      },
+      {
+        "date": "2024-04-29",
+        "transaction_type": "Zelle Payment",
+        "recipient": "Carol Boerner",
+        "debit_amount": "$0.00",
+        "credit_amount": "$1,000.00",
+        "balance_after_transaction": "$1,314.64",
+        "description": "Zelle Transfer from CAROL BOERNER"
+      },
+      {
+        "date": "2024-04-30",
+        "transaction_type": "Zelle Payment",
+        "recipient": "Stephen Boerner",
+        "debit_amount": "$1,000.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$314.64",
+        "description": "Zelle Transfer to STEPHEN BOERNER (Pass-through from Carol Boerner)"
+      },
+      {
+        "date": "2024-05-06",
+        "transaction_type": "Zelle Payment",
+        "recipient": "Stephen Boerner",
+        "debit_amount": "$800.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$2,608.35",
+        "description": "Zelle Transfer to STEPHEN BOERNER 877-726-5640-41470010GF5H"
+      },
+      {
+        "date": "2024-05-07",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$15.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$1,808.35",
+        "description": "VENMO PAYMENT 240506"
+      },
+      {
+        "date": "2024-05-17",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$35.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$3,230.39",
+        "description": "VENMO PAYMENT 240516"
+      },
+      {
+        "date": "2024-05-28",
+        "transaction_type": "Zelle Payment",
+        "recipient": "Stephen Boerner",
+        "debit_amount": "$800.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$2,723.20",
+        "description": "Zelle Transfer to STEPHEN BOERNER 877-726-5640-41470010GF5H"
+      },
+      {
+        "date": "2024-05-28",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$16.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$1,923.20",
+        "description": "VENMO PAYMENT 240524"
+      },
+      {
+        "date": "2024-06-03",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$12.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$3,821.92",
+        "description": "VENMO PAYMENT 240531"
+      },
+      {
+        "date": "2024-06-10",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$54.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$3,366.78",
+        "description": "VENMO PAYMENT 240609"
+      },
+      {
+        "date": "2024-06-14",
+        "transaction_type": "Zelle Payment",
+        "recipient": "Stephen Boerner",
+        "debit_amount": "$1,000.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$2,366.78",
+        "description": "Zelle Transfer to STEPHEN BOERNER 877-726-5640-416600K0547T"
+      },
+      {
+        "date": "2024-07-23",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$200.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$5,033.98",
+        "description": "VENMO PAYMENT 240722"
+      },
+      {
+        "date": "2024-07-29",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$15.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$7,142.48",
+        "description": "VENMO PAYMENT 240726"
+      },
+      {
+        "date": "2024-07-29",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$30.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$7,112.48",
+        "description": "VENMO PAYMENT 240726"
+      },
+      {
+        "date": "2024-07-29",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$200.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$6,912.48",
+        "description": "VENMO PAYMENT 240726"
+      },
+      {
+        "date": "2024-07-30",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$50.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$6,562.48",
+        "description": "VENMO PAYMENT 240729"
+      },
+      {
+        "date": "2024-08-02",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$40.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$6,522.48",
+        "description": "VENMO PAYMENT 240801"
+      },
+      {
+        "date": "2024-08-05",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$126.56",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$6,195.92",
+        "description": "VENMO PAYMENT 240802"
+      },
+      {
+        "date": "2024-08-14",
+        "transaction_type": "Venmo Cashout",
+        "recipient": null,
+        "debit_amount": "$0.00",
+        "credit_amount": "$4,500.00",
+        "balance_after_transaction": "$7,031.50",
+        "description": "VENMO CASHOUT 240813 ***"
+      },
+      {
+        "date": "2024-09-03",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$4.58",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$4,439.58",
+        "description": "VENMO PAYMENT 240831"
+      },
+      {
+        "date": "2024-09-03",
+        "transaction_type": "Venmo Payment",
+        "recipient": null,
+        "debit_amount": "$3.52",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$4,168.58",
+        "description": "VENMO PAYMENT 240831"
+      },
+      {
+        "date": "2024-09-25",
+        "transaction_type": "Closing Withdrawal",
+        "recipient": null,
+        "debit_amount": "$3,790.35",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$0.00",
+        "description": "CLOSING TRANSACTION - WITHDRAWAL"
+      },
+      {
+        "date": "2024-09-30",
+        "transaction_type": "Ending Balance",
+        "recipient": null,
+        "debit_amount": "$0.00",
+        "credit_amount": "$0.00",
+        "balance_after_transaction": "$0.00",
+        "description": "Ending Balance"
+      }
+    ],
+    "zelle_payments_to_stephen_boerner": [
+      {
+        "phase": "Pre-10/1/2023",
+        "total": "$18,555.00",
+        "transactions": [
+          {"date": "2022-05-23", "amount": "$5.00", "description": "ZELLE STEPHEN BOERN US CARD PURCHASE"},
+          {"date": "2022-05-31", "amount": "$1,200.00", "description": "ZELLE STEPHEN BOERN US CARD PURCHASE"},
+          {"date": "2022-07-05", "amount": "$1,200.00", "description": "ZELLE STEPHEN BOERN Scottsdale/AZ US CARD PURCHASE"},
+          {"date": "2022-10-03", "amount": "$1,200.00", "description": "ZELLE STEPHEN BOER/AZ US CARD PURCHASE"},
+          {"date": "2022-11-02", "amount": "$1,200.00", "description": "ZELLE STEPHEN BOER/AZ US CARD PURCHASE"},
+          {"date": "2022-12-02", "amount": "$1,200.00", "description": "ZELLE STEPHEN BOER/AZ US CARD PURCHASE"},
+          {"date": "2022-12-30", "amount": "$1,200.00", "description": "ZELLE STEPHEN BOER/AZ US CARD PURCHASE"},
+          {"date": "2023-01-31", "amount": "$1,200.00", "description": "ZELLE STEPHEN BOER/AZ US CARD PURCHASE"},
+          {"date": "2023-03-01", "amount": "$1,200.00", "description": "ZELLE STEPHEN BOER/AZ US CARD PURCHASE"},
+          {"date": "2023-04-03", "amount": "$1,350.00", "description": "ZELLE STEPHEN BOER/AZ US CARD PURCHASE"},
+          {"date": "2023-05-01", "amount": "$1,350.00", "description": "ZELLE STEPHEN BOER/AZ US CARD PURCHASE"},
+          {"date": "2023-06-01", "amount": "$1,350.00", "description": "ZELLE STEPHEN BOER/AZ US CARD PURCHASE"},
+          {"date": "2023-07-03", "amount": "$1,400.00", "description": "ZELLE STEPHEN BOER/AZ US CARD PURCHASE"},
+          {"date": "2023-09-01", "amount": "$2,500.00", "description": "ZELLE STEPHEN BOER/AZ US CARD PURCHASE"}
+        ],
+        "context": "Consistent monthly payments ($1,200.00–$2,500.00) while living together in Philadelphia, likely for shared expenses or support."
+      },
+      {
+        "phase": "10/1/2023–8/31/2024",
+        "total": "$7,313.50",
+        "transactions": [
+          {"date": "2023-10-11", "amount": "$1,250.00", "description": "ZELLE STEPHEN BOER/AZ US CARD PURCHASE"},
+          {"date": "2023-10-11", "amount": "$163.50", "description": "ZELLE STEPHEN ST. PETERSBURG US CARD PURCHASE"},
+          {"date": "2023-11-03", "amount": "$2,500.00", "description": "Zelle Transfer to STEPHEN BOERNER 877-726-5640-330700A0CT1"},
+          {"date": "2024-04-25", "amount": "$800.00", "description": "Zelle Transfer to STEPHEN BOERNER"},
+          {"date": "2024-05-06", "amount": "$800.00", "description": "Zelle Transfer to STEPHEN BOERNER 877-726-5640-41470010GF5H"},
+          {"date": "2024-05-28", "amount": "$800.00", "description": "Zelle Transfer to STEPHEN BOERNER 877-726-5640-41470010GF5H"},
+          {"date": "2024-06-14", "amount": "$1,000.00", "description": "Zelle Transfer to STEPHEN BOERNER 877-726-5640-416600K0547T"}
+        ],
+        "context": "Reduced frequency and amounts ($800.00–$2,500.00, sporadic) during relocation to Florida, condo rental, and separation in July 2024. Excludes $1,000.00 pass-through on 2024-04-30 from Carol Boerner."
+      },
+      {
+        "phase": "8/31/2024–Present (09/30/2024)",
+        "total": "$0.00",
+        "transactions": [],
+        "context": "No payments, aligns with Melissa's account closure on 2024-09-25 and stated refusal to contribute to condo costs starting 2024-10-01."
+      }
+    ],
+    "venmo_activity": {
+      "total_debits": "$15,631.66",
+      "total_credits": "$5,012.00",
+      "key_transactions": [
+        {
+          "date": "2022-03-11",
+          "amount": "$4,000.00",
+          "type": "Debit",
+          "notes": "Largest single Venmo payment, possibly a major expense or transfer during stable Philadelphia period"
+        },
+        {
+          "date": "2023-07-28",
+          "amount": "$1,500.00",
+          "type": "Debit",
+          "notes": "Significant payment, pre-separation, indicating possible large expense or debt settlement"
+        },
+        {
+          "date": "2024-08-14",
+          "amount": "$4,500.00",
+          "type": "Credit",
+          "notes": "Major cashout, likely preparation for account closure, shortly before stated refusal to contribute to condo"
+        },
+        {
+          "date": "2024-09-25",
+          "amount": "$3,790.35",
+          "type": "Withdrawal",
+          "notes": "Final account closure withdrawal, destination unknown, violates disclosure requirements through 2024-12-31"
+        }
+      ],
+      "context": "Frequent small payments ($12.00–$50.00) with occasional large debits indicate varied expenses. Large cashout and closure suggest financial restructuring, potentially to obscure funds during divorce."
+    },
+    "stephen_contributions": {
+      "rental_period": {
+        "period": "2023-10-01 to 2024-09-30",
+        "deficit_per_month": "$700.00",
+        "total": "$8,400.00",
+        "notes": "Covered $3,500/month costs minus $2,800/month rental income, demonstrating financial responsibility"
+      },
+      "post_rental_period": {
+        "period": "2024-10-01 to 2025-03-16",
+        "cost_per_month": "$3,500.00",
+        "total": "$21,000.00",
+        "notes": "Covered full costs after Melissa ceased contributions, exhausting savings and requiring bridge loan"
+      },
+      "bridge_loan": {
+        "amount": "$12,500.00",
+        "period": "2025-01-01 to 2025-03-16",
+        "notes": "Used to cover January–March 2025 costs, demonstrating good faith to mitigate foreclosure risk"
+      },
+      "total_contributions": "$29,400.00",
+      "context": "Stephen's contributions reflect significant financial burden, exacerbated by Melissa's non-contribution, despite his disability and lack of income."
+    },
+    "melissa_financial_capacity": {
+      "evidence": [
+        {
+          "date": "2024-08-14",
+          "event": "Venmo cashout of $4,500.00",
+          "notes": "Indicates access to significant funds before ceasing contributions"
+        },
+        {
+          "date": "2024-09-25",
+          "event": "Account closure withdrawal of $3,790.35",
+          "notes": "Further evidence of available funds, destination unknown"
+        },
+        {
+          "date": "2024-12-01",
+          "event": "Full-time nursing job started",
+          "notes": "Earning income, capable of contributing to condo costs but refusing"
+        }
+      ],
+      "context": "Melissa had access to funds and income to contribute to condo costs but chose not to, potentially to pressure Stephen or diminish his share of the marital estate."
+    }
+  },
+  "legal_analysis": {
+    "jurisdiction": "Delaware County, Pennsylvania",
+    "applicable_law": "Title 23, Pennsylvania Domestic Relations Code",
+    "property_status": {
+      "classification": "Marital property (tenancy by the entireties)",
+      "notes": "Converts to tenancy in common upon divorce, both parties jointly responsible until sold or court order (Title 23, Chapter 35 § 3503)"
+    },
+    "rights_and_obligations": {
+      "melissa": {
+        "obligations": [
+          "Contribute to condo costs as co-owner until sold or court order reallocates responsibility",
+          "Provide full financial disclosure through 2024-12-31, including destination of $3,790.35 withdrawal"
+        ],
+        "violations": [
+          {
+            "issue": "Unilateral cessation of contributions",
+            "date": "2024-10-01",
+            "details": "Refused to contribute to $3,500/month condo costs, leaving Stephen to cover full amount"
+          },
+          {
+            "issue": "Non-disclosure of financial records",
+            "date": "Post-2024-09-30",
+            "details": "$3,790.35 withdrawal destination unknown, violates disclosure requirements through 2024-12-31"
+          },
+          {
+            "issue": "Termination of health insurance",
+            "date": "2024-07-29",
+            "details": "Quit job, cutting Stephen's benefits, exacerbating PTSD/ADHD, did not inform him until August 2024"
+          }
+        ]
+      },
+      "stephen": {
+        "rights": [
+          "Seek interim relief for Melissa's non-contribution under Title 23, Chapter 35 § 3502(f)",
+          "Request retroactive contribution for condo costs ($1,750/month from 2024-10-01 to 2025-03-16, totaling $10,500)",
+          "Claim alimony pendente lite and post-divorce alimony due to disability, Melissa's income, and her role in terminating health benefits",
+          "Request sanctions against Melissa for non-disclosure of financial records"
+        ],
+        "obligations": [
+          "Mitigate damages by maintaining property to avoid foreclosure, demonstrated by $12,500 bridge loan covering January–March 2025 costs"
+        ]
+      }
+    },
+    "court_expectations": {
+      "equitable_distribution": {
+        "principle": "Divide marital property fairly (not equally) under Title 23, Chapter 35 § 3502",
+        "factors": [
+          "Length of marriage: 5 years (2019-08-19 to 2024-07-31)",
+          "Stephen's disability and lack of income since 2023-03-26",
+          "Melissa's full-time employment and income since 2024-12-01",
+          "Stephen's contributions to condo costs ($29,400 total)",
+          "Melissa's non-contribution and non-disclosure, suggesting bad faith"
+        ],
+        "notes": "Court likely to expect Melissa to contribute to condo costs given her income and Stephen's financial hardship."
+      },
+      "status_quo": {
+        "expectation": "Maintain joint financial responsibilities during proceedings",
+        "violation": "Melissa's refusal to contribute starting 2024-10-01 violates status quo, risking foreclosure"
+      },
+      "transparency": {
+        "expectation": "Full financial disclosure through 2024-12-31",
+        "violation": "Melissa's non-disclosure post-2024-09-30 risks adverse inference of hiding $3,790.35"
+      }
+    },
+    "typical_judgments": [
+      {
+        "action": "Contribution Order",
+        "details": "Melissa ordered to pay $1,750/month (half of $3,500) retroactively from 2024-10-01 to 2025-03-16, totaling $10,500, plus late fees post-2025-03-16"
+      },
+      {
+        "action": "Sale of Property",
+        "details": "Order sale of condo, divide proceeds equitably, adjusting for Stephen's payments ($29,400) and losses due to Melissa's non-contribution"
+      },
+      {
+        "action": "Sanctions",
+        "details": "Melissa may be ordered to pay Stephen's legal fees for non-disclosure, or face adverse inference of hiding $3,790.35, impacting her share of marital estate"
+      },
+      {
+        "action": "Alimony",
+        "details": "Stephen may receive alimony pendente lite and post-divorce alimony due to disability, Melissa's income, and her role in terminating his health benefits"
+      }
+    ],
+    "legal_implications": {
+      "waste_of_assets": {
+        "issue": "Melissa's non-contribution risks foreclosure, diminishing marital estate",
+        "impact": "Court may attribute financial loss to Melissa, reducing her share in final distribution"
+      },
+      "bad_faith": {
+        "evidence": [
+          "Refusal to contribute, stated in late September 2024 email response",
+          "Insult to Stephen ('true colors') for raising condo costs",
+          "Non-disclosure of $3,790.35 withdrawal destination"
+        ],
+        "impact": "Suggests lack of good faith, may impact credibility and rulings on alimony or property division"
+      },
+      "health_impact": {
+        "issue": "Melissa's job resignation on 2024-07-29 cut Stephen's medical benefits, exacerbating PTSD/ADHD",
+        "impact": "Court may consider this lack of consideration for Stephen's needs in alimony and distribution decisions"
+      }
+    }
+  },
+  "legal_arguments_for_stephen": {
+    "argument_1": {
+      "title": "Unilateral Cessation of Contributions",
+      "basis": "Melissa's refusal to contribute to $3,500/month condo costs starting 2024-10-01 violates equitable contribution principles under Pennsylvania law (Title 23, Chapter 35 § 3503).",
+      "evidence": [
+        "Stephen covered full $3,500/month costs from 2024-10-01 to 2025-03-16, totaling $21,000",
+        "Melissa's email response in late September 2024, refusing to contribute and insulting Stephen",
+        "Melissa's financial capacity: $4,500.00 Venmo cashout on 2024-08-14, $3,790.35 withdrawal on 2024-09-25, and full-time nursing income since 2024-12-01"
+      ],
+      "request": "Order Melissa to pay $1,750/month retroactively from 2024-10-01 to 2025-03-16, totaling $10,500, plus late fees post-2025-03-16."
+    },
+    "argument_2": {
+      "title": "Non-Disclosure of Financial Records",
+      "basis": "Melissa's closure of Santander account on 2024-09-25 with $3,790.35 withdrawal, without disclosing destination, violates disclosure requirements through 2024-12-31.",
+      "evidence": [
+        "Last transaction on 2024-09-25: $3,790.35 withdrawal, no records provided post-closure",
+        "Melissa's full-time employment since 2024-12-01, indicating potential income to disclose"
+      ],
+      "request": "Sanctions against Melissa, including payment of Stephen's legal fees, and adverse inference that $3,790.35 was hidden to diminish marital estate."
+    },
+    "argument_3": {
+      "title": "Alimony Due to Disability and Health Impact",
+      "basis": "Stephen's disability (PTSD/ADHD since 2023-03-26) and Melissa's termination of his health benefits exacerbate his financial hardship, justifying alimony under Title 23, Chapter 35 § 3701.",
+      "evidence": [
+        "Stephen's diagnoses on 2024-06-12, inability to work, failed consulting attempts",
+        "Melissa's resignation on 2024-07-29, cutting benefits as of 2024-08-01, discontinuing medications and therapy",
+        "Melissa's full-time nursing income since 2024-12-01, contrasting with Stephen's $0 income in 2024"
+      ],
+      "request": "Award Stephen alimony pendente lite and post-divorce alimony, adjusted for Melissa's role in terminating his health benefits."
+    },
+    "argument_4": {
+      "title": "Equitable Distribution Adjustment",
+      "basis": "Melissa's non-contribution and non-disclosure constitute waste of marital assets, justifying an adjusted distribution in Stephen's favor under Title 23, Chapter 35 § 3502.",
+      "evidence": [
+        "Stephen's $29,400 total contributions to condo costs (2023-10-01 to 2025-03-16)",
+        "Melissa's $0 contribution since 2024-10-01, risking foreclosure by 2025-05-16",
+        "Melissa's non-disclosure of $3,790.35, suggesting potential asset hiding"
+      ],
+      "request": "Order sale of condo, allocate proceeds to account for Stephen's payments and losses due to Melissa's actions, adjusting distribution in Stephen's favor."
+    }
+  },
+  "recommendations": {
+    "for_stephen": [
+      "File motion for interim relief in Delaware County Court, requesting Melissa contribute $1,750/month retroactively from 2024-10-01, totaling $10,500, plus late fees",
+      "Seek court order to sell condo if unsold, dividing proceeds equitably with adjustment for Stephen's $29,400 contributions",
+      "Request sanctions against Melissa for non-disclosure of financial records post-2024-09-30, including legal fees",
+      "Pursue alimony claim based on disability, Melissa's income, and her role in terminating health benefits"
+    ],
+    "for_melissa": [
+      "Provide full financial disclosure for 2024-10-01 to 2024-12-31 to avoid sanctions and adverse inferences",
+      "Resume contributions to condo to mitigate claims of waste and demonstrate good faith"
+    ],
+    "for_court": [
+      "Consider Stephen's disability, Melissa's income, and her non-contribution in equitable distribution",
+      "Order sale of condo, allocate proceeds to account for Stephen's payments and losses due to Melissa's actions",
+      "Evaluate Melissa's termination of Stephen's health benefits in alimony decisions",
+      "Impose sanctions on Melissa for non-disclosure, potentially adjusting distribution or awarding legal fees to Stephen"
+    ]
+  },
+  "conclusion": "Melissa's unilateral discontinuation of contributions to the jointly owned condominium, combined with her non-disclosure of financial records post-2024-09-30, violates Pennsylvania family law principles of equitable distribution and transparency. Stephen's efforts to maintain the property despite his disability, including $29,400 in contributions and a $12,500 bridge loan, highlight the inequity of Melissa's actions. Her refusal to contribute, non-disclosure, and termination of Stephen's health benefits position Stephen favorably for interim relief, retroactive contributions, sanctions against Melissa, a larger share of the marital estate, and alimony. The condo's unsold status and impending foreclosure risk underscore the urgency of court intervention to resolve this financial dispute and protect Stephen's interests."
+}

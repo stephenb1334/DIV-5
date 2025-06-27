@@ -1,0 +1,377 @@
+
+
+{
+	"case_metadata": {
+		"case_id": "Boerner_v_Bemer_DelCo_2024_Divorce",
+		"jurisdiction": {
+			"state": "Pennsylvania",
+			"county": "Delaware",
+			"court_type": "Court of Common Pleas – Family Division",
+			"governing_law_primary": "Pennsylvania Divorce Code (23 Pa.C.S. §§ 3101 et seq.)",
+			"governing_rules_primary": "Pennsylvania Rules of Civil Procedure (Pa.R.C.P. 1910 et seq., 4000 et seq.)",
+			"local_rules_consideration": "Delaware County Family Court Local Rules and Standing Orders"
+		},
+		"case_status": "Pre-court negotiation/discovery phase",
+		"filing_date_of_divorce_complaint": "2024-08-01"
+	},
+	"parties_data": {
+		"husband": {
+			"full_name": "Stephen Boerner",
+			"role_in_case": "Defendant / Counter-Plaintiff (anticipated)",
+			"demographics": {
+				"age_approx": 39,
+				"current_residence_state": "Maryland"
+			},
+			"employment_history": {
+				"pre_2024_status": "Primary Breadwinner (until end of 2023)",
+				"post_q1_2024_status": "Unemployed (since Q1 2024)",
+				"reason_for_unemployment": "Inability to work due to PTSD disability"
+			},
+			"health_status": {
+				"disability_diagnosis": {
+					"primary": "Post-Traumatic Stress Disorder (PTSD)",
+					"secondary": "ADHD (clinically documented)",
+					"diagnosis_date": "2024-06-12",
+					"trigger_event": "Violent home invasion (Q1 2024)",
+					"work_capacity_assessment": "0 (unable to work)",
+					"medical_documentation_available": true
+				},
+				"social_security_disability": {
+					"ssdi_application_status": "Pending",
+					"ssdi_application_filed_date": "2024-07-05"
+				},
+				"health_insurance_coverage": {
+					"prior_coverage_source": "Wife's employer plan (terminated)",
+					"prior_coverage_termination_date": "2024-08-01 (effective)",
+					"period_uninsured": "2024-08-01 to early December 2024",
+					"current_coverage_source": "Maryland Health Exchange (subsidized public government offered insurance)",
+					"current_coverage_start_date": "2025-02-01",
+					"current_monthly_premium_usd": 277.00,
+					"out_of_pocket_medical_costs": "Ongoing PTSD treatment, medication, therapy"
+				}
+			},
+			"financial_contributions_post_separation": {
+				"condo_carrying_costs_covered_by_husband": {
+					"period_of_deficit_coverage": "2023-10-01 to 2024-09-30",
+					"deficit_amount_usd": 8400.00,
+					"period_of_full_cost_coverage": "2024-10-01 to 2025-03-31",
+					"full_costs_amount_usd": 21000.00,
+					"total_preservation_costs_usd": 29400.00
+				},
+				"bridge_loan_secured": {
+					"amount_usd": 12500.00,
+					"purpose": "Cover marital expenses, specifically condo carrying costs",
+					"secured_date": "2025-01-03",
+					"exhaustion_date": "2025-03-16"
+				}
+			}
+		},
+		"wife": {
+			"full_name": "Melissa A. Bemer",
+			"role_in_case": "Plaintiff",
+			"demographics": {
+				"age_approx": 34,
+				"current_residence_state": "Pennsylvania"
+			},
+			"occupation": "Registered Nurse (RN)",
+			"employment_history": [
+				{
+					"employer_name": "Tampa General Hospital",
+					"location": "Florida",
+					"employment_status": "Employed as Nurse",
+					"employment_end_date": "2024-07-29",
+					"w2_income_2024_florida": true,
+					"medical_benefits_provided": true,
+					"spousal_coverage_termination_date": "2024-08-01"
+				},
+				{
+					"license_reinstatement": {
+						"state": "Pennsylvania",
+						"date": "2024-09-03"
+					}
+				},
+				{
+					"employer_name": "Hospital of the University of Pennsylvania (HUP)",
+					"location": "Pennsylvania",
+					"employment_status": "Full-time Nurse",
+					"employment_start_date": "2024-12-02",
+					"annual_salary_approx_usd": 82000.00,
+					"medical_benefits_eligibility": true,
+					"spousal_coverage_eligibility": true,
+					"disclosure_status": "NOT DISCLOSED in December 2024 financial disclosures"
+				}
+			],
+			"financial_actions_post_separation": {
+				"bank_account_closure": {
+					"bank_name": "Santander (primary account)",
+					"closure_date": "2024-09-23",
+					"closing_withdrawal_amount_usd": 3790.35,
+					"destination_of_funds_disclosed": false,
+					"check_to_self_amount_usd": 1500.00,
+					"check_to_self_date": "2024-08-19",
+					"new_bank_institution_disclosed": false
+				},
+				"marital_property_contributions": {
+					"condo_contributions_ceased_date": "2024-10-01",
+					"zelle_payments_to_husband_total_pre_oct2023_usd": 18555.00,
+					"zelle_payments_to_husband_total_oct2023_jun2024_usd": 7313.50,
+					"zelle_payments_to_husband_total_post_sep2024_usd": 0.00,
+					"venmo_cashout_amount_usd": 4500.00,
+					"venmo_cashout_date": "2024-08-14"
+				},
+				"linkedin_profile_status": "Outdated (despite active employment)"
+			},
+			"divorce_filing_details": {
+				"location_of_filing": "Delaware County, Pennsylvania",
+				"date_of_filing": "2024-08-01",
+				"unilateral_separation_from_florida": true
+			}
+		}
+	},
+	"marital_property_and_debts": {
+		"condominium": {
+			"address": "246-48 N. 3rd St., Unit 4CD, Philadelphia, PA",
+			"purchase_date": "2022-04-15",
+			"ownership_type": "Tenants by the Entireties",
+			"monthly_carrying_cost_usd": 3500.00,
+			"rental_income_pre_oct2023_usd": null,
+			"rental_income_oct2023_sep2024_usd": 2800.00,
+			"current_status": "Vacant",
+			"listing_history": [
+				{
+					"listed_date": "2024-07-22",
+					"initial_price_usd": 465000.00
+				},
+				{
+					"current_price_usd": 389900.00,
+					"as_of_date": "2025-04-17"
+				}
+			],
+			"foreclosure_risk": {
+				"status": "Imminent",
+				"risk_commencement_date": "2025-04-17 (late-fee window opens)"
+			}
+		},
+		"marital_debt": [
+			{
+				"debt_type": "Bridge Loan (Husband's personal loan)",
+				"amount_usd": 12500.00,
+				"purpose": "Cover marital property expenses (condo)",
+				"status": "Exhausted",
+				"legal_classification_argument": "Marital debt, subject to equitable distribution"
+			}
+		]
+	},
+	"chronology_of_events_detailed": [
+		{ "date": "2019-08-19", "event": "Marriage of Stephen Boerner and Melissa A. Bemer.", "category": "Personal" },
+		{ "date": "2022-04-15", "event": "Purchase of condominium at 246-48 N. 3rd St., Unit 4CD, Philadelphia, PA, held as Tenants by the Entireties.", "category": "Property" },
+		{ "date": "2023-10-01", "event": "Parties relocate to Gulfport, FL; Philadelphia condo is rented out for $2,800/month.", "category": "Relocation/Property" },
+		{ "date": "2023-12-31", "event": "Husband ceases role as primary breadwinner.", "category": "Employment/Finance" },
+		{ "date": "2024-03-26", "event": "Husband experiences traumatic home invasion, serving as a trigger for PTSD.", "category": "Health/Trauma" },
+		{ "date": "2024-06-12", "event": "Husband diagnosed with PTSD and ADHD.", "category": "Health" },
+		{ "date": "2024-07-05", "event": "Husband files application for Social Security Disability Insurance (SSDI).", "category": "Health/Legal" },
+		{ "date": "2024-07-22", "event": "Philadelphia condo listed for sale at an initial price of $465,000.", "category": "Property" },
+		{ "date": "2024-07-29", "event": "Wife voluntarily quits her nursing job in Florida and unilaterally moves to Wayne, PA.", "category": "Employment/Separation" },
+		{ "date": "2024-08-01", "event": "Wife files for divorce in Delaware County, PA. Husband's spousal medical coverage through Wife's former employer terminates.", "category": "Legal/Health" },
+		{ "date": "2024-08-14", "event": "Wife executes a Venmo 'Cash-Out' of $4,500.", "category": "Finance" },
+		{ "date": "2024-08-19", "event": "Wife writes a check for $1,500 to herself, deposited into an undisclosed institution.", "category": "Finance" },
+		{ "date": "2024-09-03", "event": "Wife's Pennsylvania nursing license is reinstated.", "category": "Employment" },
+		{ "date": "2024-09-23", "event": "Wife closes her primary Santander bank account, executing a closing withdrawal of $3,790.35, with destination of funds undisclosed.", "category": "Finance" },
+		{ "date": "2024-10-01", "event": "Wife ceases all financial contributions to the Philadelphia condominium.", "category": "Finance/Property" },
+		{ "date": "2024-12-02", "event": "Wife commences full-time employment as a nurse at the Hospital of the University of Pennsylvania (HUP). This employment is NOT disclosed in subsequent financial disclosures.", "category": "Employment/Misconduct" },
+		{ "date": "2024-12-30", "event": "Parties exchange financial disclosures. Wife's disclosure omits her new full-time employment at HUP and the details of her bank account closure/fund transfer.", "category": "Legal/Misconduct" },
+		{ "date": "2025-01-03", "event": "Husband obtains a $12,500 personal bridge loan to cover marital expenses, primarily condo carrying costs.", "category": "Finance" },
+		{ "date": "2025-02-01", "event": "Husband begins paying $277/month for health insurance through the Maryland Health Exchange.", "category": "Health/Finance" },
+		{ "date": "2025-03-16", "event": "Husband's $12,500 bridge loan funds are exhausted.", "category": "Finance" },
+		{ "date": "2025-04-17", "event": "Condo's late-fee window opens, initiating foreclosure risk due to unpaid carrying costs. Current listing price is $389,900.", "category": "Property/Finance" },
+		{ "date": "2025-05-06", "event": "Current date of analysis.", "category": "Analysis" }
+	],
+	"allegations_of_misconduct": {
+		"type": "Bad Faith Financial Conduct & Discovery Violations",
+		"specific_allegations": [
+			{
+				"allegation_id": "FMD-001",
+				"description": "Failure to disclose new full-time employment at Hospital of the University of Pennsylvania (HUP) commencing December 2, 2024, in mandatory financial disclosures submitted December 2024.",
+				"violated_rule": "Pa.R.C.P. 1920.33 (Full and Accurate Disclosure of Income and Assets)",
+				"impact": "Directly impacted accurate calculation of APL and equitable distribution; concealed spousal health benefit eligibility."
+			},
+			{
+				"allegation_id": "AC-001",
+				"description": "Closure of primary Santander bank account on September 23, 2024, with a significant closing withdrawal ($3,790.35), without disclosing the destination of these funds or the new financial institution.",
+				"violated_rule": "Pa.R.C.P. 1920.33; General principles of financial transparency in divorce.",
+				"impact": "Suggests intent to obscure assets and income from marital accounting and support calculations."
+			},
+			{
+				"allegation_id": "AC-002",
+				"description": "Execution of a $1,500 check to self on August 19, 2024, and a $4,500 Venmo 'Cash-Out' on August 14, 2024, prior to formal disclosures, indicating liquidity hoarding.",
+				"violated_rule": "General principles of financial transparency.",
+				"impact": "Further evidence of intent to manipulate financial picture prior to litigation."
+			},
+			{
+				"allegation_id": "ASC-001",
+				"description": "Abandonment of spousal support duty by ceasing all contributions to the marital condominium as of October 1, 2024, forcing Husband to bear 100% of carrying costs and incur personal debt.",
+				"violated_rule": "Continuing duty of spousal support during separation/divorce.",
+				"impact": "Created severe financial hardship for Husband, leading to foreclosure risk and personal debt; constitutes potential marital waste."
+			},
+			{
+				"allegation_id": "ASC-002",
+				"description": "Refusal to provide access to employer-sponsored health benefits (available since December 2024) or contribute to Husband's health insurance costs, despite his documented disability and unemployment.",
+				"violated_rule": "Equitable obligations under Pennsylvania family law; duty to mitigate financial harm.",
+				"impact": "Forced Husband to incur out-of-pocket health insurance costs ($277/month) and remain uninsured for a period (Aug-Dec 2024) during a critical health period (PTSD)."
+			},
+			{
+				"allegation_id": "FS-001",
+				"description": "Filing for divorce in Delaware County, PA, after unilaterally abandoning the shared Florida residence, potentially for strategic advantage (forum shopping) while Husband was experiencing trauma and unemployment.",
+				"violated_rule": "General principles of good faith in litigation.",
+				"impact": "Attempt to reset financial playing field without full disclosure or consideration for Husband's vulnerable state."
+			}
+		]
+	},
+	"applicable_law_and_doctrine": {
+		"alimony_pendente_lite_apl": {
+			"statutory_basis": "Pa.R.C.P. 1910.16-4; 23 Pa.C.S. § 3701 (Alimony factors)",
+			"eligibility_basis": "Income disparity (Husband unemployed/disabled vs. Wife full-time employed); purpose is to level playing field during litigation.",
+			"disability_impact": "Husband's PTSD and inability to work significantly strengthens APL claim and potential for higher award/duration (23 Pa.C.S. § 3701(a)(6) - health; § 3701(b)(5) - income disparity).",
+			"retroactivity_argument": "Retroactive APL award to December 2, 2024 (Wife's undisclosed job start date) or earlier (e.g., September 2024, license reinstatement) due to concealment."
+		},
+		"equitable_distribution": {
+			"statutory_basis": "23 Pa.C.S. § 3502 (Equitable Distribution of Marital Property)",
+			"relevant_factors": [
+				"Health and physical condition of the parties (Husband's PTSD)",
+				"Sources of income of the parties (Husband's unemployment/disability vs. Wife's concealed income)",
+				"Contribution of each party to the acquisition, preservation, depreciation, or appreciation of marital property (Husband's condo payments/bridge loan)",
+				"Marital misconduct (Wife's financial concealment, abandonment of support, potential marital waste)."
+			],
+			"preservation_credit_doctrine": {
+				"applicability": "Husband's sole payment of condo carrying costs ($29,400) and bridge loan ($12,500) to preserve marital asset.",
+				"case_law_anchors": ["Biese v. Biese, 979 A.2d 892 (Pa. Super Ct. 2009)", "Robert v. Martin, 765 A.2d 1276 (Pa. Super Ct. 2001)"]
+			},
+			"marital_waste_argument": "Wife's cessation of condo contributions leading to foreclosure risk may be argued as marital waste, justifying a greater share of marital estate to Husband."
+		},
+		"discovery_rules_and_sanctions": {
+			"violated_rules": [
+				"Pa.R.C.P. 1920.33 (Full and Accurate Disclosure)",
+				"Pa.R.C.P. 4019 (Sanctions for Failure to Make Discovery)"
+			],
+			"grounds_for_sanctions": "Willful concealment of material financial facts (employment, income, bank activity); bad-faith participation in discovery process.",
+			"potential_remedies": [
+				"Motion to compel amended disclosures",
+				"Retroactive support orders",
+				"Attorney fee shifting (Pa.R.C.P. 4019(c))",
+				"Adverse inference (Trach v. Fellin, 817 A.2d 1102 (Pa. Super Ct. 2003))",
+				"Preclusion of evidence",
+				"Accelerated equitable distribution in favor of the prejudiced party."
+			]
+		},
+		"duty_of_support_during_separation": {
+			"principle": "Pennsylvania law recognizes a continuing duty of spousal support even after separation and before divorce finalization (Spousal Support / APL).",
+			"health_insurance_obligation": "While no direct legal requirement to add spouse to employer plan, refusal to do so or contribute to equivalent costs, especially for a disabled/unemployed spouse, impacts support calculations and can be viewed as bad faith."
+		}
+	},
+	"litigation_strategy_and_relief_sought": {
+		"immediate_actions": [
+			{
+				"action_type": "File Petition for Alimony Pendente Lite (APL)",
+				"priority": "Immediate",
+				"basis": "Husband's unemployment and disability; Wife's current full-time employment and access to benefits.",
+				"components_to_include": [
+					"Husband's zero/minimal income",
+					"Wife's estimated annual salary ($82,000)",
+					"Husband's monthly health insurance premium ($277)",
+					"Husband's mental health therapy, medication, and care costs",
+					"Request for retroactive award to December 2, 2024 (Wife's job start)."
+				]
+			}
+		],
+		"subsequent_motions": [
+			{
+				"action_type": "File Motion to Compel Amended Financial Disclosures",
+				"priority": "High",
+				"requests": [
+					"Wife's pay stubs from HUP (December 2024 to present)",
+					"Wife's HUP employment offer letter and full benefit package details",
+					"Full bank statements for Santander account (pre/post closure) and any new accounts (September 2024 to present)",
+					"Detailed explanation of the destination of the $3,790.35 closing withdrawal and $1,500 self-check."
+				]
+			},
+			{
+				"action_type": "File Motion for Preservation Credit and Equitable Adjustment",
+				"priority": "High",
+				"basis": "Husband's sole payment of $29,400 in condo carrying costs and securing a $12,500 bridge loan to preserve marital asset.",
+				"relief_sought": "Credit for 100% of preservation costs; classification of bridge loan as marital debt; potential enhanced share of marital estate for Husband."
+			},
+			{
+				"action_type": "File Motion for Discovery Sanctions",
+				"priority": "Medium",
+				"grounds": "Wife's willful concealment of employment, income, and bank activity; bad-faith conduct in discovery.",
+				"relief_sought": [
+					"Attorney's fees incurred due to non-disclosure",
+					"Adverse inference against Wife regarding concealed assets/income",
+					"Other appropriate remedies under Pa.R.C.P. 4019."
+				]
+			},
+			{
+				"action_type": "Consider Emergency Motion to Prevent Foreclosure",
+				"priority": "Contingent (if payments lapse)",
+				"basis": "Imminent foreclosure risk on marital property due to Wife's cessation of contributions.",
+				"relief_sought": "Order compelling Wife to resume 50% contribution to condo carrying costs."
+			}
+		],
+		"long_term_strategy": {
+			"alimony_claim": "Strong grounds for permanent or long-duration alimony post-divorce due to Husband's PTSD and inability to return to work.",
+			"equitable_distribution_offset": "Request for significant offset in asset division to compensate for Wife's financial misconduct and Husband's incurred costs/hardship."
+		}
+	},
+	"evidentiary_support": {
+		"medical_records": [
+			"PTSD diagnosis (2024-06-12)",
+			"ADHD diagnosis",
+			"Continuing therapy notes and medical evaluations supporting inability to work."
+		],
+		"financial_documents": [
+			"Husband's bank statements (showing condo payments, bridge loan receipt)",
+			"Wife's Santander bank statements (2021-12-05 to 2024-09-30)",
+			"Wife's 2024 W-2 from Florida nursing job",
+			"Wife's 2024 W-2 from Hospital of Pennsylvania (to be subpoenaed/compelled)",
+			"Zelle and Venmo transaction histories (showing transfers to Husband and cash-outs)",
+			"Bridge loan promissory note and related documents",
+			"Maryland Health Exchange insurance statements (showing $277/month premium)."
+		],
+		"property_documents": [
+			"Condo purchase agreement (2022-04-15)",
+			"Mortgage statements (2023-10 to 2025-03)",
+			"HOA invoices",
+			"Utility bills for condo",
+			"Condo listing agreements and price reduction history."
+		],
+		"employment_documents": [
+			"Wife's PA nursing license reinstatement documentation (2024-09-03)",
+			"Wife's HUP employment offer letter (to be compelled)",
+			"Wife's HUP pay stubs (to be compelled)",
+			"Wife's HUP employer benefit plan documents (to be compelled)."
+		],
+		"legal_documents": [
+			"Wife's Divorce Complaint (Delaware County, 2024-08-01)",
+			"Wife's December 2024 Financial Disclosures (showing omissions)."
+		]
+	},
+	"case_outlook_and_next_steps": {
+		"overall_posture": "Husband's legal standing is substantially strengthened by the combination of his documented disability, unemployment, and Wife's clear pattern of financial concealment and abandonment of support duties.",
+		"immediate_priorities": [
+			"File APL petition immediately, emphasizing health-related support and retroactivity.",
+			"Serve a comprehensive motion to compel full and amended financial disclosures from Wife.",
+			"Quantify all preservation credits (condo deficits, full costs, bridge loan) for equitable distribution arguments.",
+			"Prepare for potential emergency motion to prevent foreclosure if condo payments lapse further.",
+			"Document all PTSD-related costs and impact for both APL and long-term alimony considerations."
+		],
+		"long_term_outlook": "High likelihood of securing significant financial relief for Husband, including APL, long-term alimony, and favorable equitable distribution adjustments, potentially with sanctions against Wife for misconduct."
+	},
+	"ai_agent_repository_guidance": {
+		"json_file_naming_convention": "docket.json (for the primary case data)",
+		"recommended_directory_schema": "/ai-repo/cases/Bemer_DelCo_2024_divorce/ (containing docket.json, evidence_index.csv, pleadings/, notes/)",
+		"json_validation_protocol": "docket.json to be validated against /schemas/divorce_case.schema.json using CI hook (e.g., jsonlint, ajv).",
+		"data_security_considerations": "Mark entire case directory as privileged work-product; implement AES-256 encryption at rest; ensure role-based access control; specifically mark medical nodes for HIPAA compliance.",
+		"ai_runtime_access_pattern": "Agent to reference external docket.json at runtime based on case_id context token, rather than embedding in system instructions.",
+		"version_control_strategy": "Rely on Git history for versioning; if explicit versions needed, use suffixes like docket_vYYYY-MM-DD.json."
+	}
+}

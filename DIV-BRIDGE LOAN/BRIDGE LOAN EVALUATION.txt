@@ -1,0 +1,267 @@
+{
+  "loanBasics": {
+    "loanType": "Bridge Loan",
+    "loanAmount": 12500.00,
+    "loanDate": "2025-01-03",
+    "interestRate": 0,
+    "lenders": ["Jeffrey A. Boerner", "Carol T. Boerner"],
+    "borrower": "Stephen J. Boerner",
+    "referencedParty": "Melissa Bemer",
+    "maritalStatus": "Married but in divorce proceedings",
+    "divorceFilingDate": "August 2024",
+    "divorceStatus": "Pending (not finalized as of loan date)"
+  },
+  "property": {
+    "address": "246 N 3rd St. #4CD, Philadelphia, PA 19106",
+    "units": ["Unit 4C", "Unit 4D"],
+    "type": "Condo",
+    "size": "1,400 sqft",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "neighborhood": "Old City Philadelphia",
+    "monthlyHOA": 813.00,
+    "acquisitionDate": "2022-04-15",
+    "deedExecutionDate": "2022-04-12",
+    "deedEffectiveDate": "2022-04-13",
+    "deedNotarizationDate": "2022-04-15",
+    "ownership": "Tenants by the entirety",
+    "titleHolders": ["Stephen J. Boerner", "Melissa Bemer"],
+    "currentStatus": "Vacant (since 2024-10-01)",
+    "listingHistory": [
+      {
+        "listDate": "2024-07-22",
+        "listPrice": 465000.00,
+        "status": "No offers as of 2025-01-03"
+      },
+      {
+        "listDate": "2025-04-10",
+        "listPrice": 389900.00,
+        "status": "Active"
+      }
+    ],
+    "foreclosureRiskDate": "2025-04-16",
+    "rentalHistory": [
+      {
+        "period": "2023-10-01 to 2024-09-30",
+        "monthlyIncome": 2800.00,
+        "monthlyExpenses": 3500.00,
+        "netLoss": 700.00,
+        "responsibleParty": "Stephen J. Boerner"
+      }
+    ]
+  },
+  "initialPurchaseDetails": {
+    "purchasePrice": 400000.00,
+    "downPayment": 40000.00,
+    "downPaymentSource": "Stephen J. Boerner",
+    "initialPrincipalLoan": 360000.00,
+    "closingCosts": 23500.00,
+    "closingCostsPaidBy": "Stephen J. Boerner"
+  },
+  "currentMortgageDetails": {
+    "monthlyPayment": {
+      "totalAmount": 2494.13,
+      "principalAndInterest": 1770.98,
+      "escrow": 723.15
+    },
+    "principalBalanceAsOfDec172024": 343779.12,
+    "projectedPrincipalBalanceMar162025": 342118.83,
+    "monthlyPrincipalReduction": 553.43
+  },
+  "bridgeLoanDetails": {
+    "purpose": "Prevent default and preserve marital property value pending sale",
+    "disbursementMethod": [
+      {"checkNumber": 1, "amount": 3500.00},
+      {"checkNumber": 2, "amount": 3500.00},
+      {"checkNumber": 3, "amount": 3500.00},
+      {"checkNumber": 4, "amount": 2000.00}
+    ],
+    "coveredPeriods": [
+      {
+        "periodNumber": 1,
+        "startDate": "2024-12-17",
+        "endDate": "2025-01-16",
+        "amount": 2494.13
+      },
+      {
+        "periodNumber": 2,
+        "startDate": "2025-01-17",
+        "endDate": "2025-02-16",
+        "amount": 2494.13
+      },
+      {
+        "periodNumber": 3,
+        "startDate": "2025-02-17",
+        "endDate": "2025-03-16",
+        "amount": 2494.13
+      }
+    ],
+    "totalMortgagePaymentsCovered": 7482.39,
+    "remainingFundsAllocation": "Ongoing costs related to securing and supporting the Marital Property until settlement",
+    "allowableExpenses": [
+      "Utilities",
+      "HOA fees",
+      "Insurance",
+      "Required cleaning",
+      "Property showings and related costs",
+      "Essential repairs for upkeep"
+    ],
+    "disallowedExpenses": [
+      "Personal discretionary spending",
+      "Any expense beyond specific uses stated in Agreement",
+      "Any costs after March 16, 2025 mortgage statement period"
+    ]
+  },
+  "repaymentTerms": {
+    "interestRate": 0,
+    "primaryRepaymentSource": "Sale proceeds from Marital Property",
+    "repaymentPriority": "Takes priority and deducted from proceeds before any further distribution",
+    "contingencyRepayment": {
+      "trigger": "If settlement proceeds inadequate to repay loan fully",
+      "installments": [
+        {"number": 1, "amount": 3125.00, "dueDate": "90 days post-Settlement"},
+        {"number": 2, "amount": 3125.00, "dueDate": "180 days post-Settlement"},
+        {"number": 3, "amount": 3125.00, "dueDate": "270 days post-Settlement"},
+        {"number": 4, "amount": 3125.00, "dueDate": "360 days post-Settlement"}
+      ]
+    }
+  },
+  "securityAndRestrictions": {
+    "collateral": "The Marital Property",
+    "restrictions": [
+      "Borrower shall not encumber, refinance, or impair the Marital Property without explicit prior written approval from Lenders",
+      "Borrower agrees not to transfer or assign rights in the Marital Property to third parties without prior written consent from Lenders"
+    ],
+    "exceptions": ["As provided for settlement or refinancing"]
+  },
+  "defaultAndEnforcement": {
+    "defaultTriggers": ["Non-payment of any installment"],
+    "remedies": [
+      "Lenders may pursue remedies under 23 Pa.C.S.A. § 3505(b)",
+      "Court may impose lien upon property or direct sale to satisfy obligations",
+      "Enforcement against both spouses' interests"
+    ],
+    "protectionAgainstEvasion": "Should Melissa Bemer attempt to evade responsibility, Stephen J. Boerner retains right to seek judicial intervention under 23 Pa.C.S.A. § 3505(a)"
+  },
+  "legalClassification": {
+    "loanClassification": "Marital Debt",
+    "statutoryDefinition": "23 Pa.C.S.A. § 3501(a) - marital property defined as 'all property acquired by either party during the marriage'",
+    "statutoryPresumption": "23 Pa.C.S.A. § 3501(b) - All property acquired during marriage presumed to be marital property regardless of title",
+    "liabilityType": "Joint and several liability",
+    "governingLaw": "Pennsylvania law (23 Pa.C.S.A. §§ 3501–3508)",
+    "relevantCaseLaw": ["Middleton v. Middleton", "Duff v. Duff", "Biese v. Biese"]
+  },
+  "financialContributions": {
+    "stephen": {
+      "oct2023ToPresent": 53900.00,
+      "percentage": 88.5,
+      "currentStatus": "PTSD/ADHD disabled (2024-03-26 home invasion), no income, no insurance since August 2024",
+      "solelyResponsibleSince": "2024-10-01",
+      "monthlyExpensesBurden": "3300.00+",
+      "otherSignificantContributions": [
+        {
+          "item": "HVAC Replacement",
+          "date": "July 2023",
+          "amount": 12000.00,
+          "percentagePaid": 100
+        },
+        {
+          "item": "Florida Rental (10-month lease)",
+          "period": "2023-10-31 to 2024-08-31",
+          "totalCost": 45000.00,
+          "amountPaid": 40500.00,
+          "percentagePaid": 90,
+          "additionalBurden": "Move-out costs and physical effort alone"
+        }
+      ]
+    },
+    "melissa": {
+      "oct2023ToPresent": 7000.00,
+      "percentage": 11.5,
+      "currentStatus": "Full-time nurse since December 2024, full insurance",
+      "contributingSince": "0.00 since October 2024",
+      "significantFinancialActions": [
+        {
+          "action": "Terminated employment",
+          "date": "2024-07-29",
+          "consequence": "Cut Stephen's health insurance during active PTSD treatment"
+        },
+        {
+          "item": "Florida Rental contribution",
+          "period": "Spring 2024 to Early July 2024",
+          "amount": 4500.00,
+          "percentageOfTotal": 10
+        }
+      ]
+    }
+  },
+  "relevantLegalDoctrines": {
+    "financialAbandonmentDoctrine": {
+      "description": "Under PA equitable distribution, when one spouse abandons financial responsibilities toward marital property",
+      "relevance": "Melissa ceased all financial contributions since October 2024"
+    },
+    "preservationCreditPrinciple": {
+      "description": "Spouse who preserves marital asset value may receive credit in equitable distribution",
+      "relevantCases": ["Biese", "Martin", "Middleton"],
+      "application": "Stephen's continued payment of property expenses to prevent foreclosure"
+    },
+    "healthInsuranceTerminationImpact": {
+      "description": "Termination of health insurance during treatment for disability may be considered a compensable injury",
+      "relevance": "Melissa terminated employment cutting Stephen's health insurance during PTSD treatment"
+    },
+    "tripleNecessityFramework": {
+      "components": ["Disability", "Financial emergency", "Legal emergency"],
+      "application": "Stephen's PTSD/ADHD disability, imminent foreclosure risk, pending divorce proceedings"
+    }
+  },
+  "legalAnalysis": {
+    "classification": "Marital Debt subject to equitable distribution",
+    "keyFactors": [
+      "Loan obtained during marriage (divorce not final)",
+      "Used exclusively for marital property preservation",
+      "Benefits both spouses by maintaining asset value",
+      "Necessity due to wife's cessation of contributions",
+      "Fully documented and transparent purpose"
+    ],
+    "delawareCountyConsiderations": {
+      "judicialTendency": "Focus on practical equity, especially where one spouse preserves marital asset",
+      "likelyOutcome": "Credit to husband for expenses or some form of compensation in equitable distribution",
+      "importantFactors": ["Documentation", "Proof of necessity", "Good faith action"]
+    },
+    "scenarioAnalysis": {
+      "nonCollateralized": {
+        "natureOfDebt": "Husband personally liable to lender",
+        "equitableDistributionOutcome": "Likely treated as marital in nature since goal was asset preservation",
+        "possibleRemedies": [
+          "Partial or full reimbursement from wife's share of assets/proceeds",
+          "Greater percentage allocation of other assets to husband"
+        ]
+      },
+      "collateralized": {
+        "natureOfDebt": "Secured by the marital property",
+        "effectOnAsset": "Debt 'runs with the asset', paid at closing, reducing net proceeds",
+        "equitableDistributionOutcome": "Both spouses effectively share the burden through reduced distribution"
+      }
+    }
+  },
+  "strategicRecommendations": {
+    "documentation": [
+      "Maintain bridge loan agreement",
+      "Keep payment schedules and bank statements",
+      "Collect all receipts for mortgage, taxes, insurance, utilities",
+      "Create detailed spreadsheet of all property expenses paid from loan"
+    ],
+    "legalStrategy": [
+      "Seek reimbursement or credit during equitable distribution",
+      "Emphasize loan's exclusive use for property preservation",
+      "File motion for special relief or interim expense allocation if property remains unsold",
+      "Demonstrate good faith and necessity of payments to prevent foreclosure"
+    ],
+    "anticipatedDefenses": {
+      "unilateralAction": {
+        "defense": "Wife may argue loan was obtained without her consent",
+        "counterArgument": "Her refusal to communicate forced unilateral action, and equitable distribution aims to prevent unjust enrichment"
+      }
+    }
+  }
+}

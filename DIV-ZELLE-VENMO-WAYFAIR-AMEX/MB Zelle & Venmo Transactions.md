@@ -1,0 +1,103 @@
+# MB Zelle & Venmo Transactions
+
+| **Date** | **Transaction Type** | **Recipient (if known)** | **Debit Amount** | **Credit Amount** | **Balance After Transaction** | **Description**                                                     |
+| -------- | -------------------- | ------------------------ | ---------------- | ----------------- | ----------------------------- | ------------------------------------------------------------------- |
+| 12/21/21 | Venmo Cashout        |                          |                  | $212.00           | $2,971.91                     | VENMO CASHOUT 211220 ***                                            |
+| 12/24/21 | Venmo Payment        |                          | $15.00           |                   | $2,745.75                     | VENMO PAYMENT 211223                                                |
+| 01/05/22 | Venmo Payment        |                          | $50.00           |                   | $4,004.82                     | VENMO PAYMENT 220104                                                |
+| 01/07/22 | Venmo Payment        |                          | $60.00           |                   | $3,940.26                     | VENMO PAYMENT 220106                                                |
+| 01/10/22 | Venmo Payment        |                          | $33.00           |                   | $3,679.28                     | VENMO PAYMENT 220109                                                |
+| 01/10/22 | Venmo Payment        |                          | $35.00           |                   | $3,529.28                     | VENMO PAYMENT 220107                                                |
+| 01/24/22 | Venmo Payment        |                          | $15.00           |                   | $5,056.38                     | VENMO PAYMENT 220121                                                |
+| 01/24/22 | Venmo Payment        |                          | $20.00           |                   | $5,036.38                     | VENMO PAYMENT 220122                                                |
+| 01/24/22 | Venmo Payment        |                          | $25.00           |                   | $5,011.38                     | VENMO PAYMENT 220123                                                |
+| 02/07/22 | Venmo Payment        |                          | $19.00           |                   | $5,985.19                     | VENMO PAYMENT 220206                                                |
+| 02/09/22 | Venmo Payment        |                          | $250.00          |                   | $5,570.69                     | VENMO PAYMENT 220208                                                |
+| 03/11/22 | Venmo Payment        |                          | $4,000.00        |                   | $1,011.38                     | VENMO PAYMENT 220310                                                |
+| 04/25/22 | Venmo Payment        |                          | $1,000.00        |                   | $3,473.92                     | VENMO PAYMENT 220423                                                |
+| 05/04/22 | Venmo Payment        |                          | $50.00           |                   | $3,066.14                     | VENMO PAYMENT 220503                                                |
+| 05/11/22 | Venmo Payment        |                          | $1,600.00        |                   | $2,269.06                     | VENMO PAYMENT 220510                                                |
+| 05/23/22 | Zelle Payment        | Stephen Boern            | $5.00            |                   | $3,224.88                     | ZELLE STEPHEN BOERN US CARD PURCHASE                                |
+| 05/31/22 | Zelle Payment        | Stephen Boern            | $1,200.00        |                   | $1,386.18                     | ZELLE STEPHEN BOERN US CARD PURCHASE                                |
+| 06/13/22 | Venmo Payment        |                          | $250.00          |                   | $1,826.47                     | VENMO PAYMENT 220611                                                |
+| 07/05/22 | Zelle Payment        | Stephen Boern            | $1,200.00        |                   | $2,394.14                     | ZELLE STEPHEN BOERN Scottsdale/AZ US CARD PURCHASE                  |
+| 07/05/22 | Venmo Payment        |                          | $75.00           |                   | $2,308.15                     | VENMO PAYMENT 220702                                                |
+| 07/15/22 | Venmo Payment        |                          | $38.00           |                   | $3,021.99                     | VENMO PAYMENT 220714                                                |
+| 08/11/22 | Venmo Payment        |                          | $20.00           |                   | $811.91                       | VENMO PAYMENT 220810                                                |
+| 08/15/22 | Venmo Payment        |                          | $20.00           |                   | $2,112.19                     | VENMO PAYMENT 220814                                                |
+| 08/15/22 | Venmo Payment        |                          | $30.00           |                   | $2,082.19                     | VENMO PAYMENT 220814                                                |
+| 08/15/22 | Venmo Payment        |                          | $200.00          |                   | $1,882.19                     | VENMO PAYMENT 220814                                                |
+| 09/06/22 | Venmo Payment        |                          | $25.00           |                   | $1,881.58                     | VENMO PAYMENT 220902                                                |
+| 09/12/22 | Venmo Payment        |                          | $285.00          |                   | $2,969.89                     | VENMO PAYMENT 220909                                                |
+| 09/14/22 | Venmo Payment        |                          | $50.00           |                   | $2,887.94                     | VENMO PAYMENT 220913                                                |
+| 09/15/22 | Venmo Payment        |                          | $49.00           |                   | $2,799.77                     | VENMO PAYMENT 220914                                                |
+| 10/03/22 | Zelle Payment        | Stephen Boer             | $1,200.00        |                   | $1,035.14                     | ZELLE STEPHEN BOER/AZ US CARD PURCHASE                              |
+| 10/17/22 | Venmo Payment        |                          | $60.00           |                   | $1,795.99                     | VENMO PAYMENT 221014                                                |
+| 10/27/22 | Venmo Payment        |                          | $50.00           |                   | $2,326.80                     | VENMO PAYMENT 221026                                                |
+| 11/02/22 | Zelle Payment        | Stephen Boer             | $1,200.00        |                   | $937.57                       | ZELLE STEPHEN BOER/AZ US CARD PURCHASE                              |
+| 12/02/22 | Zelle Payment        | Stephen Boer             | $1,200.00        |                   | $2,700.77                     | ZELLE STEPHEN BOER/AZ US CARD PURCHASE                              |
+| 12/30/22 | Zelle Payment        | Stephen Boer             | $1,200.00        |                   | $2,545.72                     | ZELLE STEPHEN BOER/AZ US CARD PURCHASE                              |
+| 01/31/23 | Zelle Payment        | Stephen Boer             | $1,200.00        |                   | $2,667.15                     | ZELLE STEPHEN BOER/AZ US CARD PURCHASE                              |
+| 02/13/23 | Venmo Payment        |                          | $20.00           |                   | $3,112.12                     | VENMO PAYMENT 230212                                                |
+| 03/01/23 | Zelle Payment        | Stephen Boer             | $1,200.00        |                   | $2,742.99                     | ZELLE STEPHEN BOER/AZ US CARD PURCHASE                              |
+| 03/11/23 | Venmo Payment        |                          | $20.00           |                   | $3,691.21                     | VENMO PAYMENT 230312                                                |
+| 03/12/23 | Venmo Payment        |                          | $20.00           |                   | $3,691.21                     | VENMO PAYMENT 230313                                                |
+| 03/17/23 | Venmo Payment        |                          | $40.00           |                   | $3,711.84                     | VENMO PAYMENT 230316                                                |
+| 03/26/23 | Venmo Payment        |                          | $15.00           |                   | $3,841.82                     | VENMO PAYMENT 230314                                                |
+| 04/03/23 | Zelle Payment        | Stephen Boer             | $1,350.00        |                   | $3,959.61                     | ZELLE STEPHEN BOER/AZ US CARD PURCHASE                              |
+| 04/03/23 | Venmo Payment        |                          | $45.00           |                   | $3,314.61                     | VENMO PAYMENT 230331                                                |
+| 04/18/23 | Venmo Payment        |                          | $15.00           |                   | $5,039.69                     | VENMO PAYMENT 230417                                                |
+| 04/26/23 | Venmo Payment        |                          | $30.00           |                   | $6,659.67                     | VENMO PAYMENT 230424                                                |
+| 05/01/23 | Zelle Payment        | Stephen Boer             | $1,350.00        |                   | $5,193.99                     | ZELLE STEPHEN BOER/AZ US CARD PURCHASE                              |
+| 05/02/23 | Venmo Payment        |                          | $280.00          |                   | $4,883.30                     | VENMO PAYMENT 230502                                                |
+| 05/08/23 | Venmo Payment        |                          | $45.00           |                   | $6,534.21                     | VENMO PAYMENT 230506                                                |
+| 05/19/23 | Venmo Payment        |                          | $1,000.00        |                   | $5,505.85                     | VENMO PAYMENT 230518                                                |
+| 05/24/23 | Venmo Payment        |                          | $768.00          |                   | $5,505.85                     | VENMO PAYMENT 230523                                                |
+| 06/01/23 | Zelle Payment        | Stephen Boer             | $1,350.00        |                   | $3,469.51                     | ZELLE STEPHEN BOER/AZ US CARD PURCHASE                              |
+| 06/02/23 | Venmo Payment        |                          | $100.00          |                   | $3,369.51                     | VENMO PAYMENT 230601                                                |
+| 06/16/23 | Venmo Payment        |                          | $59.00           |                   | $5,844.00                     | VENMO PAYMENT 230615                                                |
+| 07/03/23 | Zelle Payment        | Stephen Boer             | $1,400.00        |                   | $5,563.26                     | ZELLE STEPHEN BOER/AZ US CARD PURCHASE                              |
+| 07/06/23 | Venmo Payment        |                          | $45.00           |                   | $5,093.69                     | VENMO PAYMENT 230705                                                |
+| 07/07/23 | Venmo Payment        |                          | $115.00          |                   | $4,758.94                     | VENMO PAYMENT 230706                                                |
+| 07/24/23 | Venmo Payment        |                          | $20.00           |                   | $5,601.46                     | VENMO PAYMENT 230722                                                |
+| 07/28/23 | Venmo Payment        |                          | $1,500.00        |                   | $5,554.19                     | VENMO PAYMENT 230727                                                |
+| 08/14/23 | Venmo Payment        |                          | $50.00           |                   | $6,422.07                     | VENMO PAYMENT 230813                                                |
+| 08/15/23 | Venmo Payment        |                          | $272.00          |                   | $6,013.81                     | VENMO PAYMENT 230814                                                |
+| 09/01/23 | Zelle Payment        | Stephen Boer             | $2,500.00        |                   | $4,521.86                     | ZELLE STEPHEN BOER/AZ US CARD PURCHASE                              |
+| 09/11/23 | Venmo Payment        |                          | $350.00          |                   | $4,900.63                     | VENMO PAYMENT 230910                                                |
+| 09/18/23 | Venmo Payment        |                          | $135.00          |                   | $3,921.85                     | VENMO PAYMENT 230915                                                |
+| 10/02/23 | Venmo Payment        |                          | $13.00           |                   | $4,188.15                     | VENMO PAYMENT 231001                                                |
+| 10/02/23 | Venmo Payment        |                          | $30.00           |                   | $4,158.15                     | VENMO PAYMENT 231001                                                |
+| 10/02/23 | Venmo Payment        |                          | $150.00          |                   | $4,008.15                     | VENMO PAYMENT 231001                                                |
+| 10/03/23 | Venmo Payment        |                          | $50.00           |                   | $3,730.47                     | VENMO PAYMENT 231002                                                |
+| 10/04/23 | Venmo Payment        |                          | $20.00           |                   | $3,682.91                     | VENMO PAYMENT 231003                                                |
+| 10/06/23 | Venmo Payment        |                          | $35.00           |                   | $4,465.78                     | VENMO PAYMENT 231005                                                |
+| 10/11/23 | Zelle Payment        | Stephen Boer             | $1,250.00        |                   | $2,709.23                     | ZELLE STEPHEN BOER/AZ US CARD PURCHASE                              |
+| 10/11/23 | Zelle Payment        | Stephen Boer             | $163.50          |                   | $2,545.73                     | ZELLE STEPHEN ST. PETERSBURG US CARD PURCHASE                       |
+| 10/20/23 | Venmo Payment        |                          | $50.00           |                   | $3,223.82                     | VENMO PAYMENT 231019                                                |
+| 11/03/23 | Zelle Payment        | Stephen Boerner          | $2,500.00        |                   | $4,163.07                     | Zelle Transfer to STEPHEN BOERNER 877-726-5640-330700A0CT1          |
+| 11/20/23 | Venmo Cashout        |                          |                  | $100.00           | $2,298.98                     | VENMO CASHOUT 231117 ***                                            |
+| 11/20/23 | Venmo Payment        |                          | $20.00           |                   | $2,278.98                     | VENMO PAYMENT 231117                                                |
+| 12/04/23 | Venmo Cashout        |                          |                  | $200.00           | $1,239.35                     | VENMO CASHOUT 231204 ***                                            |
+| 12/14/23 | Venmo Payment        |                          | $55.00           |                   | $946.82                       | VENMO PAYMENT 231213                                                |
+| 12/27/23 | Venmo Payment        |                          | $20.00           |                   | $741.98                       | VENMO PAYMENT 231226                                                |
+| 12/29/23 | Venmo Payment        |                          | $40.00           |                   | $702.81                       | VENMO PAYMENT 231228                                                |
+| 01/02/24 | Venmo Payment        |                          | $50.00           |                   | $645.14                       | VENMO PAYMENT 231229                                                |
+| 01/02/24 | Venmo Payment        |                          | $107.00          |                   | $538.14                       | VENMO PAYMENT 231230                                                |
+| 03/07/24 | Venmo Payment        |                          | $15.00           |                   | $1,008.35                     | VENMO PAYMENT 240306                                                |
+| 03/22/24 | Venmo Payment        |                          | $25.00           |                   | $557.93                       | VENMO PAYMENT 240321                                                |
+| 04/15/24 | Venmo Payment        |                          | $25.00           |                   | $1,114.64                     | VENMO PAYMENT 240414                                                |
+| 04/25/24 | Zelle Payment        | Stephen Boerner          | $800.00          |                   | $314.64                       | Zelle Transfer to STEPHEN BOERNER                                   |
+| 04/29/24 | Zelle Payment        | Carol Boerner            |                  | $1,000.00         | $1,314.64                     | Zelle Transfer from CAROL BOERNER                                   |
+| 04/30/24 | Zelle Payment        | Stephen Boerner          | $1,000.00        |                   | $314.64                       | Zelle Transfer to STEPHEN BOERNER (Pass-through from Carol Boerner) |
+| 05/06/24 | Zelle Payment        | Stephen Boerner          | $800.00          |                   | $2,608.35                     | Zelle Transfer to STEPHEN BOERNER 877-726-5640-41470010GF5H         |
+| 05/07/24 | Venmo Payment        |                          | $15.00           |                   | $1,808.35                     | VENMO PAYMENT 240506                                                |
+| 05/17/24 | Venmo Payment        |                          | $35.00           |                   | $3,230.39                     | VENMO PAYMENT 240516                                                |
+| 05/28/24 | Zelle Payment        | Stephen Boerner          | $800.00          |                   | $2,723.20                     | Zelle Transfer to STEPHEN BOERNER 877-726-5640-41470010GF5H         |
+| 05/28/24 | Venmo Payment        |                          | $16.00           |                   | $1,923.20                     | VENMO PAYMENT 240524                                                |
+| 06/03/24 | Venmo Payment        |                          | $12.00           |                   | $3,821.92                     | VENMO PAYMENT 240531                                                |
+| 06/10/24 | Venmo Payment        |                          | $54.00           |                   | $3,366.78                     | VENMO PAYMENT 240609                                                |
+| 06/14/24 | Zelle Payment        | Stephen Boerner          | $1,000.00        |                   | $2,366.78                     | Zelle Transfer to STEPHEN BOERNER 877-726-5640-416600K0547T         |
+| 07/23/24 | Venmo Payment        |                          | $200.00          |                   | $5,033.98                     | VENMO PAYMENT 240722                                                |
+| 07/29/24 | Venmo Payment        |                          | $15.00           |                   | $7,142.48                     | VENMO PAYMENT 240726                                                |
+| 07/29/24 | Venmo Payment        |                          | $30.00           |                   | $7,112.48                     | VENMO PAYMENT 240726                                                |

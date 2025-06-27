@@ -1,0 +1,154 @@
+```json
+{
+  "case_id": "246N3rdSt_Divorce_2025",
+  "client": {
+    "name": "Stephen J. Boerner",
+    "role": "Husband",
+    "address": "[Redacted], Philadelphia, PA 19106",
+    "contact": {
+      "phone": "[Redacted]",
+      "email": "[Redacted]"
+    }
+  },
+  "summary": {
+    "property": {
+      "address": "246 N 3rd St. #4CD, Philadelphia, PA 19106",
+      "status": "Marital property, tenants by the entirety",
+      "acquisition_date": "2022-04-22",
+      "purchase_price": 400000,
+      "current_mortgage_balance": 342118.83,
+      "listing_status": "On market since 2024-07-22, no offers as of 2025-01-03"
+    },
+    "divorce_proceedings": {
+      "initiated_by": "Melissa Bemer",
+      "filing_date": "2024-08",
+      "status": "Pending as of 2025-03-05"
+    },
+    "financial_crisis": {
+      "client_contributions": {
+        "since_october_2024": 10414.39,
+        "total_since_acquisition": 114414.39,
+        "details": [
+          {"type": "Down payment", "amount": 40000},
+          {"type": "Closing costs", "amount": 23500},
+          {"type": "Mortgage and maintenance", "amount": 10414.39},
+          {"type": "Florida rental lease", "amount": 40500}
+        ]
+      },
+      "bridge_loan": {
+        "amount": 12500,
+        "lenders": ["Jeffrey A. Boerner", "Carol T. Boerner"],
+        "date": "2025-01-03",
+        "purpose": "Cover mortgage payments from 2024-12-17 to 2025-03-16",
+        "status": "Marital debt under 23 Pa.C.S.A. § 3501(b)"
+      },
+      "default_risk": {
+        "last_payment_date": "2025-03-16",
+        "default_start_date": "2025-04-16",
+        "foreclosure_timeline": "30-day notice, sheriff’s sale within 90–120 days",
+        "impact": "Equity loss, potential debt"
+      }
+    },
+    "melissa_bemer_conduct": {
+      "financial_non_contribution": {
+        "since": "2024-10",
+        "amount_contributed": 0,
+        "client_burden": 10414.39
+      },
+      "past_neglect": {
+        "florida_rental_lease": {
+          "total_cost": 45000,
+          "melissa_contribution": 4500,
+          "client_contribution": 40500
+        }
+      },
+      "failure_to_review_information": "Neglects third-party market analyses and buyer feedback",
+      "disconnected_proposals": [
+        {
+          "date": "2025-02-25",
+          "time": "14:30",
+          "content": "50/50 asset split, ignores client’s payments",
+          "issues": ["No legal counsel", "Financial recklessness"]
+        },
+        {
+          "date": "2025-03-03",
+          "time": "10:15",
+          "content": "Counterproposal to reduce price to $415,000, misinterprets data",
+          "issues": ["No legal counsel", "Threatens marital assets"]
+        }
+      ],
+      "support_for_realtor_strategy": "Backed overpricing driven by greed, unrealistic market focus",
+      "assessment": "Emotional, irrational, inattentive threat to herself and marital assets"
+    },
+    "realtor_performance": {
+      "issues": [
+        {"issue": "Initial Overpricing", "details": "Listed at $465,000 vs. $425,000–$435,000 median"},
+        {"issue": "Inadequate Feedback Response", "details": "57% buyers cited ‘too high’ price"},
+        {"issue": "Ineffective Reductions", "details": "$1,000 drops (0.2%) on 2024-10-15, 2024-12-01"},
+        {"issue": "Ignored Renovation Costs", "details": "$50,000–$75,000 costs unaddressed"},
+        {"issue": "Market Stigma", "details": "223+ days on market damaged perception"}
+      ],
+      "assessment": "Catastrophic market misjudgment justifies termination"
+    },
+    "client_actions": {
+      "decisions": [
+        {"action": "Cease payments post-2025-03-16", "reason": "Financial exhaustion"},
+        {"action": "Terminate realtor", "reason": "Contract expired 2025-01-18"},
+        {"action": "Remove from MLS", "reason": "Pursue fire sale"},
+        {"action": "Fire sale strategy", "reason": "Mitigate foreclosure risk"}
+      ],
+      "reluctance": "Client acts reluctantly, compelled by Melissa’s negligence and realtor’s failures"
+    },
+    "legal_support": {
+      "statutes": [
+        {"reference": "23 Pa.C.S.A. § 3501(b)", "application": "Bridge loan as marital debt"},
+        {"reference": "23 Pa.C.S.A. § 3502(a)", "application": "Equitable distribution based on contributions"},
+        {"reference": "23 Pa.C.S.A. § 3505(a)", "application": "Remedies for dissipation"}
+      ],
+      "case_law": [
+        {"reference": "Hicks v. Kubit, 758 A.2d 202", "application": "Marital debt shared"},
+        {"reference": "Williams v. Williams, 723 A.2d 191", "application": "Preservation efforts credited"},
+        {"reference": "Patwardhan v. Brabant, 439 A.2d 784", "application": "Unilateral debt valid"}
+      ]
+    },
+    "foreclosure_timeline": {
+      "default_date": "2025-04-16",
+      "notice_period": "30 days",
+      "sheriff_sale": "90–120 days",
+      "impact": "Equity loss, debt risk"
+    },
+    "recommendations": {
+      "client": [
+        {"action": "Document communications", "details": "Emails, receipts for court"},
+        {"action": "Fire sale", "details": "8–10% price reduction ($418,500–$426,250)"},
+        {"action": "Notify lender", "details": "By 2025-03-10"}
+      ],
+      "demands": [
+        {"recipient": "Melissa", "demand": "Propose solution by 2025-03-10"},
+        {"recipient": "Kurfiss Sotheby’s", "demand": "Sell by 2025-03-15 or remove listing"}
+      ]
+    },
+    "vulnerabilities": {
+      "counterclaims": [
+        {"claim": "Bad faith", "mitigation": "Frame as preservation, document reluctance"},
+        {"claim": "Asset dissipation", "mitigation": "Clear paper trail"}
+      ],
+      "disclosure_risks": {
+        "issue": "Overexposure",
+        "mitigation": "Limit to sale/foreclosure parties"
+      }
+    }
+  },
+  "metadata": {
+    "date": "2025-03-05",
+    "time": "16:12 PST",
+    "documents": [
+      "Bridge Loan Agreement",
+      "Addendum",
+      "Listing Contract",
+      "Emails (2025-02-25, 2025-03-03)",
+      "Critical Analysis"
+    ]
+  }
+}
+```

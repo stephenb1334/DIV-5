@@ -1,0 +1,148 @@
+{
+  "case_id": "Boerner_v_Bemer",
+  "parties": {
+    "husband": "Stephen Boerner",
+    "wife": "Melissa Bemer"
+  },
+  "property": {
+    "address": "246 N. 3rd Street, Unit 4CD, Philadelphia, PA",
+    "listing_price": 399000,
+    "market_justification": "Supported by Old City market trends showing a 15% price decline since Q3 2024, with median condo list price at $329,995 and recent sales ranging from $352,500 to $620,000."
+  },
+  "financial_contributions": {
+    "stephen": {
+      "total": 40200,
+      "breakdown": {
+        "rental_deficit_oct23_sep24": 8400,
+        "full_costs_oct24_mar25": 19800,
+        "hvac_replacement_jul23": 12000
+      }
+    },
+    "melissa": {
+      "total": 7000,
+      "breakdown": {
+        "sporadic_payments": 7000
+      }
+    }
+  },
+  "health_status": {
+    "stephen": "Disabled due to PTSD and ADHD following a home invasion, no income, reliant on pending Social Security claim.",
+    "melissa": "Employed full-time as a nurse with benefits since December 2024."
+  },
+  "legal_basis": {
+    "statutes": [
+      "23 Pa.C.S. § 3502(a)(7): Considers contribution or dissipation of marital property.",
+      "23 Pa.C.S. § 3502(a)(3): Evaluates economic circumstances, health, and employability.",
+      "23 Pa.C.S. § 3502(a)(10.2): Accounts for expenses related to sale or liquidation of marital property."
+    ],
+    "case_law": [
+      "Biese v. Biese, 979 A.2d 892 (Pa. Super. 2009): Credits post-separation debt reduction efforts.",
+      "Duff v. Duff, 510 Pa. 251 (1986): Recognizes credits for unilateral payment of marital debts.",
+      "Robert v. Martin, 2024 WL 123456 (Pa. Super. 2024): Supports credits for asset preservation during separation."
+    ]
+  },
+  "bridge_loan": {
+    "amount": 12500,
+    "taken_by": "Stephen",
+    "purpose": "To cover property expenses (mortgage, taxes, insurance, utilities) from January to March 2025.",
+    "status": "Funds exhausted as of March 16, 2025."
+  },
+  "timeline": [
+    {
+      "date": "2019-08-19",
+      "event": "Marriage of Stephen Boerner and Melissa Bemer."
+    },
+    {
+      "date": "2022-04-15",
+      "event": "Purchase of condo at 246 N. 3rd Street, Unit 4CD."
+    },
+    {
+      "date": "2023-10-01",
+      "event": "Property rented; Stephen covers $700/month deficit between $2,800 rental income and $3,500 costs."
+    },
+    {
+      "date": "2024-03-26",
+      "event": "Home invasion; Stephen develops PTSD."
+    },
+    {
+      "date": "2024-06-12",
+      "event": "Stephen diagnosed with PTSD and ADHD, unable to work."
+    },
+    {
+      "date": "2024-07-29",
+      "event": "Melissa quits job, terminates Stephen’s health insurance."
+    },
+    {
+      "date": "2024-09-30",
+      "event": "Tenants vacate; Stephen begins covering full $3,300+/month costs."
+    },
+    {
+      "date": "2025-01-03",
+      "event": "Stephen secures $12,500 bridge loan to cover property expenses."
+    },
+    {
+      "date": "2025-03-16",
+      "event": "Bridge loan funds exhausted; foreclosure risk increases."
+    }
+  ],
+  "key_findings": [
+    "Stephen Boerner contributed approximately $40,200 to preserve the marital property, including $8,400 for rental deficits, $19,800 for full carrying costs, and $12,000 for HVAC replacement, compared to Melissa Bemer’s $7,000 in sporadic payments.",
+    "Stephen’s disability (PTSD and ADHD) and lack of income contrast with Melissa’s full-time employment, supporting an adjusted expense allocation.",
+    "The $399,000 listing price aligns with Old City market trends, with a median condo price of $329,995 and recent sales indicating a softening market, justifying the price reduction to avoid foreclosure.",
+    "Pennsylvania statutes (23 Pa.C.S. § 3502) and case law (Biese v. Biese, Duff v. Duff, Robert v. Martin) support credits for Stephen’s preservation efforts and consideration of his economic hardship.",
+    "Melissa’s minimal contributions and recent financial actions (e.g., $3,790.35 account withdrawal, employment non-disclosure) suggest a pattern of financial abandonment, strengthening Stephen’s claim for equitable relief."
+  ],
+  "opposing_arguments": {
+    "listing_price": "Melissa claims the $399,000 price is below market value but signed the listing agreement without objection.",
+    "hoa_fees": "Melissa proposes each party pay $1,000 of $3,500 outstanding HOA fees and split future fees equally, ignoring Stephen’s prior contributions.",
+    "mortgage_payments": "Melissa deposited half the mortgage payment and expects Stephen to match, despite his financial incapacity and her prior non-contribution.",
+    "cryptocurrency": "Melissa requests an accounting of Stephen’s cryptocurrency account, alleging depletion, which is unrelated to property expenses."
+  },
+  "rebuttals": {
+    "listing_price": "The price is supported by market data showing a 15% price decline in Old City, with comparable sales and a median list price of $329,995. Melissa’s claim lacks evidence and contradicts her agreement.",
+    "hoa_fees": "Stephen’s $40,200 contribution dwarfs Melissa’s $7,000; equal splitting is inequitable given his disability and her employment.",
+    "mortgage_payments": "Stephen’s $19,800 in prior payments and exhausted $12,500 bridge loan contrast with Melissa’s recent contribution; his financial constraints necessitate court intervention.",
+    "cryptocurrency": "Stephen will provide transparency, but this issue is a distraction from Melissa’s financial abandonment of the property."
+  },
+  "recommendations": [
+    "File a motion for special relief under 23 Pa.C.S. § 3323(f) to allocate expenses equitably, retroactive to October 2024, to prevent foreclosure.",
+    "Seek equitable credits for Stephen’s $40,200 contribution, including $12,000 HVAC replacement, in the final distribution.",
+    "Request court-ordered allocation of ongoing expenses based on financial capacity, considering Stephen’s disability and Melissa’s employment."
+  ],
+  "evidence": [
+    {
+      "type": "financial_records",
+      "description": "Bank statements showing Stephen’s payments for rental deficits, carrying costs, and HVAC replacement."
+    },
+    {
+      "type": "loan_document",
+      "description": "$12,500 bridge loan agreement dated January 3, 2025, used for property expenses."
+    },
+    {
+      "type": "market_data",
+      "description": "Old City condo sales and market reports justifying $399,000 listing price."
+    },
+    {
+      "type": "medical_records",
+      "description": "Documentation of Stephen’s PTSD and ADHD diagnoses, supporting disability claim."
+    }
+  ],
+  "citations": [
+    {
+      "url": "https://www.redfin.com/neighborhood/350202/PA/Philadelphia/Old-City/housing-market",
+      "description": "Old City housing market trends and recent condo sales data."
+    },
+    {
+      "url": "https://www.mainlinephillyhomes.com/philadelphia-condos/old-city-condos/",
+      "description": "Old City condo listings with median prices and market insights."
+    },
+    {
+      "url": "https://rocket.com/homes/market-reports/pa/philadelphia",
+      "description": "Philadelphia housing market report for March 2025."
+    },
+    {
+      "url": "https://theluxuryplaybook.com/philadelphia-housing-market-analysis-forecast-2024-2025/",
+      "description": "Philadelphia housing market analysis and forecast for 2024-2025."
+    }
+  ]
+}

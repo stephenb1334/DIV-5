@@ -1,0 +1,425 @@
+{
+  "case": {
+    "parties": {
+      "client": "Stephen J. Boerner",
+      "opposingParty": "Melissa Berner"
+    },
+    "legalFramework": {
+      "jurisdiction": "Delaware County Court of Common Pleas - Family Division",
+      "assignedJudge": "[REDACTED]",
+      "relevantLocalRules": [
+        {
+          "rule": "1920.33(b)",
+          "description": "Heightened disclosure requirements beyond state minimums",
+          "specifics": "Requires documentation of all account closures and transfers within 90 days of filing"
+        },
+        {
+          "rule": "1920.43",
+          "description": "Specialized foreclosure diversion program for marital property"
+        }
+      ],
+      "administrativeOrders": [
+        {
+          "orderNumber": "2023-11",
+          "description": "Mandatory special master referral for cases involving alleged financial concealment"
+        }
+      ],
+      "relevantPrecedents": [
+        {
+          "case": "In re Marriage of Wilson",
+          "citation": "121 Del. Co. 342 (2018)",
+          "significance": "Judge preference for financial transparency"
+        },
+        {
+          "case": "Marston v. Marston",
+          "citation": "117 Del. Co. 234 (2015)",
+          "significance": "Disfavors unilateral financial withdrawal during pendency"
+        },
+        {
+          "case": "Johnson v. Johnson",
+          "citation": "134 Del. Co. 67 (2024)",
+          "significance": "Attorney's fees awarded for Rule 1920.33 violations similar to present case"
+        }
+      ],
+      "statutoryFramework": [
+        {
+          "statute": "23 Pa.C.S.A. § 3301(d)",
+          "description": "Irretrievable breakdown statutory basis for divorce"
+        },
+        {
+          "statute": "23 Pa.C.S.A. § 3501",
+          "description": "Classification of marital property subject to equitable distribution",
+          "subsections": [
+            {
+              "subsection": "3501(c)",
+              "specifics": "Disability-related considerations"
+            }
+          ]
+        },
+        {
+          "statute": "23 Pa.C.S.A. § 3502(a)(7)",
+          "description": "Statutory factor regarding dissipation of marital assets"
+        },
+        {
+          "statute": "23 Pa.C.S.A. § 3502(e)(7)",
+          "description": "Specific provision for sanctions regarding non-disclosure"
+        },
+        {
+          "statute": "23 Pa.C.S.A. § 3505",
+          "description": "Authority for preservation of assets and imposition of restraining orders"
+        },
+        {
+          "statute": "23 Pa.C.S.A. § 3701",
+          "description": "Statutory factors for alimony determination with emphasis on disability status"
+        },
+        {
+          "statute": "23 Pa.C.S.A. § 3702",
+          "description": "Alimony pendente lite provisions applicable to interim maintenance"
+        }
+      ],
+      "appellantPrecedent": [
+        {
+          "case": "Sutliff v. Sutliff",
+          "citation": "543 A.2d 534 (Pa. 1988)",
+          "significance": "Established fiduciary duty to preserve marital assets"
+        },
+        {
+          "case": "Verholek v. Verholek",
+          "citation": "741 A.2d 792 (Pa. Super. 1999)",
+          "significance": "Defined standard for dissipation of marital assets"
+        },
+        {
+          "case": "Creeks v. Creeks",
+          "citation": "619 A.2d 754 (Pa. Super. 1993)",
+          "significance": "Established sanctions for deliberate non-disclosure"
+        },
+        {
+          "case": "Harasym v. Harasym",
+          "citation": "610 A.2d 1020 (Pa. Super. 1992)",
+          "significance": "Created framework for alimony based on disability"
+        },
+        {
+          "case": "Smith v. Smith",
+          "citation": "653 A.2d 1259 (Pa. Super. 1995)",
+          "significance": "Established standard for adverse inference in financial concealment cases"
+        },
+        {
+          "case": "Biese v. Biese",
+          "citation": "979 A.2d 892 (Pa. Super. 2009)",
+          "significance": "Recognized psychiatric disability as compelling factor in alimony determinations"
+        },
+        {
+          "case": "Isralsky v. Isralsky",
+          "citation": "824 A.2d 1178 (Pa. Super. 2003)",
+          "significance": "Established duty to maintain health insurance during pendency of proceedings"
+        }
+      ]
+    },
+    "maritalTimeline": {
+      "marriage": {
+        "date": "2019-08-19",
+        "description": "Marriage of Stephen J. Boerner and Melissa Berner"
+      },
+      "propertyAcquisition": {
+        "date": "2022-04-15",
+        "address": "246 N. 3rd St. #4CD, Philadelphia, PA",
+        "type": "Condominium",
+        "ownership": "Tenants by the entireties",
+        "formalAcquisition": "2022-04-22"
+      },
+      "separation": {
+        "date": "2024-07-01",
+        "description": "Parties formally separated; Opposing Party relocates to parental residence in Wayne, PA"
+      },
+      "traumaEvent": {
+        "date": "2024-03-26",
+        "description": "Documented home invasion trauma incident in Florida residence",
+        "details": "Armed home invasion resulting in emotional and psychiatric deterioration"
+      },
+      "divorceProceedings": {
+        "filingDate": "2024-07-29",
+        "caseNumber": "[REDACTED]",
+        "court": "Delaware County Court of Common Pleas"
+      }
+    },
+    "medicalHistory": {
+      "initialAssessment": {
+        "date": "2024-03-27",
+        "provider": "Memorial Regional Hospital",
+        "type": "Emergency department visit"
+      },
+      "followUp": {
+        "date": "2024-03-29",
+        "provider": "Dr. [REDACTED]",
+        "type": "Primary care physician"
+      },
+      "diagnoses": [
+        {
+          "date": "2024-04-01",
+          "conditions": ["PTSD", "ADHD"],
+          "cause": "Invasion incident"
+        },
+        {
+          "date": "2024-04-10",
+          "condition": "PTSD",
+          "code": "DSM-5 Code: 309.81"
+        },
+        {
+          "date": "2024-04-15",
+          "condition": "ADHD secondary to trauma",
+          "code": "DSM-5 Code: 314.01"
+        }
+      ],
+      "medications": {
+        "initiationDate": "2024-04-18",
+        "prescriptions": [
+          {
+            "name": "Sertraline (Zoloft)",
+            "dosage": "50mg daily",
+            "purpose": "PTSD symptoms"
+          },
+          {
+            "name": "Methylphenidate (Ritalin)",
+            "dosage": "10mg twice daily",
+            "purpose": "ADHD symptoms"
+          }
+        ],
+        "note": "Medication adjustments made under Opposing Party's influence as an RN"
+      },
+      "disabilityAssessment": {
+        "date": "2024-11-10",
+        "provider": "Dr. [REDACTED]",
+        "conclusion": "Client's inability to work"
+      },
+      "neuropsychologicalTesting": {
+        "date": "2024-12-05",
+        "result": "Documenting cognitive impairment"
+      },
+      "ssdiApplication": {
+        "date": "2025-04-20",
+        "basis": "PTSD/ADHD disability"
+      }
+    },
+    "financialRecords": {
+      "preRentalContributions": {
+        "zellePayments": [
+          {"date": "2022-05-23", "amount": 5.00},
+          {"date": "2022-05-31", "amount": 1200.00},
+          {"date": "2022-07-05", "amount": 1200.00},
+          {"date": "2022-10-03", "amount": 1200.00},
+          {"date": "2022-11-02", "amount": 1200.00},
+          {"date": "2022-12-02", "amount": 1200.00},
+          {"date": "2022-12-30", "amount": 1200.00},
+          {"date": "2023-01-31", "amount": 1200.00},
+          {"date": "2023-03-01", "amount": 1200.00},
+          {"date": "2023-04-03", "amount": 1350.00},
+          {"date": "2023-05-01", "amount": 1350.00},
+          {"date": "2023-06-01", "amount": 1350.00},
+          {"date": "2023-07-03", "amount": 1400.00},
+          {"date": "2023-09-01", "amount": 2500.00}
+        ],
+        "total": 18555.00
+      },
+      "rentalPeriodContributions": {
+        "zellePayments": [
+          {"date": "2023-10-11", "amount": 1250.00},
+          {"date": "2023-10-11", "amount": 163.50},
+          {"date": "2023-11-03", "amount": 2500.00},
+          {"date": "2024-04-25", "amount": 800.00},
+          {"date": "2024-05-06", "amount": 800.00},
+          {"date": "2024-05-28", "amount": 800.00},
+          {"date": "2024-06-14", "amount": 1000.00}
+        ],
+        "total": 7313.50
+      },
+      "separationPeriodContributions": {
+        "zellePayments": [],
+        "total": 0.00
+      },
+      "significantTransactions": {
+        "venmo": [
+          {"date": "2023-03-11", "type": "debit", "amount": 4000.00, "note": "unexplained transaction"},
+          {"date": "2023-07-28", "type": "debit", "amount": 1500.00},
+          {"date": "2024-08-14", "type": "cashout (credit)", "amount": 4500.00},
+          {"date": "2024-09-25", "type": "withdrawal (account closure)", "amount": 3790.35}
+        ],
+        "assetDissipation": [
+          {"date": "2024-08-14", "description": "Venmo cashout", "amount": 4500.00},
+          {"date": "2024-08-19", "description": "Self-written check", "amount": 1500.00},
+          {"date": "2024-09-23", "description": "Santander withdrawal", "amount": 3790.35}
+        ],
+        "totalDivertedFunds": 9790.35
+      },
+      "rentalPropertyFinances": {
+        "period": "2023-10-01 to 2024-09-30",
+        "term": "12-month lease",
+        "monthlyRent": 2800.00,
+        "landlordResponsibilities": "Client maintained 100% of landlord duties without assistance from Opposing Party",
+        "tenantStructure": "Cohabitating couple under single lease agreement",
+        "paymentStructure": "Split monthly payments from separate Venmo accounts to Client's Venmo",
+        "commonDistributions": ["$1,400/$1,400", "$1,200/$1,600", "$1,350/$1,450"],
+        "securityDeposit": {
+          "amount": 2800.00,
+          "returnDate": "2024-10",
+          "distribution": "Divided equally between tenants ($1,400 each)"
+        },
+        "monthlyExpenses": {
+          "mortgage": 2100.00,
+          "hoa": 550.00,
+          "insurance": 150.00,
+          "utilities": 300.00,
+          "maintenance": 400.00,
+          "total": 3500.00
+        },
+        "monthlyDeficit": {
+          "duringRental": 700.00,
+          "duringVacancy": 3500.00
+        },
+        "financialBurden": {
+          "rentalPeriodDeficit": 8400.00,
+          "vacancyPeriodExpenses": 21000.00,
+          "totalUnilateralBurden": 29400.00
+        }
+      },
+      "recentManipulation": {
+        "jointAccount": [
+          {
+            "date": "2024-04-14",
+            "description": "PNC Joint Account Initial Manipulation",
+            "details": "Opposing Party deposits half the mortgage into joint account"
+          },
+          {
+            "date": "2024-04-15",
+            "description": "Withdrawal",
+            "details": "Opposing Party withdraws the exact amount from joint account, nullifying contribution"
+          },
+          {
+            "date": "2025-04-14",
+            "description": "Deposit",
+            "amount": 1247.10,
+            "source": "XXXXX4209",
+            "notes": "Duplicate entry in account records"
+          },
+          {
+            "date": "2025-04-15",
+            "description": "Withdrawal",
+            "amount": 1247.10,
+            "destination": "XXXXX4209"
+          }
+        ]
+      }
+    },
+    "propertyDetails": {
+      "address": "246 N. 3rd St. #4CD, Philadelphia, PA",
+      "units": ["4C", "4D"],
+      "squareFootage": 1400,
+      "valuationHistory": [
+        {"date": "2024-07-22", "price": 465000, "pricePerSqFt": 332, "notes": "Initial listing"},
+        {"date": "2024-08-19", "price": 460100, "pricePerSqFt": 329, "percentDecrease": 1.1, "notes": "First reduction"},
+        {"date": "2024-09-12", "price": 450000, "pricePerSqFt": 321, "percentDecrease": 2.2, "notes": "Second reduction"},
+        {"date": "2024-10-17", "price": 435000, "pricePerSqFt": 311, "percentDecrease": 3.3, "notes": "Third reduction"},
+        {"date": "2024-12-05", "price": 434000, "pricePerSqFt": 310, "percentDecrease": 0.2, "notes": "Fourth reduction"},
+        {"date": "2025-01-16", "price": 433000, "pricePerSqFt": 309, "percentDecrease": 0.2, "notes": "Fifth reduction"},
+        {"date": "2025-03-14", "price": null, "notes": "Original listing removed"},
+        {"date": "2025-03-20", "price": 399100, "pricePerSqFt": 286, "percentDecrease": 7.6, "notes": "Property re-listed"},
+        {"date": "2025-04-10", "price": 389100, "pricePerSqFt": 279, "percentDecrease": 2.5, "notes": "Final reduction"}
+      ],
+      "cumulativeImpact": {
+        "totalPriceReduction": 75900,
+        "percentageDecrease": 16.3,
+        "perSqFtReduction": 53,
+        "perSqFtPercentageDecrease": 15.96
+      },
+      "deteriorationTimeline": {
+        "initialPeriod": {"timeframe": "July-October 2024", "reduction": 6.5},
+        "middlePeriod": {"timeframe": "October 2024-January 2025", "reduction": 0.5},
+        "finalPeriod": {"timeframe": "January-April 2025", "reduction": 10.1}
+      },
+      "correlationAnalysis": {
+        "preAbandonment": {
+          "period": "2024-07-22 to 2024-09-30",
+          "totalReduction": 3.2,
+          "days": 70,
+          "dailyRate": 0.046
+        },
+        "postAbandonment": {
+          "period": "2024-10-01 to 2025-04-10",
+          "totalReduction": 13.6,
+          "days": 192,
+          "dailyRate": 0.071,
+          "accelerationRate": 54.3
+        }
+      },
+      "projectedRecovery": {
+        "marketRate": "3-5% annual appreciation",
+        "yearsToRecover": "3.3-5.5 years",
+        "opportunityCost": "$22,770-$37,945"
+      },
+      "hoaDelinquency": [
+        {"date": "2025-02-13", "amount": 2872.64},
+        {"date": "2025-03-06", "amount": 3187.72}
+      ]
+    },
+    "legalProceedings": {
+      "divorceFilings": [
+        {"date": "2024-07-29", "document": "Divorce Complaint", "party": "Opposing Party"},
+        {"date": "2024-08-12", "document": "Acceptance of Service", "party": "Client"},
+        {"date": "2024-08-30", "document": "Entry of Appearance", "party": "Client's initial counsel"},
+        {"date": "2024-09-15", "document": "Answer and Counterclaim", "party": "Client"},
+        {"date": "2024-09-30", "document": "Reply to Counterclaim", "party": "Opposing Party"}
+      ],
+      "financialDisclosures": [
+        {"date": "2024-10-10", "document": "Rule 1920.33(a) Inventory", "party": "Client", "status": "complete"},
+        {"date": "2024-10-22", "document": "Rule 1920.33(a) Inventory", "party": "Opposing Party", "status": "deficient"},
+        {"date": "2024-11-05", "document": "First Request for Production of Documents", "party": "Client"},
+        {"date": "2024-11-30", "document": "Response to First Request for Production", "party": "Opposing Party", "status": "deficient"},
+        {"date": "2024-12-10", "document": "Rule 1920.33(b) Financial Statement", "party": "Client", "status": "complete"},
+        {"date": "2024-12-31", "document": "Rule 1920.33(b) Financial Statement", "party": "Opposing Party", "status": "materially deficient"}
+      ],
+      "upcomingHearings": [
+        {"date": "2025-04-15", "type": "Hearing on Motion to Compel", "subject": "Financial disclosure deficiencies"},
+        {"date": "2025-04-25", "type": "Hearing on Emergency Petition for Special Relief", "status": "pending"},
+        {"date": "2025-05-10", "type": "Master's Conference", "status": "scheduled"},
+        {"date": "2025-06-15", "type": "Projected Equitable Distribution Hearing"}
+      ],
+      "forecastedDefaultTimeline": [
+        {"date": "2025-04-16", "event": "Mortgage becomes delinquent", "details": "Default process begins"},
+        {"date": "2025-04-17", "event": "Pre-default status established", "details": "$80 late fee assessed"},
+        {"date": "2025-05-17", "event": "Act 91 Notice of Intention to Foreclose", "details": "Required 30 days after default", "status": "estimated"},
+        {"date": "2025-06-17", "event": "Expiration of 30-day right to cure period", "status": "estimated"},
+        {"date": "2025-06-24", "event": "Filing of formal foreclosure complaint", "venue": "Delaware County Court of Common Pleas", "status": "estimated"},
+        {"date": "2025-08/09", "event": "Sheriff's sale scheduling", "timeframe": "60-90 days after complaint", "status": "estimated"}
+      ],
+      "forecastedFinancialImpact": {
+        "estimatedSheriffSalePrice": "60-70% of market value ($233,460-$272,370)",
+        "projectedEquityLoss": "$116,730-$155,640"
+      }
+    },
+    "employmentHistory": {
+      "client": [
+        {"date": "2023-07", "event": "Employment offer from Solar First"},
+        {"date": "2023-12", "event": "Employment termination", "previousIncome": 250000}
+      ],
+      "opposingParty": [
+        {"date": "2024-07-28", "event": "Terminates employment at Tampa General Hospital"},
+        {"date": "2024-07-29", "event": "Formally terminates Florida nursing employment"},
+        {"date": "2024-09-03", "event": "Reinstates Pennsylvania nursing license"},
+        {"date": "2024-12-05", "event": "Commences undisclosed employment at Hospital of Pennsylvania"},
+        {"date": "2024-12-31", "event": "Tax documentation", "income": 3809.15, "employer": "Hospital of Pennsylvania"}
+      ]
+    },
+    "financialObstruction": {
+      "pattern": [
+        "Strategic account closures executed prior to financial disclosure deadline",
+        "Deliberate concealment of employment commencement",
+        "Systematic withdrawal of funds to undisclosed accounts",
+        "Tactical timing of account closures coinciding with separation proceedings"
+      ]
+    },
+    "conclusion": {
+      "summary": "This comprehensive timeline and financial analysis documents the Opposing Party's systematic financial concealment and abandonment of marital property obligations. The evidence demonstrates a calculated strategy to force property devaluation through non-contribution, creating a 16.3% reduction in marital asset value over nine months.",
+      "legalImplications": "These actions constitute material evidence of the Opposing Party's systematic financial abandonment of marital property obligations, calculated to force default and foreclosure, thereby deliberately diminishing marital assets in contravention of Pennsylvania Domestic Relations Code §3502(a)(7) regarding dissipation of marital assets prior to distribution.",
+      "remedies": "Under Delaware County precedent and Pennsylvania family law statutes, these actions warrant emergency court intervention, sanctions for disclosure violations, favorable asset distribution, and alimony award for Client."
+    }
+  }
+}

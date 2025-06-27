@@ -1,0 +1,70 @@
+{
+  "dataPrompt": {
+    "columns": [{
+      "columnId": "9EAC0480-124F-4FBE-8F4D-A98965B0B5AE",
+      "displayName": "input:",
+      "isInput": true
+    }, {
+      "columnId": "455E120D-6ABF-4CFB-A6BB-A80AF676FB6C",
+      "displayName": "output:"
+    }],
+    "rows": [{
+      "columnBindings": {
+        "9EAC0480-124F-4FBE-8F4D-A98965B0B5AE": "{\n  \u0026quot;prompt\u0026quot;: {\n    \u0026quot;context\u0026quot;: \u0026quot;You are an AI specializing in real estate marketing and divorce-related financial strategy. Your client is Stephen, who jointly owns a vacant condo at 246 N. 3rd St., Philadelphia, PA, with his soon-to-be ex-wife. Monthly carrying costs are $3,300, and the wife is not contributing financially. The couple wants to sell as soon as possible to minimize expenses.\u0026quot;,\n    \u0026quot;instructions\u0026quot;: [\n      \u0026quot;Evaluate the best next steps for selling the condo quickly.\u0026quot;,\n      \u0026quot;Provide at least three ‘outside the box’ marketing or property-improvement strategies to attract buyers.\u0026quot;,\n      \u0026quot;Identify any legal or logistical considerations unique to a divorcing couple selling shared real estate.\u0026quot;,\n      \u0026quot;Suggest ways to work around the wife’s lack of financial participation while still maintaining the property and making it appealing to buyers.\u0026quot;,\n      \u0026quot;Recommend optional low-cost cosmetic or staging improvements that could significantly boost buyer interest.\u0026quot;,\n      \u0026quot;Include disclaimers where the advice may overlap with legal or financial counsel, reminding the user to consult qualified professionals.\u0026quot;\n    ],\n    \u0026quot;outputFormat\u0026quot;: {\n      \u0026quot;type\u0026quot;: \u0026quot;structured\u0026quot;,\n      \u0026quot;fields\u0026quot;: [\n        {\n          \u0026quot;name\u0026quot;: \u0026quot;marketingStrategies\u0026quot;,\n          \u0026quot;description\u0026quot;: \u0026quot;List of creative property marketing approaches (minimum 3).\u0026quot;,\n          \u0026quot;type\u0026quot;: \u0026quot;list\u0026quot;\n        },\n        {\n          \u0026quot;name\u0026quot;: \u0026quot;stagingImprovements\u0026quot;,\n          \u0026quot;description\u0026quot;: \u0026quot;Low-cost property updates or staging ideas (minimum 2).\u0026quot;,\n          \u0026quot;type\u0026quot;: \u0026quot;list\u0026quot;\n        },\n        {\n          \u0026quot;name\u0026quot;: \u0026quot;legalConsiderations\u0026quot;,\n          \u0026quot;description\u0026quot;: \u0026quot;Potential legal or financial hurdles and disclaimers related to divorce proceedings.\u0026quot;,\n          \u0026quot;type\u0026quot;: \u0026quot;paragraph\u0026quot;\n        },\n        {\n          \u0026quot;name\u0026quot;: \u0026quot;actionPlanSummary\u0026quot;,\n          \u0026quot;description\u0026quot;: \u0026quot;A concise conclusion with recommended next steps.\u0026quot;,\n          \u0026quot;type\u0026quot;: \u0026quot;paragraph\u0026quot;\n        }\n      ]\n    }\n  },\n  \u0026quot;response\u0026quot;: {\n    \u0026quot;marketingStrategies\u0026quot;: [\n      \u0026quot;**\u0026#39;Divorce-Driven Deal\u0026#39; Campaign (Strategically Worded):**  Instead of explicitly stating \u0026#39;divorce sale\u0026#39;, market the condo as \u0026#39;Motivated Seller - Priced for Quick Sale\u0026#39; or \u0026#39;Opportunity Knocks - Immediate Sale Desired\u0026#39;. This hints at urgency and potential negotiation room without being overly personal or negative. Target online ads and listing descriptions with these keywords.\u0026quot;,\n      \u0026quot;**\u0026#39;Taste of Philly Living\u0026#39; Pop-Up Events:**  Host weekend open houses that are more than just viewings. Partner with local Philadelphia businesses (coffee shops, bakeries, breweries) to offer small samples or discounts to open house attendees. This creates a memorable experience and positions the condo as part of the vibrant Philly lifestyle.  Promote these events on social media and local community groups.\u0026quot;,\n      \u0026quot;**\u0026#39;Empty Nest, Full Opportunity\u0026#39; Staging (Virtual and/or Minimal):**  Since it\u0026#39;s vacant, consider virtual staging that specifically targets demographics looking for a fresh start, such as young professionals or downsizers.  Focus on showcasing the potential for a new chapter in life. If budget allows for minimal physical staging, prioritize key areas like the living room and master bedroom with neutral, modern pieces to evoke a sense of new beginnings and possibility.\u0026quot;\n    ],\n    \u0026quot;stagingImprovements\u0026quot;: [\n      \u0026quot;**Strategic Lighting Refresh:** Replace outdated or dim light fixtures with modern, energy-efficient LED lighting.  Focus on bright, warm tones in living areas and cooler, brighter lights in kitchens and bathrooms. Good lighting instantly makes a space feel cleaner, larger, and more inviting, and is relatively inexpensive.\u0026quot;,\n      \u0026quot;**\u0026#39;Deep Clean and Neutralize\u0026#39; Refresh:**  Invest in a professional deep clean of the entire condo, paying special attention to kitchens and bathrooms.  Ensure the space is completely odor-free and neutral.  Consider a fresh coat of paint in a light, neutral color like off-white or light gray to brighten the space and appeal to the broadest range of buyers. This creates a blank canvas allowing buyers to envision their own style.\u0026quot;\n    ],\n    \u0026quot;legalConsiderations\u0026quot;: \u0026quot;Selling real estate during a divorce presents unique legal and logistical hurdles. **Crucially, both Stephen and his wife legally own the property and typically must agree on all aspects of the sale, including listing price, accepting an offer, and signing closing documents.**  Stephen should immediately consult with his divorce attorney to understand his rights and obligations regarding the condo sale.  If the wife is uncooperative, legal counsel can advise on options such as mediation, court orders to compel sale, or other legal remedies outlined in their divorce proceedings or any pre-nuptial/post-nuptial agreements.  **It is vital to document all communication and expenses related to the property.**  Any agreements regarding the sale should be formally documented and reviewed by legal counsel.  **Disclaimer:** This is not legal advice. Stephen must consult with a qualified attorney to address his specific legal situation and ensure compliance with Pennsylvania real estate and divorce laws.\u0026quot;,\n    \u0026quot;actionPlanSummary\u0026quot;: \u0026quot;To sell the condo quickly, Stephen should prioritize these next steps: 1) **Consult with his divorce attorney** to understand his legal standing and options regarding the property sale, especially given his wife\u0026#39;s non-participation. 2) **Engage a proactive real estate agent** experienced in the Philadelphia market and divorce-related sales. 3) **Implement the \u0026#39;Divorce-Driven Deal\u0026#39; marketing strategy** and \u0026#39;Taste of Philly Living\u0026#39; open house concept. 4) **Invest in low-cost staging improvements**, focusing on lighting and a deep clean. 5) **Maintain open (documented) communication with his wife**, even if through legal channels, to facilitate cooperation where possible.  Acting decisively and strategically is key to minimizing carrying costs and achieving a swift sale. **Disclaimer:** Remember to consult with legal and financial professionals for tailored advice.\u0026quot;\n  }\n}",
+        "455E120D-6ABF-4CFB-A6BB-A80AF676FB6C": ""
+      },
+      "rowId": "0A208B7B-67CF-4182-82D0-B73F2B209735"
+    }],
+    "rowsUsed": ["0A208B7B-67CF-4182-82D0-B73F2B209735"]
+  },
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-2.0-flash",
+    "topP": 0.95,
+    "topK": 40,
+    "maxOutputTokens": 8192,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "BLOCK_NONE"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "BLOCK_NONE"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "BLOCK_NONE"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "BLOCK_NONE"
+    }, {
+      "category": "HARM_CATEGORY_CIVIC_INTEGRITY",
+      "threshold": "BLOCK_LOW_AND_ABOVE"
+    }],
+    "responseMimeType": "text/plain",
+    "enableCodeExecution": false,
+    "enableEnhancedCivicAnswers": true,
+    "enableSearchAsATool": false,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false
+  },
+  "testExamples": [{
+    "inputBindings": {
+      "9EAC0480-124F-4FBE-8F4D-A98965B0B5AE": "\n\n\n\nWe need new marketing ideas to sell quickly. How can we handle the condo’s vacant state and high monthly costs?\n\n\n"
+    },
+    "modelResponses": [{
+      "response": "Okay, based on Stephen\u0027s situation, here are some additional marketing ideas and strategies to address the vacant state of the condo and the burden of high monthly carrying costs, building upon the previous response:\n\n**Expanding on Marketing Strategies:**\n\n*   **\"Rent-to-Own\" or Lease Option Considerations (Proceed with Caution \u0026 Legal Counsel):** Explore offering a rent-to-own or lease-option agreement. This can generate immediate income to offset some of the $3,300 monthly costs and potentially lead to a faster sale. The buyer has time to secure financing. However, *this option requires careful legal structuring to protect Stephen\u0027s interests in case the buyer defaults.* Consult a real estate attorney to draft a solid agreement that addresses potential risks and liabilities. Market this as a \u0027Try Before You Buy\u0027 Opportunity.\n\n*   **Targeted Digital Advertising with \"Cost Savings Calculator\":** Run highly targeted digital ads on social media (Facebook, Instagram) and real estate websites, focusing on potential first-time homebuyers or those relocating to Philadelphia. The key is to highlight the affordability of owning versus renting in the long term. Incorporate a simple \"Cost Savings Calculator\" into the ad or landing page where potential buyers can input their current rent and see how it compares to owning the condo (factoring in mortgage payments, property taxes, etc. but transparently acknowledging HOA fees). Emphasize the investment opportunity and potential for building equity.\n\n*   **Partner with Local Employers \u0026 Relocation Agencies:** Reach out to major employers in the Philadelphia area and relocation agencies to market the condo to new hires or employees relocating to the city. Offer a small incentive (e.g., a gift card to a local restaurant or home goods store) to attract their attention. These buyers are often highly motivated and have immediate housing needs.\n\n*   **“Virtual Renovation” Contest:** Since it\u0027s vacant, host an online contest where potential buyers can submit their dream renovation plans for the condo. The winning design (selected by a panel or public vote) could be used as inspiration for a future buyer or even implemented by Stephen (if budget allows) to increase the property\u0027s appeal. This generates buzz and gets people thinking about the possibilities the condo offers.\n\n**Addressing the Vacant State \u0026 High Costs Directly in Marketing:**\n\n*   **\"Blank Canvas Awaits\" Theme:** Market the condo as a \"Blank Canvas Awaits\" – emphasizing its potential for personalization and customization. Showcase before-and-after photos of similar condos that have been renovated to inspire buyers. This turns the vacant state into an advantage.\n*   **\"Carrying Cost Relief Program\":** Be transparent about the carrying costs and offer a temporary \"Carrying Cost Relief Program.\" This could involve a temporary price reduction or a seller credit at closing to offset the buyer\u0027s initial expenses. This shows that Stephen is motivated to sell and willing to negotiate.\n\n**Important Considerations**\n\n*   **Communication is Key:** Emphasize the importance of maintaining open communication with the real estate agent and legal counsel throughout the process. Transparency and collaboration are crucial for a successful sale.\n\n*   **Negotiation Strategy:** Develop a clear negotiation strategy with the real estate agent. Determine the lowest acceptable offer and be prepared to make concessions to close the deal quickly.\n*   **Wife\u0027s Cooperation (or Lack Thereof):** If the wife remains uncooperative, explore options such as mediation or arbitration to reach a settlement agreement regarding the sale of the property. If necessary, seek a court order to compel her to participate in the sale.\n",
+      "safetyRatings": [{
+        "category": "HARM_CATEGORY_HATE_SPEECH",
+        "probability": "NEGLIGIBLE"
+      }, {
+        "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+        "probability": "NEGLIGIBLE"
+      }, {
+        "category": "HARM_CATEGORY_HARASSMENT",
+        "probability": "NEGLIGIBLE"
+      }, {
+        "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+        "probability": "NEGLIGIBLE"
+      }]
+    }]
+  }]
+}

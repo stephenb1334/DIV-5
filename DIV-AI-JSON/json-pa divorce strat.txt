@@ -1,0 +1,279 @@
+{
+  "projectTitle": "Stephen Boerner - Delaware County, PA Divorce Case Strategy",
+  "caseOverview": {
+    "venue": "Delaware County, Pennsylvania Court of Common Pleas",
+    "parties": {
+      "husband": "Stephen Boerner",
+      "wife": "Melissa Boerner"
+    },
+    "filingDate": "August 2024",
+    "currentStatus": "Pre-trial negotiation/disclosure phase",
+    "primaryIssues": [
+      "Financial abandonment doctrine application",
+      "Preservation credit for marital property",
+      "Imminent foreclosure risk",
+      "Equitable distribution under PA law"
+    ],
+    "urgency": "Critical - foreclosure risk beginning April 16, 2025"
+  },
+  
+  "propertyTimeline": {
+    "acquisition": {
+      "date": "April 15, 2022",
+      "type": "Joint marital property",
+      "address": "246 N. 3rd St, Unit #4CD, Philadelphia, PA",
+      "description": "1,400 sqft, 2BR/2BA condo in Old City Philadelphia",
+      "hoa": "$813/month"
+    },
+    "maintenance": [
+      {
+        "date": "July 2023",
+        "description": "HVAC Replacement",
+        "cost": "$12,000",
+        "paymentDistribution": "100% by Stephen"
+      }
+    ],
+    "rental": {
+      "period": "October 1, 2023 - September 30, 2024",
+      "income": "$2,800/month",
+      "expenses": "$3,500/month",
+      "netLoss": "$700/month"
+    },
+    "vacancy": {
+      "since": "October 1, 2024",
+      "expenses": "$3,300+/month",
+      "paymentDistribution": "100% by Stephen"
+    },
+    "emergencyFinancing": {
+      "type": "Bridge Loan",
+      "amount": "$12,500",
+      "date": "January 3, 2025",
+      "exhaustionDate": "March 16, 2025"
+    },
+    "listingHistory": [
+      {
+        "date": "July 22, 2024",
+        "price": "$465,000"
+      },
+      {
+        "date": "April 10, 2025",
+        "price": "$389,900"
+      }
+    ],
+    "foreclosureRisk": {
+      "beginDate": "April 16, 2025",
+      "urgency": "Imminent"
+    }
+  },
+  
+  "partiesStatus": {
+    "husband": {
+      "name": "Stephen Boerner",
+      "currentEmployment": "Unemployed due to disability",
+      "disabilityStatus": {
+        "condition": "PTSD/ADHD",
+        "triggerEvent": "Home invasion on March 26, 2024",
+        "ssdiFiling": "In process",
+        "treatment": "Ongoing PTSD treatment"
+      },
+      "insurance": "None since August 2024",
+      "financialContributions": {
+        "percentage": "88.5%",
+        "amount": "$53,900 (Oct 2023-Present)"
+      },
+      "priorContributions": "Primary breadwinner until end of 2023"
+    },
+    "wife": {
+      "name": "Melissa Boerner",
+      "employmentHistory": [
+        {
+          "period": "Until July 29, 2024",
+          "description": "Nursing position in Florida"
+        },
+        {
+          "period": "September 2024",
+          "event": "Pennsylvania nursing license reinstatement"
+        },
+        {
+          "period": "Since December 2024",
+          "description": "Full-time nurse in Pennsylvania",
+          "employer": "Hospital of Pennsylvania",
+          "disclosure": "Employment not disclosed during December 2024 financial disclosures"
+        }
+      ],
+      "insurance": "Full coverage through employer",
+      "financialContributions": {
+        "percentage": "11.5%",
+        "amount": "$7,000 (Oct 2023-Present)",
+        "current": "$0 since October 2024"
+      },
+      "financialActions": {
+        "bankAccountClosure": "Account closed one week prior to December 2024 employment",
+        "fundDisclosure": "Did not disclose where funds were transferred"
+      },
+      "conductOfNote": "Terminated employment July 29, 2024, cutting husband's health insurance during active PTSD treatment"
+    }
+  },
+  
+  "legalDoctrines": {
+    "financialAbandonment": {
+      "description": "Pennsylvania doctrine recognizing spouse's financial desertion of marital obligations",
+      "relevance": "Wife's cessation of financial contributions since October 2024 while husband is disabled",
+      "statutoryReference": "23 Pa.C.S. § 3502(a)(7)"
+    },
+    "preservationCredit": {
+      "description": "Legal principle crediting spouse who preserves marital assets",
+      "relevance": "Husband's solo maintenance of property, HVAC replacement, and payment of expenses",
+      "precedents": ["Biese", "Martin", "Middleton"]
+    },
+    "healthInsuranceTermination": {
+      "description": "Impact of terminating spouse's health coverage during known medical treatment",
+      "relevance": "Wife terminated employment cutting husband's insurance during PTSD treatment",
+      "compensability": "Recognized as compensable injury in equitable distribution"
+    },
+    "tripleNecessityFramework": {
+      "description": "Heightened duty of support when spouse faces multiple emergency factors",
+      "components": [
+        "Disability necessity",
+        "Financial emergency",
+        "Legal emergency"
+      ],
+      "applicability": "Husband facing all three necessity factors simultaneously"
+    }
+  },
+  
+  "assistanceNeeds": {
+    "immediate": {
+      "timeframe": "24-72 hours",
+      "tasks": [
+        "Emergency motion drafting to prevent foreclosure",
+        "Interim expense allocation motion framework",
+        "Documentation protocol for preservation evidence"
+      ]
+    },
+    "strategic": {
+      "timeframe": "Week 1-2",
+      "tasks": [
+        "Financial Abandonment memorandum with Delaware County precedents",
+        "Evidence matrix with timeline visualizations",
+        "Bridge loan classification analysis",
+        "Disclosure violation documentation framework"
+      ]
+    },
+    "implementation": {
+      "timeframe": "Week 2-4",
+      "tasks": [
+        "Motion templates with statutory integration",
+        "Pre-trial statement strategic framework",
+        "Settlement position with financial calculations",
+        "Expert witness topic identification"
+      ]
+    }
+  },
+  
+  "outputGuidance": {
+    "documentationStandards": "Professional legal-quality documentation optimized for Delaware County Court",
+    "statutoryRequirements": [
+      "Include citations to 23 Pa.C.S. § 3502(a)(7) (factors in equitable distribution)",
+      "Include citations to 23 Pa.C.S. § 3323(f) (continuing insurance coverage)"
+    ],
+    "precedentApplication": [
+      "Apply Biese precedent regarding preservation efforts",
+      "Apply Robert v. Martin regarding financial contributions",
+      "Apply Johnston v. Johnston regarding abandonment"
+    ],
+    "visualRequirements": "Create visual timelines showing abandonment pattern",
+    "calculationRequirements": "Calculate precise financial contributions/credits",
+    "settlementGuidance": "Develop strategic settlement ranges with justifications"
+  },
+  
+  "husbandDisabilityPathDetails": {
+    "ptsdDiagnosis": {
+      "triggerEvent": "Home invasion in early 2024",
+      "impact": "Significant impairment preventing employment",
+      "documentation": "Medical records supporting severity and impact on daily functioning"
+    },
+    "ssdiApplication": {
+      "status": "In process",
+      "challenges": "Delays in processing and approval",
+      "financialImpact": "No disability income during application period"
+    },
+    "priorFinancialRole": {
+      "description": "Primary household provider until end of 2023",
+      "economicImpact": {
+        "incomeLoss": "Significant reduction in household income",
+        "medicalExpenses": "Increased costs for PTSD treatment",
+        "disabilityRelatedCosts": "Ongoing expenses related to condition management"
+      }
+    },
+    "wifeEmploymentTimeline": {
+      "floridaEmployment": {
+        "endDate": "July 2024",
+        "voluntaryTermination": true,
+        "insuranceImpact": "Terminated husband's health coverage during active treatment"
+      },
+      "licensureReinstatement": {
+        "date": "September 2024",
+        "jurisdiction": "Pennsylvania",
+        "intent": "Clear preparation for employment while not disclosing plans"
+      },
+      "pennsylvaniaEmployment": {
+        "startDate": "December 2024",
+        "employer": "Hospital of Pennsylvania (previous employer)",
+        "disclosure": "Not disclosed during December 2024 financial proceedings",
+        "benefits": "Full healthcare coverage available but not extended to husband"
+      },
+      "financialConduct": {
+        "bankClosure": "Account closed one week before employment",
+        "fundTransfer": "Destination of withdrawn funds not disclosed",
+        "nonDisclosure": "Employment and income concealed during mandatory disclosures"
+      }
+    },
+    "legalImplications": {
+      "pennsylvaniaLaw": {
+        "elevatedDuty": "Heightened spousal duty when one spouse is disabled",
+        "financialMisconduct": "Non-disclosure constitutes potential sanctionable behavior",
+        "equitableDistribution": "Conduct affects division of assets under PA family law"
+      },
+      "delawareCountyContext": {
+        "judicialTendencies": "Local courts view financial transparency seriously",
+        "precedents": "Delaware County history of penalizing non-disclosure",
+        "strategicConsiderations": "Local procedural advantages and judicial temperament"
+      }
+    },
+    "legalStrategyForDisabilityPath": {
+      "aplFiling": {
+        "priority": "Immediate",
+        "basis": "Disability, unemployment, and wife's concealed employment",
+        "calculation": "Include health premiums and PTSD treatment costs",
+        "retroactivity": "Request support dating back to start of wife's employment"
+      },
+      "motionToCompel": {
+        "documentation": [
+          "Employment records and offer letter",
+          "Pay stubs and income verification",
+          "Bank statements showing account closure and fund transfers",
+          "Health insurance documentation and available benefits"
+        ],
+        "sanctions": "Request penalties for non-disclosure under PA court rules"
+      },
+      "equitableRelief": {
+        "preservationCredits": "Credit for 100% property maintenance during disability",
+        "healthInsuranceOffset": "Compensation for insurance termination during treatment",
+        "financialAbandonmentRemedy": "Address wife's withdrawal of support during crisis",
+        "bridgeLoanClassification": "Treatment of emergency funds obtained due to abandonment"
+      }
+    }
+  },
+  
+  "collaborationFormat": {
+    "project": "Ongoing comprehensive strategic repository",
+    "workstreams": [
+      "Emergency motion development",
+      "Evidence matrix construction",
+      "Strategic legal memoranda",
+      "Settlement position formulation"
+    ],
+    "integration": "Direct integration into litigation strategy"
+  }
+}

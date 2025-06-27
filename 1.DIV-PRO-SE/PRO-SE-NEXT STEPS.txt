@@ -1,0 +1,70 @@
+**Recommendation: Do NOT Add to Termination Letter**  
+
+### Key Analysis from Delaware County Rules and Search Results:  
+1. **Separate Processes**:  
+   - **Termination of counsel** (Local Rule 13.01) and **requesting accommodations** (ADA Title II) are distinct legal actions requiring separate filings[3][9].  
+   - **Extension requests** use specific forms (e.g., [Application for Continuance](https://delcopa.gov/ojs/EFileForms/Court%20Admin%20Forms%20for%20EFile/ElectronicFilingContinuanceForm.pdf)) and must cite procedural grounds like Pa.R.C.P. 216[11][12].  
+
+2. **Strategic Risks of Combining**:  
+   - Including accommodation requests in a termination letter risks:  
+     - **Diluting focus** on attorney misconduct claims[1][16].  
+     - **Premature disclosure** of PTSD to opposing counsel before accommodations are formally granted[8].  
+   - Courts prefer accommodation requests through designated ADA coordinators, not adversarial correspondence[9][10].  
+
+3. **Proper Procedure**:  
+   - **Step 1**: File termination letter as-is to preserve billing disputes/disciplinary claims[1][16].  
+   - **Step 2**: Separately submit:  
+     - **Motion for Continuance** (Use [Form 11](https://delcopa.gov/ojs/EFileForms/Court%20Admin%20Forms%20for%20EFile/ElectronicFilingContinuanceForm.pdf)) citing PTSD-related "good cause" under Pa.R.C.P. 216[11].  
+     - **ADA Accommodation Request** to Nicole Brungard (610-891-4794) using [Form 9](https://delcopa.gov/courts/ada.html)[9].  
+
+4. **Critical Precedent**:  
+   - *Dormevil v. Domestic Relations Office* (2023) emphasizes strict separation of procedural requests from substantive filings to avoid judicial confusion[16].  
+
+**Action Plan**:  
+1. Send termination letter unchanged.  
+2. Within 24 hours:  
+   - Email ADA request to brungardn@co.delaware.pa.us[9].  
+   - E-file continuance motion with PTSD documentation[11][12].  
+
+This approach maintains procedural integrity while protecting your rights under the ADA and Pennsylvania Rules of Civil Procedure.
+
+Sources
+[1] Domestic Relations - Delaware County, Pennsylvania https://delcopa.gov/courts/domesticrelations/index.html
+[2] Electronic Continuances - Attorneys https://www.alleghenycourts.us/criminal/local-rules-polices-procedures/electronic-continuance-submission-tool/
+[3] Americans with Disabilities Act | Operations | Judicial Administration https://www.pacourts.us/judicial-administration/court-programs/americans-with-disabilities-act
+[4] [PDF] Delaware County ADA Accessibility Policy https://www.co.delaware.in.us/egov/apps/document/center.egov?view=item&id=5243
+[5] Delaware County Court of Common Pleas Emergency Extension – Family Division | Musi, Merkins, Daubenberger & Clark, L.L.P. | Attorneys in Media, PA https://mmdlawfirm.com/uncategorized/delaware-county-court-of-common-pleas-emergency-extension-family-division/
+[6] Forms & Information - Delaware County, Pennsylvania https://delcopa.gov/ojs/forms.html
+[7] Amendments to Superior Court operating procedures https://www.pacodeandbulletin.gov/Display/pabull?file=%2Fsecure%2Fpabulletin%2Fdata%2Fvol44%2F44-40%2F2054.html
+[8] ADA Accommodations in Court for PTSD & Invisible Conditions https://attorneywinner.com/ada-accommodations-ptsd-court/
+[9] Americans with Disabilities Act - Delaware County https://delcopa.gov/courts/ada.html
+[10] [PDF] HANDBOOK FOR SELF-REPRESENTED PARTIES IN FAMILY ... https://www.delcopa.gov/courts/pdf/DelcoFamilySelfReprLItigantGuide.pdf
+[11] [PDF] IN THE COURT OF COMMON PLEAS OF DELAWARE COUNTY ... https://delcopa.gov/ojs/EFileForms/Court%20Admin%20Forms%20for%20EFile/ElectronicFilingContinuanceForm.pdf
+[12] Delaware County Court of Common Pleas Emergency Extension https://mmdlawfirm.com/uncategorized/delaware-county-court-of-common-pleas-emergency-extension-family-division/
+[13] Family Court Motions Forms - Delaware Courts https://courts.delaware.gov/family/motions/forms.aspx
+[14] Pennsylvania Courts Self-Help Centers, Information and Forms https://www.palawhelp.org/issues/children-and-families/self-help-pro-se-forms-and-information?channel=court-information&category=pennsylvania-courts-self-help-centers-informa&location=all
+[15] For the Public | Forms | Unified Judicial System of Pennsylvania https://www.pacourts.us/forms/for-the-public
+[16] Dormevil v. Domestic Relations Office Del. Cnty. Pa. Child Support ... https://casetext.com/case/dormevil-v-domestic-relations-office-del-cnty-pa-child-support-agency-1
+[17] Filing for Child Custody in Delaware County, the Initial Conference ... https://www.pafamilylawllc.com/filing-for-child-custody-in-delaware-county-and-the-initial-conference
+[18] Clerk FAQs - Delaware County Clerk of Courts https://clerkofcourts.co.delaware.oh.us/clerk-faq/
+[19] How do you go about getting the court date changed to another date ... https://www.avvo.com/legal-answers/how-do-you-go-about-getting-the-court-date-changed-2021775.html
+[20] Practitioners: Reasonable Accommodations Are Available in Court ... https://www.disabilityrightspa.org/newsroom/practitioners-reasonable-accommodations-are-available-in-court-proceedings/
+[21] ADA Public Notice - Administrative Office of the Courts https://courts.delaware.gov/aoc/ada.aspx
+[22] Domestic Relations Forms - Delaware County Pennsylvania https://delcodev.ntc-us.com/courts/domestic-relations/forms
+[23] Family Law, Do I have to agree to a continuance? - Legal Answers https://www.avvo.com/legal-answers/family-law-do-i-have-to-agree-to-a-continuance--1971688.html
+[24] [PDF] DISCRIMINATORY ZONING AND THE FAIR HOUSING ACT https://www.disabilityrightspa.org/wp-content/uploads/2018/04/DiscriminatoryZoningAndFHAAPRIL2018.pdf
+[25] [PDF] DELAWARE COUNTY COURT OF COMMON PLEAS https://www.delcopa.gov/courts/pdf/ada/ADAAccommodation.pdf
+[26] [PDF] Delaware County Civil Rules - Law Catalog https://www.lawcatalog.com/media/productattach/p/a/pa_delaware_county_court_rules_delaware_civil.pdf
+[27] 231 Pa. Code Chapter 1915. Actions For Custody Of Minor Children https://www.pacodeandbulletin.gov/Display/pacode?file=%2Fsecure%2Fpacode%2Fdata%2F231%2Fchapter1915%2Fchap1915toc.html&d=reduce
+[28] [PDF] Reasonable Accommodations & Fair Housing - PHFA https://www.phfa.org/forms/housing_forum/presentations/2024/session-02-a.pdf
+[29] ADA Information for Delaware County - Courthouse - 6th JD https://ww2.nycourts.gov/ACCESSIBILITY/counties/ADAbycounty-6jd-delaware-courthouse.shtml
+[30] [PDF] Family Court Rules of Civil Procedure - Delaware Courts https://courts.delaware.gov/forms/download.aspx?id=39308
+[31] [PDF] A Guide to Filing Pro Se with the Supreme Court of Pennsylvania https://www.pacourts.us/Storage/media/pdfs/20210218/232946-prosemanual-002861.pdf
+[32] APPENDIX A AMERICANS WITH DISABILITIES ACT (TITLE II ... https://warrencountypa.gov/DocumentCenter/View/1432/Request-for-Reasonable-Accommodation-Form-PDF?bidId=
+[33] ADA Coordinators - Unified Judicial System of Pennsylvania https://www.pacourts.us/judicial-administration/court-programs/ada-coordinators
+[34] Court Administration - Delaware County Pennsylvania https://delcodev.ntc-us.com/courts/court
+[35] [PDF] 1- RULE 120. ATTORNEYS - Unified Judicial System of Pennsylvania https://www.pacourts.us/assets/opinions/Supreme/out/310crim.2attach.pdf
+[36] Does PTSD Qualify as a Disability Under the ADA? - FindLaw https://www.findlaw.com/legalblogs/small-business/does-ptsd-qualify-as-a-disability-under-the-ada/
+[37] Americans with Disabilities Act (ADA) - Bucks County, PA https://www.buckscounty.gov/554/Americans-with-Disabilities-Act-ADA
+[38] [PDF] Americans with Disabilities Act (Title II) Grievance Procedure https://delcopa.gov/courts/pdf/ADAGrievanceProcedure.pdf
+[39] the courts - Pennsylvania Bulletin https://www.pacodeandbulletin.gov/Display/pabull?file=%2Fsecure%2Fpabulletin%2Fdata%2Fvol34%2F34-30%2F1353.html

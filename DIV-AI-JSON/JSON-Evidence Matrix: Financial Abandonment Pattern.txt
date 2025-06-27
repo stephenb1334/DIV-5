@@ -1,0 +1,268 @@
+{
+  "case": {
+    "title": "Stephen Boerner v. Melissa A. Boerner",
+    "court": "Delaware County Court of Common Pleas"
+  },
+  "timeline": {
+    "contribution_timeline": [
+      {
+        "phase": "Proportional Contributions",
+        "date_range": "Apr 2022 - Oct 2023",
+        "stephen": "Regular payments",
+        "melissa": "Regular payments"
+      },
+      {
+        "phase": "Disproportional Contributions",
+        "date_range": "Oct 2023 - Sep 2024",
+        "stephen": "$37,400+ (84%)",
+        "melissa": "$7,000 (16%)",
+        "notes": [
+          "HVAC: $12,000 (Stephen only)",
+          "Rental deficit: $8,400"
+        ]
+      },
+      {
+        "phase": "Total Abandonment with Concealment",
+        "date_range": "Oct 2024 - Present",
+        "stephen": "$33,500+ (100%)",
+        "melissa": "$0 (0%)",
+        "notes": [
+          "Bridge loan: $12,500 (Stephen only)",
+          "Carrying costs: $21,000+ (Stephen only)",
+          "Melissa employed (Dec 2024) but contributed $0"
+        ]
+      }
+    ],
+    "critical_events": [
+      {
+        "date": "2022-04-15",
+        "event": "Property acquisition",
+        "documentation": ["Deed", "Mortgage docs"],
+        "significance": "Establishes joint marital property"
+      },
+      {
+        "date": "2023-07-01",
+        "event": "HVAC replacement ($12,000)",
+        "documentation": ["Invoice", "Bank statement"],
+        "significance": "100% paid by Stephen; essential capital improvement"
+      },
+      {
+        "date": "2023-10-01",
+        "event": "Rental period begins",
+        "documentation": ["Lease agreement"],
+        "significance": "$2,800/mo income vs. $3,500/mo expenses"
+      },
+      {
+        "date": "2024-03-26",
+        "event": "Stephen's home invasion",
+        "documentation": ["Medical records", "Police report"],
+        "significance": "PTSD/ADHD diagnosis, disability, income loss"
+      },
+      {
+        "date": "2024-07-22",
+        "event": "Property first listed",
+        "documentation": ["MLS listing", "Realtor agreement"],
+        "significance": "Initial list price: $465,000"
+      },
+      {
+        "date": "2024-07-29",
+        "event": "Melissa terminates employment",
+        "documentation": ["Insurance termination notice"],
+        "significance": "Deliberate termination of Stephen's health insurance"
+      },
+      {
+        "date": "2024-08-01",
+        "event": "Stephen loses health insurance",
+        "documentation": ["Insurance records", "Medical bills"],
+        "significance": "During active PTSD treatment"
+      },
+      {
+        "date": "2024-09-23",
+        "event": "Melissa closes joint account",
+        "documentation": ["Bank statement"],
+        "significance": "$3,790.35 removed one week before tenant departure"
+      },
+      {
+        "date": "2024-09-30",
+        "event": "Tenant vacates property",
+        "documentation": ["Move-out inspection"],
+        "significance": "End of rental income; full expenses begin"
+      },
+      {
+        "date": "2024-10-01",
+        "event": "Complete financial abandonment begins",
+        "documentation": ["Bank statements"],
+        "significance": "Melissa's contributions drop to $0"
+      },
+      {
+        "date": "2024-12-01",
+        "event": "Melissa begins nurse employment",
+        "documentation": ["Employment records"],
+        "significance": "Concealed employment while contributing $0"
+      },
+      {
+        "date": "2025-01-03",
+        "event": "Stephen obtains bridge loan",
+        "documentation": ["Loan agreement"],
+        "significance": "$12,500 emergency funds to prevent foreclosure"
+      },
+      {
+        "date": "2025-03-16",
+        "event": "Bridge loan funds exhausted",
+        "documentation": ["Bank statements"],
+        "significance": "Foreclosure risk begins"
+      },
+      {
+        "date": "2025-04-10",
+        "event": "Current property listing",
+        "documentation": ["MLS update"],
+        "significance": "Price reduced to $389,900"
+      },
+      {
+        "date": "2025-04-16",
+        "event": "Foreclosure risk imminent",
+        "documentation": ["Mortgage statement"],
+        "significance": "Emergency intervention required"
+      }
+    ]
+  },
+  "financial_analysis": {
+    "expenses": {
+      "mortgage": {"monthly": 1875, "annual": 22500, "stephen": "100%", "melissa": "0%"},
+      "hoa": {"monthly": 813, "annual": 9756, "stephen": "100%", "melissa": "0%"},
+      "taxes": {"monthly": 375, "annual": 4500, "stephen": "100%", "melissa": "0%"},
+      "insurance": {"monthly": 125, "annual": 1500, "stephen": "100%", "melissa": "0%"},
+      "utilities": {"monthly": 112, "annual": 1344, "stephen": "100%", "melissa": "0%"},
+      "total": {"monthly": 3300, "annual": 39600, "stephen": 39600, "melissa": 0}
+    },
+    "totals_paid": [
+      {
+        "period": "Oct 2023 - Sep 2024 (Rented)",
+        "expenses": 8400,
+        "stephen": 1400,
+        "melissa": 7000
+      },
+      {
+        "period": "Oct 2024 - Present (Vacant)",
+        "expenses": 21000,
+        "stephen": 21000,
+        "melissa": 0
+      },
+      {
+        "period": "HVAC Replacement",
+        "expenses": 12000,
+        "stephen": 12000,
+        "melissa": 0
+      },
+      {
+        "period": "Bridge Loan",
+        "expenses": 12500,
+        "stephen": 12500,
+        "melissa": 0
+      }
+    ],
+    "summary": {
+      "total_expenses": 53900,
+      "stephen": 46900,
+      "melissa": 7000,
+      "stephen_percent": "87%",
+      "melissa_percent": "13%"
+    }
+  },
+  "misconduct_evidence": {
+    "concealment": [
+      {
+        "type": "Employment Concealment",
+        "documentation": ["Employment verification records"],
+        "timeline": "Dec 2024",
+        "relevance": "Deliberate withholding of financial capacity during crisis"
+      },
+      {
+        "type": "Account Closure",
+        "documentation": ["Bank statements"],
+        "timeline": "Sep 23, 2024",
+        "amount": 3790.35,
+        "relevance": "Timing suggests deliberate withdrawal to avoid expenses"
+      }
+    ],
+    "active_harm": [
+      {
+        "type": "Insurance Termination",
+        "documentation": ["Insurance cancellation notice"],
+        "timeline": "Jul 29, 2024",
+        "relevance": "Willful act during Stephen’s PTSD treatment"
+      },
+      {
+        "type": "Self-Dealing Transactions",
+        "documentation": ["Bank records", "Venmo statements"],
+        "transactions": [
+          {"amount": 1500, "memo": "none"},
+          {"amount": 4500, "method": "Venmo cashout"}
+        ],
+        "relevance": "Suspicious fund diversion"
+      }
+    ],
+    "false_representation": [
+      {
+        "type": "Three-Month Proposal",
+        "documentation": ["Correspondence dated [date]"],
+        "content": "Offered to cover three months of expenses after 18 months of abandonment",
+        "relevance": "Tactical offer, not good-faith"
+      }
+    ]
+  },
+  "statutory_alignment": {
+    "23_Pa.C.S._§_3502": [
+      {
+        "factor": "(a)(3)",
+        "description": "Health, income, employability",
+        "evidence": {
+          "Stephen": "PTSD/ADHD disabled, no income",
+          "Melissa": "Employed nurse with income"
+        },
+        "documentation": ["Medical records", "Employment verification"]
+      },
+      {
+        "factor": "(a)(7)",
+        "description": "Contribution/dissipation",
+        "evidence": {
+          "Stephen": "87% contribution",
+          "Melissa": "13% contribution, financial abandonment"
+        },
+        "documentation": ["Bank statements", "Payment records"]
+      },
+      {
+        "factor": "(a)(10)",
+        "description": "Economic circumstances",
+        "evidence": {
+          "Stephen": "Financial crisis, bridge loan",
+          "Melissa": "Stable employment, concealed resources"
+        },
+        "documentation": ["Loan documents", "Employment records"]
+      },
+      {
+        "factor": "(a)(11)",
+        "description": "Tax consequences",
+        "evidence": "Foreclosure would create severe tax implications",
+        "documentation": ["Tax regulations re: debt forgiveness"]
+      }
+    ]
+  },
+  "conclusion": {
+    "preservation_credit": {
+      "minimum": 46900,
+      "components": {
+        "HVAC": 12000,
+        "Rental Deficit": 1400,
+        "Post-Vacancy Costs": 21000,
+        "Bridge Loan": 12500
+      }
+    },
+    "additional_damages": [
+      "Medical expenses from insurance termination",
+      "Interest on bridge loan",
+      "Legal fees for emergency motions"
+    ],
+    "summary": "Pattern of financial abandonment by Defendant and extraordinary preservation by Plaintiff supports significant equitable distribution adjustment."
+  }
+}

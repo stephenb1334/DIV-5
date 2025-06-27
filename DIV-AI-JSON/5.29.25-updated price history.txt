@@ -1,0 +1,34 @@
+# Price History - 246 N 3rd St. #4CD Philadelphia, PA 19106
+
+## Current Listing (Active)
+| Date | Event | Price | Price/SqFt | Change |
+|------|-------|-------|------------|---------|
+| 5/22/2025 | Price change | $379,900 | $271/sqft | -2.6% |
+| 4/10/2025 | Price change | $389,900 | $279/sqft | -2.5% |
+| 3/20/2025 | Listed for sale | $399,900 | $286/sqft | -7.6% |
+
+*Source: Bright MLS #PAPH2459674*
+
+---
+
+## Previous Listing (Removed)
+| Date | Event | Price | Price/SqFt | Change |
+|------|-------|-------|------------|---------|
+| 3/14/2025 | Listing removed | $433,000 | $309/sqft | — |
+| 1/16/2025 | Price change | $433,000 | $309/sqft | -0.2% |
+| 12/5/2024 | Price change | $434,000 | $310/sqft | -0.2% |
+| 10/17/2024 | Price change | $435,000 | $311/sqft | -3.3% |
+| 9/12/2024 | Price change | $450,000 | $321/sqft | -2.2% |
+| 8/19/2024 | Price change | $460,000 | $329/sqft | -1.1% |
+| 7/22/2024 | Listed for sale | $465,000 | $332/sqft | — |
+
+*Source: Bright MLS #PAPH2377366*
+
+---
+
+## Summary
+- **Initial listing price (July 2024):** $465,000
+- **Current price (May 2025):** $379,900
+- **Total price reduction:** $85,100 (-18.3%)
+- **Time on market:** 10+ months across two listings
+- **Property relisted:** March 2025 after removal in March 2025

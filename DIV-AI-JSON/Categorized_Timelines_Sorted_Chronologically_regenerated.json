@@ -1,0 +1,439 @@
+{
+  "timeline_name": "Categorized_Timelines_Sorted_Chronologically",
+  "generated_timestamp": "2025-04-22T16:39:23.240712Z",
+  "event_count": 72,
+  "events": [
+    {
+      "id": "6718d083-9106-4174-8eea-5ee3d8fc0f98",
+      "date": "2022-05-01",
+      "category": "Education",
+      "event": "Defendant financially contributes to Plaintiff's Villanova education"
+    },
+    {
+      "id": "bf8ff23a-9b6e-47c4-920c-f573c1c2524b",
+      "date": "2023-12-01",
+      "category": "Employment",
+      "event": "Stephen lost job (previously earning $250,000/year)"
+    },
+    {
+      "id": "aa77104b-3d7e-4cd6-957a-836ecbbb9e33",
+      "date": "2024-07-28",
+      "category": "Employment",
+      "event": "Melissa quits Tampa General Hospital"
+    },
+    {
+      "id": "399b135a-ff17-42b2-a85f-9a45215f2290",
+      "date": "2024-08-01",
+      "category": "Employment",
+      "event": "Plaintiff abandons 'OnlyFans' venture"
+    },
+    {
+      "id": "88699eb1-f33c-4cb2-b8cc-5b74d15410fe",
+      "date": "2024-09-03",
+      "category": "Employment",
+      "event": "Melissa reinstates Pennsylvania nursing license"
+    },
+    {
+      "id": "251caf19-0afd-401f-9012-8826e046f39a",
+      "date": "2024-12-05",
+      "category": "Employment",
+      "event": "Melissa begins work at Hospital of Pennsylvania"
+    },
+    {
+      "id": "27183727-3ffa-4c97-ad48-8ed2c60e11ae",
+      "date": "2025-03-19",
+      "category": "Employment",
+      "event": "LinkedIn shows no employment update for Melissa despite full-time work"
+    },
+    {
+      "id": "b1db7f1d-7109-4898-99f1-7514608ac36d",
+      "date": "2023-03-11",
+      "category": "Financial",
+      "event": "$4,000.00 Venmo debit (unexplained transaction)"
+    },
+    {
+      "id": "bbcc3672-97a7-4267-8c9d-e0b1f098abd5",
+      "date": "2023-07-01",
+      "category": "Financial",
+      "event": "Stephen funds $12,000 HVAC system replacement"
+    },
+    {
+      "id": "df50a2d5-7fe4-49f8-9ce8-f34761240653",
+      "date": "2023-07-28",
+      "category": "Financial",
+      "event": "$1,500.00 Venmo debit by Melissa"
+    },
+    {
+      "id": "8132b00d-ad91-4609-b04e-aed498c91470",
+      "date": "2024-04-14",
+      "category": "Financial",
+      "event": "Melissa deposits half mortgage into PNC joint account"
+    },
+    {
+      "id": "b52aea0c-accc-4468-a246-69c4d01b11a1",
+      "date": "2024-04-15",
+      "category": "Financial",
+      "event": "Melissa withdraws same amount from joint account"
+    },
+    {
+      "id": "bcd97452-ca61-46e4-89c5-d2a3f2ecf22e",
+      "date": "2024-08-14",
+      "category": "Financial",
+      "event": "Melissa executes $4,500 Venmo cashout"
+    },
+    {
+      "id": "7de37274-827a-41a9-875c-6e031aeae092",
+      "date": "2024-08-19",
+      "category": "Financial",
+      "event": "Melissa writes $1,500 check to herself"
+    },
+    {
+      "id": "b2a539d7-86ba-4c18-b392-0a851c22009c",
+      "date": "2024-08-20",
+      "category": "Financial",
+      "event": "Check deposited to undisclosed account"
+    },
+    {
+      "id": "5ce5172f-daa8-406e-8cda-9c7564b443d5",
+      "date": "2024-09-23",
+      "category": "Financial",
+      "event": "Santander account closed with $3,790.35 withdrawal"
+    },
+    {
+      "id": "74dfbbe1-f646-4856-8a0c-eadc4daaea5a",
+      "date": "2024-09-25",
+      "category": "Financial",
+      "event": "Venmo account closure with final matching withdrawal"
+    },
+    {
+      "id": "b5593f14-7be5-4923-842d-252928605f75",
+      "date": "2024-10-01",
+      "category": "Financial",
+      "event": "Stephen begins covering $3,500/month condo expenses alone"
+    },
+    {
+      "id": "14628ee1-524a-4a47-8ed4-72254169aadc",
+      "date": "2024-10-01",
+      "category": "Financial",
+      "event": "Melissa stops all financial contributions to condo"
+    },
+    {
+      "id": "628e40d5-6899-47e6-aec8-0dfd54abf461",
+      "date": "2025-01-03",
+      "category": "Financial",
+      "event": "$12,500 bridge loan secured"
+    },
+    {
+      "id": "5996c308-0990-4f86-bef5-3b917c160e50",
+      "date": "2025-02-13",
+      "category": "Financial",
+      "event": "HOA delinquency recorded at $2,872.64"
+    },
+    {
+      "id": "7047a476-1670-4de4-a674-b9f93ea9e7cb",
+      "date": "2025-03-06",
+      "category": "Financial",
+      "event": "HOA delinquency rises to $3,187.72"
+    },
+    {
+      "id": "fc47777f-cdb0-46f5-afb7-cadc865283d9",
+      "date": "2025-03-11",
+      "category": "Financial",
+      "event": "Final mortgage payment made"
+    },
+    {
+      "id": "15b3e4dc-7022-4952-8f12-7249fe499905",
+      "date": "2025-03-16",
+      "category": "Financial",
+      "event": "Bridge loan funds exhausted"
+    },
+    {
+      "id": "e1532ee3-053f-4a61-93bf-080455aa5091",
+      "date": "2025-04-02",
+      "category": "Financial",
+      "event": "ACH debit of $40.00 to WAYFAIR AUTO from PNC Joint Family Checking"
+    },
+    {
+      "id": "51cf2e67-49d9-4b99-a82a-2c4a6750a3c4",
+      "date": "2025-04-09",
+      "category": "Financial",
+      "event": "Two online transfers out of PNC Joint Family Checking: $200.00 and $150.00"
+    },
+    {
+      "id": "04891f8f-0ac6-4a78-956e-75fec7c7042c",
+      "date": "2025-04-14",
+      "category": "Financial",
+      "event": "PNC deposit and same-day withdrawal of $1,247.10"
+    },
+    {
+      "id": "025976bc-bc9d-40a7-abea-72d5f29e13e5",
+      "date": "2025-04-14",
+      "category": "Financial",
+      "event": "Melissa deposits $1,247.10 into PNC Joint Family Checking (from XXXXX4209)"
+    },
+    {
+      "id": "6062a5ab-d760-49ee-9b44-75ed9f849c9b",
+      "date": "2025-04-14",
+      "category": "Financial",
+      "event": "Melissa deposits $1,247.10 into PNC Joint Family Checking"
+    },
+    {
+      "id": "c76afece-2c5b-4cb4-8ac5-2710d7ddb1ff",
+      "date": "2025-04-15",
+      "category": "Financial",
+      "event": "Melissa withdraws $1,247.10 from PNC Joint Family Checking (same amount as deposit)"
+    },
+    {
+      "id": "1a88f002-0f2b-4be6-9c41-b580077752ba",
+      "date": "2025-04-15",
+      "category": "Financial",
+      "event": "Melissa withdraws $1,247.10 from PNC Joint Family Checking (to XXXXX4209) - same account"
+    },
+    {
+      "id": "ea1b3168-d610-4d28-8d64-d9bc1a6dd98d",
+      "date": "2025-04-16",
+      "category": "Foreclosure",
+      "event": "Mortgage becomes delinquent"
+    },
+    {
+      "id": "79c868d2-45d0-45a9-847c-a6c9c8977918",
+      "date": "2024-07-29",
+      "category": "Insurance",
+      "event": "Stephen\u2019s health insurance terminated"
+    },
+    {
+      "id": "4ab201a8-06df-4356-a902-7d243b798c10",
+      "date": "2025-04-01",
+      "category": "Insurance",
+      "event": "Stephen cancels life insurance policy; requests Melissa do same"
+    },
+    {
+      "id": "a19af004-bd99-4ac5-8d17-c06072c4ecb7",
+      "date": "2024-08-20",
+      "category": "Legal",
+      "event": "Melissa directs discovery requests toward irrelevant issues"
+    },
+    {
+      "id": "eec97e09-a250-45a7-bb24-7c59c33a72c6",
+      "date": "2024-11-01",
+      "category": "Legal",
+      "event": "Stephen begins search for new legal representation"
+    },
+    {
+      "id": "eea706b9-4068-43c1-b0ae-032e410c53a4",
+      "date": "2024-12-31",
+      "category": "Legal",
+      "event": "End of financial disclosure period"
+    },
+    {
+      "id": "72875374-5819-49db-8023-ce1dae55f7a0",
+      "date": "2025-01-31",
+      "category": "Legal",
+      "event": "Stephen sends demand for realtor termination"
+    },
+    {
+      "id": "b9a3fda9-2f56-46e3-abc3-73b23c44ccf4",
+      "date": "2025-02-11",
+      "category": "Legal",
+      "event": "Realtor admits contradictory pricing strategy"
+    },
+    {
+      "id": "474d5ffc-1cb2-4953-9fe2-88f28174ba37",
+      "date": "2025-02-25",
+      "category": "Legal",
+      "event": "Melissa sends unsolicited 50/50 proposal"
+    },
+    {
+      "id": "5a98b11b-2a8e-499b-aa43-23eb25c497c3",
+      "date": "2025-03-01",
+      "category": "Legal",
+      "event": "Melissa uses false reason in signing realtor termination"
+    },
+    {
+      "id": "e6221ef4-a736-48bf-a3da-6a2e79accbff",
+      "date": "2025-03-03",
+      "category": "Legal",
+      "event": "Melissa sends counterproposal"
+    },
+    {
+      "id": "c5f3cb08-7b78-40c3-a327-63c2c5fde589",
+      "date": "2025-03-05",
+      "category": "Legal",
+      "event": "Ultimatum sent by Melissa"
+    },
+    {
+      "id": "971749dc-ba66-41fa-a82c-32f4cda7614a",
+      "date": "2025-03-10",
+      "category": "Legal",
+      "event": "Realtor termination letter sent"
+    },
+    {
+      "id": "cf63bf9c-6462-4b29-b02c-93e7174ba059",
+      "date": "2025-03-13",
+      "category": "Legal",
+      "event": "Deadline for Melissa\u2019s cooperation with termination"
+    },
+    {
+      "id": "85c0b0d3-4cfa-433a-a133-f251b9cb6973",
+      "date": "2025-04-15",
+      "category": "Legal",
+      "event": "2:58 PM email from opposing counsel falsely claiming Melissa paid 'half' the mortgage"
+    },
+    {
+      "id": "aba89436-375b-4388-b17f-69ed967f9fc8",
+      "date": "2025-04-15",
+      "category": "Legal",
+      "event": "Opposing counsel sends email 2:58pm same day as suspicious withdrawal"
+    },
+    {
+      "id": "b7bbab2d-611a-4eb2-9ba7-333383c9fae3",
+      "date": "2025-04-15",
+      "category": "Legal",
+      "event": "Carolyn R. Mirabile sends 2:58 PM email falsely stating Melissa paid half the mortgage"
+    },
+    {
+      "id": "fcb905cd-34ea-4d18-af0a-38dc59cebc47",
+      "date": "2025-04-22",
+      "category": "Legal",
+      "event": "Defendant files for SSDI"
+    },
+    {
+      "id": "73eb7ecd-a4cb-4ef6-9bfc-9c64498cb4c0",
+      "date": "2025-04-22",
+      "category": "Legal",
+      "event": "Defendant files for SSDI based on PTSD and ADHD diagnoses"
+    },
+    {
+      "id": "7a9f961a-55cc-4329-a3d2-a5370787e094",
+      "date": "2019-08-19",
+      "category": "Marriage",
+      "event": "Stephen J. Boerner and Melissa Berner married"
+    },
+    {
+      "id": "cabbe9f8-2c7b-4e97-beb9-f793e2cc4c4f",
+      "date": "2024-01-01",
+      "category": "Marriage",
+      "event": "Marriage described as 'very good' during this period"
+    },
+    {
+      "id": "7ed8d67b-5256-42c2-8ddb-8d4a1e1b103c",
+      "date": "2024-03-26",
+      "category": "Medical",
+      "event": "Home invasion trauma incident in Florida"
+    },
+    {
+      "id": "d8aaf173-3d13-4747-b0bb-0bb5c9f2679f",
+      "date": "2024-04-01",
+      "category": "Medical",
+      "event": "PTSD and ADHD diagnoses following invasion"
+    },
+    {
+      "id": "774d0dfe-12b1-414e-abf7-1e9e8c42e408",
+      "date": "2024-05-01",
+      "category": "Medical",
+      "event": "Melissa rejects Stephen\u2019s FMLA option after verifying eligibility"
+    },
+    {
+      "id": "2b2972be-d656-4166-ac20-67b59d201861",
+      "date": "2022-04-15",
+      "category": "Property Acquisition",
+      "event": "Purchase of condominium at 246 N. 3rd St. #4CD, Philadelphia, PA as marital property"
+    },
+    {
+      "id": "dc421d8d-5c9e-4efe-b1c9-2c418372f4d9",
+      "date": "2022-04-22",
+      "category": "Property Acquisition",
+      "event": "Acquisition of Units 4C and 4D at 246 N 3rd St. as tenants by the entirety"
+    },
+    {
+      "id": "7c3876b1-218a-44f0-8905-f8a1f8ce3288",
+      "date": "2024-07-22",
+      "category": "Property Listing",
+      "event": "Philadelphia condo listed for sale at $465,000"
+    },
+    {
+      "id": "6d4a5456-450a-44b4-bd20-0b4807119007",
+      "date": "2024-09-12",
+      "category": "Property Listing",
+      "event": "Price reduction to $450,000"
+    },
+    {
+      "id": "2b668d8a-2f63-4c16-930f-a8cb987c01ed",
+      "date": "2024-10-15",
+      "category": "Property Listing",
+      "event": "Price reduced to $435,000"
+    },
+    {
+      "id": "f1a5e0f6-1237-4f73-a901-3846d1f32219",
+      "date": "2024-12-01",
+      "category": "Property Listing",
+      "event": "Price reduced to $434,000"
+    },
+    {
+      "id": "7b1243a9-c204-4591-afe3-0f0725368d69",
+      "date": "2025-01-14",
+      "category": "Property Listing",
+      "event": "Renewal listing agreement at $433,000"
+    },
+    {
+      "id": "ac5b6c8b-edff-4a92-9b45-f9bb13487419",
+      "date": "2025-03-15",
+      "category": "Property Listing",
+      "event": "Price reduced to $399,000"
+    },
+    {
+      "id": "a1b3d000-95ec-48b1-a95f-781ef323209c",
+      "date": "2025-04-10",
+      "category": "Property Listing",
+      "event": "Listed at $389,900"
+    },
+    {
+      "id": "7d33b95f-76c9-4469-965c-e8711b458afd",
+      "date": "2025-04-18",
+      "category": "Property Listing",
+      "event": "Price reduced again to $389,900"
+    },
+    {
+      "id": "e2278a57-abed-42af-9b97-80947f4117dc",
+      "date": "2023-09-01",
+      "category": "Rental",
+      "event": "Tenant Zelle payment of $2,500.00 to Stephen"
+    },
+    {
+      "id": "8b602754-6803-4a63-a52c-543acadf5c6f",
+      "date": "2023-10-01",
+      "category": "Rental",
+      "event": "Property leased for 12-month term at $2,800/month"
+    },
+    {
+      "id": "10f0add6-a38f-4af6-ba69-bade0b629fa7",
+      "date": "2023-10-31",
+      "category": "Rental",
+      "event": "Start of Florida rental lease agreement ($45,000 total)"
+    },
+    {
+      "id": "bf5d0637-cd4b-4c8a-9039-26bc4db3231c",
+      "date": "2024-09-30",
+      "category": "Rental",
+      "event": "Tenants vacated property, ending rental income"
+    },
+    {
+      "id": "f3b6e4bd-e8f7-4149-ade4-a8f9be7a6dcf",
+      "date": "2024-06-01",
+      "category": "Separation",
+      "event": "Plaintiff unilaterally abandons Florida residence"
+    },
+    {
+      "id": "d4b31514-7ca6-4bf2-9202-f0d2c90f337f",
+      "date": "2024-07-01",
+      "category": "Separation",
+      "event": "Parties separated; Melissa relocates to parents' residence in Wayne, PA"
+    },
+    {
+      "id": "333b2af4-04c4-4891-a304-32d58859ed49",
+      "date": "2025-03-30",
+      "category": "Technical",
+      "event": "Melissa obstructs Stephen's access to shared Gmail account"
+    }
+  ]
+}

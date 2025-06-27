@@ -1,0 +1,47 @@
+EVID-HOW TO COURT SUBMIT EVIDENCE 
+
+
+
+Based on the information provided, Florida Statute § 92.29 regarding photographic or electronic copies could significantly impact your landlord-tenant dispute in several important ways:
+Evidentiary Value of Electronic Records
+This statute establishes that photographic reproductions or electronic records made by governmental agencies are admissible as evidence with the same legal weight as original documents. In your case, this means:
+	1.	Any electronic communications (texts, emails) between you and your landlords (Luther J. Rollins, Jr. and Mary O. Polk) or their agent (Zach Steinberger) would be fully admissible as evidence in court proceedings.
+	2.	Your documented requests to retrieve personal property, which were sent electronically, would have the same evidentiary value as if they were physical letters.
+	3.	The electronic listing showing your Weber grill being used as an amenity in the property’s marketing materials would be admissible as evidence of conversion of your personal property.
+Documentation of Security Deposit Claims
+The statute strengthens your position regarding the security deposit dispute:
+	1.	The landlords’ failure to provide proper documentation within the statutory 30-day period (which expired on September 30, 2024) is further emphasized by this statute, as any electronic records they claim to have but failed to produce within that timeframe cannot be retroactively introduced.
+	2.	Your electronic documentation of the condition of the property at move-out would be admissible with the same force as original documents, potentially countering their unsubstantiated claims of damage.
+Burden of Proof Considerations
+The statute reinforces the burden of proof issues in your case:
+	1.	Since the landlords bear the burden of proof for security deposit claims, their failure to provide electronic or photographic evidence within the statutory period significantly weakens their position.
+	2.	Your electronic documentation of attempts to retrieve personal property strengthens your conversion claim, as the statute ensures these electronic communications are given full evidentiary weight.
+Strategic Application
+You can strategically apply this statute by:
+	1.	Ensuring all electronic communications with the landlords are properly preserved and authenticated.
+	2.	Emphasizing to the court that the landlords’ failure to provide electronic or photographic evidence of alleged damages within the statutory period cannot be remedied after the fact.
+	3.	Using the statute to support the admissibility of any electronic records you have that document the condition of the property, your attempts to retrieve personal property, and the landlords’ use of your property in rental listings.
+This statute strengthens your position by ensuring that all electronic documentation you’ve preserved regarding this dispute will be given full evidentiary weight in court proceedings, while simultaneously highlighting the landlords’ failure to provide timely electronic documentation of their claims against your security deposit
+
+
+ ---
+
+
+Key Takeaways from “Certifying” Documents via Third-party Software: Binding on the Court?
+Summary of the Article’s Main Points
+	•	The use of third-party software to certify documents (such as by time-stamping or digital signatures) can add an extra layer of proof when establishing the foundation for admissibility of electronic records in court, but it is not dispositive or binding on the court.
+	•	Courts require that electronic evidence be authenticated under the applicable rules of evidence-primarily Federal Rules of Evidence 901 and 902, and their Florida counterparts. The core requirement is that the evidence must be shown to be what the proffering party claims it to be.
+	•	Third-party software certification alone does not satisfy all authentication requirements; it may help, but it does not guarantee admissibility or self-authentication status.
+	•	There is a range of judicial approaches: some courts are more lenient, while others (such as in In re Vee Vinhnee) require a stricter, multi-step foundation to ensure the reliability and accuracy of electronic records.
+	•	For private litigants in Florida, the evidentiary standard for digital image copies of documents remains reliant on the business records foundation and the best evidence rule, not on third-party certification.
+	•	Florida Statutes (such as F.S. §668.50, the Uniform Electronic Transaction Act) provide that electronic records and signatures cannot be excluded solely because they are electronic, but this does not eliminate the need to establish authenticity and reliability.
+Practical Implications
+	•	Third-party certification is not binding: Courts do not treat third-party software certification as self-authenticating or as creating a presumption of authenticity. It is not binding on the court and does not, by itself, overcome objections to admissibility.
+	•	Adds to the foundation, not a substitute: Certification via third-party software can support the business records foundation (such as under F.S. §90.803(6)(a)), but traditional foundational testimony (usually from a records custodian with knowledge of the record-keeping process) is still required.
+	•	Best practices: Including a clause in contracts that references the use of electronic records and the applicability of the UETA can help avoid objections, but does not guarantee admissibility without proper foundation.
+	•	Cost-benefit analysis: Because the process of third-party certification can be costly and is not uniquely probative, parties should weigh the benefits against the costs, especially since a sound records retention policy and testimony may achieve similar results.
+Conclusion
+Certification of documents via third-party software provides an additional layer of support for authenticity, but it is not binding on the court and does not replace the need for proper evidentiary foundation. Courts may consider such certification as part of the overall authentication process, but it is not self-authenticating under current law. The best approach remains to ensure robust record-keeping practices and to be prepared to lay a traditional business records foundation through witness testimony if necessary.
+
+
+

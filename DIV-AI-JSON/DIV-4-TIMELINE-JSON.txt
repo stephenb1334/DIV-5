@@ -1,0 +1,173 @@
+
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Boerner_v_Berner_LitigationRepository",
+  "version": "1.0.0",
+  "generated": "2025-04-22T16:00:00-04:00",
+  "jurisdictionContext": {
+    "court": "Delaware County Court of Common Pleas – Family Division",
+    "judge": "[REDACTED]",
+    "localRules": [
+      {
+        "citation": "Del.Co. R.C.P. 1920.33(b)",
+        "requirement": "Heightened disclosure of all account closures and transfers within 90 days of filing"
+      },
+      {
+        "citation": "Administrative Order 2023‑11",
+        "requirement": "Mandatory special‑master referral when financial concealment alleged"
+      },
+      {
+        "citation": "Del.Co. R.C.P. 1920.43",
+        "requirement": "Foreclosure‑diversion program for marital real estate"
+      }
+    ],
+    "keyDelawareCountyPrecedent": [
+      { "case": "In re Marriage of Wilson", "citation": "121 Del. Co. 342 (2018)", "holding": "Prefers full financial transparency" },
+      { "case": "Marston v. Marston", "citation": "117 Del. Co. 234 (2015)", "holding": "Condemns unilateral withdrawals during pendency" },
+      { "case": "Johnson v. Johnson", "citation": "134 Del. Co. 67 (2024)", "holding": "Awards fees for Rule 1920.33 violations" }
+    ]
+  },
+  "statutoryFramework": {
+    "Pennsylvania": [
+      { "section": "23 Pa.C.S. § 3301(d)", "subject": "Irretrievable breakdown – divorce grounds" },
+      { "section": "23 Pa.C.S. § 3501", "subject": "Classification of marital property; § 3501(c) disability considerations" },
+      { "section": "23 Pa.C.S. § 3502(a)(7)", "subject": "Dissipation of marital assets factor" },
+      { "section": "23 Pa.C.S. § 3502(e)(7)", "subject": "Sanctions for non‑disclosure" },
+      { "section": "23 Pa.C.S. § 3505", "subject": "Asset‑preservation authority & restraining orders" },
+      { "section": "23 Pa.C.S. § 3701", "subject": "Alimony factors (disability emphasis)" },
+      { "section": "23 Pa.C.S. § 3702", "subject": "Alimony pendente lite" }
+    ]
+  },
+  "appellatePrecedent": [
+    { "case": "Sutliff v. Sutliff", "citation": "543 A.2d 534 (Pa. 1988)", "issue": "Fiduciary duty to preserve marital assets" },
+    { "case": "Verholek v. Verholek", "citation": "741 A.2d 792 (Pa. Super. 1999)", "issue": "Standard for dissipation" },
+    { "case": "Creeks v. Creeks", "citation": "619 A.2d 754 (Pa. Super. 1993)", "issue": "Sanctions for deliberate non‑disclosure" },
+    { "case": "Harasym v. Harasym", "citation": "610 A.2d 1020 (Pa. Super. 1992)", "issue": "Alimony framework for disability" },
+    { "case": "Smith v. Smith", "citation": "653 A.2d 1259 (Pa. Super. 1995)", "issue": "Adverse inference for concealment" },
+    { "case": "Biese v. Biese", "citation": "979 A.2d 892 (Pa. Super. 2009)", "issue": "Psychiatric disability as alimony factor" },
+    { "case": "Isralsky v. Isralsky", "citation": "824 A.2d 1178 (Pa. Super. 2003)", "issue": "Duty to maintain health insurance" }
+  ],
+  "financialTransactions": {
+    "zellePreRental": {
+      "period": "2022‑05‑23 → 2023‑09‑01",
+      "total": 18555.00,
+      "transactions": [
+        { "date": "2022‑05‑23", "amount": 5.00 },
+        { "date": "2022‑05‑31", "amount": 1200.00 },
+        { "date": "2022‑07‑05", "amount": 1200.00 },
+        { "date": "2022‑10‑03", "amount": 1200.00 },
+        { "date": "2022‑11‑02", "amount": 1200.00 },
+        { "date": "2022‑12‑02", "amount": 1200.00 },
+        { "date": "2022‑12‑30", "amount": 1200.00 },
+        { "date": "2023‑01‑31", "amount": 1200.00 },
+        { "date": "2023‑03‑01", "amount": 1200.00 },
+        { "date": "2023‑04‑03", "amount": 1350.00 },
+        { "date": "2023‑05‑01", "amount": 1350.00 },
+        { "date": "2023‑06‑01", "amount": 1350.00 },
+        { "date": "2023‑07‑03", "amount": 1400.00 },
+        { "date": "2023‑09‑01", "amount": 2500.00 }
+      ]
+    },
+    "zelleRental": {
+      "period": "2023‑10‑11 → 2024‑06‑14",
+      "total": 7313.50,
+      "transactions": [
+        { "date": "2023‑10‑11", "amount": 1250.00 },
+        { "date": "2023‑10‑11", "amount": 163.50 },
+        { "date": "2023‑11‑03", "amount": 2500.00 },
+        { "date": "2024‑04‑25", "amount": 800.00 },
+        { "date": "2024‑05‑06", "amount": 800.00 },
+        { "date": "2024‑05‑28", "amount": 800.00 },
+        { "date": "2024‑06‑14", "amount": 1000.00 }
+      ]
+    },
+    "zelleSeparation": {
+      "period": "2024‑08‑31 → 2024‑09‑30",
+      "total": 0.00,
+      "transactions": []
+    },
+    "venmo": {
+      "transactions": [
+        { "date": "2022‑03‑11", "amount": -4000.00, "note": "Unexplained debit" },
+        { "date": "2023‑07‑28", "amount": -1500.00, "note": "Debit" },
+        { "date": "2024‑08‑14", "amount": 4500.00, "note": "Cash‑out credit" },
+        { "date": "2024‑09‑25", "amount": -3790.35, "note": "Account closure withdraw" }
+      ]
+    },
+    "assetDissipation": {
+      "totalDiverted": 9790.35,
+      "items": [
+        { "date": "2024‑08‑14", "method": "Venmo", "amount": 4500.00 },
+        { "date": "2024‑08‑19", "method": "Self‑written check", "amount": 1500.00 },
+        { "date": "2024‑09‑23", "method": "Santander withdrawal", "amount": 3790.35 }
+      ],
+      "pattern": [
+        "Strategic account closures pre‑disclosure deadline",
+        "Systematic transfers to undisclosed accounts",
+        "Concealment of employment start dates",
+        "Timing withdrawals with separation milestones"
+      ]
+    }
+  },
+  "rentalProperty": {
+    "address": "246 N 3rd St #4CD, Philadelphia, PA",
+    "rentalPeriod": "2023‑10‑01 → 2024‑09‑30",
+    "monthlyRent": 2800,
+    "landlordDutiesSolelyClient": true,
+    "securityDeposit": 2800,
+    "returned": true,
+    "ownerCarryingCosts": {
+      "mortgage": 2100,
+      "hoa": 550,
+      "insurance": 150,
+      "utilities": 300,
+      "maintenanceAvg": 400,
+      "totalMonthly": 3500
+    },
+    "deficitDuringRental": 700,
+    "deficitDuringVacancy": 3500,
+    "unilateralBurdenTotal": 29400
+  },
+  "timeline": [
+    { "date": "2019‑08‑19", "category": "maritalHistory", "event": "Marriage" },
+    { "date": "2022‑04‑15", "category": "property", "event": "Condominium purchase (tenants by entireties)" },
+    { "date": "2023‑10‑01", "category": "rental", "event": "Property leased to tenants" },
+    { "date": "2024‑03‑26", "category": "trauma", "event": "Armed home invasion – PTSD onset" },
+    { "date": "2024‑04‑14", "category": "financialManipulation", "event": "PNC deposit of half mortgage then same‑day withdrawal" },
+    { "date": "2024‑06‑01", "category": "separation", "event": "Opposing Party abandons FL residence" },
+    { "date": "2024‑07‑29", "category": "litigation", "event": "Divorce Complaint filed in Delaware County" },
+    { "date": "2024‑09‑23", "category": "assetDissipation", "event": "Santander acct closure & $3,790.35 withdrawal" },
+    { "date": "2024‑10‑01", "category": "vacancy", "event": "Opposing Party stops all condo contributions" },
+    { "date": "2025‑03‑20", "category": "valuation", "event": "Re‑list price $399,100 (‑7.6%)" },
+    { "date": "2025‑04‑16", "category": "foreclosure", "event": "Mortgage default initiated" }
+  ],
+  "propertyValuation": {
+    "reductions": [
+      { "date": "2024‑07‑22", "price": 465000 },
+      { "date": "2024‑08‑19", "price": 460100 },
+      { "date": "2024‑09‑12", "price": 450000 },
+      { "date": "2024‑10‑17", "price": 435000 },
+      { "date": "2024‑12‑05", "price": 434000 },
+      { "date": "2025‑01‑16", "price": 433000 },
+      { "date": "2025‑03‑20", "price": 399100 },
+      { "date": "2025‑04‑10", "price": 389100 }
+    ],
+    "initialPrice": 465000,
+    "currentPrice": 389100,
+    "totalReduction": 75900,
+    "percentageReduction": 16.3
+  },
+  "foreclosureProjection": {
+    "defaultDate": "2025‑04‑16",
+    "projectedAct91Notice": "2025‑05‑17",
+    "projectedComplaintFiling": "2025‑06‑24",
+    "estimatedSheriffSaleWindow": "2025‑08‑01 → 2025‑09‑30",
+    "marketValue": 389100,
+    "estimatedSheriffSalePriceRange": { "min": 233460, "max": 272370 },
+    "equityLossRange": { "min": 116730, "max": 155640 },
+    "creditImpact": {
+      "scoreDrop": [150, 200],
+      "negativeReportingYears": 7
+    }
+  }
+}

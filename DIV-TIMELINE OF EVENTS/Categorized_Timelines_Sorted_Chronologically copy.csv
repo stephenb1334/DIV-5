@@ -1,0 +1,73 @@
+,Date,Category,Event
+3,2022-05-01,Education,Defendant financially contributes to Plaintiff's Villanova education
+10,2023-12-01,Employment,"Stephen lost job (previously earning $250,000/year)"
+20,2024-07-28,Employment,Melissa quits Tampa General Hospital
+22,2024-08-01,Employment,Plaintiff abandons 'OnlyFans' venture
+27,2024-09-03,Employment,Melissa reinstates Pennsylvania nursing license
+37,2024-12-05,Employment,Melissa begins work at Hospital of Pennsylvania
+54,2025-03-19,Employment,LinkedIn shows no employment update for Melissa despite full-time work
+4,2023-03-11,Financial,"$4,000.00 Venmo debit (unexplained transaction)"
+5,2023-07-01,Financial,"Stephen funds $12,000 HVAC system replacement"
+6,2023-07-28,Financial,"$1,500.00 Venmo debit by Melissa"
+14,2024-04-14,Financial,Melissa deposits half mortgage into PNC joint account
+15,2024-04-15,Financial,Melissa withdraws same amount from joint account
+23,2024-08-14,Financial,"Melissa executes $4,500 Venmo cashout"
+24,2024-08-19,Financial,"Melissa writes $1,500 check to herself"
+26,2024-08-20,Financial,Check deposited to undisclosed account
+29,2024-09-23,Financial,"Santander account closed with $3,790.35 withdrawal"
+30,2024-09-25,Financial,Venmo account closure with final matching withdrawal
+32,2024-10-01,Financial,"Stephen begins covering $3,500/month condo expenses alone"
+33,2024-10-01,Financial,Melissa stops all financial contributions to condo
+39,2025-01-03,Financial,"$12,500 bridge loan secured"
+43,2025-02-13,Financial,"HOA delinquency recorded at $2,872.64"
+48,2025-03-06,Financial,"HOA delinquency rises to $3,187.72"
+50,2025-03-11,Financial,Final mortgage payment made
+53,2025-03-16,Financial,Bridge loan funds exhausted
+57,2025-04-02,Financial,ACH debit of $40.00 to WAYFAIR AUTO from PNC Joint Family Checking
+58,2025-04-09,Financial,Two online transfers out of PNC Joint Family Checking: $200.00 and $150.00
+60,2025-04-14,Financial,"PNC deposit and same-day withdrawal of $1,247.10"
+61,2025-04-14,Financial,"Melissa deposits $1,247.10 into PNC Joint Family Checking (from XXXXX4209)"
+62,2025-04-14,Financial,"Melissa deposits $1,247.10 into PNC Joint Family Checking"
+64,2025-04-15,Financial,"Melissa withdraws $1,247.10 from PNC Joint Family Checking (same amount as deposit)"
+66,2025-04-15,Financial,"Melissa withdraws $1,247.10 from PNC Joint Family Checking (to XXXXX4209) - same account"
+68,2025-04-16,Foreclosure,Mortgage becomes delinquent
+21,2024-07-29,Insurance,Stephen’s health insurance terminated
+56,2025-04-01,Insurance,Stephen cancels life insurance policy; requests Melissa do same
+25,2024-08-20,Legal,Melissa directs discovery requests toward irrelevant issues
+35,2024-11-01,Legal,Stephen begins search for new legal representation
+38,2024-12-31,Legal,End of financial disclosure period
+41,2025-01-31,Legal,Stephen sends demand for realtor termination
+42,2025-02-11,Legal,Realtor admits contradictory pricing strategy
+44,2025-02-25,Legal,Melissa sends unsolicited 50/50 proposal
+45,2025-03-01,Legal,Melissa uses false reason in signing realtor termination
+46,2025-03-03,Legal,Melissa sends counterproposal
+47,2025-03-05,Legal,Ultimatum sent by Melissa
+49,2025-03-10,Legal,Realtor termination letter sent
+51,2025-03-13,Legal,Deadline for Melissa’s cooperation with termination
+63,2025-04-15,Legal,2:58 PM email from opposing counsel falsely claiming Melissa paid 'half' the mortgage
+65,2025-04-15,Legal,Opposing counsel sends email 2:58pm same day as suspicious withdrawal
+67,2025-04-15,Legal,Carolyn R. Mirabile sends 2:58 PM email falsely stating Melissa paid half the mortgage
+70,2025-04-22,Legal,Defendant files for SSDI
+71,2025-04-22,Legal,Defendant files for SSDI based on PTSD and ADHD diagnoses
+0,2019-08-19,Marriage,Stephen J. Boerner and Melissa Berner married
+11,2024-01-01,Marriage,Marriage described as 'very good' during this period
+12,2024-03-26,Medical,Home invasion trauma incident in Florida
+13,2024-04-01,Medical,PTSD and ADHD diagnoses following invasion
+16,2024-05-01,Medical,Melissa rejects Stephen’s FMLA option after verifying eligibility
+1,2022-04-15,Property Acquisition,"Purchase of condominium at 246 N. 3rd St. #4CD, Philadelphia, PA as marital property"
+2,2022-04-22,Property Acquisition,Acquisition of Units 4C and 4D at 246 N 3rd St. as tenants by the entirety
+19,2024-07-22,Property Listing,"Philadelphia condo listed for sale at $465,000"
+28,2024-09-12,Property Listing,"Price reduction to $450,000"
+34,2024-10-15,Property Listing,"Price reduced to $435,000"
+36,2024-12-01,Property Listing,"Price reduced to $434,000"
+40,2025-01-14,Property Listing,"Renewal listing agreement at $433,000"
+52,2025-03-15,Property Listing,"Price reduced to $399,000"
+59,2025-04-10,Property Listing,"Listed at $389,900"
+69,2025-04-18,Property Listing,"Price reduced again to $389,900"
+7,2023-09-01,Rental,"Tenant Zelle payment of $2,500.00 to Stephen"
+8,2023-10-01,Rental,"Property leased for 12-month term at $2,800/month"
+9,2023-10-31,Rental,"Start of Florida rental lease agreement ($45,000 total)"
+31,2024-09-30,Rental,"Tenants vacated property, ending rental income"
+17,2024-06-01,Separation,Plaintiff unilaterally abandons Florida residence
+18,2024-07-01,Separation,"Parties separated; Melissa relocates to parents' residence in Wayne, PA"
+55,2025-03-30,Technical,Melissa obstructs Stephen's access to shared Gmail account
