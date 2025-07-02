@@ -1,0 +1,25 @@
+"Mr. Cooper" <DoNotReply@email.mrcooper.com> 
+We've scheduled your payment
+To: Steve Boerner <stephen.boerner@gmail.com> 
+X-Sfmc-Stack: 6
+Feedback-Id: 6261666:3399900:199.122.120.181:sfmktgcld
+Arc-Seal: i=1; a=rsa-sha256; t=1739642121; cv=none; d=google.com; s=arc-20240605; b=VoR45RqPToMWOgSmIPbqXSA1uyfherrWw+QOns6dW9U79U+U7GbLAzMRIbqtslkjyh IrBbR/K0rgzBbTlsJ/O/kkxQ6rhtz1j/rF13DTUSgEBWtnBFMKaTV5jkv8WvinBg3Kfh p8VJv6fGLcPMg1z3F6/+5VwzS+Mh4My96yvl06bPsgY60VekzKnx1Sinr8CBagB/PKLY vBvbIpK+AzRXPUw0UIWcyEHAv/KwVQ/wv3+kINsi5lq8LkiXH74ZcpGxtp+GJsQYivLC 3K++CUqcPPgjqFJWoqpLLXihINDK6shSLS9clmp3crgcQhqqUjdjeybJCGj5tW/jqj1M PiTg==
+X-Received: by 2002:a05:622a:2509:b0:471:875b:a1e9 with SMTP id d75a77b69052e-471dbcdd5f3mr49029851cf.7.1739642121981; Sat, 15 Feb 2025 09:55:21 -0800 (PST)
+Return-Path: <bounce-5957_HTML-431809923-3399900-6261666-665222@bounce.email.nationstarmail.com>
+Arc-Authentication-Results: i=1; mx.google.com; dkim=pass header.i=@email.mrcooper.com header.s=200608 header.b=lTLNgtbD; dkim=pass header.i=@s6.y.mc.salesforce.com header.s=fbldkim6 header.b=1mzE7sky; spf=pass (google.com: domain of bounce-5957_html-431809923-3399900-6261666-665222@bounce.email.nationstarmail.com designates 199.122.120.181 as permitted sender) smtp.mailfrom=bounce-5957_HTML-431809923-3399900-6261666-665222@bounce.email.nationstarmail.com; dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=email.mrcooper.com
+List-Help: <https://click.email.nationstarmail.com/subscription_center.aspx?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtaWQiOiI2MjYxNjY2IiwicyI6IjQzMTgwOTkyMyIsImxpZCI6IjU5NTciLCJqIjoiMzM5OTkwMCIsImpiIjoiNjY1MjIyIiwiZCI6IjYwMjQ1In0.oQm9Z1OVQYn_WYjIu18SudkMeOjUkYIxyy3Dq-wHbuw>
+X-Google-Smtp-Source: AGHT+IHNhFVz34KrpDmrR97ChZkeZ1Aqh3oiQrUgt1J6PK/8Loi6bRGYM3IV+UUPB1OwV03RDxNG
+Mime-Version: 1.0
+Authentication-Results: mx.google.com; dkim=pass header.i=@email.mrcooper.com header.s=200608 header.b=lTLNgtbD; dkim=pass header.i=@s6.y.mc.salesforce.com header.s=fbldkim6 header.b=1mzE7sky; spf=pass (google.com: domain of bounce-5957_html-431809923-3399900-6261666-665222@bounce.email.nationstarmail.com designates 199.122.120.181 as permitted sender) smtp.mailfrom=bounce-5957_HTML-431809923-3399900-6261666-665222@bounce.email.nationstarmail.com; dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=email.mrcooper.com
+Arc-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605; h=content-transfer-encoding:feedback-id:message-id:mime-version :list-help:date:subject:to:from:dkim-signature:dkim-signature; bh=HatAWYB2DwcST3VkYSPV1RB4b6bbz3PZJiWYk4a5HdE=; fh=tOtmTo2aC7GrrCjFQgqMGA0wmncSIJNJypSOwIwF/OA=; b=CmwMPWyRtr8TFvYmYsxBXeHpDLBOfAzVyuD3WLasFhzb01e7HGBau371dWl3xJoJ9J jBURDSD/USqZF/4zMeKJiLSkxunWQ+lzeWA4Iy8SnHGUBjLTNrESx982fmjyzuY2tdgC pfEqUJcK+gqIjK2KkcQiWdSaPHPEu0axYZAk7hfuJNdbRx6n7wxUza238nXGv+BEU2Rk mt40BbRcw2peoQuXD7vVAtX6tPvU02BWOg744O5KqL+dUJrqPTvHQbSapBKsk2BPFSPA ETnraHTMA0Q+En0pvN2Qb3YW9MMY/+8jOwfi+PUU+IHIiX1h+QK00CAuz8Cvk1mjucYk QvQg==; dara=google.com
+Dkim-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=200608; d=email.mrcooper.com; h=From:To:Subject:Date:List-Help:MIME-Version:Message-ID:Content-Type: Content-Transfer-Encoding; i=DoNotReply@email.mrcooper.com; bh=HatAWYB2DwcST3VkYSPV1RB4b6bbz3PZJiWYk4a5HdE=; b=lTLNgtbDTVPz4A7Cvpt1+7BYq18FQgaFabw1aTa880waDXdv/OtpAKf/28ZwkVwsqxaEBaEOHJ10 HdiYFPw1A+LvBJm9GetZwvWHKSUTLKhL38cAK/xFTyc2mfQ7rhd2PWxHq6rCtL9VfKb0C0gNkJSC nOASl8qIvPfhWxDHs5Y=
+Dkim-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=fbldkim6; d=s6.y.mc.salesforce.com; h=From:To:Subject:Date:List-Help:MIME-Version:Message-ID:Content-Type: Content-Transfer-Encoding; bh=HatAWYB2DwcST3VkYSPV1RB4b6bbz3PZJiWYk4a5HdE=; b=1mzE7skyU760zIBZVGF07umVadMx9+ocbIRj4ONtpgvhEmvQJRzI2zu+AbOPXK7TBHSWOL5gDCZs kFg92Q2uzsRpGTxJ5icS+btEDA1OPKf7oufXaS3TrR6hWIRU3V9zChAp9YUiQ2VMfPpWXvXBylMk I4+wLZud8Qrhu3cXS4Blyz683+Q7W7EIirintx9uhHVX9AOPmMCa/eu3894GNRMNTzRsr+q3K23t Cspms2qBXRCTlAjHMge2YJW6w8AZ9YP1fp2CIpzMceV5JcBJnmgfbjRJuq5yQczOpYUksH52YBXh lGB0IOKtl0LqlhfupSvcwWHTVekk2GVkRvk0uA==
+X-Job: 6261666_3399900
+<8148c785-94bf-48ea-8730-4b44b2eecc89@ind1s06mta1553.xt.local>
+Content-Transfer-Encoding: 8bit
+Content-Type: text/html; charset="utf-8"
+Received-Spf: pass (google.com: domain of bounce-5957_html-431809923-3399900-6261666-665222@bounce.email.nationstarmail.com designates 199.122.120.181 as permitted sender) client-ip=199.122.120.181;
+Delivered-To: stephen.boerner@gmail.com
+Received: by 2002:a05:7300:f082:b0:157:aab9:3c8e with SMTP id ri2csp2103323dyb; Sat, 15 Feb 2025 09:55:22 -0800 (PST)
+Received: from mta.email.nationstarmail.com (mta.email.nationstarmail.com. [199.122.120.181]) by mx.google.com with ESMTPS id d75a77b69052e-471c2b6af31si55051851cf.585.2025.02.15.09.55.21 for <stephen.boerner@gmail.com> (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128); Sat, 15 Feb 2025 09:55:21 -0800 (PST)
+Received: by mta.email.nationstarmail.com id hm3agi2fmd4u for <stephen.boerner@gmail.com>; Sat, 15 Feb 2025 17:55:21 +0000 (envelope-from <bounce-5957_HTML-431809923-3399900-6261666-665222@bounce.email.nationstarmail.com>)

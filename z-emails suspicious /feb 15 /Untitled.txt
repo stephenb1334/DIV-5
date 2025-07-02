@@ -1,0 +1,450 @@
+Delivered-To: stephen.boerner@gmail.com
+Received: by 2002:a05:7300:f082:b0:157:aab9:3c8e with SMTP id ri2csp2103323dyb;
+        Sat, 15 Feb 2025 09:55:22 -0800 (PST)
+X-Google-Smtp-Source: AGHT+IHNhFVz34KrpDmrR97ChZkeZ1Aqh3oiQrUgt1J6PK/8Loi6bRGYM3IV+UUPB1OwV03RDxNG
+X-Received: by 2002:a05:622a:2509:b0:471:875b:a1e9 with SMTP id d75a77b69052e-471dbcdd5f3mr49029851cf.7.1739642121981;
+        Sat, 15 Feb 2025 09:55:21 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1739642121; cv=none;
+        d=google.com; s=arc-20240605;
+        b=VoR45RqPToMWOgSmIPbqXSA1uyfherrWw+QOns6dW9U79U+U7GbLAzMRIbqtslkjyh
+         IrBbR/K0rgzBbTlsJ/O/kkxQ6rhtz1j/rF13DTUSgEBWtnBFMKaTV5jkv8WvinBg3Kfh
+         p8VJv6fGLcPMg1z3F6/+5VwzS+Mh4My96yvl06bPsgY60VekzKnx1Sinr8CBagB/PKLY
+         vBvbIpK+AzRXPUw0UIWcyEHAv/KwVQ/wv3+kINsi5lq8LkiXH74ZcpGxtp+GJsQYivLC
+         3K++CUqcPPgjqFJWoqpLLXihINDK6shSLS9clmp3crgcQhqqUjdjeybJCGj5tW/jqj1M
+         PiTg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=content-transfer-encoding:feedback-id:message-id:mime-version
+         :list-help:date:subject:to:from:dkim-signature:dkim-signature;
+        bh=HatAWYB2DwcST3VkYSPV1RB4b6bbz3PZJiWYk4a5HdE=;
+        fh=tOtmTo2aC7GrrCjFQgqMGA0wmncSIJNJypSOwIwF/OA=;
+        b=CmwMPWyRtr8TFvYmYsxBXeHpDLBOfAzVyuD3WLasFhzb01e7HGBau371dWl3xJoJ9J
+         jBURDSD/USqZF/4zMeKJiLSkxunWQ+lzeWA4Iy8SnHGUBjLTNrESx982fmjyzuY2tdgC
+         pfEqUJcK+gqIjK2KkcQiWdSaPHPEu0axYZAk7hfuJNdbRx6n7wxUza238nXGv+BEU2Rk
+         mt40BbRcw2peoQuXD7vVAtX6tPvU02BWOg744O5KqL+dUJrqPTvHQbSapBKsk2BPFSPA
+         ETnraHTMA0Q+En0pvN2Qb3YW9MMY/+8jOwfi+PUU+IHIiX1h+QK00CAuz8Cvk1mjucYk
+         QvQg==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@email.mrcooper.com header.s=200608 header.b=lTLNgtbD;
+       dkim=pass header.i=@s6.y.mc.salesforce.com header.s=fbldkim6 header.b=1mzE7sky;
+       spf=pass (google.com: domain of bounce-5957_html-431809923-3399900-6261666-665222@bounce.email.nationstarmail.com designates 199.122.120.181 as permitted sender) smtp.mailfrom=bounce-5957_HTML-431809923-3399900-6261666-665222@bounce.email.nationstarmail.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=email.mrcooper.com
+Return-Path: <bounce-5957_HTML-431809923-3399900-6261666-665222@bounce.email.nationstarmail.com>
+Received: from mta.email.nationstarmail.com (mta.email.nationstarmail.com. [199.122.120.181])
+        by mx.google.com with ESMTPS id d75a77b69052e-471c2b6af31si55051851cf.585.2025.02.15.09.55.21
+        for <stephen.boerner@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 15 Feb 2025 09:55:21 -0800 (PST)
+Received-SPF: pass (google.com: domain of bounce-5957_html-431809923-3399900-6261666-665222@bounce.email.nationstarmail.com designates 199.122.120.181 as permitted sender) client-ip=199.122.120.181;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@email.mrcooper.com header.s=200608 header.b=lTLNgtbD;
+       dkim=pass header.i=@s6.y.mc.salesforce.com header.s=fbldkim6 header.b=1mzE7sky;
+       spf=pass (google.com: domain of bounce-5957_html-431809923-3399900-6261666-665222@bounce.email.nationstarmail.com designates 199.122.120.181 as permitted sender) smtp.mailfrom=bounce-5957_HTML-431809923-3399900-6261666-665222@bounce.email.nationstarmail.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=email.mrcooper.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=200608; d=email.mrcooper.com;
+ h=From:To:Subject:Date:List-Help:MIME-Version:Message-ID:Content-Type:
+ Content-Transfer-Encoding; i=DoNotReply@email.mrcooper.com;
+ bh=HatAWYB2DwcST3VkYSPV1RB4b6bbz3PZJiWYk4a5HdE=;
+ b=lTLNgtbDTVPz4A7Cvpt1+7BYq18FQgaFabw1aTa880waDXdv/OtpAKf/28ZwkVwsqxaEBaEOHJ10
+   HdiYFPw1A+LvBJm9GetZwvWHKSUTLKhL38cAK/xFTyc2mfQ7rhd2PWxHq6rCtL9VfKb0C0gNkJSC
+   nOASl8qIvPfhWxDHs5Y=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=fbldkim6; d=s6.y.mc.salesforce.com;
+ h=From:To:Subject:Date:List-Help:MIME-Version:Message-ID:Content-Type:
+ Content-Transfer-Encoding;
+ bh=HatAWYB2DwcST3VkYSPV1RB4b6bbz3PZJiWYk4a5HdE=;
+ b=1mzE7skyU760zIBZVGF07umVadMx9+ocbIRj4ONtpgvhEmvQJRzI2zu+AbOPXK7TBHSWOL5gDCZs
+   kFg92Q2uzsRpGTxJ5icS+btEDA1OPKf7oufXaS3TrR6hWIRU3V9zChAp9YUiQ2VMfPpWXvXBylMk
+   I4+wLZud8Qrhu3cXS4Blyz683+Q7W7EIirintx9uhHVX9AOPmMCa/eu3894GNRMNTzRsr+q3K23t
+   Cspms2qBXRCTlAjHMge2YJW6w8AZ9YP1fp2CIpzMceV5JcBJnmgfbjRJuq5yQczOpYUksH52YBXh
+   lGB0IOKtl0LqlhfupSvcwWHTVekk2GVkRvk0uA==
+Received: by mta.email.nationstarmail.com id hm3agi2fmd4u for <stephen.boerner@gmail.com>; Sat, 15 Feb 2025 17:55:21 +0000 (envelope-from <bounce-5957_HTML-431809923-3399900-6261666-665222@bounce.email.nationstarmail.com>)
+From: "Mr. Cooper" <DoNotReply@email.mrcooper.com>
+To: <stephen.boerner@gmail.com>
+Subject: We've scheduled your payment
+Date: Sat, 15 Feb 2025 11:55:21 -0600
+List-Help: <https://click.email.nationstarmail.com/subscription_center.aspx?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtaWQiOiI2MjYxNjY2IiwicyI6IjQzMTgwOTkyMyIsImxpZCI6IjU5NTciLCJqIjoiMzM5OTkwMCIsImpiIjoiNjY1MjIyIiwiZCI6IjYwMjQ1In0.oQm9Z1OVQYn_WYjIu18SudkMeOjUkYIxyy3Dq-wHbuw>
+MIME-Version: 1.0
+X-SFMC-Stack: 6
+x-job: 6261666_3399900
+Message-ID: <8148c785-94bf-48ea-8730-4b44b2eecc89@ind1s06mta1553.xt.local>
+Feedback-ID: 6261666:3399900:199.122.120.181:sfmktgcld
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+<!-- SUPPORTS OUTLOOK 2013 DPI SCALING-->
+<!DOCTYPE html>
+<html>
+<img src="https://click.email.nationstarmail.com/open.aspx?ffcb10-fe8e17737c6d0d7d75-fdfd157474640c7c74127673-fe8e12727365027b73-ff2511797063-fe281073746c04747c1673-fec812767066067f&d=60245&bmt=0" width="1" height="1" alt="">
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type"><!-- PREVENTS PAGE ZOOMING -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport"><!-- ADDS SUPPORT FOR OLD VERSIONS OF INTERNET EXPLORER -->
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"><!-- APPEARS IN BROWSER TAB -->
+    <title>Mr. Cooper</title><!-- OPTIONAL GOOGLE FONT -->
+    <!--[if !mso]><!== -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet"><!--<![endif]-->
+    <!-- FAVICON -->
+    <link href="http://www.google.com/s2/favicons?domain=mrcooper.com" rel="icon" type="image/png">
+    <style>
+           /* CLIENT-SPECIFIC STYLES */
+       body, table, td, a{-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
+       table, td{mso-table-lspace: 0pt; mso-table-rspace: 0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+       img{-ms-interpolation-mode: bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+       /* RESET STYLES */
+       .img{border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; max-width: 100%;}
+       table{border-collapse: collapse !important;}
+       body{height: 100% !important; margin: 0 !important; padding: 0 !important; width: 100% !important; background-color: #f7f7f7;}
+       /* iOS BLUE LINKS */
+       a[x-apple-data-detectors] {
+           color: inherit !important;
+           text-decoration: none !important;
+           font-size: inherit !important;
+           font-family: inherit !important;
+           font-weight: inherit !important;
+           line-height: inherit !important;
+       }
+       .center {
+           text-align: center;
+       }
+       .desktop-width {
+           width: 600px;
+       }
+       .gray {
+        color:#5B6066;
+       }
+       .option {
+           font-size: 16px;
+           line-height: 24px;
+       }
+       .sans-serif {
+           font-family: Lato, Arial, sans-serif;
+       }
+       .savings {
+           font-size: 32px;
+       }
+       .white {
+           color:#ffffff;
+       }
+       .wrapper {
+            width: 100% !important;
+            max-width: 100% !important;
+       }
+
+    .verify-button {
+   background-color:#1B6C92 !important;
+   font-size: 16px;
+   line-height: 19px;
+   font-weight:bold;
+   font-family: Lato;
+   color: #ffffff;
+   text-decoration: none;
+   color: #ffffff;
+   text-decoration: none;
+   border-radius: 0px;
+   padding: 15px 55px;
+   border: 1px solid #1B6C92;
+   display: inline-block;
+   text-align: center;
+   letter-spacing: 1.13px;
+    }
+
+    .align {
+   vertical-align:bottom !important;
+   border-radius: 0px;
+    }
+
+
+       /* MOBILE STYLES */
+       @media screen and (max-width: 525px) {
+           /* ALLOWS FOR FLUID TABLES */
+           .wrapper {
+             width: 100% !important;
+             max-width: 100% !important;
+           }
+            .mobile-statements {
+   display: none;
+     }
+            .bar {
+                width: 411px !important;
+            }
+
+           .seventy-five-wrapper {
+             width: 75% !important;
+             max-width: 75% !important;
+           }
+             .sixty-five-wrapper {
+             width: 65% !important;
+             max-width: 65% !important;
+           }
+            .sixty-wrapper {
+             width: 60% !important;
+             max-width: 60% !important;
+           }
+           .fifty-wrapper {
+             width: 160px !important;
+           }
+                 .forty-wrapper {
+                     width: 180px !important;
+                 }
+            .twenty-five-wrapper {
+             width: 25% !important;
+             max-width: 25% !important;
+           }
+           .twenty-five-wrapper {
+             width: 25% !important;
+             max-width: 25% !important;
+           }
+           .mobile-wrapper {
+             width: inherit !important;
+             max-width: inherit !important;
+           }
+           /* ADJUSTS LAYOUT OF LOGO IMAGE */
+           .logo img {
+             margin: 0 auto !important;
+           }
+           /* USE THESE CLASSES TO HIDE CONTENT ON MOBILE */
+           .mobile-hide {
+             display: none !important;
+           }
+           .img-max {
+             max-width: 100% !important;
+             width: 100% !important;
+             height: auto !important;
+           }
+           /* FULL-WIDTH TABLES */
+           .responsive-table {
+             width: 100% !important;
+           }
+           .width-560 {
+             max-width: 560px;
+           }
+           /* UTILITY CLASSES FOR ADJUSTING PADDING ON MOBILE */
+           .padding {
+             padding: 10px 5% 15px 5% !important;
+           }
+           .padding-meta {
+             padding: 30px 5% 0px 5% !important;
+             text-align: center;
+           }
+           .no-padding {
+             padding: 0 !important;
+           }
+           .savings {
+           font-size: 20px;
+           }
+           .section-padding {
+             padding: 0px 20px 0px 20px !important;
+           }
+           /* ADJUST BUTTONS ON MOBILE */
+           .mobile-button-container {
+               margin: 0 auto;
+               width: 70% !important;
+           }
+           .mobile-top-padding {
+               padding-top: 30px !important;
+            }
+           .mobile-button {
+               padding: 5px 15px !important;
+               border: 0 !important;
+               font-size: 16px !important;
+      background-color: #1B6C92 !important;
+
+           }
+           .img-mobile {
+               height: 75px !important;
+           }
+       }
+    /* MOBILE STYLES */
+       @media screen and (max-width: 400px) {
+        .desktop-width {
+           width: 400px;
+       }
+        .owl {
+           width: 40% !important;
+       }
+       .mobile-statements {
+  display: none;
+    }
+       .bar {
+            width: 360px !important;
+       }
+
+       .refib {
+            height: 90px !important;
+            width: 96px !important;
+            padding: 24px 0 0 0 !important;
+       }
+
+       .mobile-refib {
+        padding: 0px 0px 0 0 !important;
+       }
+           .mobile-left-padding {
+               padding-left: 15px !important;
+       }
+           .mobile-top-padding {
+               padding-top: 30px !important;
+       }
+          .option-mobile {
+           font-size: 12px;
+           line-height: 18px;
+       }
+       .mobile-img {
+        width: 80%;
+       }
+    }
+       /* ANDROID CENTER FIX */
+       div[style*="margin: 16px 0;"] { margin: 0 !important; }
+    </style>
+</head>
+<body style="background: #f7f7f7; margin: 0px;">
+    <!-- 100% WIDTH WRAPPER BACKGROUND TABLE -->
+    <!-- 100% WIDTH WRAPPER BACKGROUND TABLE -->
+    <!-- HIDDEN PREHEADER TEXT -->
+    <div style="display: none; font-size: 1px; color: #fefefe; line-height: 1px; font-family: Helvetica, Arial, sans-serif; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden;">
+        Refinancing, Home Loans, &amp; Mortgage Company | Mr. Cooper Home Loans, New Brand Name For Nationstar Mortgage
+    </div><!-- HEADER -->
+    <table align="center" border="0" cellpadding="0" cellspacing="0" class="desktop-width responsive-table">
+        <tr>
+            <td align="center" bgcolor="#009fc7">
+                <table align="center" border="0" cellpadding="0" cellspacing="0" class="wrapper" width="100%">
+                    <tr>
+                        <td align="center">
+                            <table>
+                                <tr>
+                                    <td align="center" class="logo" style="padding: 15px; width: 145px;" valign="top" width="100%">
+                                        <a href="https://click.email.nationstarmail.com/?qs=293dd66d64185732a49fc16a3ecfd2bd36e7d3ca6fdb46c42766dad213201e0182e0df93006588941d92bec18aed41421409e1a666a92a7bcc39eec65c07a01b" target="_blank">
+                                            <img class="img" alt="Logo" border="0" height="59" src="https://apolloimagedev.blob.core.windows.net/images/logos/IPQLogos/logo_mrc.png" style="font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 16px; height: 59px;">
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr bgcolor="#FFFFFF">
+            <td align="left" class="section-padding" style="padding: 15px 15px 0px 35px;">
+                <table align="left" border="0" cellpadding="0" cellspacing="0" class="wrapper">
+                    <tr>
+                        <td>
+                            <p style="color:#004261;font-family: Lato;font-weight:bold;font-size:24px;line-height:29px;margin: 0; padding: 15px 0 0 0px;">Hello STEPHEN,</p>
+                            <p style="font-size:16px;line-height:22px;color: #4A4A4A;font-family: Lato; margin-bottom: 2rem;">Thanks again for your payment made online. Your confirmation number is: 1758222743.</p>
+                            <p style="font-size:16px;line-height:22px;color: #4A4A4A;font-family: Lato; margin-bottom: 2rem;">Please allow up to 48 hours for your payment to be posted and reflected on your account. Until then, your account may still show a balance owed.</p>
+                            <p style="font-size:16px;line-height:22px;color: #4A4A4A;font-family: Lato; margin-bottom: 1rem;">For your records, here are some details about your payment:</p>
+                            <table>
+                                <tr>
+                                    <td width="60%"> 
+                                        <p style="font-size:16px;line-height:22px;color: #4A4A4A;font-family: Lato; "><b>From Account: </b></p>
+                                    </td>  
+                                    <td>
+                                        <p style="font-size:16px;line-height:22px;color: #4A4A4A;font-family: Lato;"> ****3279 Checking</p>
+                                    </td>  
+                                </tr>  
+                                <tr>
+                                    <td width="60%">
+                                        <p style="font-size:16px;line-height:22px;color: #4A4A4A;font-family: Lato;"><b>To Account: </b></p>
+                                    </td>  
+                                    <td>
+                                        <p style="font-size:16px;line-height:22px;color: #4A4A4A;font-family: Lato;">*****55894 246 N 3 Rd St 4 C D, Philadelphia, PA 19106</p>
+                                    </td>   
+                                </tr>
+                                    <td width="60%">
+                                        <p style="font-size:16px;line-height:22px;color: #4A4A4A;font-family: Lato;"><b>Payment Date: </b></p>
+                                    </td>  
+                                    <td>
+                                        <p style="font-size:16px;line-height:22px;color: #4A4A4A;font-family: Lato;">02/15/2025</p>
+                                    </td>   
+                                </tr>
+
+
+                            </table>
+                            <p style="font-size:16px;line-height:22px;color: #4A4A4A;font-family: Lato; margin-bottom: 1rem;">Best, <br> Your Team at Mr. Cooper</p>
+                            <br>
+                        </td>
+                    </tr>
+                </table>
+            
+        
+        </td></tr><tr>
+            <td>
+                <table align="left" border="0" cellpadding="0" cellspacing="0" class="wrapper" width="100%">
+                    <tr>
+                        <td>
+                            <img class="bar" src="https://apolloimagedev.blob.core.windows.net/images/tile_graphic.png" style="width:653px;" width="653">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr align="center" bgcolor="#f5f5f5" style="padding: 5px 0px;">
+            <td align="center" bgcolor="#f5f5f5" style="padding: 20px 15px 55px 5px;" width="100%">
+                <table align="center" border="0" cellpadding="0" cellspacing="0" class="desktop-width responsive-table" style="max-width: 600px;" width="100%">
+                    <tr>
+                        <div class="footer" style="margin: 0;font-family: Helvetica Neue, Helvetica, Arial, sans-serif;box-sizing: border-box;font-size: 14px;color: #999;width: 100%;clear: both;">
+                            <table style="margin: 0;font-family: Helvetica Neue, Helvetica, Arial, sans-serif;box-sizing: border-box;font-size: 14px;color: #4a4a4a;" width="100%">
+                                <tr></tr>
+                                <tr style="margin: 0;font-family: Helvetica Neue, Helvetica, Arial, sans-serif;box-sizing: border-box;font-size: 14px;color: #4a4a4a;">
+                                    <td class="aligncenter content-block" style="margin: 0;font-family: Helvetica Neue, Helvetica, Arial, sans-serif;box-sizing: border-box;font-size: 12px;color: #999;vertical-align: top;padding: 15px 0 20px;text-align: center;">
+                                        <p id="links" style="margin: 0;font-family: Helvetica Neue, Helvetica, Arial, sans-serif;box-sizing: border-box;font-size: 12px;color: #999;margin-bottom: 10px;font-weight: normal;">
+                                            <a href="https://click.email.nationstarmail.com/?qs=293dd66d64185732f217ed1e229882d6676adb28f9f2f6a37d065b0c58b7f94480f64e27d37ff6c8028d10db5a3262c089dbfebb63838c089b21963a675c91e6" style="margin: 0;font-family: Helvetica Neue, Helvetica, Arial, sans-serif;box-sizing: border-box;font-size: 12px;color: #999;text-decoration: underline; line-height: 24px;">Terms&nbsp;of&nbsp;Use</a>
+                                            &nbsp;&nbsp;|&nbsp;&nbsp;
+                                            <a href="https://click.email.nationstarmail.com/?qs=293dd66d6418573255a7386219310be2a9bb6c06f00cd2d653dfe76631afe4a43e3609bace025c87d61e0358c90b332898c6f2436f3ffb43504431ca83ce50c1" style="margin: 0;font-family: Helvetica Neue, Helvetica, Arial, sans-serif;box-sizing: border-box;font-size: 12px;color: #999;text-decoration: underline;">Privacy</a>
+                                            &nbsp;&nbsp;|&nbsp;&nbsp;
+                                            <a href="https://click.email.nationstarmail.com/?qs=293dd66d64185732cbcb4960054c5344f3ec575b06ba77067a7e4af2a83d13f2178a2604210f99ca31fd745df0edf80d3eda0bc28b773d72a76536dd40db5f6b" style="margin: 0;font-family: Helvetica Neue, Helvetica, Arial, sans-serif;box-sizing: border-box;font-size: 12px;color: #999;text-decoration: underline;">Licensing Information</a>
+                                            &nbsp;&nbsp;|&nbsp;&nbsp;
+                                            <a href="https://click.email.nationstarmail.com/?qs=293dd66d6418573295a24d2769794ae66f96979da3742fc503d3c5f32ab4a135286e6ab106c984ee11baacd78717c51c916e8082a3c6ab5308d5d853fcfed394" style="margin: 0;font-family: Helvetica Neue, Helvetica, Arial, sans-serif;box-sizing: border-box;font-size: 12px;color: #999;text-decoration: underline;">CA, NV, SC &amp; WA  Residents</a>
+                                            &nbsp;&nbsp;|&nbsp;&nbsp;
+                                            <a href="https://click.email.nationstarmail.com/?qs=293dd66d64185732cc85c7498097c4cb606f3506b1fc8ea8c850b71e0a0f50d9e0a47c964ba77c202ba64684e23d5847993da27e32689a021fc75d8192957542" style="margin: 0;font-family: Helvetica Neue, Helvetica, Arial, sans-serif;box-sizing: border-box;font-size: 12px;color: #999;text-decoration: underline;">Complaints</a>
+                                            &nbsp;&nbsp;|&nbsp;&nbsp;
+                                            <a href="https://click.email.nationstarmail.com/?qs=293dd66d6418573211ca11be76768bed30d1970af638539c5bfe579bfca51170aae113a7d800a6ee0a9b222cc4ad09c8148e3e3d5769c91c9784290887015aeb" style="margin: 0;font-family: Helvetica Neue, Helvetica, Arial, sans-serif;box-sizing: border-box;font-size: 12px;color: #999;text-decoration: underline;">Update Profile</a>
+                                            &nbsp;&nbsp;
+                                            <br>
+                                        </p>
+                                        <br>
+                                        This email is to keep you informed about your Mr.&nbsp;Cooper account, including service updates and other information about your account.<br>
+                                        <br>
+                                        Questions? Please don't respond to this email. Instead, just&nbsp;<a href="https://click.email.nationstarmail.com/?qs=293dd66d6418573248aade15e9d32175e47693b9ce6ac1722cd873eb8b826f49ac375bc4b25018d68f1d44d2f4ade09f054c994e934c057324bebba31a1ac6bb" style="color: #999; text-decoration: underline;" target="_blank">contact us</a>.<br>
+                                        <br>
+                                        <br>
+                                        Nationstar Mortgage LLC d/b/a Mr. Cooper<br>
+                                        8950 Cypress Waters Blvd.<br>
+                                        Dallas, TX 75019<br>
+                                        NMLS: #2119 <a href="https://click.email.nationstarmail.com/?qs=293dd66d64185732dfb80d5c2ca4491f8e1b1e39e092a41dbda990ab0c8dc3ca03c5b20802c30c2979a3859b4b4ce865eadd26953ceb2ed8c16d59d15a46355a" style="color: #999; text-decoration: underline;" target="_blank">www.nmlsconsumeraccess.org</a><br>
+                                        <br>
+                                        Nationstar Mortgage LLC d/b/a Mr.&nbsp;Cooper. Mr.&nbsp;Cooper is a registered service mark of Nationstar Mortgage LLC.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="padding-bottom: 15px; text-align: center;" width="49px">
+                                        <img src="http://image.email.nationstarmail.com/lib/fe9a12727661067e75/m/1/mr-cooper-launch-eho.png" height="60" style="width:50px;height:60px;">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="font-size: 12px; line-height: 18px; font-family: Helvetica, Arial, sans-serif; color:#999; padding: 0 15px;">
+                                        This email was sent by: Nationstar Mortgage LLC d/b/a Mr. Cooper<br>
+                                        8950 Cypress Waters Blvd., Coppell, TX 75019
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="font-size: 12px; line-height: 18px; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; padding: 15px 15px; color:#333940; font-weight: 600;">
+                                        Nationstar Mortgage LLC d/b/a Mr. Cooper is a debt collector. This is an attempt to collect a debt and any information obtained will be used for that purpose. However, if you are currently in bankruptcy or have received a discharge in bankruptcy,
+                                        this communication is not an attempt to collect a debt from you personally to the extent that it is included in your bankruptcy or has been discharged, but is provided for informational purposes only.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="font-size: 12px; line-height: 18px; font-family: Helvetica, Arial, sans-serif; color:#707479; padding: 15px 15px; font-weight: 500;">
+                                        If you are a successor in interest (received the property from a relative through death, devise, or divorce, and you are not a borrower on the loan) that has not assumed, or otherwise become obligated on the debt,
+                                        this communication is for informational purposes only and is not an attempt to collect a debt from you personally.
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    
+</table></body>
+</custom>
+</html>
