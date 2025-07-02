@@ -1,0 +1,97 @@
+{
+  "title": "Mapping Reddit Comments with Atlas",
+  "description": "A comprehensive guide to extracting, processing, and visualizing Reddit comments using Nomic Atlas.",
+  "overview": {
+    "purpose": "To analyze Reddit comment data for trends, sentiment, and community engagement using Nomic Atlas visualizations.",
+    "use_cases": [
+      "Identifying trending topics across subreddits.",
+      "Analyzing user engagement and sentiment.",
+      "Exploring comment clusters for content moderation or research."
+    ]
+  },
+  "prerequisites": [
+    "A Reddit API key (client ID and secret) for accessing Reddit's data.",
+    "Valid Nomic Atlas API key for uploading and visualizing data.",
+    "Basic understanding of Reddit's API endpoints (e.g., comments, posts)."
+  ],
+  "process": {
+    "steps": [
+      {
+        "step": 1,
+        "title": "Extract Comment Data from Reddit",
+        "description": "Use the Reddit API to fetch comments from a specific subreddit or post.",
+        "example_request": {
+          "curl": "curl -X GET 'https://oauth.reddit.com/r/<subreddit>/comments/<post_id>' -H 'Authorization: Bearer <REDDIT_ACCESS_TOKEN>'",
+          "python_code": "import requests\n\nurl = 'https://oauth.reddit.com/r/<subreddit>/comments/<post_id>'\nheaders = {\n    'Authorization': 'Bearer <REDDIT_ACCESS_TOKEN>',\n    'User-Agent': 'RedditDataAnalyzer/0.1'\n}\nresponse = requests.get(url, headers=headers)\ndata = response.json()\nprint(data)"
+        }
+      },
+      {
+        "step": 2,
+        "title": "Format Data for Atlas",
+        "description": "Transform the Reddit comment data into a format compatible with Nomic Atlas (CSV, JSON, or embeddings).",
+        "example_format": {
+          "data_structure": [
+            {
+              "comment_id": "t1_abcd1234",
+              "author": "reddit_user",
+              "date": "2023-06-01T12:34:56Z",
+              "comment": "This is an example comment.",
+              "score": 42,
+              "subreddit": "example_subreddit"
+            },
+            {
+              "comment_id": "t1_efgh5678",
+              "author": "another_user",
+              "date": "2023-06-02T14:22:11Z",
+              "comment": "Another example comment.",
+              "score": 23,
+              "subreddit": "example_subreddit"
+            }
+          ]
+        }
+      },
+      {
+        "step": 3,
+        "title": "Upload Data to Nomic Atlas",
+        "description": "Use the Nomic Atlas API to upload the formatted Reddit comment data for visualization.",
+        "api_endpoint": "/v1/data/upload",
+        "example_request": {
+          "curl": "curl -X POST 'https://api-atlas.nomic.ai/v1/data/upload' -H 'Authorization: Bearer <API_KEY>' -H 'Content-Type: application/json' -d '{\"data\": [{\"comment_id\": \"t1_abcd1234\", \"author\": \"reddit_user\", \"date\": \"2023-06-01T12:34:56Z\", \"comment\": \"This is an example comment.\", \"score\": 42, \"subreddit\": \"example_subreddit\"}]}'"
+        }
+      },
+      {
+        "step": 4,
+        "title": "Create a Map Visualization",
+        "description": "Generate a map in Nomic Atlas to visualize the Reddit comment data.",
+        "api_endpoint": "/v1/maps/create",
+        "example_request": {
+          "curl": "curl -X POST 'https://api-atlas.nomic.ai/v1/maps/create' -H 'Authorization: Bearer <API_KEY>' -H 'Content-Type: application/json' -d '{\"name\": \"Reddit Comments Map\", \"data\": [{\"comment_id\": \"t1_abcd1234\", \"author\": \"reddit_user\", \"date\": \"2023-06-01T12:34:56Z\", \"comment\": \"This is an example comment.\", \"score\": 42, \"subreddit\": \"example_subreddit\"}]}'"
+        }
+      }
+    ]
+  },
+  "visualization_features": {
+    "clustering": "Groups comments based on similarity in content or metadata.",
+    "filters": [
+      "Subreddit",
+      "Date range",
+      "Comment score",
+      "Author"
+    ],
+    "map_interaction": [
+      "Zoom in/out to explore clusters.",
+      "Click on a comment to view detailed metadata and content."
+    ]
+  },
+  "usage_examples": {
+    "python_script": {
+      "description": "Automate the entire process using Python.",
+      "code": "import requests\n\n# Step 1: Fetch comment data from Reddit\nurl = 'https://oauth.reddit.com/r/<subreddit>/comments/<post_id>'\nheaders = {\n    'Authorization': 'Bearer <REDDIT_ACCESS_TOKEN>',\n    'User-Agent': 'RedditDataAnalyzer/0.1'\n}\nresponse = requests.get(url, headers=headers)\ncomment_data = response.json()\n\n# Step 2: Format data for Atlas\nformatted_data = [\n    {\n        'comment_id': comment['data']['id'],\n        'author': comment['data']['author'],\n        'date': comment['data']['created_utc'],\n        'comment': comment['data']['body'],\n        'score': comment['data']['score'],\n        'subreddit': comment['data']['subreddit']\n    } for comment in comment_data[1]['data']['children']\n]\n\n# Step 3: Upload data to Atlas\nupload_url = 'https://api-atlas.nomic.ai/v1/data/upload'\nupload_headers = {\n    'Authorization': 'Bearer <API_KEY>',\n    'Content-Type': 'application/json'\n}\nresponse = requests.post(upload_url, headers=upload_headers, json={'data': formatted_data})\n\n# Step 4: Create a map visualization\nmap_url = 'https://api-atlas.nomic.ai/v1/maps/create'\nmap_payload = {\n    'name': 'Reddit Comments Map',\n    'data': formatted_data\n}\nresponse = requests.post(map_url, headers=upload_headers, json=map_payload)\nprint(response.json())"
+    }
+  },
+  "notes": [
+    "Ensure you have proper permissions and a valid Reddit API token to access subreddit data.",
+    "Data preprocessing (e.g., deduplication or filtering) may be required for large datasets.",
+    "Refer to the Nomic Atlas API documentation for advanced visualization options."
+  ]
+}

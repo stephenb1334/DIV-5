@@ -1,0 +1,121 @@
+{
+  "endpoint": {
+    "base_url": "https://api-atlas.nomic.ai",
+    "path": "/v1/query/embeddings",
+    "method": "POST",
+    "description": "Queries the embedding space for similar items based on a provided query vector or text."
+  },
+  "authentication": {
+    "method": "Bearer Token",
+    "header_example": {
+      "Authorization": "Bearer <TOKEN>"
+    }
+  },
+  "parameters": {
+    "body": {
+      "query": {
+        "description": "The query text or vector to search for similar embeddings.",
+        "type": "string | array",
+        "required": true
+      },
+      "map_id": {
+        "description": "The unique identifier of the map to query.",
+        "type": "string",
+        "required": true
+      },
+      "top_k": {
+        "description": "The number of top similar results to return.",
+        "type": "integer",
+        "default": 10,
+        "required": false
+      }
+    }
+  },
+  "responses": {
+    "200": {
+      "description": "Successful response with the most similar embeddings.",
+      "schema": {
+        "results": {
+          "description": "List of items matching the query.",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "item_id": {
+                "description": "The ID of the matched item.",
+                "type": "string"
+              },
+              "score": {
+                "description": "Similarity score of the matched item.",
+                "type": "number"
+              },
+              "metadata": {
+                "description": "Additional metadata about the matched item.",
+                "type": "object"
+              }
+            }
+          }
+        }
+      },
+      "example_response": {
+        "results": [
+          {
+            "item_id": "string",
+            "score": 0.98,
+            "metadata": {
+              "key": "value"
+            }
+          }
+        ]
+      }
+    },
+    "422": {
+      "description": "Validation Error.",
+      "schema": {
+        "detail": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "loc": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "msg": {
+                "type": "string"
+              },
+              "type": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      },
+      "example_response": {
+        "detail": [
+          {
+            "loc": ["string", 0],
+            "msg": "string",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  },
+  "examples": {
+    "curl": {
+      "command": "curl -X POST 'https://api-atlas.nomic.ai/v1/query/embeddings' -H 'Authorization: Bearer <TOKEN>' -H 'Content-Type: application/json' -d '{\"query\": \"string\", \"map_id\": \"string\", \"top_k\": 10}'"
+    },
+    "python": {
+      "code": "import requests\nimport json\n\nurl = \"https://api-atlas.nomic.ai/v1/query/embeddings\"\n\npayload = json.dumps({\n    \"query\": \"string\",\n    \"map_id\": \"string\",\n    \"top_k\": 10\n})\n\nheaders = {\n    'Authorization': 'Bearer <TOKEN>',\n    'Content-Type': 'application/json'\n}\n\nresponse = requests.request(\"POST\", url, headers=headers, data=payload)\n\nprint(response.text)"
+    }
+  },
+  "notes": [
+    "Ensure the Authorization header contains a valid Bearer token.",
+    "The query parameter can be a string or an array representing a vector.",
+    "The top_k parameter is optional and defaults to 10 if not provided.",
+    "Validate the map_id and query before making the request to avoid errors."
+  ]
+}

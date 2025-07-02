@@ -1,0 +1,96 @@
+{
+  "API_Documentation": {
+    "Base_URL": "https://api-atlas.nomic.ai",
+    "Authentication": {
+      "Method": "Bearer Token",
+      "Header_Example": {
+        "Authorization": "Bearer <TOKEN>"
+      }
+    },
+    "Endpoint": {
+      "Name": "Programmatic Map Selections",
+      "Method": "POST",
+      "Path": "/v1/maps/selections",
+      "Description": "Programmatically select regions or clusters on a map based on provided criteria.",
+      "Parameters": {
+        "Body_Parameters": {
+          "map_id": {
+            "Description": "The unique identifier of the map.",
+            "Type": "string",
+            "Required": true
+          },
+          "selection_criteria": {
+            "Description": "Criteria for selecting regions or clusters.",
+            "Type": "object",
+            "Required": true
+          }
+        }
+      },
+      "Responses": {
+        "200": {
+          "Description": "Successful response with selected regions.",
+          "Schema": {
+            "selections": {
+              "Description": "List of selected regions or clusters.",
+              "Type": "array",
+              "Items": {
+                "Type": "object",
+                "Properties": {
+                  "region_id": {
+                    "Description": "ID of the selected region.",
+                    "Type": "string"
+                  },
+                  "metadata": {
+                    "Description": "Additional metadata about the selection.",
+                    "Type": "object"
+                  }
+                }
+              }
+            }
+          },
+          "Example_Response": {
+            "selections": [
+              {
+                "region_id": "region1",
+                "metadata": {
+                  "key": "value"
+                }
+              }
+            ]
+          }
+        },
+        "422": {
+          "Description": "Validation Error.",
+          "Schema": {
+            "detail": [
+              {
+                "loc": [
+                  "string",
+                  0
+                ],
+                "msg": "string",
+                "type": "string"
+              }
+            ]
+          },
+          "Example_Response": {
+            "detail": [
+              {
+                "loc": [
+                  "string",
+                  0
+                ],
+                "msg": "string",
+                "type": "string"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Examples": {
+      "CURL": "curl -L 'https://api-atlas.nomic.ai/v1/maps/selections' \\\n-H 'Content-Type: application/json' \\\n-H 'Authorization: Bearer <TOKEN>' \\\n-d '{\n  \"map_id\": \"string\",\n  \"selection_criteria\": {\n    \"type\": \"cluster\",\n    \"threshold\": 0.8\n  }\n}'",
+      "Python": "import requests\nimport json\n\nurl = \"https://api-atlas.nomic.ai/v1/maps/selections\"\n\npayload = json.dumps({\n  \"map_id\": \"string\",\n  \"selection_criteria\": {\n    \"type\": \"cluster\",\n    \"threshold\": 0.8\n  }\n})\nheaders = {\n  'Content-Type': 'application/json',\n  'Authorization': 'Bearer <TOKEN>'\n}\n\nresponse = requests.request(\"POST\", url, headers=headers, data=payload)\n\nprint(response.text)"
+    }
+  }
+}

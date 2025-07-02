@@ -1,0 +1,97 @@
+{
+  "title": "Embedding Custom Data in Atlas",
+  "description": "A detailed guide to embedding custom datasets into Nomic Atlas for visualization and analysis.",
+  "overview": {
+    "purpose": "To enable users to upload and visualize custom datasets by generating embeddings and creating maps in Nomic Atlas.",
+    "use_cases": [
+      "Visualizing text-based datasets like customer feedback or survey responses.",
+      "Clustering high-dimensional numerical data for pattern recognition.",
+      "Embedding metadata for advanced searches and filtering."
+    ]
+  },
+  "prerequisites": [
+    "A dataset in CSV, JSON, or another structured format.",
+    "A valid Nomic Atlas API key for uploading data and creating embeddings.",
+    "Understanding of embeddings and their role in data visualization."
+  ],
+  "embedding_process": {
+    "steps": [
+      {
+        "step": 1,
+        "title": "Prepare Your Dataset",
+        "description": "Ensure your dataset is clean, structured, and formatted correctly for embedding generation.",
+        "supported_formats": ["CSV", "JSON"],
+        "example_format": {
+          "data_structure": [
+            {
+              "id": "1",
+              "text": "This is a sample text for embedding.",
+              "metadata": {
+                "category": "example",
+                "date": "2023-06-01"
+              }
+            },
+            {
+              "id": "2",
+              "text": "Another example of text data.",
+              "metadata": {
+                "category": "example",
+                "date": "2023-06-02"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "step": 2,
+        "title": "Generate Embeddings",
+        "description": "Use Nomic Atlas's embedding API to generate vector representations of your data.",
+        "api_endpoint": "/v1/embeddings/create",
+        "example_request": {
+          "curl": "curl -X POST 'https://api-atlas.nomic.ai/v1/embeddings/create' -H 'Authorization: Bearer <API_KEY>' -H 'Content-Type: application/json' -d '{\"data\": [{\"id\": \"1\", \"text\": \"This is a sample text for embedding.\"}]}'",
+          "python_code": "import requests\n\nurl = 'https://api-atlas.nomic.ai/v1/embeddings/create'\nheaders = {\n    'Authorization': 'Bearer <API_KEY>',\n    'Content-Type': 'application/json'\n}\ndata = {\n    'data': [\n        {'id': '1', 'text': 'This is a sample text for embedding.'},\n        {'id': '2', 'text': 'Another example of text data.'}\n    ]\n}\nresponse = requests.post(url, headers=headers, json=data)\nprint(response.json())"
+        }
+      },
+      {
+        "step": 3,
+        "title": "Upload Embeddings to Atlas",
+        "description": "Upload the generated embeddings to Nomic Atlas for visualization.",
+        "api_endpoint": "/v1/data/upload",
+        "example_request": {
+          "curl": "curl -X POST 'https://api-atlas.nomic.ai/v1/data/upload' -H 'Authorization: Bearer <API_KEY>' -H 'Content-Type: application/json' -d '{\"data\": [{\"id\": \"1\", \"embedding\": [0.123, 0.456, 0.789]}]}'"
+        }
+      },
+      {
+        "step": 4,
+        "title": "Create a Map in Atlas",
+        "description": "Generate a map visualization in Nomic Atlas using the uploaded embeddings.",
+        "api_endpoint": "/v1/maps/create",
+        "example_request": {
+          "curl": "curl -X POST 'https://api-atlas.nomic.ai/v1/maps/create' -H 'Authorization: Bearer <API_KEY>' -H 'Content-Type: application/json' -d '{\"name\": \"Custom Data Map\", \"data\": [{\"id\": \"1\", \"embedding\": [0.123, 0.456, 0.789]}]}'"
+        }
+      }
+    ]
+  },
+  "visualization_features": {
+    "clustering": "Automatically groups data points based on embedding similarity.",
+    "filters": [
+      "Metadata fields (e.g., category, date)",
+      "Embedding distance (for proximity-based searches)"
+    ],
+    "map_interaction": [
+      "Zoom in/out to explore clusters.",
+      "Click on a data point to view metadata and embedding details."
+    ]
+  },
+  "usage_examples": {
+    "python_script": {
+      "description": "Automate the embedding and visualization process using Python.",
+      "code": "import requests\n\n# Step 1: Prepare your data\ndata = [\n    {'id': '1', 'text': 'This is a sample text for embedding.'},\n    {'id': '2', 'text': 'Another example of text data.'}\n]\n\n# Step 2: Generate embeddings\nembedding_url = 'https://api-atlas.nomic.ai/v1/embeddings/create'\nheaders = {\n    'Authorization': 'Bearer <API_KEY>',\n    'Content-Type': 'application/json'\n}\nresponse = requests.post(embedding_url, headers=headers, json={'data': data})\nembeddings = response.json()\n\n# Step 3: Upload embeddings to Atlas\nupload_url = 'https://api-atlas.nomic.ai/v1/data/upload'\nresponse = requests.post(upload_url, headers=headers, json={'data': embeddings})\n\n# Step 4: Create a map in Atlas\nmap_url = 'https://api-atlas.nomic.ai/v1/maps/create'\nmap_payload = {\n    'name': 'Custom Data Map',\n    'data': embeddings\n}\nresponse = requests.post(map_url, headers=headers, json=map_payload)\nprint(response.json())"
+    }
+  },
+  "notes": [
+    "Ensure your dataset is clean and well-structured before generating embeddings.",
+    "Metadata fields can be used to enhance filtering and search capabilities within maps.",
+    "Refer to the Nomic Atlas API documentation for advanced embedding options and parameters."
+  ]
+}

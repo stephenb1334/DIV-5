@@ -1,0 +1,168 @@
+{
+  "title": "Atlas Data Governance and Collaboration Features",
+  "description": "A detailed guide to managing data governance and fostering collaboration within Nomic Atlas for secure and efficient teamwork.",
+  "overview": {
+    "purpose": "To enable teams to securely manage data, enforce governance policies, and collaborate effectively using Nomic Atlas.",
+    "use_cases": [
+      "Managing user roles and permissions for secure data access.",
+      "Tracking changes and maintaining data integrity with audit trails.",
+      "Collaborating on projects with shared datasets and real-time updates."
+    ]
+  },
+  "data_governance_features": [
+    {
+      "feature": "Role-Based Access Control (RBAC)",
+      "description": "Control user access to datasets and projects based on roles and permissions.",
+      "recommendations": [
+        "Assign roles like 'admin', 'editor', and 'viewer' to team members based on their responsibilities.",
+        "Regularly review and update roles to ensure they align with current project needs.",
+        "Restrict access to sensitive data to only those who need it."
+      ],
+      "example_api_request": {
+        "curl": "curl -X POST 'https://api-atlas.nomic.ai/v1/access-controls' -H 'Authorization: Bearer <API_KEY>' -H 'Content-Type: application/json' -d '{\"user_id\": \"12345\", \"role\": \"editor\"}'"
+      },
+      "notes": [
+        "Use unique API keys for each user to track individual actions.",
+        "Combine RBAC with audit trails for comprehensive governance."
+      ]
+    },
+    {
+      "feature": "Audit Trails",
+      "description": "Track changes to datasets, settings, and user actions for accountability and compliance.",
+      "recommendations": [
+        "Enable audit trails to monitor all changes and detect unauthorized actions.",
+        "Use logs to identify patterns and improve workflows.",
+        "Retain audit logs for a specified period to meet compliance requirements."
+      ],
+      "example_api_request": {
+        "curl": "curl -X GET 'https://api-atlas.nomic.ai/v1/logs' -H 'Authorization: Bearer <API_KEY>'"
+      },
+      "notes": [
+        "Regularly review logs to ensure compliance with governance policies.",
+        "Set up automated alerts for suspicious or unauthorized activities."
+      ]
+    },
+    {
+      "feature": "Data Versioning",
+      "description": "Maintain versions of datasets to track changes and revert to previous states if needed.",
+      "recommendations": [
+        "Enable automatic versioning for critical datasets.",
+        "Document changes made in each version to maintain a clear history.",
+        "Use versioning to experiment with new workflows without risking data integrity."
+      ],
+      "example_api_request": {
+        "curl": "curl -X POST 'https://api-atlas.nomic.ai/v1/data/version' -H 'Authorization: Bearer <API_KEY>' -H 'Content-Type: application/json' -d '{\"data_id\": \"12345\", \"version_note\": \"Initial dataset upload.\"}'"
+      },
+      "notes": [
+        "Use versioning to create backups before making significant changes.",
+        "Combine versioning with audit trails for enhanced governance."
+      ]
+    },
+    {
+      "feature": "Shared Workspaces",
+      "description": "Collaborate with team members in shared workspaces with real-time updates and access control.",
+      "recommendations": [
+        "Create dedicated workspaces for each project to organize datasets and maps.",
+        "Use RBAC to manage permissions for workspace members.",
+        "Leverage real-time updates to ensure all team members are working with the latest data."
+      ],
+      "example_api_request": {
+        "curl": "curl -X POST 'https://api-atlas.nomic.ai/v1/workspaces' -H 'Authorization: Bearer <API_KEY>' -H 'Content-Type: application/json' -d '{\"name\": \"Project Workspace\", \"description\": \"Workspace for project collaboration.\"}'"
+      },
+      "notes": [
+        "Encourage team members to use shared workspaces for better collaboration.",
+        "Combine workspaces with versioning and RBAC for secure and efficient teamwork."
+      ]
+    },
+    {
+      "feature": "Data Retention Policies",
+      "description": "Define policies for retaining and purging data to comply with regulations and manage storage efficiently.",
+      "recommendations": [
+        "Set retention periods based on project and regulatory requirements.",
+        "Regularly review and purge outdated or unnecessary data.",
+        "Document retention policies to ensure compliance and transparency."
+      ],
+      "example_api_request": {
+        "curl": "curl -X POST 'https://api-atlas.nomic.ai/v1/data/retention' -H 'Authorization: Bearer <API_KEY>' -H 'Content-Type: application/json' -d '{\"data_id\": \"12345\", \"retention_period\": \"90 days\"}'"
+      },
+      "notes": [
+        "Use retention policies to manage storage costs effectively.",
+        "Ensure policies align with regional data protection regulations like GDPR or CCPA."
+      ]
+    }
+  ],
+  "collaboration_features": [
+    {
+      "feature": "Real-Time Collaboration",
+      "description": "Work with team members simultaneously on datasets and visualizations with real-time updates.",
+      "recommendations": [
+        "Enable notifications for updates to keep team members informed.",
+        "Use shared workspaces to centralize collaboration efforts.",
+        "Combine real-time collaboration with versioning to track changes."
+      ],
+      "example": {
+        "scenario": "Multiple team members edit metadata fields in a shared dataset, and changes are reflected instantly for all users."
+      },
+      "notes": [
+        "Ensure team members are familiar with collaboration tools and features.",
+        "Use RBAC to prevent unauthorized changes during collaboration."
+      ]
+    },
+    {
+      "feature": "Commenting and Feedback",
+      "description": "Allow team members to leave comments and feedback directly within datasets and maps.",
+      "recommendations": [
+        "Use comments to discuss data points or suggest improvements.",
+        "Resolve comments promptly to maintain workflow efficiency.",
+        "Document key decisions made through comments for future reference."
+      ],
+      "example_api_request": {
+        "curl": "curl -X POST 'https://api-atlas.nomic.ai/v1/comments' -H 'Authorization: Bearer <API_KEY>' -H 'Content-Type: application/json' -d '{\"map_id\": \"12345\", \"comment\": \"Consider re-categorizing this data point.\"}'"
+      },
+      "notes": [
+        "Encourage constructive feedback to improve data quality and workflows.",
+        "Use comments as a record of collaboration for audits or reviews."
+      ]
+    }
+  ],
+  "implementation_steps": {
+    "steps": [
+      {
+        "step": 1,
+        "title": "Define Governance Policies",
+        "description": "Establish clear policies for roles, permissions, and data retention."
+      },
+      {
+        "step": 2,
+        "title": "Implement Access Controls",
+        "description": "Use RBAC to enforce permissions and secure sensitive data."
+      },
+      {
+        "step": 3,
+        "title": "Enable Collaboration Features",
+        "description": "Set up shared workspaces, real-time updates, and commenting tools to foster teamwork."
+      },
+      {
+        "step": 4,
+        "title": "Monitor and Audit",
+        "description": "Track changes and review logs to ensure compliance with governance policies."
+      },
+      {
+        "step": 5,
+        "title": "Refine and Scale",
+        "description": "Adjust governance and collaboration settings as the team or project evolves."
+      }
+    ]
+  },
+  "usage_examples": {
+    "python_script": {
+      "description": "Set up a shared workspace with RBAC and enable data versioning for secure collaboration.",
+      "code": "import requests\n\n# Step 1: Create a shared workspace\nurl_workspace = 'https://api-atlas.nomic.ai/v1/workspaces'\nheaders = {'Authorization': 'Bearer <API_KEY>', 'Content-Type': 'application/json'}\nworkspace_payload = {\n    'name': 'Team Workspace',\n    'description': 'A workspace for team collaboration.'\n}\nresponse_workspace = requests.post(url_workspace, headers=headers, json=workspace_payload)\nprint('Workspace created:', response_workspace.json())\n\n# Step 2: Assign roles to team members\nurl_rbac = 'https://api-atlas.nomic.ai/v1/access-controls'\nrbac_payload = {\n    'user_id': '12345',\n    'role': 'editor'\n}\nresponse_rbac = requests.post(url_rbac, headers=headers, json=rbac_payload)\nprint('Role assigned:', response_rbac.json())\n\n# Step 3: Enable data versioning\nurl_versioning = 'https://api-atlas.nomic.ai/v1/data/version'\nversion_payload = {\n    'data_id': '67890',\n    'version_note': 'Initial dataset upload.'\n}\nresponse_versioning = requests.post(url_versioning, headers=headers, json=version_payload)\nprint('Data versioning enabled:', response_versioning.json())"
+    }
+  },
+  "notes": [
+    "Effective data governance ensures security, compliance, and efficiency in collaborative environments.",
+    "Regularly review and update governance policies to address evolving project needs.",
+    "Refer to the Nomic Atlas documentation for additional features and best practices."
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "endpoint": {
+    "base_url": "https://api-atlas.nomic.ai",
+    "path": "/v1/tags/programmatic",
+    "method": "POST",
+    "description": "Allows programmatic tagging of datasets based on user-defined rules or conditions."
+  },
+  "authentication": {
+    "method": "Bearer Token",
+    "header_example": {
+      "Authorization": "Bearer <TOKEN>"
+    }
+  },
+  "parameters": {
+    "body": {
+      "dataset_id": {
+        "description": "The unique identifier of the dataset.",
+        "type": "string",
+        "required": true
+      },
+      "tags": {
+        "description": "A list of tags to be applied programmatically.",
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "tag_name": {
+              "description": "Name of the tag.",
+              "type": "string"
+            },
+            "conditions": {
+              "description": "Conditions for applying the tag.",
+              "type": "object"
+            }
+          }
+        },
+        "required": true
+      }
+    }
+  },
+  "responses": {
+    "200": {
+      "description": "Successful response with applied tags.",
+      "schema": {
+        "tags_applied": {
+          "description": "List of tags successfully applied.",
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "example_response": {
+        "tags_applied": ["tag1", "tag2"]
+      }
+    },
+    "422": {
+      "description": "Validation Error.",
+      "schema": {
+        "detail": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "loc": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "msg": {
+                "type": "string"
+              },
+              "type": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      },
+      "example_response": {
+        "detail": [
+          {
+            "loc": ["string", 0],
+            "msg": "string",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  },
+  "examples": {
+    "curl": {
+      "command": "curl -X POST 'https://api-atlas.nomic.ai/v1/tags/programmatic' -H 'Authorization: Bearer <TOKEN>' -H 'Content-Type: application/json' -d '{\"dataset_id\": \"string\", \"tags\": [{\"tag_name\": \"example_tag\", \"conditions\": {\"key\": \"value\"}}]}'"
+    },
+    "python": {
+      "code": "import requests\nimport json\n\nurl = \"https://api-atlas.nomic.ai/v1/tags/programmatic\"\n\npayload = json.dumps({\n    \"dataset_id\": \"string\",\n    \"tags\": [\n        {\n            \"tag_name\": \"example_tag\",\n            \"conditions\": {\n                \"key\": \"value\"\n            }\n        }\n    ]\n})\n\nheaders = {\n    'Authorization': 'Bearer <TOKEN>',\n    'Content-Type': 'application/json'\n}\n\nresponse = requests.request(\"POST\", url, headers=headers, data=payload)\n\nprint(response.text)"
+    }
+  },
+  "notes": [
+    "Ensure the Authorization header contains a valid Bearer token.",
+    "The conditions object allows for complex logic to define when a tag should be applied.",
+    "Validate the dataset_id and tags before making the request to avoid errors."
+  ]
+}

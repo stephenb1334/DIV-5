@@ -1,0 +1,95 @@
+{
+  "API_Documentation": {
+    "Base_URL": "https://api-atlas.nomic.ai",
+    "Authentication": {
+      "Method": "Bearer Token",
+      "Header_Example": {
+        "Authorization": "Bearer <TOKEN>"
+      }
+    },
+    "Endpoint": {
+      "Name": "Data Selection",
+      "Method": "POST",
+      "Path": "/v1/query/data-selections",
+      "Description": "Allows programmatic filtering and querying of datasets using semantic and text search capabilities.",
+      "Parameters": {
+        "Body_Parameters": {
+          "query": {
+            "Description": "The search query to filter dataset entries.",
+            "Type": "string",
+            "Required": true
+          },
+          "filters": {
+            "Description": "Optional filters to refine the search results.",
+            "Type": "object",
+            "Required": false,
+            "Example": {
+              "column_name": "value"
+            }
+          },
+          "map_id": {
+            "Description": "The unique identifier of the map to query.",
+            "Type": "string",
+            "Required": true
+          }
+        }
+      },
+      "Responses": {
+        "200": {
+          "Description": "Successful response containing filtered data.",
+          "Schema": {
+            "selections": {
+              "Description": "List of selected data entries matching the query.",
+              "Type": "array",
+              "Items": {
+                "Type": "object"
+              }
+            }
+          },
+          "Example_Response": {
+            "selections": [
+              {
+                "entry_id": "string",
+                "data": {
+                  "column_1": "value_1",
+                  "column_2": "value_2"
+                }
+              }
+            ]
+          }
+        },
+        "422": {
+          "Description": "Validation Error.",
+          "Schema": {
+            "detail": [
+              {
+                "loc": [
+                  "string",
+                  0
+                ],
+                "msg": "string",
+                "type": "string"
+              }
+            ]
+          },
+          "Example_Response": {
+            "detail": [
+              {
+                "loc": [
+                  "string",
+                  0
+                ],
+                "msg": "string",
+                "type": "string"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Examples": {
+      "CURL": "curl -L 'https://api-atlas.nomic.ai/v1/query/data-selections' \\\n-H 'Content-Type: application/json' \\\n-H 'Accept: application/json' \\\n-H 'Authorization: Bearer <TOKEN>' \\\n-d '{\n  \"query\": \"search string\",\n  \"filters\": {\n    \"column_name\": \"value\"\n  },\n  \"map_id\": \"string\"\n}'",
+      "Python": "import requests\nimport json\n\nurl = \"https://api-atlas.nomic.ai/v1/query/data-selections\"\n\npayload = json.dumps({\n  \"query\": \"search string\",\n  \"filters\": {\n    \"column_name\": \"value\"\n  },\n  \"map_id\": \"string\"\n})\nheaders = {\n  'Content-Type': 'application/json',\n  'Accept': 'application/json',\n  'Authorization': 'Bearer <TOKEN>'\n}\n\nresponse = requests.request(\"POST\", url, headers=headers, data=payload)\n\nprint(response.text)"
+    }
+  }
+}

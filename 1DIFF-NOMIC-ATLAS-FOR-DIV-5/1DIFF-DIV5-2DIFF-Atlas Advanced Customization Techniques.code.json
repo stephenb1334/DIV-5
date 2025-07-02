@@ -1,0 +1,134 @@
+{
+  "title": "Atlas Advanced Customization Techniques",
+  "description": "A comprehensive guide to advanced customization options available in Nomic Atlas for tailored visualizations and workflows.",
+  "overview": {
+    "purpose": "To empower users to create highly customized and interactive visualizations, fine-tuned to their specific needs and datasets.",
+    "use_cases": [
+      "Customizing map settings for unique datasets or user preferences.",
+      "Integrating Atlas with third-party tools for seamless workflows.",
+      "Creating dynamic and interactive visualizations tailored to specific audiences."
+    ]
+  },
+  "customization_features": [
+    {
+      "feature": "Custom Color Schemes",
+      "description": "Define and apply custom color palettes to match branding or enhance data interpretability.",
+      "recommendations": [
+        "Use color gradients for numerical data to highlight trends.",
+        "Choose distinct colors for categorical data to differentiate groups effectively.",
+        "Ensure color schemes are accessible for users with color vision deficiencies."
+      ],
+      "example_code": {
+        "python": "import requests\n\n# Apply a custom color scheme to a map\nurl = 'https://api-atlas.nomic.ai/v1/maps/settings'\nheaders = {'Authorization': 'Bearer <API_KEY>', 'Content-Type': 'application/json'}\npayload = {\n    'settings': {\n        'color_scheme': {\n            'type': 'categorical',\n            'colors': ['#FF5733', '#33FF57', '#3357FF']\n        }\n    }\n}\nresponse = requests.post(url, headers=headers, json=payload)\nprint('Custom color scheme applied:', response.json())"
+      },
+      "notes": [
+        "Test color schemes with sample data to ensure clarity and interpretability.",
+        "Refer to accessibility guidelines for designing inclusive visualizations."
+      ]
+    },
+    {
+      "feature": "Dynamic Tooltips",
+      "description": "Add custom tooltips to display detailed information about data points when hovered over.",
+      "recommendations": [
+        "Include key metadata fields in tooltips for context.",
+        "Ensure tooltips are concise and avoid overwhelming users with too much information.",
+        "Use formatting to make tooltips visually appealing and easy to read."
+      ],
+      "example_code": {
+        "python": "import requests\n\n# Enable dynamic tooltips with custom fields\nurl = 'https://api-atlas.nomic.ai/v1/maps/settings'\nheaders = {'Authorization': 'Bearer <API_KEY>', 'Content-Type': 'application/json'}\npayload = {\n    'settings': {\n        'tooltips': {\n            'fields': ['author', 'category', 'value'],\n            'format': '<b>{author}</b>: {category} ({value})'\n        }\n    }\n}\nresponse = requests.post(url, headers=headers, json=payload)\nprint('Dynamic tooltips configured:', response.json())"
+      },
+      "notes": [
+        "Test tooltip configurations to ensure they enhance user interaction without distracting from the visualization.",
+        "Combine tooltips with interactivity features like zooming or filtering for better exploration."
+      ]
+    },
+    {
+      "feature": "Custom Embedding Models",
+      "description": "Use custom embedding models to tailor the dimensionality reduction process for your specific dataset.",
+      "recommendations": [
+        "Train embedding models on domain-specific data for improved clustering and visualization.",
+        "Ensure embeddings are normalized and compatible with Atlas's dimensionality reduction techniques.",
+        "Validate the quality of embeddings using sample visualizations before full-scale deployment."
+      ],
+      "example_code": {
+        "python": "import requests\n\n# Upload custom embeddings for map creation\nurl = 'https://api-atlas.nomic.ai/v1/data/upload'\nheaders = {'Authorization': 'Bearer <API_KEY}', 'Content-Type': 'application/json'}\ndata = {\n    'embeddings': [[0.1, 0.2, 0.3], [0.4, 0.5, 0.6]],\n    'metadata': [{'label': 'A'}, {'label': 'B'}]\n}\nresponse = requests.post(url, headers=headers, json={'data': data})\nprint('Custom embeddings uploaded:', response.json())"
+      },
+      "notes": [
+        "Use dimensionality reduction techniques like UMAP or t-SNE to visualize embedding quality.",
+        "Ensure embeddings are consistent in dimensions and format across the dataset."
+      ]
+    },
+    {
+      "feature": "Integrations with Third-Party Tools",
+      "description": "Leverage integrations with external tools and platforms to extend Atlas's functionality.",
+      "recommendations": [
+        "Use APIs to connect Atlas with data pipelines, dashboards, or analytics tools.",
+        "Automate workflows by integrating Atlas with task schedulers or orchestration tools like Apache Airflow.",
+        "Export visualizations to formats compatible with presentation tools or reports."
+      ],
+      "example_code": {
+        "python": "import requests\n\n# Example: Export map data for integration with a reporting tool\nurl = 'https://api-atlas.nomic.ai/v1/maps/export'\nheaders = {'Authorization': 'Bearer <API_KEY}', 'Content-Type': 'application/json'}\npayload = {\n    'map_id': '<MAP_ID>',\n    'format': 'csv'\n}\nresponse = requests.post(url, headers=headers, json=payload)\nwith open('map_export.csv', 'w') as f:\n    f.write(response.text)\nprint('Map data exported successfully.')"
+      },
+      "notes": [
+        "Explore Atlas's API documentation for supported export formats and integration options.",
+        "Ensure data privacy and security when sharing exported data with third-party tools."
+      ]
+    },
+    {
+      "feature": "Advanced Filtering and Clustering",
+      "description": "Apply advanced filtering and clustering techniques to enhance data exploration and visualization.",
+      "recommendations": [
+        "Use filters to focus on specific subsets of data based on metadata fields.",
+        "Enable dynamic clustering to group similar data points and reduce visual noise.",
+        "Combine filtering and clustering with interactivity features for deeper insights."
+      ],
+      "example_code": {
+        "python": "import requests\n\n# Enable advanced filtering and clustering\nurl = 'https://api-atlas.nomic.ai/v1/maps/settings'\nheaders = {'Authorization': 'Bearer <API_KEY>', 'Content-Type': 'application/json'}\npayload = {\n    'settings': {\n        'filters': {\n            'field': 'category',\n            'values': ['A', 'B']\n        },\n        'clustering': {\n            'enabled': true,\n            'method': 'kmeans',\n            'num_clusters': 5\n        }\n    }\n}\nresponse = requests.post(url, headers=headers, json=payload)\nprint('Advanced filtering and clustering applied:', response.json())"
+      },
+      "notes": [
+        "Test clustering methods (e.g., k-means, hierarchical clustering) to determine the best fit for your data.",
+        "Use filters to simplify visualizations and focus on high-priority data points."
+      ]
+    }
+  ],
+  "implementation_steps": {
+    "steps": [
+      {
+        "step": 1,
+        "title": "Identify Customization Requirements",
+        "description": "Define the specific customization needs based on your dataset and audience."
+      },
+      {
+        "step": 2,
+        "title": "Configure Customization Features",
+        "description": "Apply the desired customization options using the Atlas API or user interface."
+      },
+      {
+        "step": 3,
+        "title": "Test and Validate",
+        "description": "Review the customized visualization to ensure it meets the intended goals and performs as expected."
+      },
+      {
+        "step": 4,
+        "title": "Iterate and Refine",
+        "description": "Incorporate feedback and make adjustments to improve the customization."
+      },
+      {
+        "step": 5,
+        "title": "Document and Share",
+        "description": "Document the customization process and share the visualization with stakeholders."
+      }
+    ]
+  },
+  "usage_examples": {
+    "python_script": {
+      "description": "Customize a map with advanced filtering, clustering, and dynamic tooltips.",
+      "code": "import requests\n\n# Step 1: Define API endpoint and headers\nurl = 'https://api-atlas.nomic.ai/v1/maps/settings'\nheaders = {'Authorization': 'Bearer <API_KEY>', 'Content-Type': 'application/json'}\n\n# Step 2: Configure customization settings\npayload = {\n    'settings': {\n        'color_scheme': {\n            'type': 'categorical',\n            'colors': ['#FF5733', '#33FF57', '#3357FF']\n        },\n        'tooltips': {\n            'fields': ['author', 'category', 'value'],\n            'format': '<b>{author}</b>: {category} ({value})'\n        },\n        'filters': {\n            'field': 'category',\n            'values': ['A', 'B']\n        },\n        'clustering': {\n            'enabled': true,\n            'method': 'kmeans',\n            'num_clusters': 5\n        }\n    }\n}\n\n# Step 3: Apply settings\nresponse = requests.post(url, headers=headers, json=payload)\nprint('Customization applied:', response.json())"
+    }
+  },
+  "notes": [
+    "Customizations should align with the goals of the visualization and the needs of the audience.",
+    "Regularly test and refine customizations to ensure they enhance the user experience.",
+    "Refer to the Nomic Atlas API documentation for additional customization options and examples."
+  ]
+}

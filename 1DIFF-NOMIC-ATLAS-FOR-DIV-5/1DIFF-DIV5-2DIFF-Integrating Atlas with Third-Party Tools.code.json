@@ -1,0 +1,116 @@
+{
+  "title": "Integrating Atlas with Third-Party Tools",
+  "description": "A step-by-step guide to integrating Nomic Atlas with popular third-party tools for enhanced workflows and data visualization.",
+  "overview": {
+    "purpose": "To enable seamless integration of Nomic Atlas with external tools and platforms, enhancing data workflows and analysis capabilities.",
+    "use_cases": [
+      "Automating data uploads and map creation with workflow tools like Zapier or Make.",
+      "Visualizing data from business intelligence tools like Tableau or Power BI.",
+      "Integrating with cloud storage platforms (e.g., Google Drive, AWS S3) for streamlined data management."
+    ]
+  },
+  "supported_integrations": [
+    {
+      "tool": "Zapier",
+      "description": "Automate workflows by connecting Nomic Atlas with thousands of apps.",
+      "example_workflows": [
+        "Trigger a map creation in Atlas when new data is added to Google Sheets.",
+        "Send notifications to Slack when a new map is generated."
+      ],
+      "setup_steps": [
+        "Create a Zapier account and log in.",
+        "Search for 'Nomic Atlas' in the Zapier app directory.",
+        "Connect your Nomic Atlas API key to Zapier.",
+        "Set up triggers and actions to automate workflows."
+      ]
+    },
+    {
+      "tool": "Tableau",
+      "description": "Integrate Atlas data with Tableau for advanced analytics and dashboard creation.",
+      "setup_steps": [
+        "Export Atlas data as a CSV or JSON file.",
+        "Import the file into Tableau using the 'Connect to Data' feature.",
+        "Create visualizations using Tableau’s drag-and-drop interface."
+      ],
+      "example_use_case": "Combine Atlas map data with sales data in Tableau to identify regional trends."
+    },
+    {
+      "tool": "AWS S3",
+      "description": "Use AWS S3 for storing and retrieving large datasets for Atlas.",
+      "setup_steps": [
+        "Upload your dataset to an S3 bucket.",
+        "Generate a pre-signed URL for the file.",
+        "Use the pre-signed URL to upload data to Atlas via the API."
+      ],
+      "example_code": {
+        "python": "import boto3\nimport requests\n\n# Step 1: Generate a pre-signed URL for your S3 file\ns3 = boto3.client('s3')\nresponse = s3.generate_presigned_url('get_object',\n                                     Params={'Bucket': '<bucket_name>', 'Key': '<file_key>'},\n                                     ExpiresIn=3600)\n\n# Step 2: Use the pre-signed URL to upload data to Atlas\natlas_url = 'https://api-atlas.nomic.ai/v1/data/upload'\nheaders = {'Authorization': 'Bearer <API_KEY>', 'Content-Type': 'application/json'}\ndata = {'file_url': response}\nresponse = requests.post(atlas_url, headers=headers, json=data)\nprint(response.json())"
+      }
+    },
+    {
+      "tool": "Google Drive",
+      "description": "Integrate Google Drive for data sharing and uploads to Atlas.",
+      "setup_steps": [
+        "Store your dataset in Google Drive.",
+        "Share the file and generate a public or restricted link.",
+        "Use the link to upload data to Atlas via the API."
+      ],
+      "example_code": {
+        "python": "import requests\n\n# Step 1: Use a Google Drive shareable link\nfile_url = '<google_drive_shareable_link>'\n\n# Step 2: Upload the file to Atlas\natlas_url = 'https://api-atlas.nomic.ai/v1/data/upload'\nheaders = {'Authorization': 'Bearer <API_KEY>', 'Content-Type': 'application/json'}\ndata = {'file_url': file_url}\nresponse = requests.post(atlas_url, headers=headers, json=data)\nprint(response.json())"
+      }
+    },
+    {
+      "tool": "Power BI",
+      "description": "Integrate Atlas data with Power BI for real-time reporting and dashboards.",
+      "setup_steps": [
+        "Export Atlas data as a CSV or JSON file.",
+        "Import the file into Power BI using the 'Get Data' feature.",
+        "Create interactive dashboards and reports."
+      ],
+      "example_use_case": "Visualize Atlas map data alongside financial KPIs in Power BI."
+    }
+  ],
+  "implementation_steps": {
+    "steps": [
+      {
+        "step": 1,
+        "title": "Identify Integration Requirements",
+        "description": "Determine the third-party tool and specific use case for integration."
+      },
+      {
+        "step": 2,
+        "title": "Prepare Data for Integration",
+        "description": "Format your data (e.g., CSV, JSON) or generate pre-signed URLs for cloud storage."
+      },
+      {
+        "step": 3,
+        "title": "Connect the Tool to Atlas",
+        "description": "Use APIs, file exports, or direct integrations to connect the tool with Nomic Atlas."
+      },
+      {
+        "step": 4,
+        "title": "Validate the Integration",
+        "description": "Test the integration to ensure data flows correctly and visualizations are accurate."
+      }
+    ]
+  },
+  "usage_examples": {
+    "zapier_workflow": {
+      "description": "Automate a workflow where new Google Sheets rows trigger a data upload to Atlas.",
+      "steps": [
+        "Create a new Zap in Zapier.",
+        "Set Google Sheets as the trigger app and configure the trigger (e.g., 'New Row Added').",
+        "Set Nomic Atlas as the action app and configure the action (e.g., 'Upload Data').",
+        "Test the Zap to ensure it works as expected."
+      ]
+    },
+    "aws_s3_integration": {
+      "description": "Use AWS S3 to manage large datasets for Atlas integration.",
+      "code": "import boto3\nimport requests\n\n# Step 1: Upload data to S3\ns3 = boto3.client('s3')\nbucket_name = '<bucket_name>'\nfile_name = '<file_name>'\ns3.upload_file(file_name, bucket_name, file_name)\n\n# Step 2: Generate a pre-signed URL\nresponse = s3.generate_presigned_url('get_object',\n                                     Params={'Bucket': bucket_name, 'Key': file_name},\n                                     ExpiresIn=3600)\n\n# Step 3: Upload the data to Atlas\natlas_url = 'https://api-atlas.nomic.ai/v1/data/upload'\nheaders = {'Authorization': 'Bearer <API_KEY>', 'Content-Type': 'application/json'}\ndata = {'file_url': response}\nresponse = requests.post(atlas_url, headers=headers, json=data)\nprint(response.json())"
+    }
+  },
+  "notes": [
+    "Ensure you have the necessary permissions and API keys for both Nomic Atlas and the third-party tool.",
+    "For cloud storage integrations, verify that files are accessible via pre-signed URLs or shareable links.",
+    "Refer to the documentation of the third-party tool for specific integration details or troubleshooting."
+  ]
+}

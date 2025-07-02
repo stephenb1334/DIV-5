@@ -1,0 +1,132 @@
+{
+  "title": "Atlas Security and Data Privacy Guidelines",
+  "description": "A detailed guide to ensuring data security and privacy when using Nomic Atlas, with best practices for compliance and risk mitigation.",
+  "overview": {
+    "purpose": "To provide users with guidelines on securing data and ensuring privacy compliance while leveraging Nomic Atlas.",
+    "use_cases": [
+      "Uploading sensitive datasets while adhering to privacy regulations.",
+      "Implementing robust access controls for team projects.",
+      "Ensuring secure API usage and data encryption."
+    ]
+  },
+  "key_principles": [
+    {
+      "principle": "Data Encryption",
+      "description": "Ensure all data is encrypted during transmission and at rest to prevent unauthorized access.",
+      "recommendations": [
+        "Use HTTPS for all API requests to ensure secure data transmission.",
+        "Verify that data stored in Atlas is encrypted at rest using AES-256 or similar encryption standards."
+      ],
+      "example_code": {
+        "python": "import requests\n\n# Secure API request using HTTPS\nurl = 'https://api-atlas.nomic.ai/v1/data/upload'\nheaders = {'Authorization': 'Bearer <API_KEY>', 'Content-Type': 'application/json'}\ndata = {'text': 'example', 'metadata': {'category': 'A'}}\nresponse = requests.post(url, headers=headers, json={'data': [data]})\nprint('Secure upload response:', response.json())"
+      },
+      "notes": [
+        "Always verify the security of third-party libraries or tools used in your workflows.",
+        "Check Atlas's encryption policies in the official documentation for updates."
+      ]
+    },
+    {
+      "principle": "Access Controls",
+      "description": "Restrict access to data and API keys based on user roles and project requirements.",
+      "recommendations": [
+        "Use role-based access controls (RBAC) to assign permissions to users.",
+        "Regularly review and revoke unused API keys to minimize security risks."
+      ],
+      "example_api_request": {
+        "curl": "curl -X POST 'https://api-atlas.nomic.ai/v1/access-controls' -H 'Authorization: Bearer <API_KEY>' -H 'Content-Type: application/json' -d '{\"user_id\": \"12345\", \"role\": \"viewer\"}'"
+      },
+      "notes": [
+        "Ensure that only authorized users have access to sensitive data.",
+        "Use unique API keys for different projects to isolate access."
+      ]
+    },
+    {
+      "principle": "Compliance with Privacy Regulations",
+      "description": "Ensure all data handling practices comply with relevant privacy laws and regulations, such as GDPR and CCPA.",
+      "recommendations": [
+        "Anonymize or pseudonymize personal data before uploading to Atlas.",
+        "Review data retention policies to ensure compliance with legal requirements.",
+        "Obtain explicit consent from individuals before processing their data."
+      ],
+      "example": {
+        "scenario": "For a dataset containing customer information, remove identifiable fields (e.g., names, addresses) or replace them with pseudonyms."
+      },
+      "notes": [
+        "Consult legal experts to ensure compliance with regional privacy regulations.",
+        "Review Atlas's privacy policy for details on how data is handled and stored."
+      ]
+    },
+    {
+      "principle": "Monitoring and Auditing",
+      "description": "Track and audit API usage and data access to detect and respond to potential security breaches.",
+      "recommendations": [
+        "Enable logging for all API requests and monitor for unusual activity.",
+        "Use Atlas's audit trail features to track changes to datasets and settings.",
+        "Set up alerts for failed login attempts or unauthorized API calls."
+      ],
+      "example_api_request": {
+        "curl": "curl -X GET 'https://api-atlas.nomic.ai/v1/logs' -H 'Authorization: Bearer <API_KEY>'"
+      },
+      "notes": [
+        "Regularly review logs to identify potential security risks.",
+        "Implement automated tools to monitor and analyze API usage patterns."
+      ]
+    },
+    {
+      "principle": "Secure API Key Management",
+      "description": "Protect API keys to prevent unauthorized access to your Atlas account.",
+      "recommendations": [
+        "Store API keys securely using environment variables or secret management tools.",
+        "Avoid hardcoding API keys in scripts or sharing them in public repositories.",
+        "Rotate API keys periodically to reduce the risk of compromise."
+      ],
+      "example_code": {
+        "python": "import os\nimport requests\n\n# Store API key securely in an environment variable\napi_key = os.getenv('ATLAS_API_KEY')\nurl = 'https://api-atlas.nomic.ai/v1/data/upload'\nheaders = {'Authorization': f'Bearer {api_key}', 'Content-Type': 'application/json'}\ndata = {'text': 'example', 'metadata': {'category': 'A'}}\nresponse = requests.post(url, headers=headers, json={'data': [data]})\nprint('Secure API request response:', response.json())"
+      },
+      "notes": [
+        "Use tools like AWS Secrets Manager or HashiCorp Vault for managing sensitive credentials.",
+        "Immediately revoke compromised API keys and generate new ones."
+      ]
+    }
+  ],
+  "implementation_steps": {
+    "steps": [
+      {
+        "step": 1,
+        "title": "Assess Data Sensitivity",
+        "description": "Identify sensitive data and determine the security measures required to protect it."
+      },
+      {
+        "step": 2,
+        "title": "Implement Security Best Practices",
+        "description": "Apply encryption, access controls, and secure API key management to protect data."
+      },
+      {
+        "step": 3,
+        "title": "Ensure Privacy Compliance",
+        "description": "Review workflows and datasets to ensure they comply with relevant privacy regulations."
+      },
+      {
+        "step": 4,
+        "title": "Monitor and Audit",
+        "description": "Track API usage and data access to detect and respond to potential security threats."
+      },
+      {
+        "step": 5,
+        "title": "Regularly Update Security Measures",
+        "description": "Stay informed about new security threats and update workflows to address them."
+      }
+    ]
+  },
+  "usage_examples": {
+    "python_script": {
+      "description": "Securely upload anonymized data to Atlas while implementing API key management.",
+      "code": "import os\nimport requests\n\n# Step 1: Use environment variables for API key storage\napi_key = os.getenv('ATLAS_API_KEY')\n\n# Step 2: Anonymize data before uploading\ndata = [{'text': 'example', 'metadata': {'category': 'A', 'user_id': 'anonymous'}}]\n\n# Step 3: Securely upload data to Atlas\nurl = 'https://api-atlas.nomic.ai/v1/data/upload'\nheaders = {'Authorization': f'Bearer {api_key}', 'Content-Type': 'application/json'}\nresponse = requests.post(url, headers=headers, json={'data': data})\nprint('Upload response:', response.json())"
+    }
+  },
+  "notes": [
+    "Data security and privacy are critical when handling sensitive information.",
+    "Regularly review and update security measures to address evolving threats.",
+    "Refer to the Nomic Atlas documentation for the latest security and privacy features."
+  ]
+}

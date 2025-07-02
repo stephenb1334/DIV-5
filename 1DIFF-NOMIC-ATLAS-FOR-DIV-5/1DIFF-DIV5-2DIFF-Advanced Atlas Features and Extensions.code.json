@@ -1,0 +1,126 @@
+{
+  "title": "Advanced Atlas Features and Extensions",
+  "description": "A detailed guide to leveraging advanced features and integrating extensions in Nomic Atlas for enhanced functionality.",
+  "overview": {
+    "purpose": "To explore advanced features and extensions that enhance the capabilities of Nomic Atlas for complex workflows and data analysis.",
+    "use_cases": [
+      "Integrating external APIs to enrich Atlas datasets.",
+      "Using advanced embedding techniques for better data representation.",
+      "Extending Atlas functionality with custom plugins and scripts."
+    ]
+  },
+  "advanced_features": [
+    {
+      "feature": "Custom Embeddings",
+      "description": "Generate and upload custom embeddings for datasets to enhance visualization and clustering.",
+      "use_cases": [
+        "Using domain-specific embeddings for specialized datasets.",
+        "Improving clustering accuracy by tailoring embeddings to the data."
+      ],
+      "example_code": {
+        "python": "import requests\n\n# Step 1: Generate embeddings using a custom model\nfrom sentence_transformers import SentenceTransformer\nmodel = SentenceTransformer('all-MiniLM-L6-v2')\ndata = ['text1', 'text2', 'text3']\nembeddings = model.encode(data)\n\n# Step 2: Upload embeddings to Atlas\nurl = 'https://api-atlas.nomic.ai/v1/data/upload'\nheaders = {'Authorization': 'Bearer <API_KEY>', 'Content-Type': 'application/json'}\npayload = {\n    'data': [\n        {'text': data[i], 'embedding': embeddings[i].tolist()} for i in range(len(data))\n    ]\n}\nresponse = requests.post(url, headers=headers, json=payload)\nprint(response.json())"
+      },
+      "notes": [
+        "Ensure embeddings are in a supported format (e.g., 2D or 3D arrays).",
+        "Test embeddings for quality before uploading to Atlas."
+      ]
+    },
+    {
+      "feature": "API Chaining",
+      "description": "Chain multiple API requests to create complex workflows and automate processes.",
+      "use_cases": [
+        "Automating data preprocessing, uploading, and visualization in a single script.",
+        "Combining Atlas with third-party APIs for enriched data analysis."
+      ],
+      "example_code": {
+        "python": "import requests\n\n# Step 1: Preprocess the dataset\npreprocessed_data = [{'text': 'example', 'metadata': {'author': 'John Doe'}}]\n\n# Step 2: Upload data to Atlas\nupload_url = 'https://api-atlas.nomic.ai/v1/data/upload'\nheaders = {'Authorization': 'Bearer <API_KEY>', 'Content-Type': 'application/json'}\nresponse = requests.post(upload_url, headers=headers, json={'data': preprocessed_data})\ndata_id = response.json().get('data_id')\n\n# Step 3: Create a map from the uploaded data\nmap_url = 'https://api-atlas.nomic.ai/v1/maps/create'\nmap_payload = {'data_id': data_id, 'settings': {'dimensionality_reduction': 'UMAP'}}\nresponse = requests.post(map_url, headers=headers, json=map_payload)\nprint('Map creation response:', response.json())"
+      },
+      "notes": [
+        "Use error handling to manage API failures in chained workflows.",
+        "Refer to the Atlas API documentation for endpoint-specific details."
+      ]
+    },
+    {
+      "feature": "Custom Plugins",
+      "description": "Develop and integrate custom plugins to extend Atlas functionality.",
+      "use_cases": [
+        "Building custom visualizations tailored to specific datasets.",
+        "Adding new data processing or analysis capabilities."
+      ],
+      "implementation_steps": [
+        {
+          "step": 1,
+          "title": "Define Plugin Requirements",
+          "description": "Identify the functionality and data inputs required for the plugin."
+        },
+        {
+          "step": 2,
+          "title": "Develop the Plugin",
+          "description": "Write the plugin code using Python or JavaScript, depending on the use case."
+        },
+        {
+          "step": 3,
+          "title": "Integrate with Atlas",
+          "description": "Use the Atlas API to connect the plugin and test its functionality."
+        }
+      ],
+      "example_code": {
+        "javascript": "class CustomPlugin {\n    constructor(data) {\n        this.data = data;\n    }\n\n    process() {\n        // Custom processing logic\n        return this.data.map(item => ({ ...item, processed: true }));\n    }\n}\n\n// Example usage\nconst plugin = new CustomPlugin([{ id: 1, value: 'example' }]);\nconsole.log(plugin.process());"
+      },
+      "notes": [
+        "Ensure plugins are thoroughly tested for compatibility with Atlas.",
+        "Follow security best practices when handling sensitive data in plugins."
+      ]
+    },
+    {
+      "feature": "Third-Party API Integration",
+      "description": "Connect third-party APIs to enrich datasets or enhance workflows.",
+      "use_cases": [
+        "Integrating NLP APIs to extract insights from textual data.",
+        "Using financial or geospatial APIs to augment datasets with external data."
+      ],
+      "example_code": {
+        "python": "import requests\n\n# Step 1: Fetch data from a third-party API\nexternal_api_url = 'https://api.example.com/data'\nresponse = requests.get(external_api_url)\nexternal_data = response.json()\n\n# Step 2: Upload the enriched data to Atlas\natlas_url = 'https://api-atlas.nomic.ai/v1/data/upload'\nheaders = {'Authorization': 'Bearer <API_KEY>', 'Content-Type': 'application/json'}\npayload = {'data': external_data}\nresponse = requests.post(atlas_url, headers=headers, json=payload)\nprint(response.json())"
+      },
+      "notes": [
+        "Ensure third-party APIs are reliable and provide accurate data.",
+        "Handle rate limits and authentication requirements for external APIs."
+      ]
+    }
+  ],
+  "implementation_steps": {
+    "steps": [
+      {
+        "step": 1,
+        "title": "Identify Advanced Features to Use",
+        "description": "Determine which advanced features or extensions align with your project goals."
+      },
+      {
+        "step": 2,
+        "title": "Plan the Workflow",
+        "description": "Design a workflow that integrates the selected features or extensions seamlessly."
+      },
+      {
+        "step": 3,
+        "title": "Implement and Test",
+        "description": "Develop the necessary scripts or plugins, integrate them with Atlas, and test for functionality."
+      },
+      {
+        "step": 4,
+        "title": "Optimize and Scale",
+        "description": "Refine the implementation for performance and scalability, especially for large datasets or complex workflows."
+      }
+    ]
+  },
+  "usage_examples": {
+    "python_script": {
+      "description": "Integrate a third-party NLP API with Atlas to analyze and visualize textual data.",
+      "code": "import requests\n\n# Step 1: Fetch and preprocess data using an NLP API\nnlp_api_url = 'https://api.example.com/nlp'\ntext_data = {'texts': ['example text 1', 'example text 2']}\nresponse = requests.post(nlp_api_url, json=text_data)\nprocessed_data = response.json()\n\n# Step 2: Upload processed data to Atlas\natlas_url = 'https://api-atlas.nomic.ai/v1/data/upload'\nheaders = {'Authorization': 'Bearer <API_KEY>', 'Content-Type': 'application/json'}\nresponse = requests.post(atlas_url, headers=headers, json={'data': processed_data})\nprint('Atlas upload response:', response.json())"
+    }
+  },
+  "notes": [
+    "Advanced features and extensions can significantly enhance Atlas functionality but may require additional development effort.",
+    "Ensure all integrations and workflows adhere to best practices for data security and API usage.",
+    "Refer to the Nomic Atlas API documentation for detailed information on advanced features and extensions."
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "title": "Atlas Troubleshooting and Support Resources",
+  "description": "A detailed guide to troubleshooting common issues in Nomic Atlas and accessing support resources for efficient problem resolution.",
+  "overview": {
+    "purpose": "To provide users with actionable solutions for common issues and guide them to the appropriate support channels for assistance.",
+    "use_cases": [
+      "Resolving API errors during data uploads or map creation.",
+      "Troubleshooting performance issues with large datasets.",
+      "Accessing documentation, community forums, and direct support for advanced help."
+    ]
+  },
+  "common_issues_and_solutions": [
+    {
+      "issue": "HTTP 429 Too Many Requests",
+      "description": "Occurs when API rate limits are exceeded.",
+      "possible_causes": [
+        "Too many API requests within a short period.",
+        "Lack of retry logic in scripts."
+      ],
+      "solutions": [
+        "Implement exponential backoff for retrying requests.",
+        "Monitor API usage and optimize workflows to reduce request frequency.",
+        "Upgrade to a higher API tier for increased rate limits."
+      ],
+      "example_code": {
+        "python": "import time\nimport requests\n\n# Example: Retry logic for handling rate limits\nurl = 'https://api-atlas.nomic.ai/v1/data/upload'\nheaders = {'Authorization': 'Bearer <API_KEY>', 'Content-Type': 'application/json'}\ndata = {'text': 'example', 'metadata': {'category': 'A'}}\n\nmax_retries = 5\nretry_delay = 1\nfor attempt in range(max_retries):\n    response = requests.post(url, headers=headers, json={'data': [data]})\n    if response.status_code == 429:\n        retry_after = int(response.headers.get('Retry-After', retry_delay))\n        print(f'Rate limit exceeded. Retrying in {retry_after} seconds...')\n        time.sleep(retry_after)\n        retry_delay *= 2\n    else:\n        print(response.json())\n        break"
+      }
+    },
+    {
+      "issue": "Slow Performance with Large Datasets",
+      "description": "Visualizations or API requests take longer to process when working with large datasets.",
+      "possible_causes": [
+        "Insufficient preprocessing or dimensionality reduction.",
+        "Exceeding recommended dataset size for maps."
+      ],
+      "solutions": [
+        "Use dimensionality reduction techniques like UMAP to simplify datasets.",
+        "Split large datasets into smaller chunks and process them incrementally.",
+        "Optimize metadata by removing unnecessary fields."
+      ],
+      "example_code": {
+        "python": "import pandas as pd\nimport requests\n\n# Example: Preprocess and split a large dataset\nlarge_dataset = pd.read_csv('large_dataset.csv')\nchunk_size = 10000\nchunks = [large_dataset[i:i+chunk_size] for i in range(0, len(large_dataset), chunk_size)]\n\n# Upload chunks incrementally\nurl = 'https://api-atlas.nomic.ai/v1/data/upload'\nheaders = {'Authorization': 'Bearer <API_KEY}', 'Content-Type': 'application/json'}\n\nfor i, chunk in enumerate(chunks):\n    chunk_data = chunk.to_dict(orient='records')\n    response = requests.post(url, headers=headers, json={'data': chunk_data})\n    print(f'Chunk {i} upload response:', response.json())"
+      }
+    },
+    {
+      "issue": "API Authentication Errors",
+      "description": "The API returns authentication-related errors such as HTTP 401 (Unauthorized) or HTTP 403 (Forbidden).",
+      "possible_causes": [
+        "Invalid or expired API key.",
+        "Incorrect API endpoint or headers."
+      ],
+      "solutions": [
+        "Verify that the API key is valid and not expired.",
+        "Ensure the correct API endpoint and headers are used in requests.",
+        "Store API keys securely using environment variables or secret management tools."
+      ],
+      "example_code": {
+        "python": "import os\nimport requests\n\n# Example: Securely use API key stored in an environment variable\napi_key = os.getenv('ATLAS_API_KEY')\nurl = 'https://api-atlas.nomic.ai/v1/data/upload'\nheaders = {'Authorization': f'Bearer {api_key}', 'Content-Type': 'application/json'}\ndata = {'text': 'example', 'metadata': {'category': 'A'}}\nresponse = requests.post(url, headers=headers, json={'data': [data]})\nprint(response.json())"
+      }
+    },
+    {
+      "issue": "Map Creation Fails",
+      "description": "Errors occur during the map creation process, such as incomplete or invalid datasets.",
+      "possible_causes": [
+        "Missing required fields in the dataset.",
+        "Unsupported data formats or invalid embeddings."
+      ],
+      "solutions": [
+        "Ensure the dataset includes all required fields (e.g., text and metadata).",
+        "Validate the format and quality of embeddings before uploading.",
+        "Refer to the API documentation for supported formats and requirements."
+      ],
+      "example_code": {
+        "python": "import requests\n\n# Example: Validate dataset before map creation\nurl = 'https://api-atlas.nomic.ai/v1/maps/create'\nheaders = {'Authorization': 'Bearer <API_KEY>', 'Content-Type': 'application/json'}\npayload = {\n    'data_id': '<DATA_ID>',\n    'settings': {\n        'dimensionality_reduction': 'UMAP'\n    }\n}\nresponse = requests.post(url, headers=headers, json=payload)\nif response.status_code != 200:\n    print('Error creating map:', response.json())\nelse:\n    print('Map created successfully:', response.json())"
+      }
+    }
+  ],
+  "support_resources": [
+    {
+      "resource": "Official Documentation",
+      "description": "Comprehensive guides and references for all Atlas features and APIs.",
+      "link": "https://docs.nomic.ai"
+    },
+    {
+      "resource": "Community Forums",
+      "description": "Collaborate with other users, share solutions, and get advice from the community.",
+      "link": "https://community.nomic.ai"
+    },
+    {
+      "resource": "Direct Support",
+      "description": "Contact the Nomic Atlas support team for personalized assistance.",
+      "options": [
+        {
+          "method": "Email",
+          "details": "support@nomic.ai"
+        },
+        {
+          "method": "Live Chat",
+          "details": "Available on the Nomic Atlas website during business hours."
+        }
+      ]
+    },
+    {
+      "resource": "API Status Page",
+      "description": "Monitor the status of Atlas services and check for outages or maintenance updates.",
+      "link": "https://status.nomic.ai"
+    }
+  ],
+  "implementation_steps": {
+    "steps": [
+      {
+        "step": 1,
+        "title": "Identify the Issue",
+        "description": "Analyze error messages or performance issues to determine the root cause."
+      },
+      {
+        "step": 2,
+        "title": "Apply Troubleshooting Solutions",
+        "description": "Use the recommended solutions for the identified issue."
+      },
+      {
+        "step": 3,
+        "title": "Access Support Resources",
+        "description": "Refer to the documentation, forums, or contact support for additional help."
+      },
+      {
+        "step": 4,
+        "title": "Test and Verify",
+        "description": "Confirm that the issue is resolved and the workflow is functioning as expected."
+      }
+    ]
+  },
+  "usage_examples": {
+    "python_script": {
+      "description": "Handle common API errors and implement retry logic for data uploads.",
+      "code": "import time\nimport requests\n\n# Example: Retry logic for API errors\nurl = 'https://api-atlas.nomic.ai/v1/data/upload'\nheaders = {'Authorization': 'Bearer <API_KEY>', 'Content-Type': 'application/json'}\ndata = {'text': 'example', 'metadata': {'category': 'A'}}\n\nmax_retries = 5\nretry_delay = 1\nfor attempt in range(max_retries):\n    response = requests.post(url, headers=headers, json={'data': [data]})\n    if response.status_code == 429:\n        retry_after = int(response.headers.get('Retry-After', retry_delay))\n        print(f'Rate limit exceeded. Retrying in {retry_after} seconds...')\n        time.sleep(retry_after)\n        retry_delay *= 2\n    elif response.status_code == 401:\n        print('Authentication error. Check your API key.')\n        break\n    elif response.status_code == 500:\n        print('Server error. Retrying...')\n        time.sleep(retry_delay)\n    else:\n        print(response.json())\n        break"
+    }
+  },
+  "notes": [
+    "Effective troubleshooting requires a clear understanding of the issue and its potential causes.",
+    "Refer to the official documentation and community forums for additional insights and solutions.",
+    "Contact Nomic Atlas support for unresolved issues or advanced troubleshooting."
+  ]
+}

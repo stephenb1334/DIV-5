@@ -1,0 +1,62 @@
+{
+  "title": "Generate Embeddings | Nomic Atlas Documentation",
+  "overview": {
+    "description": "This guide introduces the concept of embeddings and their role in transforming various data types (e.g., text, images, audio) into numerical vector representations.",
+    "purpose": "To capture semantic relationships within datasets, enabling advanced analysis and visualization.",
+    "key_concepts": {
+      "embeddings": "Numerical vectors representing real-world objects, capturing semantic meaning.",
+      "applications": [
+        "Classification",
+        "Clustering",
+        "Visualization"
+      ],
+      "embedding_models": "Neural networks trained to generate embeddings for specific data types."
+    }
+  },
+  "steps_to_generate_embeddings": {
+    "step_1": {
+      "title": "Prepare Data",
+      "details": [
+        "Ensure data is in a supported format (e.g., CSV for tabular data, image files for visual data).",
+        "Include metadata columns such as labels, timestamps, or categories for enhanced analysis."
+      ]
+    },
+    "step_2": {
+      "title": "Select an Embedding Model",
+      "details": [
+        "Choose a pre-trained model suitable for the data type (e.g., text embeddings for natural language processing tasks)."
+      ]
+    },
+    "step_3": {
+      "title": "Generate Embeddings",
+      "details": [
+        "Use the Nomic Atlas SDK or API to process the data and generate embeddings.",
+        "Example API Call:",
+        {
+          "code": "from nomic import AtlasDataset\ndataset = AtlasDataset(name='My Dataset')\ndataset.add_data(data)\nembeddings = dataset.generate_embeddings(model='text_model')"
+        }
+      ]
+    },
+    "step_4": {
+      "title": "Store and Visualize",
+      "details": [
+        "Save generated embeddings for future use.",
+        "Visualize embeddings using Atlas's interactive tools."
+      ]
+    }
+  },
+  "best_practices": {
+    "data_quality": "Ensure input data is clean and well-structured to improve embedding accuracy.",
+    "model_selection": "Match the embedding model to the data type and analysis goal.",
+    "metadata_usage": "Leverage metadata for filtering and contextual insights during visualization."
+  },
+  "use_cases": {
+    "text_analysis": "Extract semantic meaning from documents, social media posts, or research papers.",
+    "image_processing": "Identify patterns and clusters in visual datasets.",
+    "audio_analysis": "Analyze sound files for speech recognition or sentiment detection."
+  },
+  "conclusion": {
+    "summary": "Embeddings are a powerful tool for transforming raw data into meaningful representations.",
+    "tools": "Nomic Atlas simplifies the embedding generation process, providing robust tools for analysis and visualization."
+  }
+}

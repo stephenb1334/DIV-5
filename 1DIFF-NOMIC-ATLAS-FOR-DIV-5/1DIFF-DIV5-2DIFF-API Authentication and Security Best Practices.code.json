@@ -1,0 +1,114 @@
+{
+  "title": "API Authentication and Security Best Practices",
+  "description": "A comprehensive guide to securely authenticating and managing API access for Nomic Atlas.",
+  "overview": {
+    "purpose": "To ensure secure and efficient use of the Nomic Atlas API by following recommended authentication and security practices.",
+    "use_cases": [
+      "Managing API keys securely for multiple users or applications.",
+      "Preventing unauthorized access to sensitive data.",
+      "Implementing secure API access in automated workflows."
+    ]
+  },
+  "authentication_methods": {
+    "method": "API Key",
+    "description": "Nomic Atlas uses API keys for authenticating requests. These keys must be included in the request headers.",
+    "example_request": {
+      "curl": "curl -X GET 'https://api-atlas.nomic.ai/v1/maps' -H 'Authorization: Bearer <API_KEY>'",
+      "python_code": "import requests\n\nurl = 'https://api-atlas.nomic.ai/v1/maps'\nheaders = {\n    'Authorization': 'Bearer <API_KEY>'\n}\nresponse = requests.get(url, headers=headers)\nprint(response.json())"
+    }
+  },
+  "security_best_practices": [
+    {
+      "practice": "Keep API Keys Confidential",
+      "description": "Do not expose API keys in public repositories, client-side code, or shared documents.",
+      "recommendations": [
+        "Store API keys in environment variables or secure vaults.",
+        "Restrict access to API keys to authorized personnel only."
+      ]
+    },
+    {
+      "practice": "Use HTTPS for All API Requests",
+      "description": "Ensure all API requests are made over HTTPS to encrypt data in transit.",
+      "recommendations": [
+        "Verify that the API endpoint starts with 'https://'.",
+        "Avoid using insecure HTTP endpoints."
+      ]
+    },
+    {
+      "practice": "Rotate API Keys Regularly",
+      "description": "Periodically generate new API keys to reduce the risk of unauthorized access.",
+      "recommendations": [
+        "Set reminders to rotate keys every 30-90 days.",
+        "Update all workflows and applications with the new keys."
+      ]
+    },
+    {
+      "practice": "Restrict API Key Permissions",
+      "description": "Limit the scope of API keys to the minimum permissions required for the application.",
+      "recommendations": [
+        "Use read-only keys for data retrieval.",
+        "Create separate keys for different applications or users."
+      ]
+    },
+    {
+      "practice": "Monitor API Usage",
+      "description": "Track API usage to identify unusual activity or potential security breaches.",
+      "recommendations": [
+        "Enable usage logs and alerts for suspicious activity.",
+        "Review access patterns regularly."
+      ]
+    },
+    {
+      "practice": "Revoke Compromised API Keys Immediately",
+      "description": "If an API key is suspected to be compromised, revoke it immediately and generate a new one.",
+      "recommendations": [
+        "Notify affected stakeholders about the key rotation.",
+        "Update all systems with the new key promptly."
+      ]
+    }
+  ],
+  "implementation_steps": {
+    "steps": [
+      {
+        "step": 1,
+        "title": "Generate an API Key",
+        "description": "Log in to the Nomic Atlas dashboard and generate an API key under the 'API Keys' section.",
+        "example_ui_path": "Dashboard > Settings > API Keys > Generate Key"
+      },
+      {
+        "step": 2,
+        "title": "Store the API Key Securely",
+        "description": "Save the API key in a secure location, such as an environment variable or a secrets manager.",
+        "example_storage": {
+          "environment_variable": "export NOMIC_API_KEY=<your_api_key>",
+          "python_code": "import os\napi_key = os.getenv('NOMIC_API_KEY')"
+        }
+      },
+      {
+        "step": 3,
+        "title": "Use the API Key in Requests",
+        "description": "Include the API key in the 'Authorization' header for all API requests.",
+        "example_request": {
+          "curl": "curl -X GET 'https://api-atlas.nomic.ai/v1/maps' -H 'Authorization: Bearer <API_KEY>'",
+          "python_code": "import requests\n\nurl = 'https://api-atlas.nomic.ai/v1/maps'\nheaders = {\n    'Authorization': 'Bearer <API_KEY>'\n}\nresponse = requests.get(url, headers=headers)\nprint(response.json())"
+        }
+      },
+      {
+        "step": 4,
+        "title": "Monitor and Rotate API Keys",
+        "description": "Regularly review API key usage and rotate keys as needed to maintain security."
+      }
+    ]
+  },
+  "usage_examples": {
+    "python_script": {
+      "description": "Securely authenticate and make API requests using environment variables.",
+      "code": "import os\nimport requests\n\n# Step 1: Retrieve API key from environment variable\napi_key = os.getenv('NOMIC_API_KEY')\n\n# Step 2: Make an authenticated API request\nurl = 'https://api-atlas.nomic.ai/v1/maps'\nheaders = {\n    'Authorization': f'Bearer {api_key}'\n}\nresponse = requests.get(url, headers=headers)\nprint(response.json())"
+    }
+  },
+  "notes": [
+    "API keys should only be shared with trusted applications and personnel.",
+    "Consider using IP whitelisting to restrict API access to specific IP addresses.",
+    "Enable logging and alerts for API activity to detect and respond to potential security issues quickly."
+  ]
+}

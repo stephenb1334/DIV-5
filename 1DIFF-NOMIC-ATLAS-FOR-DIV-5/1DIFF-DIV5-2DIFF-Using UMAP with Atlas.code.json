@@ -1,0 +1,20 @@
+{
+  "description": "UMAP is used in Atlas to reduce dimensionality of datasets for clear 2D map visualizations.",
+  "features": {
+    "preservation": "Preserves local details and overall structure of data.",
+    "projection": "Default projection algorithm if none specified."
+  },
+  "process": {
+    "steps": [
+      "Upload embeddings or text/image data to Atlas.",
+      "Use UMAP to visualize the data in 2D maps."
+    ]
+  },
+  "resources": {
+    "umap_docs": "https://umap-learn.readthedocs.io/en/latest/"
+  },
+  "notes": [
+    "UMAP helps in spotting clusters and patterns in high-dimensional data.",
+    "Atlas supports both uploading of embeddings and generating them for UMAP."
+  ]
+}

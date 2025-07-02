@@ -1,0 +1,107 @@
+{
+  "API_Documentation": {
+    "Base_URL": "https://api-atlas.nomic.ai",
+    "Authentication": {
+      "Method": "Bearer Token",
+      "Header_Example": {
+        "Authorization": "Bearer <TOKEN>"
+      }
+    },
+    "Endpoint": {
+      "Name": "Vector Search",
+      "Method": "POST",
+      "Path": "/v1/vector/search",
+      "Description": "Performs a search in the vector space to find similar vectors.",
+      "Parameters": {
+        "Body_Parameters": {
+          "vector": {
+            "Description": "The vector to search against the dataset.",
+            "Type": "array",
+            "Required": true
+          },
+          "dataset_id": {
+            "Description": "The unique identifier of the dataset.",
+            "Type": "string",
+            "Required": true
+          },
+          "top_k": {
+            "Description": "Number of top similar results to return.",
+            "Type": "integer",
+            "Default": 10,
+            "Required": false
+          }
+        }
+      },
+      "Responses": {
+        "200": {
+          "Description": "Successful response with similar vectors.",
+          "Schema": {
+            "results": {
+              "Description": "List of similar vectors.",
+              "Type": "array",
+              "Items": {
+                "Type": "object",
+                "Properties": {
+                  "vector_id": {
+                    "Description": "The ID of the matched vector.",
+                    "Type": "string"
+                  },
+                  "score": {
+                    "Description": "Similarity score.",
+                    "Type": "number"
+                  },
+                  "metadata": {
+                    "Description": "Additional metadata about the vector.",
+                    "Type": "object"
+                  }
+                }
+              }
+            }
+          },
+          "Example_Response": {
+            "results": [
+              {
+                "vector_id": "string",
+                "score": 0.95,
+                "metadata": {
+                  "key": "value"
+                }
+              }
+            ]
+          }
+        },
+        "422": {
+          "Description": "Validation Error.",
+          "Schema": {
+            "detail": [
+              {
+                "loc": [
+                  "string",
+                  0
+                ],
+                "msg": "string",
+                "type": "string"
+              }
+            ]
+          },
+          "Example_Response": {
+            "detail": [
+              {
+                "loc": [
+                  "string",
+                  0
+                ],
+                "msg": "string",
+                "type": "string"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Examples": {
+      "CURL": "curl -L 'https://api-atlas.nomic.ai/v1/vector/search' \\\n-H 'Content-Type: application/json' \\\n-H 'Authorization: Bearer <TOKEN>' \\\n-d '{\n  \"vector\": [0.1, 0.2, 0.3],\n  \"dataset_id\": \"string\",\n  \"top_k\": 10\n}'",
+      "Python": "import requests\nimport json\n\nurl = \"https://api-atlas.nomic.ai/v1/vector/search\"\n\npayload = json.dumps({\n  \"vector\": [0.1, 0.2, 0.3],\n  \"dataset_id\": \"string\",\n  \"top_k\": 10\n})\nheaders = {\n  'Content-Type': 'application/json',\n  'Authorization': 'Bearer <TOKEN>'\n}\n\nresponse = requests.request(\"POST\", url, headers=headers, data=payload)\n\nprint(response.text)"
+    }
+  }
+}

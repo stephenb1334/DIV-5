@@ -1,0 +1,84 @@
+{
+  "title": "Export from Developer Data Sources",
+  "description": "Guide to exporting and visualizing data from developer data sources using Nomic Atlas.",
+  "overview": {
+    "purpose": "Atlas enables users to analyze data from developer sources such as GitHub, Jira, and other project management tools.",
+    "key_features": [
+      "Supports integration with multiple developer tools.",
+      "Allows visualization of commit histories, issue tracking, and project metrics.",
+      "Facilitates data export for further analysis."
+    ]
+  },
+  "supported_data_sources": [
+    {
+      "source": "GitHub",
+      "description": "Extract commit histories, pull requests, and issues for visualization."
+    },
+    {
+      "source": "Jira",
+      "description": "Analyze issue tracking data and sprint metrics."
+    },
+    {
+      "source": "Custom Sources",
+      "description": "Upload custom datasets in CSV or JSON format for visualization."
+    }
+  ],
+  "process": {
+    "steps": [
+      {
+        "step": 1,
+        "description": "Connect to the data source using API credentials or export tools provided by the platform."
+      },
+      {
+        "step": 2,
+        "description": "Format the data as required by Nomic Atlas (CSV, JSON, or embeddings)."
+      },
+      {
+        "step": 3,
+        "description": "Upload the formatted data to Nomic Atlas using the API or web interface."
+      },
+      {
+        "step": 4,
+        "description": "Visualize the data in Atlas using maps, clusters, or other tools."
+      }
+    ]
+  },
+  "api_integration": {
+    "endpoints": [
+      {
+        "endpoint": "/v1/data/upload",
+        "method": "POST",
+        "description": "Uploads data to Nomic Atlas for processing and visualization."
+      },
+      {
+        "endpoint": "/v1/maps/create",
+        "method": "POST",
+        "description": "Creates a map visualization from the uploaded data."
+      }
+    ],
+    "authentication": {
+      "method": "Bearer Token",
+      "header_example": {
+        "Authorization": "Bearer <API_KEY>"
+      }
+    },
+    "example_request": {
+      "curl": "curl -X POST 'https://api-atlas.nomic.ai/v1/data/upload' -H 'Authorization: Bearer <API_KEY>' -H 'Content-Type: application/json' -d '{\"data\": [{\"field1\": \"value1\", \"field2\": \"value2\"}]}'"
+    }
+  },
+  "usage_examples": {
+    "github": {
+      "description": "Export commit histories from GitHub for visualization.",
+      "python_code": "import requests\n\nurl = 'https://api.github.com/repos/<owner>/<repo>/commits'\nheaders = {\n    'Authorization': 'Bearer <GITHUB_TOKEN>'\n}\nresponse = requests.get(url, headers=headers)\ndata = response.json()\nprint(data)"
+    },
+    "jira": {
+      "description": "Fetch sprint metrics from Jira.",
+      "python_code": "import requests\n\nurl = 'https://<jira_instance>.atlassian.net/rest/agile/1.0/board/<board_id>/sprint'\nheaders = {\n    'Authorization': 'Basic <BASE64_ENCODED_CREDENTIALS>'\n}\nresponse = requests.get(url, headers=headers)\ndata = response.json()\nprint(data)"
+    }
+  },
+  "notes": [
+    "Ensure you have the necessary API credentials for each data source.",
+    "Data formatting is critical for successful upload and visualization in Atlas.",
+    "Refer to the API documentation for detailed parameter requirements."
+  ]
+}

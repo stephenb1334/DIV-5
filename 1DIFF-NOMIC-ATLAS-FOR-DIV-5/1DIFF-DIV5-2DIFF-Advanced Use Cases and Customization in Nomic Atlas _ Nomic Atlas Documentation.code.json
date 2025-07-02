@@ -1,0 +1,96 @@
+{
+  "title": "Advanced Use Cases and Customization in Nomic Atlas | Nomic Atlas Documentation",
+  "overview": {
+    "description": "This guide focuses on advanced use cases and customization options in Nomic Atlas, enabling users to tailor the platform to specific workflows and complex datasets.",
+    "purpose": "To help users unlock the full potential of Nomic Atlas by leveraging its advanced features and customization capabilities."
+  },
+  "advanced_use_cases": {
+    "dynamic_clustering": {
+      "description": "Automatically group data points into clusters based on their embeddings.",
+      "applications": [
+        "Market segmentation for customer data.",
+        "Topic modeling in large text corpora.",
+        "Pattern recognition in image datasets."
+      ],
+      "steps": [
+        "Upload embeddings to Nomic Atlas.",
+        "Use the clustering tool to group similar data points.",
+        "Analyze clusters to identify patterns or relationships."
+      ]
+    },
+    "real-time collaboration": {
+      "description": "Enable teams to collaborate on data exploration and analysis in real time.",
+      "features": [
+        "Shared projects with role-based permissions.",
+        "Commenting and annotation tools for team discussions.",
+        "Live updates for collaborative workflows."
+      ],
+      "benefits": [
+        "Improved decision-making through shared insights.",
+        "Streamlined workflows for cross-functional teams."
+      ]
+    },
+    "embedding comparison": {
+      "description": "Compare embeddings from different models or datasets to evaluate performance.",
+      "use_cases": [
+        "Benchmarking pre-trained models.",
+        "Analyzing the impact of fine-tuning on embeddings.",
+        "Evaluating embeddings across different data distributions."
+      ],
+      "techniques": [
+        "Overlay multiple embeddings in a single visualization.",
+        "Use color coding or metadata filters for comparison."
+      ]
+    }
+  },
+  "customization_options": {
+    "custom_metadata": {
+      "description": "Add custom metadata fields to your dataset for enhanced filtering and analysis.",
+      "examples": [
+        "Include timestamps for time-series analysis.",
+        "Add user-defined labels for domain-specific categorization."
+      ]
+    },
+    "API integration": {
+      "description": "Leverage the Nomic Atlas API for seamless integration with external tools and workflows.",
+      "capabilities": [
+        "Automated data uploads and updates.",
+        "Programmatic access to visualization and analysis tools.",
+        "Custom scripts for embedding generation and processing."
+      ],
+      "example_code": {
+        "language": "Python",
+        "code": "from nomic import AtlasDataset\n\ndata = [{'text': 'Example', 'metadata': {'category': 'A'}},\n        {'text': 'Another example', 'metadata': {'category': 'B'}}]\n\ndataset = AtlasDataset(name='Custom Project')\ndataset.add_data(data)\ndataset.generate_embeddings(model='custom_model')\ndataset.upload(name='Custom Project')"
+      }
+    },
+    "custom visualizations": {
+      "description": "Create tailored visualizations to meet specific analysis needs.",
+      "features": [
+        "Customize color schemes and layouts for better clarity.",
+        "Develop interactive dashboards for presentations and reporting."
+      ],
+      "tools_supported": [
+        "t-SNE and UMAP for dimensionality reduction.",
+        "Custom clustering algorithms for unique datasets."
+      ]
+    }
+  },
+  "best_practices": {
+    "use_metadata_effectively": "Leverage metadata to add context and improve interpretability of visualizations.",
+    "iterative_customization": "Continuously refine visualizations and analyses based on insights and feedback.",
+    "API automation": "Automate repetitive tasks using the Nomic Atlas API to save time and reduce errors."
+  },
+  "use_cases": {
+    "enterprise applications": "Use Nomic Atlas for large-scale data analysis in industries like finance, healthcare, and e-commerce.",
+    "academic research": "Analyze complex datasets for research papers and projects.",
+    "AI model evaluation": "Visualize and compare embeddings to assess model performance and identify improvement areas."
+  },
+  "conclusion": {
+    "summary": "Nomic Atlas's advanced features and customization options empower users to handle complex datasets and workflows effectively.",
+    "actionable_next_steps": [
+      "Explore advanced use cases like clustering and embedding comparison.",
+      "Leverage customization options such as metadata and API integrations.",
+      "Continuously refine workflows to maximize the value of Nomic Atlas."
+    ]
+  }
+}

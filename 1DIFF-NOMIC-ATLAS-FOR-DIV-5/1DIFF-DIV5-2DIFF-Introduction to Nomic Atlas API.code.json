@@ -1,0 +1,50 @@
+{
+  "title": "Introduction to Nomic Atlas API",
+  "description": "Overview of how to interact with the Nomic Atlas API for data visualization and mapping.",
+  "key_features": [
+    {
+      "feature": "API Accessibility",
+      "description": "The Nomic Atlas API allows users to interact with the platform programmatically to visualize and analyze data."
+    },
+    {
+      "feature": "Authentication",
+      "description": "Access requires a valid API key for authentication."
+    },
+    {
+      "feature": "Endpoints",
+      "description": "Supports multiple endpoints for uploading data, creating maps, and managing API keys."
+    }
+  ],
+  "authentication": {
+    "method": "Bearer Token",
+    "header_example": {
+      "Authorization": "Bearer <API_KEY>"
+    },
+    "notes": [
+      "An API key is required for all requests.",
+      "Ensure the token is kept secure and not shared publicly."
+    ]
+  },
+  "documentation_links": [
+    {
+      "name": "Nomic Atlas Documentation",
+      "url": "https://docs.nomic.ai/"
+    },
+    {
+      "name": "API Reference",
+      "url": "https://docs.nomic.ai/api-reference/"
+    }
+  ],
+  "usage_examples": {
+    "curl": {
+      "command": "curl -H 'Authorization: Bearer <API_KEY>' https://api-atlas.nomic.ai/v1/example-endpoint"
+    },
+    "python": {
+      "code": "import requests\n\nurl = 'https://api-atlas.nomic.ai/v1/example-endpoint'\nheaders = {\n    'Authorization': 'Bearer <API_KEY>'\n}\nresponse = requests.get(url, headers=headers)\nprint(response.json())"
+    }
+  },
+  "notes": [
+    "The API is designed to be flexible and scalable for diverse use cases.",
+    "Refer to the API reference for detailed endpoint information and parameters."
+  ]
+}
