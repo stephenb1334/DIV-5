@@ -1,0 +1,293 @@
+[
+    {
+        "text": "Property expenses for Oct-Dec 2023: Stephen contributed $7,500 (71.4%), Melissa contributed $3,000 (28.6%). Total expenses: $10,500.",
+        "category": "Financial Contribution",
+        "date_period": "Oct-Dec 2023",
+        "source_document": "evidence matrix.txt",
+        "legal_theory_supported": "Financial Abandonment, Preservation Credit",
+        "contribution_type": "Regular Expenses"
+    },
+    {
+        "text": "Property expenses for Jan-Jun 2024: Stephen contributed $17,000 (81.0%), Melissa contributed $4,000 (19.0%). Total expenses: $21,000.",
+        "category": "Financial Contribution",
+        "date_period": "Jan-Jun 2024",
+        "source_document": "evidence matrix.txt",
+        "legal_theory_supported": "Financial Abandonment, Preservation Credit",
+        "contribution_type": "Regular Expenses"
+    },
+    {
+        "text": "Property expenses for Jul-Sep 2024: Stephen contributed $10,000 (95.2%), Melissa contributed $500 (4.8%). Total expenses: $10,500.",
+        "category": "Financial Contribution",
+        "date_period": "Jul-Sep 2024",
+        "source_document": "evidence matrix.txt",
+        "legal_theory_supported": "Financial Abandonment, Preservation Credit",
+        "contribution_type": "Regular Expenses"
+    },
+    {
+        "text": "Property expenses for Oct-Dec 2024: Stephen contributed $10,500 (100%), Melissa contributed $0 (0%). Total expenses: $10,500.",
+        "category": "Financial Contribution",
+        "date_period": "Oct-Dec 2024",
+        "source_document": "evidence matrix.txt",
+        "legal_theory_supported": "Financial Abandonment, Preservation Credit",
+        "contribution_type": "Regular Expenses"
+    },
+    {
+        "text": "Property expenses for Jan-Mar 2025: Stephen contributed $10,500 (100%), Melissa contributed $0 (0%). Total expenses: $10,500.",
+        "category": "Financial Contribution",
+        "date_period": "Jan-Mar 2025",
+        "source_document": "evidence matrix.txt",
+        "legal_theory_supported": "Financial Abandonment, Preservation Credit",
+        "contribution_type": "Regular Expenses"
+    },
+    {
+        "text": "Additional investment: HVAC Replacement on Jul 2023 for $12,000. Stephen contributed 100%, Melissa contributed 0%.",
+        "category": "Financial Contribution",
+        "date": "Jul 2023",
+        "source_document": "evidence matrix.txt",
+        "legal_theory_supported": "Preservation Credit",
+        "contribution_type": "Additional Investment"
+    },
+    {
+        "text": "Additional investment: Bridge Loan on Jan 3, 2025 for $12,500. Stephen contributed 100%, Melissa contributed 0%.",
+        "category": "Financial Contribution",
+        "date": "Jan 3, 2025",
+        "source_document": "evidence matrix.txt",
+        "legal_theory_supported": "Preservation Credit",
+        "contribution_type": "Additional Investment"
+    },
+    {
+        "text": "Total preservation contribution: Stephen $80,000 (91.4%), Melissa $7,500 (8.6%). Total $87,500.",
+        "category": "Financial Contribution",
+        "source_document": "evidence matrix.txt",
+        "legal_theory_supported": "Preservation Credit, Financial Abandonment",
+        "contribution_type": "Total"
+    },
+    {
+        "text": "Pre-Trauma event: Joint property acquisition. Date: Apr 15, 2022.",
+        "category": "Timeline Event",
+        "event_type": "Pre-Trauma",
+        "date": "Apr 15, 2022",
+        "source_document": "evidence matrix.txt",
+        "legal_theory_supported": "N/A"
+    },
+    {
+        "text": "Pre-Trauma event: HVAC investment. Date: Jul 2023.",
+        "category": "Timeline Event",
+        "event_type": "Pre-Trauma",
+        "date": "Jul 2023",
+        "source_document": "evidence matrix.txt",
+        "legal_theory_supported": "Preservation Credit"
+    },
+    {
+        "text": "Pre-Trauma event: Rental management. Date: Oct 2023-Sep 2024.",
+        "category": "Timeline Event",
+        "event_type": "Pre-Trauma",
+        "date": "Oct 2023-Sep 2024",
+        "source_document": "evidence matrix.txt",
+        "legal_theory_supported": "N/A"
+    },
+    {
+        "text": "Pre-Trauma event: \"Very good\" marriage documentation. Date: N/A.",
+        "category": "Timeline Event",
+        "event_type": "Pre-Trauma",
+        "date": "N/A",
+        "source_document": "evidence matrix.txt",
+        "legal_theory_supported": "N/A"
+    },
+    {
+        "text": "Pre-Trauma event: Joint business ventures. Date: Jan-Mar 2024.",
+        "category": "Timeline Event",
+        "event_type": "Pre-Trauma",
+        "date": "Jan-Mar 2024",
+        "source_document": "evidence matrix.txt",
+        "legal_theory_supported": "N/A"
+    },
+    {
+        "text": "Pivot Point event: Home invasion documentation. Date: Mar 26, 2024.",
+        "category": "Timeline Event",
+        "event_type": "Pivot Point",
+        "date": "Mar 26, 2024",
+        "source_document": "evidence matrix.txt",
+        "legal_theory_supported": "Disability Impact"
+    },
+    {
+        "text": "Pivot Point event: Police report. Date: Mar 26, 2024.",
+        "category": "Timeline Event",
+        "event_type": "Pivot Point",
+        "date": "Mar 26, 2024",
+        "source_document": "evidence matrix.txt",
+        "legal_theory_supported": "Disability Impact"
+    },
+    {
+        "text": "Pivot Point event: Medical records (related to trauma). Date: N/A.",
+        "category": "Timeline Event",
+        "event_type": "Pivot Point",
+        "date": "N/A",
+        "source_document": "evidence matrix.txt",
+        "legal_theory_supported": "Disability Impact"
+    },
+    {
+        "text": "Pivot Point event: Witness statements (related to trauma). Date: N/A.",
+        "category": "Timeline Event",
+        "event_type": "Pivot Point",
+        "date": "N/A",
+        "source_document": "evidence matrix.txt",
+        "legal_theory_supported": "Disability Impact"
+    },
+    {
+        "text": "Post-Trauma event: PTSD/ADHD diagnosis. Date: Mar/Apr 2024.",
+        "category": "Timeline Event",
+        "event_type": "Post-Trauma",
+        "date": "Mar/Apr 2024",
+        "source_document": "evidence matrix.txt",
+        "legal_theory_supported": "Disability Impact"
+    },
+    {
+        "text": "Post-Trauma event: Medical treatment timeline. Date: N/A.",
+        "category": "Timeline Event",
+        "event_type": "Post-Trauma",
+        "date": "N/A",
+        "source_document": "evidence matrix.txt",
+        "legal_theory_supported": "Disability Impact"
+    },
+    {
+        "text": "Post-Trauma event: Insurance through Wife's employment. Date: May 2024.",
+        "category": "Timeline Event",
+        "event_type": "Post-Trauma",
+        "date": "May 2024",
+        "source_document": "evidence matrix.txt",
+        "legal_theory_supported": "N/A"
+    },
+    {
+        "text": "Post-Trauma event: Wife's attendance at medical appointments. Date: Jun 2024.",
+        "category": "Timeline Event",
+        "event_type": "Post-Trauma",
+        "date": "Jun 2024",
+        "source_document": "evidence matrix.txt",
+        "legal_theory_supported": "N/A"
+    },
+    {
+        "text": "Post-Trauma event: FMLA rejection documentation. Date: Jul 2024.",
+        "category": "Timeline Event",
+        "event_type": "Post-Trauma",
+        "date": "Jul 2024",
+        "source_document": "evidence matrix.txt",
+        "legal_theory_supported": "Financial Abandonment"
+    },
+    {
+        "text": "Post-Trauma event: Wife's employment termination. Date: Jul 28-29, 2024.",
+        "category": "Timeline Event",
+        "event_type": "Post-Trauma",
+        "date": "Jul 28-29, 2024",
+        "source_document": "evidence matrix.txt",
+        "legal_theory_supported": "Financial Abandonment"
+    },
+    {
+        "text": "Post-Trauma event: Wife's return to PA leaving Husband in FL. Date: N/A.",
+        "category": "Timeline Event",
+        "event_type": "Post-Trauma",
+        "date": "N/A",
+        "source_document": "evidence matrix.txt",
+        "legal_theory_supported": "Financial Abandonment"
+    },
+    {
+        "text": "Post-Trauma event: Health insurance termination. Date: Aug 2024.",
+        "category": "Timeline Event",
+        "event_type": "Post-Trauma",
+        "date": "Aug 2024",
+        "source_document": "evidence matrix.txt",
+        "legal_theory_supported": "Financial Abandonment"
+    },
+    {
+        "text": "Post-Trauma event: Zero contribution period. Date: Oct 2024-Present.",
+        "category": "Timeline Event",
+        "event_type": "Post-Trauma",
+        "date": "Oct 2024-Present",
+        "source_document": "evidence matrix.txt",
+        "legal_theory_supported": "Financial Abandonment"
+    },
+    {
+        "text": "Critical Deadline: Bridge Loan Exhaustion by March 16, 2025. Priority: CRITICAL. Action: Document final covered payment.",
+        "category": "Critical Deadline",
+        "date": "March 16, 2025",
+        "priority": "CRITICAL",
+        "action_required": "Document final covered payment",
+        "source_document": "evidence matrix.txt"
+    },
+    {
+        "text": "Critical Deadline: First Day of Unpaid Period by March 17, 2025. Priority: HIGH. Action: Document beginning of crisis period.",
+        "category": "Critical Deadline",
+        "date": "March 17, 2025",
+        "priority": "HIGH",
+        "action_required": "Document beginning of crisis period",
+        "source_document": "evidence matrix.txt"
+    },
+    {
+        "text": "Critical Deadline: Emergency Motion Filing by By April 15, 2025. Priority: CRITICAL. Action: Complete motion and documentation.",
+        "category": "Critical Deadline",
+        "date": "By April 15, 2025",
+        "priority": "CRITICAL",
+        "action_required": "Complete motion and documentation",
+        "source_document": "evidence matrix.txt"
+    },
+    {
+        "text": "Critical Deadline: First Missed Payment by April 16, 2025. Priority: CRITICAL. Action: Document default trigger.",
+        "category": "Critical Deadline",
+        "date": "April 16, 2025",
+        "priority": "CRITICAL",
+        "action_required": "Document default trigger",
+        "source_document": "evidence matrix.txt"
+    },
+    {
+        "text": "Critical Deadline: Act 91 Notice Expected by Within 30 days of default. Priority: HIGH. Action: Prepare response strategy.",
+        "category": "Critical Deadline",
+        "date": "Within 30 days of default",
+        "priority": "HIGH",
+        "action_required": "Prepare response strategy",
+        "source_document": "evidence matrix.txt"
+    },
+    {
+        "text": "Critical Deadline: Right to Cure Period Ends by Approx. May 16, 2025. Priority: HIGH. Action: Ensure court intervention before this date.",
+        "category": "Critical Deadline",
+        "date": "Approx. May 16, 2025",
+        "priority": "HIGH",
+        "action_required": "Ensure court intervention before this date",
+        "source_document": "evidence matrix.txt"
+    },
+    {
+        "text": "Critical Deadline: Potential Sheriff's Sale by July-August 2025. Priority: HIGH. Action: Must prevent through court action.",
+        "category": "Critical Deadline",
+        "date": "July-August 2025",
+        "priority": "HIGH",
+        "action_required": "Must prevent through court action",
+        "source_document": "evidence matrix.txt"
+    },
+    {
+        "text": "Legal Theory: Financial Abandonment Doctrine. Statutory Reference: 23 Pa.C.S. \u00a7 3502(a)(7), (10). Description: Establishes contribution disparity, insurance termination, FMLA rejection, zero contribution period, and current income disparity.",
+        "category": "Legal Theory",
+        "name": "Financial Abandonment Doctrine",
+        "statute": "23 Pa.C.S. \u00a7 3502(a)(7), (10)",
+        "source_document": "evidence matrix.txt"
+    },
+    {
+        "text": "Legal Theory: Preservation Credit Principle. Statutory Reference: 23 Pa.C.S. \u00a7 3502(a)(7). Description: Covers HVAC investment, bridge loan, monthly expenses, realtor communications, and property value preservation.",
+        "category": "Legal Theory",
+        "name": "Preservation Credit Principle",
+        "statute": "23 Pa.C.S. \u00a7 3502(a)(7)",
+        "source_document": "evidence matrix.txt"
+    },
+    {
+        "text": "Legal Theory: Disability Impact Factor. Statutory Reference: 23 Pa.C.S. \u00a7 3502(a)(3). Description: Relates to medical diagnosis, treatment timeline, insurance impact, employment impact, and traumatic event.",
+        "category": "Legal Theory",
+        "name": "Disability Impact Factor",
+        "statute": "23 Pa.C.S. \u00a7 3502(a)(3)",
+        "source_document": "evidence matrix.txt"
+    },
+    {
+        "text": "Legal Theory: Foreclosure Risk Documentation. Statutory Reference: 23 Pa.C.S. \u00a7 3323(f), 3502(a)(14). Description: Includes payment history, bridge loan exhaustion, equity at risk, foreclosure timeline, and settlement attempts.",
+        "category": "Legal Theory",
+        "name": "Foreclosure Risk Documentation",
+        "statute": "23 Pa.C.S. \u00a7 3323(f), 3502(a)(14)",
+        "source_document": "evidence matrix.txt"
+    }
+]
